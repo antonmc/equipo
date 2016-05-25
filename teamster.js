@@ -178,7 +178,6 @@ function convertDMSToDD(degrees, minutes, seconds, direction) {
     return dd;
 }
 
-
 function write() {
     var output = JSON.stringify(teams);
     filename = './public/data/copa.json';
@@ -186,13 +185,17 @@ function write() {
 }
 
 function calculateAverages() {
+
+    console.log('calculating averages');
+
     teams.forEach(function (team) {
 
-        var ages;
-        var heights;
-        var agecount;
+        var ages = 0;
+        var heights = 0;
+        var agecount = 0;
+        var heightcount = 0;
 
-        team.forEach(function (player) {
+        team.players.forEach(function (player) {
 
             if (player.Age != undefined) {
                 ages = ages + parseInt(player.Age);
@@ -207,6 +210,8 @@ function calculateAverages() {
 
         team.AverageAge = Math.round(ages / agecount);
         team.AverageHeight = Math.round(heights / heightcount);
+
+        console.log('Average Age: ' + team.AverageAge);
     });
 
     write();
@@ -264,6 +269,11 @@ function buildPlayerData(player) {
 
             scan('.bday').each(function (i, element) {
                 player.BirthDate = element.children[0].data;
+
+                if (player.Name === 'Derlis González') {
+                    player.BirthDate = '1994-03-23';
+                }
+
                 player.Age = moment().diff(player.BirthDate, 'years');
             });
 
@@ -275,6 +285,22 @@ function buildPlayerData(player) {
 
                     player.Home = place.children[0].children[0].data;
                     geo = place.children[0].attribs.href;
+                }
+
+                if (place.parent.next.next != undefined) {
+
+                    var size = place.parent.next.next.children[1].next.next.children[0].data;
+
+                    if (size != undefined) {
+
+                        var regexp = /1.[0-9][0-9]/gi;
+                        var matches = size.match(regexp);
+
+                        if (matches != undefined && matches[0] != undefined) {
+
+                            player.Height = parseFloat(matches[0]) * 100;
+                        }
+                    }
                 }
             });
 
@@ -308,24 +334,31 @@ function buildTemplate(team) {
     var url = 'http://www.espnfc.us/team/' + team.team + '/' + team.id + '/squad';
 
     request(url, function (error, response, html) {
-        if (!error) {
+            if (!error) {
 
-            var set = [];
+                var set = [];
 
-            var scan = cheerio.load(html);
+                var scan = cheerio.load(html);
 
-            var players = scan('.pla')
+                var players = scan('.pla')
 
-            players.each(function (i, element) {
+                players.each(function (i, element) {
 
-                if (element.attribs['data-value']) {
+                        if (element.attribs['data-value']) {
 
-                    if (newPlayer(element.attribs['data-value']) != null) {
-                        set[i] = newPlayer(element.attribs['data-value']);
-                        set[i].Wikipedia = set[i].Name.replace(/ /g, "_");
+                            if (newPlayer(element.attribs['data-value']) != null) {
+                                set[i] = newPlayer(element.attribs['data-value']);
+
+                                if (set[i].Name === 'Óscar Romero') {
+                                    set[i].Wikipedia = 'Óscar_Romero_(footballer)';
+                                } else if set[i].Name = 'José Velázquez') {
+                                set[i].Wikipedia = 'José_Manuel_Velázquez';
+                            } else {
+                                set[i].Wikipedia = set[i].Name.replace(/ /g, "_");
+                            }
+                        }
                     }
-                }
-            });
+                });
 
             var positions = scan('.pos')
 

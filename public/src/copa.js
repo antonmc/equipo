@@ -10,6 +10,14 @@
      var landscape = "#95d1e1";
      var maplabel = "#ffffff";
 
+     /* scheme 3 */
+
+
+
+     //     var landscape = "#404a4f";
+     //     var water = "#2d393e";
+     //     var maplabel = "#ffffff";
+
 
      var markers = [];
 
@@ -115,6 +123,14 @@
          return info;
      }
 
+     function clearSelection() {
+         var teamlist = document.getElementsByClassName('item');
+
+         for (count = 0; count < teamlist.length; count++) {
+             teamlist[count].style.background = 'white';
+         }
+     }
+
      function makeListItem(team) {
 
          var item = newDiv('item');
@@ -122,8 +138,8 @@
          var nation = nationBlock(team.team);
 
          var teaminfo = newDiv('teaminfo');
-         teaminfo.appendChild(infoBlock('Avg Age', 30));
-         teaminfo.appendChild(infoBlock('Avg Height', 170));
+         teaminfo.appendChild(infoBlock('Avg Age', team.AverageAge));
+         teaminfo.appendChild(infoBlock('Avg Height', team.AverageHeight));
 
          item.appendChild(flag);
          item.appendChild(nation);
@@ -131,7 +147,11 @@
 
          item.onclick = function () {
              console.log('clicked ' + team.team);
+
+             clearSelection();
              item.style.background = 'aliceblue';
+
+             showInfo([team]);
          }
 
          return item;
@@ -188,11 +208,13 @@
      function showInfo(teams) {
 
 
+         // 8.7832° S, 55.4915° W
+
          var mapOptions = {
              mapTypeControlOptions: {
                  mapTypeIds: ['Styled']
              },
-             center: new google.maps.LatLng(44.40565, 8.946256),
+             center: new google.maps.LatLng(8.7832, -55.4915),
              zoom: 3,
              mapTypeId: 'Styled'
          };
@@ -217,7 +239,7 @@
 
                  var position = new google.maps.LatLng(lat, longitude);
 
-                 var cardinalRed = '#FFFFFF';
+                 var cardinalRed = '#b24756';
 
                  var marker = new google.maps.Marker({
                      position: position,
@@ -228,7 +250,7 @@
                          strokeOpacity: 0.7,
                          strokeColor: cardinalRed,
                          strokeWeight: 1.5,
-                         scale: 6 //pixels
+                         scale: 4 //pixels
                      },
                      map: map
                  });
@@ -242,6 +264,8 @@
 
      window.onload = function () {
          var teamlist = document.getElementById('teamlist');
+
+         var details = document.getElementById('details');
 
          var xmlhttp = new XMLHttpRequest();
 
@@ -260,6 +284,10 @@
                  teams.forEach(function (team) {
                      teamlist.appendChild(makeListItem(team));
                  })
+
+                 console.log(teamlist.offsetHeight);
+
+                 details.style.height = teamlist.offsetHeight - 20 + 'px';
 
                  showInfo(teams);
              };

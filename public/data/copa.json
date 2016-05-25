@@ -16,6 +16,7 @@
         "BirthDate": "1986-02-10",
         "Age": 30,
         "Home": "Rosario, Santa Fe",
+        "Height": 192,
         "Club": "Tigres UANL",
         "Lat": -32.95,
         "Lng": -60.666666666666664
@@ -26,6 +27,7 @@
         "BirthDate": "1987-02-22",
         "Age": 29,
         "Home": "Bernardo de Irigoyen",
+        "Height": 192,
         "Club": "Manchester United",
         "Lat": -26.25,
         "Lng": -53.983333333333334
@@ -36,6 +38,7 @@
         "BirthDate": "1992-05-20",
         "Age": 24,
         "Home": "La Plata",
+        "Height": 189,
         "Club": "Real Sociedad",
         "Lat": -34.92111111111111,
         "Lng": -57.95444444444445
@@ -45,6 +48,7 @@
         "Position": "Defender",
         "BirthDate": "1980-12-20",
         "Age": 35,
+        "Height": 184,
         "Club": "Manchester City"
     }, {
         "Name": "Ramiro Funes Mori",
@@ -53,6 +57,7 @@
         "BirthDate": "1991-03-05",
         "Age": 25,
         "Home": "Mendoza, Argentina",
+        "Height": 191,
         "Club": "Everton",
         "Lat": -32.88333333333333,
         "Lng": -68.81666666666666
@@ -63,6 +68,7 @@
         "BirthDate": "1987-03-18",
         "Age": 29,
         "Home": "Puerto Madryn",
+        "Height": 180,
         "Club": "River Plate",
         "Lat": -42.766666666666666,
         "Lng": -65.05
@@ -73,6 +79,7 @@
         "BirthDate": "1990-08-26",
         "Age": 25,
         "Home": "Rosario",
+        "Height": 182,
         "Club": "Villarreal",
         "Lat": -32.95,
         "Lng": -60.666666666666664
@@ -83,6 +90,7 @@
         "BirthDate": "1988-02-12",
         "Age": 28,
         "Home": "Buenos Aires",
+        "Height": 183,
         "Club": "Manchester City",
         "Lat": -34.60333333333333,
         "Lng": -58.38166666666667
@@ -93,6 +101,7 @@
         "BirthDate": "1983-02-24",
         "Age": 33,
         "Home": "Olivos",
+        "Height": 182,
         "Club": "Rosario Central",
         "Lat": -34.5,
         "Lng": -58.483333333333334
@@ -103,6 +112,7 @@
         "BirthDate": "1990-03-20",
         "Age": 26,
         "Home": "La Plata",
+        "Height": 187,
         "Club": "Manchester United",
         "Lat": -34.92111111111111,
         "Lng": -57.95444444444445
@@ -113,6 +123,7 @@
         "BirthDate": "1987-02-10",
         "Age": 29,
         "Home": "Chajarí",
+        "Height": 179,
         "Club": "Fiorentina",
         "Lat": -30.766666666666666,
         "Lng": -57.983333333333334
@@ -123,6 +134,7 @@
         "BirthDate": "1987-05-05",
         "Age": 29,
         "Home": "Villa Constitución",
+        "Height": 177,
         "Club": "River Plate",
         "Lat": -33.233333333333334,
         "Lng": -60.333333333333336
@@ -133,6 +145,7 @@
         "BirthDate": "1985-01-16",
         "Age": 31,
         "Home": "Buenos Aires",
+        "Height": 178,
         "Club": "Manchester City",
         "Lat": -34.60333333333333,
         "Lng": -58.38166666666667
@@ -143,6 +156,7 @@
         "BirthDate": "1988-06-29",
         "Age": 27,
         "Home": "Rosario",
+        "Height": 174,
         "Club": "Internazionale",
         "Lat": -32.95,
         "Lng": -60.666666666666664
@@ -153,6 +167,7 @@
         "BirthDate": "1986-01-30",
         "Age": 30,
         "Home": "Mercedes, Buenos Aires",
+        "Height": 178,
         "Club": "Lazio",
         "Lat": -34.65,
         "Lng": -59.43333333333333
@@ -163,6 +178,7 @@
         "BirthDate": "1995-03-09",
         "Age": 21,
         "Home": "Rosario",
+        "Height": 173,
         "Club": "Atlético Madrid",
         "Lat": -32.95,
         "Lng": -60.666666666666664
@@ -173,6 +189,7 @@
         "BirthDate": "1988-02-14",
         "Age": 28,
         "Home": "Rosario",
+        "Height": 180,
         "Club": "Paris Saint-Germain",
         "Lat": -32.95,
         "Lng": -60.666666666666664
@@ -183,6 +200,7 @@
         "BirthDate": "1986-04-10",
         "Age": 30,
         "Home": "Pergamino",
+        "Height": 177,
         "Club": "Atlético Madrid",
         "Lat": -33.88333333333333,
         "Lng": -60.56666666666667
@@ -193,6 +211,7 @@
         "BirthDate": "1993-05-21",
         "Age": 23,
         "Home": "San Miguel de Tucumán",
+        "Height": 179,
         "Club": "Atlético Madrid"
     }, {
         "Name": "Erik Lamela",
@@ -201,6 +220,7 @@
         "BirthDate": "1992-03-04",
         "Age": 24,
         "Home": "Buenos Aires",
+        "Height": 183,
         "Club": "Tottenham Hotspur",
         "Lat": -34.60333333333333,
         "Lng": -58.38166666666667
@@ -211,6 +231,7 @@
         "BirthDate": "1984-06-08",
         "Age": 31,
         "Home": "San Lorenzo",
+        "Height": 174,
         "Club": "Barcelona",
         "Lat": -32.75,
         "Lng": -60.733333333333334
@@ -221,6 +242,7 @@
         "BirthDate": "1988-03-14",
         "Age": 28,
         "Home": "Glew",
+        "Height": 168,
         "Club": "Lanús",
         "Lat": -34.88333333333333,
         "Lng": -58.38333333333333
@@ -231,6 +253,7 @@
         "BirthDate": "1988-06-02",
         "Age": 27,
         "Home": "Buenos Aires",
+        "Height": 173,
         "Club": "Manchester City",
         "Lat": -34.60333333333333,
         "Lng": -58.38166666666667
@@ -240,6 +263,7 @@
         "Position": "Forward",
         "BirthDate": "1993-11-15",
         "Age": 22,
+        "Height": 176,
         "Club": "Juventus"
     }, {
         "Name": "Gonzalo Higuaín",
@@ -248,6 +272,7 @@
         "BirthDate": "1987-12-10",
         "Age": 28,
         "Home": "Brest",
+        "Height": 184,
         "Club": "Napoli",
         "Lat": 48.38333333333333,
         "Lng": -4.483333333333333
@@ -258,10 +283,13 @@
         "BirthDate": "1985-05-03",
         "Age": 31,
         "Home": "Villa Gobernador Gálvez",
+        "Height": 173,
         "Club": "Hebei China Fortune",
         "Lat": -33.025555555555556,
         "Lng": -60.63361111111111
-    }]
+    }],
+    "AverageAge": 28,
+    "AverageHeight": 180
 }, {
     "team": "Brazil",
     "id": 205,
@@ -280,6 +308,7 @@
         "BirthDate": "1985-06-24",
         "Age": 30,
         "Home": "Rio de Janeiro",
+        "Height": 187,
         "Club": "Valencia",
         "Lat": -22.90833333333333,
         "Lng": -43.19638888888888
@@ -290,6 +319,7 @@
         "BirthDate": "1987-01-13",
         "Age": 29,
         "Home": "Campo Bom",
+        "Height": 188,
         "Club": "Grêmio",
         "Lat": -29.67888888888889,
         "Lng": -51.05277777777778
@@ -300,6 +330,7 @@
         "BirthDate": "1992-10-02",
         "Age": 23,
         "Home": "Novo Hamburgo",
+        "Height": 193,
         "Lat": -29.67777777777778,
         "Lng": -51.130833333333335
     }, {
@@ -309,6 +340,7 @@
         "BirthDate": "1994-05-14",
         "Age": 22,
         "Home": "São Paulo",
+        "Height": 183,
         "Club": "Paris Saint-Germain",
         "Lat": -23.55,
         "Lng": -46.63333333333333
@@ -323,6 +355,7 @@
         "BirthDate": "1985-08-09",
         "Age": 30,
         "Home": "Jaraguá do Sul",
+        "Height": 182,
         "Club": "Atlético Madrid",
         "Lat": -26.483333333333334,
         "Lng": -49.06666666666667
@@ -333,6 +366,7 @@
         "BirthDate": "1991-01-26",
         "Age": 25,
         "Home": "Catanduva",
+        "Height": 180,
         "Club": "Juventus",
         "Lat": -21.137777777777778,
         "Lng": -48.97277777777778
@@ -347,6 +381,7 @@
         "BirthDate": "1983-05-06",
         "Age": 33,
         "Home": "Juazeiro",
+        "Height": 172,
         "Club": "Barcelona",
         "Lat": -9.430555555555555,
         "Lng": -40.50277777777778
@@ -365,6 +400,7 @@
         "BirthDate": "1990-07-09",
         "Age": 25,
         "Home": "Marília",
+        "Height": 175,
         "Club": "Santos",
         "Lat": -22.21388888888889,
         "Lng": -49.94583333333333
@@ -375,6 +411,7 @@
         "BirthDate": "1990-09-14",
         "Age": 25,
         "Home": "Sapucaia do Sul",
+        "Height": 172,
         "Club": "Bayern Munich",
         "Lat": -29.83888888888889,
         "Lng": -51.14388888888889
@@ -385,6 +422,7 @@
         "BirthDate": "1992-06-12",
         "Age": 23,
         "Home": "Rio de Janeiro",
+        "Height": 171,
         "Club": "Liverpool",
         "Lat": -22.90833333333333,
         "Lng": -43.19638888888888
@@ -399,6 +437,7 @@
         "BirthDate": "1987-07-23",
         "Age": 28,
         "Home": "Pindamonhangaba",
+        "Height": 188,
         "Club": "VfL Wolfsburg",
         "Lat": -22.92388888888889,
         "Lng": -45.461666666666666
@@ -413,6 +452,7 @@
         "BirthDate": "1988-02-08",
         "Age": 28,
         "Home": "Rio de Janeiro",
+        "Height": 186,
         "Club": "Beijing Guoan",
         "Lat": -22.90833333333333,
         "Lng": -43.19638888888888
@@ -435,10 +475,13 @@
         "BirthDate": "1980-05-06",
         "Age": 36,
         "Home": "São Paulo",
+        "Height": 183,
         "Club": "Santos",
         "Lat": -23.55,
         "Lng": -46.63333333333333
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 182
 }, {
     "team": "United-States",
     "id": 660,
@@ -461,6 +504,7 @@
         "BirthDate": "1984-09-09",
         "Age": 31,
         "Home": "Evergreen Park, Illinois",
+        "Height": 193,
         "Club": "Aston Villa",
         "Lat": 41.72,
         "Lng": -87.7025
@@ -471,6 +515,7 @@
         "BirthDate": "1995-06-09",
         "Age": 20,
         "Home": "Highlands Ranch, Colorado",
+        "Height": 194,
         "Club": "Molde",
         "Lat": 39.54194444444444,
         "Lng": -104.97083333333333
@@ -481,6 +526,7 @@
         "BirthDate": "1979-03-06",
         "Age": 37,
         "Home": "North Brunswick, New Jersey",
+        "Height": 191,
         "Club": "Everton",
         "Lat": 40.45027777777778,
         "Lng": -74.47944444444444
@@ -491,6 +537,7 @@
         "BirthDate": "1979-06-17",
         "Age": 36,
         "Home": "Montclair, California",
+        "Height": 178,
         "Club": "Real Salt Lake",
         "Lat": 34.0775,
         "Lng": -117.68972222222223
@@ -501,6 +548,7 @@
         "BirthDate": "1992-08-16",
         "Age": 23,
         "Home": "Phoenix, Arizona",
+        "Height": 183,
         "Club": "América",
         "Lat": 33.45,
         "Lng": -112.06666666666666
@@ -511,6 +559,7 @@
         "BirthDate": "1987-02-11",
         "Age": 29,
         "Home": "Overland Park, Kansas",
+        "Height": 183,
         "Club": "Sporting Kansas City",
         "Lat": 38.98222222222223,
         "Lng": -94.67083333333333
@@ -521,6 +570,7 @@
         "BirthDate": "1991-01-23",
         "Age": 25,
         "Home": "Newport, California",
+        "Height": 188,
         "Club": "D.C. United",
         "Lat": 39.5775,
         "Lng": -123.77472222222222
@@ -535,6 +585,7 @@
         "BirthDate": "1985-07-11",
         "Age": 30,
         "Home": "Attleboro, Massachusetts",
+        "Height": 191,
         "Club": "Stoke City",
         "Lat": 41.93333333333333,
         "Lng": -71.3
@@ -545,6 +596,7 @@
         "BirthDate": "1986-10-08",
         "Age": 29,
         "Home": "Las Cruces, New Mexico",
+        "Height": 170,
         "Club": "Monterrey",
         "Lat": 32.31444444444444,
         "Lng": -106.77888888888889
@@ -555,6 +607,7 @@
         "BirthDate": "1990-03-29",
         "Age": 26,
         "Home": "Frankfurt",
+        "Height": 186,
         "Club": "Eintracht Frankfurt",
         "Lat": 50.11666666666667,
         "Lng": 8.683333333333334
@@ -565,6 +618,7 @@
         "BirthDate": "1985-04-20",
         "Age": 31,
         "Home": "Phoenix, Arizona",
+        "Height": 185,
         "Club": "Seattle Sounders FC",
         "Lat": 33.45,
         "Lng": -112.06666666666666
@@ -579,6 +633,7 @@
         "BirthDate": "1987-12-11",
         "Age": 28,
         "Home": "Munich",
+        "Height": 183,
         "Club": "Borussia Mönchengladbach",
         "Lat": 48.13333333333333,
         "Lng": 11.566666666666666
@@ -589,6 +644,7 @@
         "BirthDate": "1988-11-17",
         "Age": 27,
         "Home": "Downers Grove, Illinois",
+        "Height": 180,
         "Club": "Nottingham Forest",
         "Lat": 41.79472222222222,
         "Lng": -88.01694444444445
@@ -599,6 +655,7 @@
         "BirthDate": "1995-07-19",
         "Age": 20,
         "Home": "Clifton, New Jersey",
+        "Height": 193,
         "Club": "Chelsea",
         "Lat": 40.86222222222222,
         "Lng": -74.16027777777778
@@ -609,6 +666,7 @@
         "BirthDate": "1986-02-07",
         "Age": 30,
         "Home": "Orange, California",
+        "Height": 180,
         "Club": "Tijuana",
         "Lat": 33.80305555555555,
         "Lng": -117.8325
@@ -619,6 +677,7 @@
         "BirthDate": "1987-10-05",
         "Age": 28,
         "Home": "St. Louis",
+        "Height": 185,
         "Club": "Fulham",
         "Lat": 38.62722222222222,
         "Lng": -90.19777777777779
@@ -629,6 +688,7 @@
         "BirthDate": "1995-07-24",
         "Age": 20,
         "Home": "Plano, Texas",
+        "Height": 177,
         "Club": "FC Dallas",
         "Lat": 33.016666666666666,
         "Lng": -96.68333333333334
@@ -639,6 +699,7 @@
         "BirthDate": "1982-04-23",
         "Age": 34,
         "Home": "Crofton, Maryland",
+        "Height": 178,
         "Club": "Real Salt Lake",
         "Lat": 39.00888888888889,
         "Lng": -76.68111111111112
@@ -649,6 +710,7 @@
         "BirthDate": "1987-04-29",
         "Age": 29,
         "Home": "Englewood, New Jersey",
+        "Height": 178,
         "Club": "Nantes",
         "Lat": 40.89111111111111,
         "Lng": -73.9725
@@ -663,6 +725,7 @@
         "BirthDate": "1990-10-02",
         "Age": 25,
         "Home": "Oslo",
+        "Height": 184,
         "Club": "New York City FC",
         "Lat": 59.95,
         "Lng": 10.75
@@ -673,6 +736,7 @@
         "BirthDate": "1990-08-06",
         "Age": 25,
         "Home": "Duluth, Minnesota",
+        "Height": 175,
         "Club": "Columbus Crew SC"
     }, {
         "Name": "Jermaine Jones",
@@ -681,6 +745,7 @@
         "BirthDate": "1981-11-03",
         "Age": 34,
         "Home": "Frankfurt am Main",
+        "Height": 184,
         "Club": "Colorado Rapids",
         "Lat": 50.11666666666667,
         "Lng": 8.683333333333334
@@ -691,6 +756,7 @@
         "BirthDate": "1992-02-29",
         "Age": 24,
         "Home": "Indianapolis, Indiana",
+        "Height": 183,
         "Club": "Heart of Midlothian",
         "Lat": 39.766666666666666,
         "Lng": -86.15
@@ -701,6 +767,7 @@
         "BirthDate": "1990-05-12",
         "Age": 26,
         "Home": "Berlin",
+        "Height": 183,
         "Club": "FC Ingolstadt 04",
         "Lat": 52.516666666666666,
         "Lng": 13.383333333333333
@@ -711,6 +778,7 @@
         "BirthDate": "1990-07-19",
         "Age": 25,
         "Home": "Monrovia",
+        "Height": 175,
         "Club": "Portland Timbers",
         "Lat": 6.3133333333333335,
         "Lng": -10.801388888888889
@@ -721,6 +789,7 @@
         "BirthDate": "1986-10-07",
         "Age": 29,
         "Home": "Richardson, Texas",
+        "Height": 173,
         "Club": "New England Revolution",
         "Lat": 32.96555555555556,
         "Lng": -96.71583333333334
@@ -731,6 +800,7 @@
         "BirthDate": "1998-09-18",
         "Age": 17,
         "Home": "Hershey, Pennsylvania",
+        "Height": 172,
         "Club": "Borussia Dortmund",
         "Lat": 40.27833333333333,
         "Lng": -76.65111111111112
@@ -745,6 +815,7 @@
         "BirthDate": "1993-07-09",
         "Age": 22,
         "Home": "Seattle, Washington",
+        "Height": 173,
         "Club": "Sunderland",
         "Lat": 47.609722222222224,
         "Lng": -122.33305555555555
@@ -755,6 +826,7 @@
         "BirthDate": "1986-08-18",
         "Age": 29,
         "Home": "Longwood, Florida",
+        "Height": 178,
         "Club": "Sporting Kansas City",
         "Lat": 28.701944444444443,
         "Lng": -81.345
@@ -765,6 +837,7 @@
         "BirthDate": "1989-11-06",
         "Age": 26,
         "Home": "Livingston, New Jersey",
+        "Height": 185,
         "Club": "Toronto FC",
         "Lat": 40.78583333333333,
         "Lng": -74.32916666666667
@@ -775,6 +848,7 @@
         "BirthDate": "1983-03-09",
         "Age": 33,
         "Home": "Nacogdoches, Texas",
+        "Height": 185,
         "Club": "Seattle Sounders FC",
         "Lat": 31.60888888888889,
         "Lng": -94.65083333333334
@@ -793,10 +867,13 @@
         "BirthDate": "1991-09-02",
         "Age": 24,
         "Home": "Hawthorne, California",
+        "Height": 188,
         "Club": "LA Galaxy",
         "Lat": 33.91722222222222,
         "Lng": -118.34861111111111
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 182
 }, {
     "team": "Chile",
     "id": 207,
@@ -819,6 +896,7 @@
         "BirthDate": "1984-08-02",
         "Age": 31,
         "Home": "Parral, Chile",
+        "Height": 181,
         "Club": "Colo-Colo",
         "Lat": -36.15,
         "Lng": -71.83333333333333
@@ -833,6 +911,7 @@
         "BirthDate": "1988-06-15",
         "Age": 27,
         "Home": "Antofagasta",
+        "Height": 183,
         "Club": "Universidad Católica",
         "Lat": -23.65,
         "Lng": -70.4
@@ -843,6 +922,7 @@
         "BirthDate": "1990-11-30",
         "Age": 25,
         "Home": "Stockholm",
+        "Height": 180,
         "Club": "Hannover 96",
         "Lat": 59.32944444444445,
         "Lng": 18.06861111111111
@@ -853,6 +933,7 @@
         "BirthDate": "1992-08-16",
         "Age": 23,
         "Home": "Ovalle",
+        "Height": 191,
         "Club": "Espanyol",
         "Lat": -30.6,
         "Lng": -71.2
@@ -867,6 +948,7 @@
         "BirthDate": "1988-06-12",
         "Age": 27,
         "Home": "Buin",
+        "Height": 177,
         "Club": "Marseille",
         "Lat": -33.733333333333334,
         "Lng": -70.73333333333333
@@ -877,6 +959,7 @@
         "BirthDate": "1985-08-29",
         "Age": 30,
         "Home": "Hualpén",
+        "Height": 178,
         "Club": "Universidad de Chile",
         "Lat": -36.788333333333334,
         "Lng": -73.08666666666666
@@ -887,6 +970,7 @@
         "BirthDate": "1987-08-03",
         "Age": 28,
         "Home": "Santiago, Chile",
+        "Height": 171,
         "Club": "Internazionale",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -897,6 +981,7 @@
         "BirthDate": "1988-07-18",
         "Age": 27,
         "Home": "Viña del Mar",
+        "Height": 175,
         "Club": "São Paulo",
         "Lat": -33,
         "Lng": -71.51666666666667
@@ -907,6 +992,7 @@
         "BirthDate": "1993-11-08",
         "Age": 22,
         "Home": "Santiago",
+        "Height": 179,
         "Club": "Palestino",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -921,6 +1007,7 @@
         "BirthDate": "1986-12-29",
         "Age": 29,
         "Home": "Santiago",
+        "Height": 166,
         "Club": "Celta",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -931,6 +1018,7 @@
         "BirthDate": "1986-05-15",
         "Age": 30,
         "Home": "Caballito",
+        "Height": 178,
         "Club": "Fiorentina",
         "Lat": -34.61666666666667,
         "Lng": -58.45
@@ -941,6 +1029,7 @@
         "BirthDate": "1990-10-08",
         "Age": 25,
         "Home": "Quintero, Chile",
+        "Height": 170,
         "Club": "Twente",
         "Lat": -32.78333333333333,
         "Lng": -71.53333333333333
@@ -951,6 +1040,7 @@
         "BirthDate": "1985-09-27",
         "Age": 30,
         "Home": "Maule",
+        "Height": 174,
         "Club": "Veracruz",
         "Lat": -35.53333333333333,
         "Lng": -71.7
@@ -961,6 +1051,7 @@
         "BirthDate": "1990-05-01",
         "Age": 26,
         "Home": "Santiago",
+        "Height": 180,
         "Club": "Colo-Colo",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -971,6 +1062,7 @@
         "BirthDate": "1994-05-16",
         "Age": 22,
         "Home": "Rancagua",
+        "Height": 168,
         "Club": "Santos Laguna",
         "Lat": -34.166666666666664,
         "Lng": -70.75
@@ -981,6 +1073,7 @@
         "BirthDate": "1986-02-11",
         "Age": 30,
         "Home": "Quillota",
+        "Height": 178,
         "Club": "Chiapas",
         "Lat": -32.86666666666667,
         "Lng": -71.25
@@ -991,6 +1084,7 @@
         "BirthDate": "1981-08-13",
         "Age": 34,
         "Home": "Cali",
+        "Height": 179,
         "Club": "Depor",
         "Lat": 3.4205555555555556,
         "Lng": -76.52222222222223
@@ -1001,6 +1095,7 @@
         "BirthDate": "1987-05-22",
         "Age": 29,
         "Home": "Santiago",
+        "Height": 180,
         "Club": "Bayern Munich",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -1011,6 +1106,7 @@
         "BirthDate": "1993-02-14",
         "Age": 23,
         "Home": "Santiago",
+        "Height": 177,
         "Club": "Universidad Católica",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -1021,6 +1117,7 @@
         "BirthDate": "1994-04-13",
         "Age": 22,
         "Home": "Santiago",
+        "Height": 175,
         "Club": "Dinamo Zagreb",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -1031,6 +1128,7 @@
         "BirthDate": "1986-01-27",
         "Age": 30,
         "Home": "Santiago",
+        "Height": 168,
         "Club": "Celta",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -1041,6 +1139,7 @@
         "BirthDate": "1984-02-04",
         "Age": 32,
         "Home": "Santiago",
+        "Height": 187,
         "Club": "Atalanta",
         "Lat": -33.45,
         "Lng": -70.66666666666667
@@ -1051,6 +1150,7 @@
         "BirthDate": "1988-12-19",
         "Age": 27,
         "Home": "Tocopilla",
+        "Height": 169,
         "Club": "Arsenal",
         "Lat": -22.09638888888889,
         "Lng": -70.2
@@ -1061,10 +1161,13 @@
         "BirthDate": "1997-09-15",
         "Age": 18,
         "Home": "Santiago",
+        "Height": 160,
         "Club": "Universidad Católica",
         "Lat": -33.45,
         "Lng": -70.66666666666667
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 176
 }, {
     "team": "Bolivia",
     "id": 204,
@@ -1083,6 +1186,7 @@
         "BirthDate": "1987-03-17",
         "Age": 29,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 192,
         "Club": "Sport Boys Warnes",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1093,6 +1197,7 @@
         "BirthDate": "1992-06-25",
         "Age": 23,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 181,
         "Club": "Bolívar",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1113,6 +1218,7 @@
         "BirthDate": "1988-03-06",
         "Age": 28,
         "Home": "Tarija",
+        "Height": 168,
         "Club": "Oriente Petrolero",
         "Lat": -21.533333333333335,
         "Lng": -64.73333333333333
@@ -1123,6 +1229,7 @@
         "BirthDate": "1991-08-24",
         "Age": 24,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 174,
         "Club": "Panetolikos",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1137,6 +1244,7 @@
         "BirthDate": "1988-12-31",
         "Age": 27,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 183,
         "Club": "Blooming",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1147,6 +1255,7 @@
         "BirthDate": "1988-02-20",
         "Age": 28,
         "Home": "Cochabamba",
+        "Height": 183,
         "Club": "Bolívar",
         "Lat": -17.383333333333333,
         "Lng": -66.16666666666667
@@ -1175,6 +1284,7 @@
         "BirthDate": "1984-12-05",
         "Age": 31,
         "Home": "Cochabamba",
+        "Height": 182,
         "Club": "Wilstermann",
         "Lat": -17.383333333333333,
         "Lng": -66.16666666666667
@@ -1185,6 +1295,7 @@
         "BirthDate": "1994-12-06",
         "Age": 21,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 176,
         "Club": "Oriente Petrolero",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1195,6 +1306,7 @@
         "BirthDate": "1994-01-03",
         "Age": 22,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 182,
         "Club": "Panetolikos",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1205,6 +1317,7 @@
         "BirthDate": "1988-05-10",
         "Age": 28,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 174,
         "Club": "Kazma",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1225,6 +1338,7 @@
         "BirthDate": "1991-04-22",
         "Age": 25,
         "Home": "La Paz",
+        "Height": 164,
         "Club": "The Strongest",
         "Lat": -16.5,
         "Lng": -68.15
@@ -1235,6 +1349,7 @@
         "BirthDate": "1992-04-18",
         "Age": 24,
         "Home": "Santa Cruz",
+        "Height": 190,
         "Club": "Petrolero",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1253,6 +1368,7 @@
         "BirthDate": "1987-06-16",
         "Age": 28,
         "Home": "Miami",
+        "Height": 183,
         "Club": "Oriente Petrolero",
         "Lat": 25.775277777777777,
         "Lng": -80.2088888888889
@@ -1281,6 +1397,7 @@
         "BirthDate": "1990-03-15",
         "Age": 26,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 173,
         "Club": "Wilstermann",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1291,6 +1408,7 @@
         "BirthDate": "1984-05-10",
         "Age": 32,
         "Home": "Norrköping",
+        "Height": 187,
         "Club": "IFK Göteborg",
         "Lat": 58.6,
         "Lng": 16.2
@@ -1301,6 +1419,7 @@
         "BirthDate": "1988-04-22",
         "Age": 28,
         "Home": "Cochabamba",
+        "Height": 179,
         "Club": "The Strongest",
         "Lat": -17.383333333333333,
         "Lng": -66.16666666666667
@@ -1315,6 +1434,7 @@
         "BirthDate": "1985-04-10",
         "Age": 31,
         "Home": "Santa Cruz",
+        "Height": 176,
         "Club": "Club Bolívar",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1325,6 +1445,7 @@
         "BirthDate": "1988-03-01",
         "Age": 28,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 179,
         "Club": "New York Cosmos",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1335,6 +1456,7 @@
         "BirthDate": "1988-06-23",
         "Age": 27,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 181,
         "Club": "Ratchaburi Mitr Phol",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1352,6 +1474,7 @@
         "BirthDate": "1998-02-10",
         "Age": 18,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 180,
         "Club": "Universidad de Chile",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1362,6 +1485,7 @@
         "BirthDate": "1987-06-18",
         "Age": 28,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 187,
         "Club": "Changchun Yatai",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1372,6 +1496,7 @@
         "BirthDate": "1990-10-14",
         "Age": 25,
         "Home": "Santa Cruz de la Sierra",
+        "Height": 178,
         "Club": "The Strongest",
         "Lat": -17.8,
         "Lng": -63.18333333333333
@@ -1379,7 +1504,9 @@
         "Name": "Rodrigo Vargas Touchard",
         "Wikipedia": "Rodrigo_Vargas_Touchard",
         "Position": "Forward"
-    }]
+    }],
+    "AverageAge": 31,
+    "AverageHeight": 180
 }, {
     "team": "Costa-Rica",
     "id": 214,
@@ -1398,6 +1525,7 @@
         "BirthDate": "1989-04-28",
         "Age": 27,
         "Home": "Siquirres",
+        "Height": 193,
         "Club": "Trabzonspor",
         "Lat": 10.1,
         "Lng": -83.51666666666667
@@ -1408,6 +1536,7 @@
         "BirthDate": "1986-12-15",
         "Age": 29,
         "Home": "Pérez Zeledón",
+        "Height": 185,
         "Club": "Real Madrid",
         "Lat": 9.341111111111111,
         "Lng": -83.74055555555556
@@ -1418,6 +1547,7 @@
         "BirthDate": "1982-04-24",
         "Age": 34,
         "Home": "Puerto Limón",
+        "Height": 178,
         "Club": "Alajuelense",
         "Lat": 9.983333333333333,
         "Lng": -83.03333333333333
@@ -1428,6 +1558,7 @@
         "BirthDate": "1983-07-21",
         "Age": 32,
         "Home": "Ciudad Quesada",
+        "Height": 175,
         "Club": "Alajuelense",
         "Lat": 10.323611111111111,
         "Lng": -84.42694444444444
@@ -1438,6 +1569,7 @@
         "BirthDate": "1992-07-08",
         "Age": 23,
         "Home": "San José",
+        "Height": 181,
         "Club": "Saprissa",
         "Lat": 9.933333333333334,
         "Lng": -84.08333333333333
@@ -1452,6 +1584,7 @@
         "BirthDate": "1983-09-12",
         "Age": 32,
         "Home": "Heredia, Costa Rica",
+        "Height": 185,
         "Club": "SV Darmstadt 98",
         "Lat": 9.996388888888887,
         "Lng": -84.11666666666666
@@ -1462,6 +1595,7 @@
         "BirthDate": "1989-10-24",
         "Age": 26,
         "Home": "Liberia, Costa Rica",
+        "Height": 173,
         "Club": "West Bromwich Albion",
         "Lat": 10.633333333333333,
         "Lng": -85.43333333333334
@@ -1472,6 +1606,7 @@
         "BirthDate": "1988-02-08",
         "Age": 28,
         "Home": "Desamparados",
+        "Height": 186,
         "Club": "Palermo",
         "Lat": 9.9,
         "Lng": -84.06666666666666
@@ -1482,6 +1617,7 @@
         "BirthDate": "1988-06-01",
         "Age": 27,
         "Home": "Puerto Viejo",
+        "Height": 185,
         "Club": "Herediano",
         "Lat": 9.658333333333333,
         "Lng": -82.75277777777778
@@ -1492,6 +1628,7 @@
         "BirthDate": "1990-02-18",
         "Age": 26,
         "Home": "Ciudad Quesada",
+        "Height": 172,
         "Club": "Everton",
         "Lat": 10.323611111111111,
         "Lng": -84.42694444444444
@@ -1502,6 +1639,7 @@
         "BirthDate": "1988-01-01",
         "Age": 28,
         "Home": "San José",
+        "Height": 196,
         "Club": "Vancouver Whitecaps FC",
         "Lat": 9.933333333333334,
         "Lng": -84.08333333333333
@@ -1516,6 +1654,7 @@
         "BirthDate": "1988-05-27",
         "Age": 27,
         "Home": "San José, Costa Rica",
+        "Height": 184,
         "Club": "Deportivo La Coruña",
         "Lat": 9.933333333333334,
         "Lng": -84.08333333333333
@@ -1526,6 +1665,7 @@
         "BirthDate": "1987-06-19",
         "Age": 28,
         "Home": "San José",
+        "Height": 171,
         "Club": "Cartaginés",
         "Lat": 9.933333333333334,
         "Lng": -84.08333333333333
@@ -1536,6 +1676,7 @@
         "BirthDate": "1985-10-25",
         "Age": 30,
         "Home": "Cartago",
+        "Height": 183,
         "Club": "Herediano",
         "Lat": 9.866666666666667,
         "Lng": -83.91666666666667
@@ -1546,6 +1687,7 @@
         "BirthDate": "1990-02-18",
         "Age": 26,
         "Home": "San José",
+        "Height": 176,
         "Club": "Deportivo Saprissa",
         "Lat": 9.933333333333334,
         "Lng": -84.08333333333333
@@ -1556,6 +1698,7 @@
         "BirthDate": "1994-07-09",
         "Age": 21,
         "Home": "Costa Rica",
+        "Height": 175,
         "Club": "New York City"
     }, {
         "Name": "Bryan Ruiz",
@@ -1564,6 +1707,7 @@
         "BirthDate": "1985-08-18",
         "Age": 30,
         "Home": "San José",
+        "Height": 188,
         "Club": "Sporting CP",
         "Lat": 9.933333333333334,
         "Lng": -84.08333333333333
@@ -1574,6 +1718,7 @@
         "BirthDate": "1992-03-17",
         "Age": 24,
         "Home": "Limón",
+        "Height": 179,
         "Club": "Evian",
         "Lat": 9.983333333333333,
         "Lng": -83.03333333333333
@@ -1588,6 +1733,7 @@
         "BirthDate": "1992-09-19",
         "Age": 23,
         "Home": "Ciudad Quesada",
+        "Height": 176,
         "Club": "Brann",
         "Lat": 10.323611111111111,
         "Lng": -84.42694444444444
@@ -1598,6 +1744,7 @@
         "BirthDate": "1992-06-26",
         "Age": 23,
         "Home": "San José",
+        "Height": 178,
         "Club": "Arsenal",
         "Lat": 9.933333333333334,
         "Lng": -84.08333333333333
@@ -1612,10 +1759,13 @@
         "BirthDate": "1988-11-27",
         "Age": 27,
         "Home": "Limón",
+        "Height": 183,
         "Club": "Montreal Impact",
         "Lat": 9.983333333333333,
         "Lng": -83.03333333333333
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 181
 }, {
     "team": "Ecuador",
     "id": 209,
@@ -1638,6 +1788,7 @@
         "BirthDate": "1985-12-16",
         "Age": 30,
         "Home": "Guayaquil",
+        "Height": 183,
         "Club": "Barcelona",
         "Lat": -2.183333333333333,
         "Lng": -79.88333333333334
@@ -1648,6 +1799,7 @@
         "BirthDate": "1987-06-05",
         "Age": 28,
         "Home": "Tachina",
+        "Height": 193,
         "Club": "LDU Quito"
     }, {
         "Name": "Esteban Dreer",
@@ -1656,6 +1808,7 @@
         "BirthDate": "1981-11-11",
         "Age": 34,
         "Home": "Godoy Cruz",
+        "Height": 185,
         "Club": "Emelec",
         "Lat": -32.916666666666664,
         "Lng": -68.83333333333333
@@ -1666,6 +1819,7 @@
         "BirthDate": "1985-03-24",
         "Age": 31,
         "Home": "Machala",
+        "Height": 180,
         "Club": "Emelec",
         "Lat": -3.2666666666666666,
         "Lng": -79.96666666666667
@@ -1683,6 +1837,7 @@
         "Position": "Defender",
         "BirthDate": "1979-08-11",
         "Age": 36,
+        "Height": 171,
         "Club": "Monterrey"
     }, {
         "Name": "Óscar Bagüí",
@@ -1691,6 +1846,7 @@
         "BirthDate": "1982-12-10",
         "Age": 33,
         "Home": "Esmeraldas",
+        "Height": 173,
         "Club": "Emelec",
         "Lat": 0.9686111111111111,
         "Lng": -79.66027777777778
@@ -1711,6 +1867,7 @@
         "BirthDate": "1988-05-05",
         "Age": 28,
         "Home": "Esmeraldas",
+        "Height": 190,
         "Club": "Atlético Mineiro",
         "Lat": 0.9686111111111111,
         "Lng": -79.66027777777778
@@ -1721,6 +1878,7 @@
         "BirthDate": "1981-09-28",
         "Age": 34,
         "Home": "Esmeraldas",
+        "Height": 180,
         "Club": "Emelec",
         "Lat": 0.9686111111111111,
         "Lng": -79.66027777777778
@@ -1739,6 +1897,7 @@
         "BirthDate": "1992-07-06",
         "Age": 23,
         "Home": "Santo Domingo",
+        "Height": 169,
         "Club": "Barcelona SC",
         "Lat": -0.3333333333333333,
         "Lng": -79.25
@@ -1749,6 +1908,7 @@
         "BirthDate": "1994-08-12",
         "Age": 21,
         "Home": "Santo Domingo",
+        "Height": 171,
         "Club": "Ferencváros",
         "Lat": -0.3333333333333333,
         "Lng": -79.25
@@ -1759,6 +1919,7 @@
         "BirthDate": "1987-04-23",
         "Age": 29,
         "Home": "Guayaquil",
+        "Height": 180,
         "Club": "América",
         "Lat": -2.183333333333333,
         "Lng": -79.88333333333334
@@ -1769,6 +1930,7 @@
         "BirthDate": "1985-01-22",
         "Age": 31,
         "Home": "San Lorenzo",
+        "Height": 179,
         "Club": "Santa Cruz",
         "Lat": 1.2658333333333334,
         "Lng": -78.84138888888889
@@ -1783,6 +1945,7 @@
         "BirthDate": "1982-05-15",
         "Age": 34,
         "Home": "San Lorenzo, Ecuador",
+        "Height": 179,
         "Club": "Barcelona",
         "Lat": 1.2658333333333334,
         "Lng": -78.84138888888889
@@ -1793,6 +1956,7 @@
         "BirthDate": "1992-04-03",
         "Age": 24,
         "Home": "Quinindé",
+        "Height": 171,
         "Club": "Atlético Mineiro",
         "Lat": 0.32999999999999996,
         "Lng": -79.48
@@ -1803,6 +1967,7 @@
         "BirthDate": "1991-10-08",
         "Age": 24,
         "Home": "Montalvo",
+        "Height": 179,
         "Club": "Emelec"
     }, {
         "Name": "Carlos Gruezo",
@@ -1819,6 +1984,7 @@
         "BirthDate": "1986-05-21",
         "Age": 30,
         "Home": "Loja",
+        "Height": 174,
         "Club": "El Nacional",
         "Lat": -3.9833333333333334,
         "Lng": -79.2
@@ -1829,6 +1995,7 @@
         "BirthDate": "1990-02-15",
         "Age": 26,
         "Home": "Sucumbios",
+        "Height": 176,
         "Club": "UNAM",
         "Lat": -0.08333333333333333,
         "Lng": -76.88333333333334
@@ -1839,6 +2006,7 @@
         "BirthDate": "1989-09-01",
         "Age": 26,
         "Home": "Babahoyo",
+        "Height": 170,
         "Club": "Swansea City",
         "Lat": -1.8,
         "Lng": -79.53999999999999
@@ -1849,6 +2017,7 @@
         "BirthDate": "1985-04-09",
         "Age": 31,
         "Home": "Guayaquil",
+        "Height": 183,
         "Club": "Rostov",
         "Lat": -2.183333333333333,
         "Lng": -79.88333333333334
@@ -1863,6 +2032,7 @@
         "BirthDate": "1986-03-04",
         "Age": 30,
         "Home": "Esmeraldas",
+        "Height": 172,
         "Club": "Emelec",
         "Lat": 0.9686111111111111,
         "Lng": -79.66027777777778
@@ -1877,6 +2047,7 @@
         "BirthDate": "1994-01-28",
         "Age": 22,
         "Home": "Portoviejo",
+        "Height": 166,
         "Club": "Independiente DV",
         "Lat": -1.0561111111111112,
         "Lng": -80.45527777777778
@@ -1887,6 +2058,7 @@
         "BirthDate": "1985-08-04",
         "Age": 30,
         "Home": "Lago Agrio",
+        "Height": 180,
         "Club": "Manchester United",
         "Lat": 0.08472222222222221,
         "Lng": -76.88277777777778
@@ -1897,6 +2069,7 @@
         "BirthDate": "1988-01-13",
         "Age": 28,
         "Home": "Barranquilla",
+        "Height": 180,
         "Club": "Fort Lauderdale Strikers",
         "Lat": 10.963888888888889,
         "Lng": -74.79638888888888
@@ -1911,6 +2084,7 @@
         "BirthDate": "1988-02-21",
         "Age": 28,
         "Home": "Eloy Alfaro",
+        "Height": 186,
         "Club": "Godoy Cruz",
         "Lat": 1.25,
         "Lng": -79
@@ -1921,6 +2095,7 @@
         "BirthDate": "1988-09-05",
         "Age": 27,
         "Home": "Guayaquil",
+        "Height": 185,
         "Club": "Espanyol",
         "Lat": -2.183333333333333,
         "Lng": -79.88333333333334
@@ -1931,6 +2106,7 @@
         "BirthDate": "1988-01-21",
         "Age": 28,
         "Home": "Guayaquil",
+        "Height": 168,
         "Club": "Emelec",
         "Lat": -2.183333333333333,
         "Lng": -79.88333333333334
@@ -1941,10 +2117,13 @@
         "BirthDate": "1989-11-04",
         "Age": 26,
         "Home": "San Lorenzo",
+        "Height": 174,
         "Club": "West Ham United",
         "Lat": 1.2658333333333334,
         "Lng": -78.84138888888889
-    }]
+    }],
+    "AverageAge": 29,
+    "AverageHeight": 178
 }, {
     "team": "Haiti",
     "id": 2654,
@@ -1963,6 +2142,7 @@
         "BirthDate": "1987-03-26",
         "Age": 29,
         "Home": "West Haverstraw, New York",
+        "Height": 198,
         "Club": "Minnesota United FC",
         "Lat": 41.20472222222222,
         "Lng": -73.99055555555556
@@ -1983,6 +2163,7 @@
         "BirthDate": "1988-01-29",
         "Age": 28,
         "Home": "Montfermeil",
+        "Height": 181,
         "Club": "Stade de Reims",
         "Lat": 48.9,
         "Lng": 2.5666666666666664
@@ -1997,6 +2178,7 @@
         "BirthDate": "1992-06-16",
         "Age": 23,
         "Home": "Brooklyn, New York",
+        "Height": 188,
         "Lat": 40.69277777777778,
         "Lng": -73.99027777777778
     }, {
@@ -2006,6 +2188,7 @@
         "BirthDate": "1983-05-30",
         "Age": 32,
         "Home": "Paris",
+        "Height": 182,
         "Club": "Mumbai City",
         "Lat": 48.85666666666667,
         "Lng": 2.3508333333333336
@@ -2016,6 +2199,7 @@
         "BirthDate": "1987-12-31",
         "Age": 28,
         "Home": "Saint-Michel",
+        "Height": 175,
         "Lat": 19.366666666666667,
         "Lng": -72.33333333333333
     }, {
@@ -2025,6 +2209,7 @@
         "BirthDate": "1990-12-28",
         "Age": 25,
         "Home": "Port-au-Prince",
+        "Height": 175,
         "Club": "Kraze United",
         "Lat": 18.533333333333335,
         "Lng": -72.33333333333333
@@ -2035,6 +2220,7 @@
         "BirthDate": "1982-11-14",
         "Age": 33,
         "Home": "Varen, Switzerland",
+        "Height": 176,
         "Club": "FC Aarau",
         "Lat": 46.31666666666667,
         "Lng": 7.6
@@ -2045,6 +2231,7 @@
         "BirthDate": "1990-04-21",
         "Age": 26,
         "Home": "Liancourt",
+        "Height": 178,
         "Club": "Jacksonville Armada",
         "Lat": 19.135555555555555,
         "Lng": -72.53333333333333
@@ -2059,6 +2246,7 @@
         "BirthDate": "1990-01-13",
         "Age": 26,
         "Home": "Bondy",
+        "Height": 184,
         "Club": "Miedź Legnica",
         "Lat": 48.90222222222222,
         "Lng": 2.4827777777777778
@@ -2069,6 +2257,7 @@
         "BirthDate": "1986-08-24",
         "Age": 29,
         "Home": "Verrettes",
+        "Height": 180,
         "Club": "Fort Lauderdale Strikers",
         "Lat": 19.05,
         "Lng": -72.46666666666667
@@ -2079,6 +2268,7 @@
         "BirthDate": "1989-03-31",
         "Age": 27,
         "Home": "Port-à-Piment",
+        "Height": 175,
         "Club": "Wisła Kraków",
         "Lat": 18.25,
         "Lng": -74.1
@@ -2089,6 +2279,7 @@
         "BirthDate": "1986-06-13",
         "Age": 29,
         "Home": "Saint-Marc",
+        "Height": 188,
         "Club": "Carolina RailHawks",
         "Lat": 19.116666666666667,
         "Lng": -72.7
@@ -2099,6 +2290,7 @@
         "BirthDate": "1986-05-03",
         "Age": 30,
         "Home": "Léogâne",
+        "Height": 174,
         "Club": "Jacksonville Armada",
         "Lat": 18.510833333333334,
         "Lng": -72.63388888888889
@@ -2113,6 +2305,7 @@
         "BirthDate": "1989-07-27",
         "Age": 26,
         "Home": "Grand'Anse",
+        "Height": 178,
         "Club": "Mohun Bagan",
         "Lat": 18.666666666666668,
         "Lng": -74.11666666666666
@@ -2123,6 +2316,7 @@
         "BirthDate": "1990-01-06",
         "Age": 26,
         "Home": "St. Petersburg, Florida",
+        "Height": 185,
         "Club": "San Antonio FC",
         "Lat": 27.773055555555555,
         "Lng": -82.64
@@ -2133,6 +2327,7 @@
         "BirthDate": "1992-05-16",
         "Age": 24,
         "Home": "Petit-Goâve",
+        "Height": 185,
         "Club": "1461 Trabzon",
         "Lat": 18.43138888888889,
         "Lng": -72.86694444444444
@@ -2147,10 +2342,13 @@
         "BirthDate": "1994-04-07",
         "Age": 22,
         "Home": "Paris, France",
+        "Height": 181,
         "Club": "Laval",
         "Lat": 48.85666666666667,
         "Lng": 2.3508333333333336
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 181
 }, {
     "team": "Jamaica",
     "id": 1038,
@@ -2169,6 +2367,7 @@
         "BirthDate": "1990-11-21",
         "Age": 25,
         "Home": "May Pen",
+        "Height": 193,
         "Club": "Philadelphia Union",
         "Lat": 17.965,
         "Lng": -77.245
@@ -2179,6 +2378,7 @@
         "BirthDate": "1987-07-14",
         "Age": 28,
         "Home": "St. Thomas",
+        "Height": 191,
         "Lat": 17.9,
         "Lng": -76.43333333333334
     }, {
@@ -2194,6 +2394,7 @@
         "BirthDate": "1992-07-19",
         "Age": 23,
         "Home": "East Ham",
+        "Height": 193,
         "Club": "Chelsea",
         "Lat": 51.532222222222224,
         "Lng": 0.05527777777777778
@@ -2214,6 +2415,7 @@
         "BirthDate": "1986-10-03",
         "Age": 29,
         "Home": "Harrow",
+        "Height": 180,
         "Club": "Crystal Palace",
         "Lat": 51.56666666666667,
         "Lng": -0.3333333333333333
@@ -2228,6 +2430,7 @@
         "BirthDate": "1984-01-21",
         "Age": 32,
         "Home": "Nottingham",
+        "Height": 185,
         "Club": "Leicester City",
         "Lat": 52.95,
         "Lng": -1.1333333333333333
@@ -2238,6 +2441,7 @@
         "BirthDate": "1983-09-23",
         "Age": 32,
         "Home": "Kingston, Jamaica",
+        "Height": 168,
         "Club": "Real Salt Lake",
         "Lat": 17.983333333333334,
         "Lng": -76.8
@@ -2248,6 +2452,7 @@
         "BirthDate": "1985-06-01",
         "Age": 30,
         "Home": "Clarendon Parish",
+        "Height": 183,
         "Club": "Brøndby IF",
         "Lat": 18,
         "Lng": -77.28333333333333
@@ -2257,6 +2462,7 @@
         "Position": "Midfielder",
         "BirthDate": "1987-12-01",
         "Age": 28,
+        "Height": 178,
         "Club": "San Jose Earthquakes"
     }, {
         "Name": "Joel Grant",
@@ -2265,6 +2471,7 @@
         "BirthDate": "1987-08-27",
         "Age": 28,
         "Home": "Acton",
+        "Height": 183,
         "Club": "Exeter City",
         "Lat": 51.51361111111111,
         "Lng": -0.27055555555555555
@@ -2275,6 +2482,7 @@
         "BirthDate": "1994-03-13",
         "Age": 22,
         "Home": "Kingston",
+        "Height": 183,
         "Club": "Real Monarchs",
         "Lat": 17.983333333333334,
         "Lng": -76.8
@@ -2285,6 +2493,7 @@
         "BirthDate": "1987-09-19",
         "Age": 28,
         "Home": "Saint Catherine",
+        "Height": 180,
         "Club": "Preston North End"
     }, {
         "Name": "Lance Laing",
@@ -2293,6 +2502,7 @@
         "BirthDate": "1988-02-28",
         "Age": 28,
         "Home": "Trelawny Parish",
+        "Height": 183,
         "Club": "Minnesota United FC",
         "Lat": 18.383333333333333,
         "Lng": -77.63333333333334
@@ -2303,6 +2513,7 @@
         "BirthDate": "1981-11-09",
         "Age": 34,
         "Home": "Edmonton",
+        "Height": 180,
         "Lat": 51.61527777777778,
         "Lng": -0.07083333333333333
     }, {
@@ -2312,6 +2523,7 @@
         "BirthDate": "1987-05-15",
         "Age": 29,
         "Home": "Oxford",
+        "Height": 178,
         "Club": "Reading",
         "Lat": 51.75194444444445,
         "Lng": -1.2577777777777779
@@ -2322,6 +2534,7 @@
         "BirthDate": "1983-10-22",
         "Age": 32,
         "Home": "Saint Catherine Parish",
+        "Height": 185,
         "Club": "New England Revolution"
     }, {
         "Name": "Giles Barnes",
@@ -2330,6 +2543,7 @@
         "BirthDate": "1988-08-05",
         "Age": 27,
         "Home": "Barking",
+        "Height": 188,
         "Club": "Houston Dynamo",
         "Lat": 51.53333333333333,
         "Lng": 0.08333333333333333
@@ -2350,6 +2564,7 @@
         "BirthDate": "1990-09-02",
         "Age": 25,
         "Home": "Portmore",
+        "Height": 178,
         "Club": "Portland Timbers",
         "Lat": 17.95,
         "Lng": -76.88
@@ -2366,7 +2581,9 @@
         "Position": "Forward",
         "BirthDate": "1923-01-16",
         "Age": 93
-    }]
+    }],
+    "AverageAge": 32,
+    "AverageHeight": 183
 }, {
     "team": "Panama",
     "id": 2659,
@@ -2389,6 +2606,7 @@
         "BirthDate": "1991-03-16",
         "Age": 25,
         "Home": "Panama City",
+        "Height": 191,
         "Club": "Nacional",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2399,6 +2617,7 @@
         "BirthDate": "1981-09-26",
         "Age": 34,
         "Home": "Panama City",
+        "Height": 183,
         "Club": "Deportivo Saprissa",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2409,6 +2628,7 @@
         "BirthDate": "1981-02-24",
         "Age": 35,
         "Home": "Panama City",
+        "Height": 184,
         "Club": "Atlas",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2423,6 +2643,7 @@
         "BirthDate": "1992-03-01",
         "Age": 24,
         "Home": "Panama",
+        "Height": 180,
         "Club": "LD Alajuelense"
     }, {
         "Name": "Erick Davis",
@@ -2431,6 +2652,7 @@
         "BirthDate": "1991-03-31",
         "Age": 25,
         "Home": "Colón",
+        "Height": 179,
         "Club": "Dunajská Streda",
         "Lat": 9.357222222222221,
         "Lng": -79.89861111111112
@@ -2440,6 +2662,7 @@
         "Position": "Defender",
         "BirthDate": "1995-01-09",
         "Age": 21,
+        "Height": 175,
         "Club": "Sporting San Miguelito"
     }, {
         "Name": "Luis Henriquez",
@@ -2448,6 +2671,7 @@
         "BirthDate": "1981-11-23",
         "Age": 34,
         "Home": "Panama City",
+        "Height": 174,
         "Club": "Tauro",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2458,6 +2682,7 @@
         "BirthDate": "1985-02-14",
         "Age": 31,
         "Home": "Panama City",
+        "Height": 183,
         "Club": "Saprissa",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2481,6 +2706,7 @@
         "BirthDate": "1986-03-20",
         "Age": 30,
         "Home": "Panama City",
+        "Height": 188,
         "Club": "Seattle Sounders FC",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2495,6 +2721,7 @@
         "BirthDate": "1987-11-26",
         "Age": 28,
         "Home": "Colón",
+        "Height": 182,
         "Club": "Árabe Unido",
         "Lat": 9.357222222222221,
         "Lng": -79.89861111111112
@@ -2505,6 +2732,7 @@
         "BirthDate": "1990-02-10",
         "Age": 26,
         "Home": "Panama City",
+        "Height": 182,
         "Club": "San Jose Earthquakes",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2527,6 +2755,7 @@
         "BirthDate": "1991-05-30",
         "Age": 24,
         "Home": "Santa Ana, Panama City",
+        "Height": 185,
         "Club": "La Equidad"
     }, {
         "Name": "Darwin Pinzon",
@@ -2551,6 +2780,7 @@
         "BirthDate": "1993-12-13",
         "Age": 22,
         "Home": "Colón",
+        "Height": 187,
         "Club": "RNK Split",
         "Lat": 9.357222222222221,
         "Lng": -79.89861111111112
@@ -2561,6 +2791,7 @@
         "BirthDate": "1990-01-09",
         "Age": 26,
         "Home": "San Joaquín, Panama",
+        "Height": 180,
         "Club": "Comunicaciones"
     }, {
         "Name": "Roberto Nurse",
@@ -2569,6 +2800,7 @@
         "BirthDate": "1983-12-16",
         "Age": 32,
         "Home": "Cuernavaca",
+        "Height": 188,
         "Club": "Zacatecas",
         "Lat": 18.91861111111111,
         "Lng": -99.23416666666667
@@ -2579,6 +2811,7 @@
         "BirthDate": "1981-03-13",
         "Age": 35,
         "Home": "Panama City",
+        "Height": 187,
         "Club": "Vancouver Whitecaps FC",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2589,6 +2822,7 @@
         "BirthDate": "1982-03-28",
         "Age": 34,
         "Home": "Panama City",
+        "Height": 184,
         "Club": "Juan Aurich",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
@@ -2599,10 +2833,13 @@
         "BirthDate": "1988-10-31",
         "Age": 27,
         "Home": "Panama City",
+        "Height": 180,
         "Club": "Zamora",
         "Lat": 8.983333333333333,
         "Lng": -79.51666666666667
-    }]
+    }],
+    "AverageAge": 32,
+    "AverageHeight": 183
 }, {
     "team": "Paraguay",
     "id": 210,
@@ -2629,6 +2866,7 @@
         "BirthDate": "1977-06-30",
         "Age": 38,
         "Home": "Cerrito, Paraguay",
+        "Height": 180,
         "Club": "Colo-Colo",
         "Lat": -27.32,
         "Lng": -57.669999999999995
@@ -2643,6 +2881,7 @@
         "BirthDate": "1991-08-23",
         "Age": 24,
         "Home": "Ciudad del Este",
+        "Height": 190,
         "Club": "Corinthians",
         "Lat": -25.516666666666666,
         "Lng": -54.61666666666667
@@ -2653,6 +2892,7 @@
         "BirthDate": "1980-02-01",
         "Age": 36,
         "Home": "Asunción",
+        "Height": 184,
         "Club": "Toluca",
         "Lat": -25.266666666666666,
         "Lng": -57.63333333333333
@@ -2663,6 +2903,7 @@
         "BirthDate": "1993-05-06",
         "Age": 23,
         "Home": "San Juan Bautista",
+        "Height": 186,
         "Club": "Lanús",
         "Lat": -26.633333333333333,
         "Lng": -57.166666666666664
@@ -2677,6 +2918,7 @@
         "BirthDate": "1989-03-10",
         "Age": 27,
         "Home": "Itauguá",
+        "Height": 172,
         "Club": "Udinese",
         "Lat": -25.383333333333333,
         "Lng": -57.333333333333336
@@ -2691,6 +2933,7 @@
         "BirthDate": "1986-08-24",
         "Age": 29,
         "Home": "Capiatá",
+        "Height": 175,
         "Club": "América",
         "Lat": -25.35,
         "Lng": -57.419999999999995
@@ -2701,7 +2944,8 @@
         "BirthDate": "1992-10-06",
         "Age": 23,
         "Home": "Fernando de la Mora",
-        "Club": "América",
+        "Height": 183,
+        "Club": "Club de Futbol América",
         "Lat": -25.32,
         "Lng": -57.54
     }, {
@@ -2711,6 +2955,7 @@
         "BirthDate": "1986-04-08",
         "Age": 30,
         "Home": "Luque",
+        "Height": 166,
         "Club": "América",
         "Lat": -25.27,
         "Lng": -57.48722222222222
@@ -2721,6 +2966,7 @@
         "BirthDate": "1984-10-07",
         "Age": 31,
         "Home": "San Antonio de Padua",
+        "Height": 180,
         "Club": "San Lorenzo",
         "Lat": -34.666666666666664,
         "Lng": -58.7
@@ -2731,6 +2977,7 @@
         "BirthDate": "1989-01-26",
         "Age": 27,
         "Home": "Asunción",
+        "Height": 175,
         "Club": "AZ",
         "Lat": -25.266666666666666,
         "Lng": -57.63333333333333
@@ -2741,6 +2988,7 @@
         "BirthDate": "1990-05-22",
         "Age": 26,
         "Home": "Asunción",
+        "Height": 174,
         "Club": "Toluca",
         "Lat": -25.266666666666666,
         "Lng": -57.63333333333333
@@ -2754,11 +3002,15 @@
         "Position": "Midfielder"
     }, {
         "Name": "Óscar Romero",
-        "Wikipedia": "Óscar_Romero",
+        "Wikipedia": "Óscar_Romero_(footballer)",
         "Position": "Midfielder",
-        "BirthDate": "1917-08-15",
-        "Age": 98,
-        "Club": "Roman Catholic Church"
+        "BirthDate": "1992-07-04",
+        "Age": 23,
+        "Home": "Fernando de la Mora",
+        "Height": 176,
+        "Club": "Racing Club",
+        "Lat": -25.32,
+        "Lng": -57.54
     }, {
         "Name": "Jonathan Santana",
         "Wikipedia": "Jonathan_Santana",
@@ -2766,6 +3018,7 @@
         "BirthDate": "1981-10-19",
         "Age": 34,
         "Home": "Buenos Aires",
+        "Height": 181,
         "Club": "Cerro Porteño",
         "Lat": -34.60333333333333,
         "Lng": -58.38166666666667
@@ -2776,6 +3029,7 @@
         "BirthDate": "1984-11-13",
         "Age": 31,
         "Home": "San Fernando",
+        "Height": 189,
         "Club": "Palmeiras",
         "Lat": -34.45,
         "Lng": -58.61666666666667
@@ -2786,6 +3040,7 @@
         "BirthDate": "1987-11-08",
         "Age": 28,
         "Home": "Repatriación",
+        "Height": 176,
         "Club": "Queretaro",
         "Lat": -25.529999999999998,
         "Lng": -55.95
@@ -2795,14 +3050,16 @@
         "Position": "Forward",
         "BirthDate": "1992-09-02",
         "Age": 23,
+        "Height": 182,
         "Club": "Cruz Azul"
     }, {
         "Name": "Derlis González",
         "Wikipedia": "Derlis_González",
         "Position": "Forward",
-        "BirthDate": "1994 -03-23",
-        "Age": null,
+        "BirthDate": "1994-03-23",
+        "Age": 22,
         "Home": "Mariano Roque Alonso",
+        "Height": 172,
         "Club": "Dynamo Kyiv",
         "Lat": -25.21222222222222,
         "Lng": -57.533055555555556
@@ -2813,6 +3070,7 @@
         "BirthDate": "1990-06-30",
         "Age": 25,
         "Home": "Asunción",
+        "Height": 178,
         "Club": "FC Ingolstadt",
         "Lat": -25.266666666666666,
         "Lng": -57.63333333333333
@@ -2823,6 +3081,7 @@
         "BirthDate": "1996-03-04",
         "Age": 20,
         "Home": "San Lorenzo",
+        "Height": 181,
         "Club": "Sporting Gijón",
         "Lat": -25.34,
         "Lng": -57.519999999999996
@@ -2833,9 +3092,12 @@
         "BirthDate": "1981-08-16",
         "Age": 34,
         "Home": "Asunción",
+        "Height": 191,
         "Lat": -25.266666666666666,
         "Lng": -57.63333333333333
-    }]
+    }],
+    "AverageAge": 28,
+    "AverageHeight": 180
 }, {
     "team": "Peru",
     "id": 211,
@@ -2854,6 +3116,7 @@
         "BirthDate": "1990-04-23",
         "Age": 26,
         "Home": "Lima",
+        "Height": 188,
         "Club": "Juan Aurich",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -2868,6 +3131,7 @@
         "BirthDate": "1984-04-22",
         "Age": 32,
         "Home": "Lima",
+        "Height": 197,
         "Club": "Sporting Cristal",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -2882,6 +3146,7 @@
         "BirthDate": "1986-10-13",
         "Age": 29,
         "Home": "Huaral",
+        "Height": 180,
         "Club": "Sporting Cristal",
         "Lat": -11.5,
         "Lng": -77.2
@@ -2892,6 +3157,7 @@
         "BirthDate": "1992-05-04",
         "Age": 24,
         "Home": "Callao",
+        "Height": 186,
         "Club": "Numancia",
         "Lat": -12.033333333333333,
         "Lng": -77.13333333333334
@@ -2902,6 +3168,7 @@
         "BirthDate": "1984-05-22",
         "Age": 32,
         "Home": "Arequipa",
+        "Height": 171,
         "Club": "Juan Aurich",
         "Lat": -16.383333333333333,
         "Lng": -71.53333333333333
@@ -2912,6 +3179,7 @@
         "BirthDate": "1989-05-20",
         "Age": 27,
         "Home": "Lima",
+        "Height": 175,
         "Club": "Universidad San Martín",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -2922,6 +3190,7 @@
         "BirthDate": "1988-11-04",
         "Age": 27,
         "Home": "Lima",
+        "Height": 185,
         "Club": "Juan Aurich",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -2936,6 +3205,7 @@
         "BirthDate": "1995-07-28",
         "Age": 20,
         "Home": "Lima",
+        "Height": 185,
         "Club": "Feyenoord",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -2946,6 +3216,7 @@
         "BirthDate": "1990-04-07",
         "Age": 26,
         "Home": "Callao",
+        "Height": 171,
         "Club": "Malmö FF",
         "Lat": -12.033333333333333,
         "Lng": -77.13333333333334
@@ -2960,6 +3231,7 @@
         "BirthDate": "1992-06-19",
         "Age": 23,
         "Home": "Caracas",
+        "Height": 187,
         "Club": "VfL Wolfsburg",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -2970,6 +3242,7 @@
         "BirthDate": "1994-05-19",
         "Age": 22,
         "Home": "Alcalá de Henares",
+        "Height": 172,
         "Club": "Charleroi",
         "Lat": 40.46666666666667,
         "Lng": -3.3666666666666667
@@ -2980,6 +3253,7 @@
         "BirthDate": "1991-11-23",
         "Age": 24,
         "Home": "Trujillo",
+        "Height": 169,
         "Club": "Toluca"
     }, {
         "Name": "Edison Flores",
@@ -2988,6 +3262,7 @@
         "BirthDate": "1994-05-15",
         "Age": 22,
         "Home": "Lima",
+        "Height": 170,
         "Club": "Universitario",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -2998,6 +3273,7 @@
         "BirthDate": "1980-02-06",
         "Age": 36,
         "Home": "Lima",
+        "Height": 178,
         "Club": "Sporting Cristal",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -3008,6 +3284,7 @@
         "BirthDate": "1986-01-21",
         "Age": 30,
         "Home": "Chiclayo",
+        "Height": 182,
         "Club": "Juan Aurich"
     }, {
         "Name": "Beto Da Silva",
@@ -3020,6 +3297,7 @@
         "BirthDate": "1978-10-03",
         "Age": 37,
         "Home": "Callao",
+        "Height": 184,
         "Club": "Werder Bremen",
         "Lat": -12.033333333333333,
         "Lng": -77.13333333333334
@@ -3030,6 +3308,7 @@
         "BirthDate": "1994-09-29",
         "Age": 21,
         "Home": "Lima",
+        "Height": 175,
         "Club": "Universitario",
         "Lat": -12.043333333333333,
         "Lng": -77.02833333333334
@@ -3037,7 +3316,9 @@
         "Name": "Raul Ruidíaz",
         "Wikipedia": "Raul_Ruidíaz",
         "Position": "Forward"
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 180
 }, {
     "team": "Venezuela",
     "id": 213,
@@ -3056,6 +3337,7 @@
         "BirthDate": "1989-10-23",
         "Age": 26,
         "Home": "Caracas",
+        "Height": 183,
         "Club": "AEK Athens",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3074,6 +3356,7 @@
         "BirthDate": "1985-03-29",
         "Age": 31,
         "Home": "Cantaura",
+        "Height": 192,
         "Club": "Fulham"
     }, {
         "Name": "Wilker Angel",
@@ -3082,6 +3365,7 @@
         "BirthDate": "1993-03-18",
         "Age": 23,
         "Home": "Valera",
+        "Height": 190,
         "Club": "Deportivo Táchira",
         "Lat": 9.3125,
         "Lng": -70.60694444444444
@@ -3101,6 +3385,7 @@
         "BirthDate": "1984-04-25",
         "Age": 32,
         "Home": "Caracas",
+        "Height": 186,
         "Club": "Sion",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3115,6 +3400,7 @@
         "BirthDate": "1986-02-28",
         "Age": 30,
         "Home": "Maracaibo",
+        "Height": 182,
         "Club": "Atlético CP",
         "Lat": 10.65,
         "Lng": -71.63333333333334
@@ -3125,6 +3411,7 @@
         "BirthDate": "1988-11-20",
         "Age": 27,
         "Home": "Caracas",
+        "Height": 174,
         "Club": "Málaga",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3135,6 +3422,7 @@
         "BirthDate": "1987-03-15",
         "Age": 29,
         "Home": "Caracas",
+        "Height": 187,
         "Club": "Buriram United",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3142,11 +3430,12 @@
         "Name": "José Velázquez",
         "Wikipedia": "José_Velázquez",
         "Position": "Defender",
-        "BirthDate": "1923-08-12",
-        "Age": 92,
+        "BirthDate": "1990-09-08",
+        "Age": 25,
         "Home": "Jalisco",
-        "Lat": 20.566666666666666,
-        "Lng": -103.68333333333334
+        "Height": 184,
+        "Lat": 8.0883,
+        "Lng": -63.5536
     }, {
         "Name": "Oswaldo Vizcarrondo",
         "Wikipedia": "Oswaldo_Vizcarrondo",
@@ -3154,6 +3443,7 @@
         "BirthDate": "1984-05-31",
         "Age": 31,
         "Home": "Caracas, Venezuela",
+        "Height": 192,
         "Club": "Nantes",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3164,6 +3454,7 @@
         "BirthDate": "1989-02-13",
         "Age": 27,
         "Home": "Caracas",
+        "Height": 182,
         "Club": "Mineros de Guayana",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3174,6 +3465,7 @@
         "BirthDate": "1994-01-24",
         "Age": 22,
         "Home": "Caracas",
+        "Height": 171,
         "Club": "Málaga",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3184,6 +3476,7 @@
         "BirthDate": "1980-05-17",
         "Age": 36,
         "Home": "Maracay",
+        "Height": 180,
         "Club": "New York Cosmos",
         "Lat": 10.246944444444443,
         "Lng": -67.5961111111111
@@ -3202,6 +3495,7 @@
         "BirthDate": "1985-07-09",
         "Age": 30,
         "Home": "Caracas",
+        "Height": 169,
         "Club": "Atletico Nacional",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3212,6 +3506,7 @@
         "BirthDate": "1981-02-20",
         "Age": 35,
         "Home": "Acarigua",
+        "Height": 181,
         "Club": "Once Caldas",
         "Lat": 9.559722222222224,
         "Lng": -69.20194444444445
@@ -3222,6 +3517,7 @@
         "BirthDate": "1992-11-09",
         "Age": 23,
         "Home": "Caracas",
+        "Height": 166,
         "Club": "Huachipato",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3232,6 +3528,7 @@
         "BirthDate": "1988-01-13",
         "Age": 28,
         "Home": "San Cristobal",
+        "Height": 175,
         "Club": "Genoa",
         "Lat": 7.766666666666667,
         "Lng": -72.23333333333333
@@ -3245,6 +3542,7 @@
         "Position": "Midfielder",
         "BirthDate": "1986-12-02",
         "Age": 29,
+        "Height": 174,
         "Club": "AEK Athens"
     }, {
         "Name": "Juan Manuel Falcón",
@@ -3253,6 +3551,7 @@
         "BirthDate": "1989-02-24",
         "Age": 27,
         "Home": "Acarigua",
+        "Height": 179,
         "Club": "Al-Fateh",
         "Lat": 9.559722222222224,
         "Lng": -69.20194444444445
@@ -3267,6 +3566,7 @@
         "BirthDate": "1993-05-19",
         "Age": 23,
         "Home": "Valencia",
+        "Height": 170,
         "Club": "Torino",
         "Lat": 10.183333333333334,
         "Lng": -68
@@ -3281,6 +3581,7 @@
         "BirthDate": "1989-03-23",
         "Age": 27,
         "Home": "Cumaná",
+        "Height": 182,
         "Club": "Al-Ittihad",
         "Lat": 10.456388888888888,
         "Lng": -64.1675
@@ -3295,6 +3596,7 @@
         "BirthDate": "1986-03-26",
         "Age": 30,
         "Home": "Caracas",
+        "Height": 182,
         "Club": "Shijiazhuang Ever Bright",
         "Lat": 10.5,
         "Lng": -66.91666666666667
@@ -3305,10 +3607,13 @@
         "BirthDate": "1988-03-24",
         "Age": 28,
         "Home": "Puerto Ordaz",
+        "Height": 183,
         "Club": "free agent",
         "Lat": 8.183333333333334,
         "Lng": -62.43333333333333
-    }]
+    }],
+    "AverageAge": 34,
+    "AverageHeight": 180
 }, {
     "team": "Mexico",
     "id": 203,
@@ -3331,6 +3636,7 @@
         "BirthDate": "1980-02-01",
         "Age": 36,
         "Home": "Morelia",
+        "Height": 185,
         "Club": "América",
         "Lat": 19.76833333333333,
         "Lng": -101.18944444444445
@@ -3341,6 +3647,7 @@
         "BirthDate": "1985-07-13",
         "Age": 30,
         "Home": "Guadalajara, Jalisco",
+        "Height": 185,
         "Club": "Málaga",
         "Lat": 20.666666666666668,
         "Lng": -103.35
@@ -3351,6 +3658,7 @@
         "BirthDate": "1986-05-12",
         "Age": 30,
         "Home": "Monterrey",
+        "Height": 184,
         "Club": "Monterrey",
         "Lat": 25.666666666666668,
         "Lng": -100.3
@@ -3361,6 +3669,7 @@
         "BirthDate": "1981-03-06",
         "Age": 35,
         "Home": "Mexico City",
+        "Height": 190,
         "Club": "UNAM",
         "Lat": 19.433333333333334,
         "Lng": -99.13333333333334
@@ -3371,6 +3680,7 @@
         "BirthDate": "1982-09-18",
         "Age": 33,
         "Home": "La Barca, Jalisco",
+        "Height": 188,
         "Club": "Toluca",
         "Lat": 20.283333333333335,
         "Lng": -102.56666666666666
@@ -3381,6 +3691,7 @@
         "BirthDate": "1986-03-06",
         "Age": 30,
         "Home": "Concordia, Sinaloa",
+        "Height": 178,
         "Club": "América",
         "Lat": 23.288333333333334,
         "Lng": -106.0675
@@ -3391,6 +3702,7 @@
         "BirthDate": "1989-03-18",
         "Age": 27,
         "Home": "Morelia",
+        "Height": 183,
         "Club": "Guadalajara",
         "Lat": 19.76833333333333,
         "Lng": -101.18944444444445
@@ -3405,6 +3717,7 @@
         "BirthDate": "1987-03-31",
         "Age": 29,
         "Home": "Morelia",
+        "Height": 183,
         "Club": "UANL",
         "Lat": 19.76833333333333,
         "Lng": -101.18944444444445
@@ -3415,6 +3728,7 @@
         "BirthDate": "1987-07-28",
         "Age": 28,
         "Home": "Tepic",
+        "Height": 184,
         "Club": "Querétaro",
         "Lat": 21.508333333333333,
         "Lng": -104.89305555555556
@@ -3429,6 +3743,7 @@
         "BirthDate": "1971-08-14",
         "Age": 44,
         "Home": "Petorca",
+        "Height": 181,
         "Lat": -32.25138888888889,
         "Lng": -70.93138888888889
     }, {
@@ -3438,6 +3753,7 @@
         "BirthDate": "1967-03-18",
         "Age": 49,
         "Home": "Hidalgo",
+        "Height": 163,
         "Club": "Tijuana",
         "Lat": 20.483333333333334,
         "Lng": -98.86666666666666
@@ -3448,6 +3764,7 @@
         "BirthDate": "1989-08-13",
         "Age": 26,
         "Home": "Monterrey",
+        "Height": 172,
         "Club": "UANL",
         "Lat": 25.666666666666668,
         "Lng": -100.3
@@ -3458,6 +3775,7 @@
         "BirthDate": "1988-06-25",
         "Age": 27,
         "Home": "Córdoba",
+        "Height": 178,
         "Club": "Porto",
         "Lat": 18.894166666666667,
         "Lng": -96.93472222222222
@@ -3468,6 +3786,7 @@
         "BirthDate": "1990-09-17",
         "Age": 25,
         "Home": "Mexico City",
+        "Height": 185,
         "Club": "Philadelphia Union",
         "Lat": 19.433333333333334,
         "Lng": -99.13333333333334
@@ -3482,6 +3801,7 @@
         "BirthDate": "1979-02-13",
         "Age": 37,
         "Home": "Zamora",
+        "Height": 183,
         "Club": "Atlas",
         "Lat": 19.983333333333334,
         "Lng": -102.28333333333333
@@ -3496,6 +3816,7 @@
         "BirthDate": "1984-10-18",
         "Age": 31,
         "Home": "Coatzacoalcos",
+        "Height": 188,
         "Club": "UANL",
         "Lat": 18.15,
         "Lng": -94.43333333333334
@@ -3510,6 +3831,7 @@
         "BirthDate": "1993-09-29",
         "Age": 22,
         "Home": "Guadalajara",
+        "Height": 188,
         "Club": "Guadalajara",
         "Lat": 20.666666666666668,
         "Lng": -103.35
@@ -3520,6 +3842,7 @@
         "BirthDate": "1990-02-11",
         "Age": 26,
         "Home": "Ixhuatán, Oaxaca",
+        "Height": 167,
         "Club": "UANL",
         "Lat": 16.35,
         "Lng": -94.48333333333333
@@ -3530,6 +3853,7 @@
         "BirthDate": "1990-08-28",
         "Age": 25,
         "Home": "San Jose",
+        "Height": 173,
         "Club": "Guadalajara",
         "Lat": 37.333333333333336,
         "Lng": -121.9
@@ -3540,6 +3864,7 @@
         "BirthDate": "1987-03-27",
         "Age": 29,
         "Home": "Mexico City",
+        "Height": 174,
         "Club": "UNAM",
         "Lat": 19.433333333333334,
         "Lng": -99.13333333333334
@@ -3554,6 +3879,7 @@
         "BirthDate": "1992-11-07",
         "Age": 23,
         "Home": "Tuxpan",
+        "Height": 180,
         "Club": "UANL",
         "Lat": 20.95,
         "Lng": -97.4
@@ -3564,6 +3890,7 @@
         "BirthDate": "1990-04-26",
         "Age": 26,
         "Home": "Monterrey",
+        "Height": 172,
         "Club": "Villarreal",
         "Lat": 25.666666666666668,
         "Lng": -100.3
@@ -3573,6 +3900,7 @@
         "Position": "Midfielder",
         "BirthDate": "1989-07-21",
         "Age": 26,
+        "Height": 171,
         "Club": "Eintracht Frankfurt"
     }, {
         "Name": "Andrés Guardado",
@@ -3581,6 +3909,7 @@
         "BirthDate": "1986-09-28",
         "Age": 29,
         "Home": "Guadalajara",
+        "Height": 167,
         "Club": "PSV",
         "Lat": 20.666666666666668,
         "Lng": -103.35
@@ -3591,6 +3920,7 @@
         "BirthDate": "1995-06-15",
         "Age": 20,
         "Home": "Los Mochis",
+        "Height": 177,
         "Club": "Pachuca"
     }, {
         "Name": "Javier Güemez",
@@ -3599,6 +3929,7 @@
         "BirthDate": "1991-10-17",
         "Age": 24,
         "Home": "Culiacán",
+        "Height": 173,
         "Club": "América"
     }, {
         "Name": "Elias Hernández",
@@ -3607,6 +3938,7 @@
         "BirthDate": "1988-04-29",
         "Age": 28,
         "Home": "Morelia",
+        "Height": 171,
         "Club": "Leon",
         "Lat": 19.76833333333333,
         "Lng": -101.18944444444445
@@ -3621,6 +3953,7 @@
         "BirthDate": "1995-07-30",
         "Age": 20,
         "Home": "Mexico City",
+        "Height": 174,
         "Club": "Pachuca",
         "Lat": 19.433333333333334,
         "Lng": -99.13333333333334
@@ -3631,6 +3964,7 @@
         "BirthDate": "1988-03-29",
         "Age": 28,
         "Home": "Hermosillo",
+        "Height": 186,
         "Club": "Santos Laguna",
         "Lat": 29.098888888888887,
         "Lng": -110.95416666666667
@@ -3640,6 +3974,7 @@
         "Position": "Midfielder",
         "BirthDate": "1986-05-15",
         "Age": 30,
+        "Height": 165,
         "Club": "Léon"
     }, {
         "Name": "Carlos Peña",
@@ -3658,6 +3993,7 @@
         "BirthDate": "1993-06-05",
         "Age": 22,
         "Home": "León, Guanajuato",
+        "Height": 174,
         "Club": "Monterrey",
         "Lat": 21.116666666666667,
         "Lng": -101.68333333333334
@@ -3668,6 +4004,7 @@
         "BirthDate": "1988-01-16",
         "Age": 28,
         "Home": "Tijuana",
+        "Height": 180,
         "Club": "UANL",
         "Lat": 32.525,
         "Lng": -117.03333333333333
@@ -3682,6 +4019,7 @@
         "BirthDate": "1988-06-01",
         "Age": 27,
         "Home": "Guadalajara",
+        "Height": 175,
         "Club": "Bayer Leverkusen",
         "Lat": 20.666666666666668,
         "Lng": -103.35
@@ -3698,6 +4036,7 @@
         "BirthDate": "1991-05-05",
         "Age": 25,
         "Home": "Tepeji",
+        "Height": 190,
         "Club": "Benfica",
         "Lat": 19.903888888888886,
         "Lng": -99.34138888888889
@@ -3708,6 +4047,7 @@
         "BirthDate": "1992-11-18",
         "Age": 23,
         "Home": "Mérida, Yucatán",
+        "Height": 165,
         "Club": "Tijuana",
         "Lat": 20.97,
         "Lng": -89.61999999999999
@@ -3718,6 +4058,7 @@
         "BirthDate": "1984-01-12",
         "Age": 32,
         "Home": "Torreón",
+        "Height": 177,
         "Club": "América"
     }, {
         "Name": "Rodolfo Pizarro",
@@ -3726,10 +4067,13 @@
         "BirthDate": "1994-02-15",
         "Age": 22,
         "Home": "Tampico",
+        "Height": 173,
         "Club": "Pachuca",
         "Lat": 22.255277777777778,
         "Lng": -97.86861111111111
-    }]
+    }],
+    "AverageAge": 29,
+    "AverageHeight": 178
 }, {
     "team": "Colombia",
     "id": 208,
@@ -3748,6 +4092,7 @@
         "BirthDate": "1988-08-31",
         "Age": 27,
         "Home": "Medellín",
+        "Height": 183,
         "Club": "Arsenal",
         "Lat": 6.230833333333334,
         "Lng": -75.59055555555555
@@ -3758,6 +4103,7 @@
         "BirthDate": "1989-03-09",
         "Age": 27,
         "Home": "Bogota",
+        "Height": 185,
         "Lat": 4.598055555555555,
         "Lng": -74.07583333333334
     }, {
@@ -3767,6 +4113,7 @@
         "BirthDate": "1978-09-30",
         "Age": 37,
         "Home": "Florida",
+        "Height": 180,
         "Club": "Santa Fe",
         "Lat": 3.3274999999999997,
         "Lng": -76.23861111111111
@@ -3777,6 +4124,7 @@
         "BirthDate": "1992-01-13",
         "Age": 24,
         "Home": "Medellin, Colombia",
+        "Height": 177,
         "Club": "PSV",
         "Lat": 6.230833333333334,
         "Lng": -75.59055555555555
@@ -3791,6 +4139,7 @@
         "BirthDate": "1991-02-22",
         "Age": 25,
         "Home": "Manizales",
+        "Height": 172,
         "Club": "Boca Juniors",
         "Lat": 5.1,
         "Lng": -75.55
@@ -3801,6 +4150,7 @@
         "BirthDate": "1992-06-14",
         "Age": 23,
         "Home": "Envigado",
+        "Height": 179,
         "Club": "Pachuca",
         "Lat": 6.171944444444445,
         "Lng": -75.58027777777778
@@ -3815,6 +4165,7 @@
         "BirthDate": "1992-05-27",
         "Age": 23,
         "Home": "Cali",
+        "Height": 183,
         "Club": "Internazionale",
         "Lat": 3.4205555555555556,
         "Lng": -76.52222222222223
@@ -3825,6 +4176,7 @@
         "BirthDate": "1990-02-02",
         "Age": 26,
         "Home": "Barranquilla",
+        "Height": 184,
         "Club": "Santa Fe",
         "Lat": 10.963888888888889,
         "Lng": -74.79638888888888
@@ -3835,6 +4187,7 @@
         "BirthDate": "1986-09-30",
         "Age": 29,
         "Home": "Padilla",
+        "Height": 187,
         "Club": "Milan",
         "Lat": 3.2333333333333334,
         "Lng": -76.31666666666666
@@ -3845,6 +4198,7 @@
         "BirthDate": "1985-01-06",
         "Age": 31,
         "Home": "Bogotá",
+        "Height": 185,
         "Club": "Belenenses",
         "Lat": 4.598055555555555,
         "Lng": -74.07583333333334
@@ -3855,6 +4209,7 @@
         "BirthDate": "1992-12-08",
         "Age": 23,
         "Home": "Medellín",
+        "Height": 183,
         "Club": "Monterrey",
         "Lat": 6.230833333333334,
         "Lng": -75.59055555555555
@@ -3865,6 +4220,7 @@
         "BirthDate": "1988-05-26",
         "Age": 27,
         "Home": "Necoclí",
+        "Height": 178,
         "Club": "Chelsea",
         "Lat": 8.416666666666666,
         "Lng": -76.78333333333333
@@ -3875,6 +4231,7 @@
         "BirthDate": "1992-10-14",
         "Age": 23,
         "Home": "Barranquilla",
+        "Height": 176,
         "Club": "Flamengo",
         "Lat": 10.963888888888889,
         "Lng": -74.79638888888888
@@ -3895,6 +4252,7 @@
         "BirthDate": "1991-07-12",
         "Age": 24,
         "Home": "Cúcuta",
+        "Height": 180,
         "Club": "Real Madrid",
         "Lat": 7.894166666666666,
         "Lng": -72.5038888888889
@@ -3909,6 +4267,7 @@
         "BirthDate": "1986-09-08",
         "Age": 29,
         "Home": "Puerto Colombia",
+        "Height": 181,
         "Club": "Milan",
         "Lat": 11.016666666666667,
         "Lng": -74.88333333333334
@@ -3919,7 +4278,8 @@
         "BirthDate": "1990-05-19",
         "Age": 26,
         "Home": "Tumaco",
-        "Club": "Atletico Nacional",
+        "Height": 188,
+        "Club": "Panathinaikos",
         "Lat": 1.8066666666666666,
         "Lng": -78.76472222222222
     }, {
@@ -3929,6 +4289,7 @@
         "BirthDate": "1996-09-20",
         "Age": 19,
         "Home": "Medellín",
+        "Height": 171,
         "Club": "Atlético Nacional",
         "Lat": 6.230833333333334,
         "Lng": -75.59055555555555
@@ -3939,6 +4300,7 @@
         "BirthDate": "1991-04-16",
         "Age": 25,
         "Home": "Santo Tomás",
+        "Height": 178,
         "Club": "Sampdoria",
         "Lat": 10.766666666666667,
         "Lng": -74.91666666666667
@@ -3953,10 +4315,13 @@
         "BirthDate": "1986-01-22",
         "Age": 30,
         "Home": "Santander de Quilichao",
+        "Height": 185,
         "Club": "Borussia Dortmund",
         "Lat": 3.0130555555555554,
         "Lng": -76.32
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 181
 }, {
     "team": "Uruguay",
     "id": 212,
@@ -3979,6 +4344,7 @@
         "BirthDate": "1986-06-16",
         "Age": 29,
         "Home": "Buenos Aires",
+        "Height": 190,
         "Club": "Galatasaray",
         "Lat": -34.60333333333333,
         "Lng": -58.38166666666667
@@ -3989,6 +4355,7 @@
         "BirthDate": "1983-03-25",
         "Age": 33,
         "Home": "Montevideo",
+        "Height": 187,
         "Club": "Vasco da Gama",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -3999,6 +4366,7 @@
         "BirthDate": "1990-10-07",
         "Age": 25,
         "Home": "Montevideo",
+        "Height": 196,
         "Club": "Sporting",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4009,6 +4377,7 @@
         "BirthDate": "1984-11-19",
         "Age": 31,
         "Home": "Montevideo",
+        "Height": 178,
         "Club": "Nacional",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4019,6 +4388,7 @@
         "BirthDate": "1984-06-08",
         "Age": 31,
         "Home": "Montevideo",
+        "Height": 173,
         "Club": "Porto",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4029,6 +4399,7 @@
         "BirthDate": "1992-02-06",
         "Age": 24,
         "Home": "Montevideo",
+        "Height": 185,
         "Club": "Nacional",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4039,6 +4410,7 @@
         "BirthDate": "1994-03-05",
         "Age": 22,
         "Home": "Salto",
+        "Height": 185,
         "Club": "Torino",
         "Lat": -31.383333333333333,
         "Lng": -57.95
@@ -4049,6 +4421,7 @@
         "BirthDate": "1993-03-24",
         "Age": 23,
         "Home": "Montevideo",
+        "Height": 173,
         "Club": "Manchester United",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4059,6 +4432,7 @@
         "BirthDate": "1982-10-11",
         "Age": 33,
         "Home": "Montevideo",
+        "Height": 182,
         "Club": "Nacional",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4069,6 +4443,7 @@
         "BirthDate": "1982-01-01",
         "Age": 34,
         "Home": "Paysandú",
+        "Height": 168,
         "Club": "Atlas",
         "Lat": -32.32138888888889,
         "Lng": -58.07555555555556
@@ -4079,6 +4454,7 @@
         "BirthDate": "1994-06-01",
         "Age": 21,
         "Home": "Nuevo Berlín",
+        "Height": 172,
         "Club": "Cruzeiro",
         "Lat": -32.97916666666667,
         "Lng": -58.05277777777778
@@ -4093,6 +4469,7 @@
         "BirthDate": "1993-02-07",
         "Age": 23,
         "Home": "Montevideo",
+        "Height": 177,
         "Club": "Genoa",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4103,6 +4480,7 @@
         "BirthDate": "1989-03-21",
         "Age": 27,
         "Home": "Paysandú",
+        "Height": 170,
         "Club": "Boca Juniors",
         "Lat": -32.32138888888889,
         "Lng": -58.07555555555556
@@ -4113,6 +4491,7 @@
         "BirthDate": "1985-11-28",
         "Age": 30,
         "Home": "Montevideo",
+        "Height": 182,
         "Club": "Getafe",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4123,6 +4502,7 @@
         "BirthDate": "1985-09-30",
         "Age": 30,
         "Home": "Juan Lacaze",
+        "Height": 178,
         "Club": "Independiente",
         "Lat": -34.43111111111111,
         "Lng": -57.44833333333333
@@ -4137,6 +4517,7 @@
         "BirthDate": "1991-08-24",
         "Age": 24,
         "Home": "Canelones",
+        "Height": 187,
         "Club": "Fiorentina",
         "Lat": -34.516666666666666,
         "Lng": -56.28333333333333
@@ -4147,6 +4528,7 @@
         "BirthDate": "1987-02-14",
         "Age": 29,
         "Home": "Salto",
+        "Height": 184,
         "Club": "Paris Saint-Germain",
         "Lat": -31.383333333333333,
         "Lng": -57.95
@@ -4157,6 +4539,7 @@
         "BirthDate": "1990-08-08",
         "Age": 25,
         "Home": "Pando",
+        "Height": 185,
         "Club": "Hull City",
         "Lat": -34.71666666666667,
         "Lng": -55.958333333333336
@@ -4167,6 +4550,7 @@
         "BirthDate": "1993-03-24",
         "Age": 23,
         "Home": "Montevideo",
+        "Height": 176,
         "Club": "Bordeaux",
         "Lat": -34.88361111111111,
         "Lng": -56.18194444444444
@@ -4177,8 +4561,11 @@
         "BirthDate": "1987-01-24",
         "Age": 29,
         "Home": "Salto",
+        "Height": 182,
         "Club": "Barcelona",
         "Lat": -31.383333333333333,
         "Lng": -57.95
-    }]
+    }],
+    "AverageAge": 27,
+    "AverageHeight": 181
 }]
