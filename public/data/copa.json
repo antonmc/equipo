@@ -1,0 +1,4184 @@
+[{
+    "team": "Argentina",
+    "id": 202,
+    "flag": "ar",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Nahuel Guzmán",
+        "Wikipedia": "Nahuel_Guzmán",
+        "Position": "Goalkeeper",
+        "BirthDate": "1986-02-10",
+        "Age": 30,
+        "Home": "Rosario, Santa Fe",
+        "Club": "Tigres UANL",
+        "Lat": -32.95,
+        "Lng": -60.666666666666664
+    }, {
+        "Name": "Sergio Romero",
+        "Wikipedia": "Sergio_Romero",
+        "Position": "Goalkeeper",
+        "BirthDate": "1987-02-22",
+        "Age": 29,
+        "Home": "Bernardo de Irigoyen",
+        "Club": "Manchester United",
+        "Lat": -26.25,
+        "Lng": -53.983333333333334
+    }, {
+        "Name": "Gerónimo Rulli",
+        "Wikipedia": "Gerónimo_Rulli",
+        "Position": "Goalkeeper",
+        "BirthDate": "1992-05-20",
+        "Age": 24,
+        "Home": "La Plata",
+        "Club": "Real Sociedad",
+        "Lat": -34.92111111111111,
+        "Lng": -57.95444444444445
+    }, {
+        "Name": "Martín Demichelis",
+        "Wikipedia": "Martín_Demichelis",
+        "Position": "Defender",
+        "BirthDate": "1980-12-20",
+        "Age": 35,
+        "Club": "Manchester City"
+    }, {
+        "Name": "Ramiro Funes Mori",
+        "Wikipedia": "Ramiro_Funes_Mori",
+        "Position": "Defender",
+        "BirthDate": "1991-03-05",
+        "Age": 25,
+        "Home": "Mendoza, Argentina",
+        "Club": "Everton",
+        "Lat": -32.88333333333333,
+        "Lng": -68.81666666666666
+    }, {
+        "Name": "Gabriel Mercado",
+        "Wikipedia": "Gabriel_Mercado",
+        "Position": "Defender",
+        "BirthDate": "1987-03-18",
+        "Age": 29,
+        "Home": "Puerto Madryn",
+        "Club": "River Plate",
+        "Lat": -42.766666666666666,
+        "Lng": -65.05
+    }, {
+        "Name": "Mateo Musacchio",
+        "Wikipedia": "Mateo_Musacchio",
+        "Position": "Defender",
+        "BirthDate": "1990-08-26",
+        "Age": 25,
+        "Home": "Rosario",
+        "Club": "Villarreal",
+        "Lat": -32.95,
+        "Lng": -60.666666666666664
+    }, {
+        "Name": "Nicolás Otamendi",
+        "Wikipedia": "Nicolás_Otamendi",
+        "Position": "Defender",
+        "BirthDate": "1988-02-12",
+        "Age": 28,
+        "Home": "Buenos Aires",
+        "Club": "Manchester City",
+        "Lat": -34.60333333333333,
+        "Lng": -58.38166666666667
+    }, {
+        "Name": "Javier Pinola",
+        "Wikipedia": "Javier_Pinola",
+        "Position": "Defender",
+        "BirthDate": "1983-02-24",
+        "Age": 33,
+        "Home": "Olivos",
+        "Club": "Rosario Central",
+        "Lat": -34.5,
+        "Lng": -58.483333333333334
+    }, {
+        "Name": "Marcos Rojo",
+        "Wikipedia": "Marcos_Rojo",
+        "Position": "Defender",
+        "BirthDate": "1990-03-20",
+        "Age": 26,
+        "Home": "La Plata",
+        "Club": "Manchester United",
+        "Lat": -34.92111111111111,
+        "Lng": -57.95444444444445
+    }, {
+        "Name": "Facundo Roncaglia",
+        "Wikipedia": "Facundo_Roncaglia",
+        "Position": "Defender",
+        "BirthDate": "1987-02-10",
+        "Age": 29,
+        "Home": "Chajarí",
+        "Club": "Fiorentina",
+        "Lat": -30.766666666666666,
+        "Lng": -57.983333333333334
+    }, {
+        "Name": "Leonel Vangioni",
+        "Wikipedia": "Leonel_Vangioni",
+        "Position": "Defender",
+        "BirthDate": "1987-05-05",
+        "Age": 29,
+        "Home": "Villa Constitución",
+        "Club": "River Plate",
+        "Lat": -33.233333333333334,
+        "Lng": -60.333333333333336
+    }, {
+        "Name": "Pablo Zabaleta",
+        "Wikipedia": "Pablo_Zabaleta",
+        "Position": "Defender",
+        "BirthDate": "1985-01-16",
+        "Age": 31,
+        "Home": "Buenos Aires",
+        "Club": "Manchester City",
+        "Lat": -34.60333333333333,
+        "Lng": -58.38166666666667
+    }, {
+        "Name": "Ever Banega",
+        "Wikipedia": "Ever_Banega",
+        "Position": "Midfielder",
+        "BirthDate": "1988-06-29",
+        "Age": 27,
+        "Home": "Rosario",
+        "Club": "Internazionale",
+        "Lat": -32.95,
+        "Lng": -60.666666666666664
+    }, {
+        "Name": "Lucas Biglia",
+        "Wikipedia": "Lucas_Biglia",
+        "Position": "Midfielder",
+        "BirthDate": "1986-01-30",
+        "Age": 30,
+        "Home": "Mercedes, Buenos Aires",
+        "Club": "Lazio",
+        "Lat": -34.65,
+        "Lng": -59.43333333333333
+    }, {
+        "Name": "Ángel Correa",
+        "Wikipedia": "Ángel_Correa",
+        "Position": "Midfielder",
+        "BirthDate": "1995-03-09",
+        "Age": 21,
+        "Home": "Rosario",
+        "Club": "Atlético Madrid",
+        "Lat": -32.95,
+        "Lng": -60.666666666666664
+    }, {
+        "Name": "Ángel Di María",
+        "Wikipedia": "Ángel_Di_María",
+        "Position": "Midfielder",
+        "BirthDate": "1988-02-14",
+        "Age": 28,
+        "Home": "Rosario",
+        "Club": "Paris Saint-Germain",
+        "Lat": -32.95,
+        "Lng": -60.666666666666664
+    }, {
+        "Name": "Augusto Fernández",
+        "Wikipedia": "Augusto_Fernández",
+        "Position": "Midfielder",
+        "BirthDate": "1986-04-10",
+        "Age": 30,
+        "Home": "Pergamino",
+        "Club": "Atlético Madrid",
+        "Lat": -33.88333333333333,
+        "Lng": -60.56666666666667
+    }, {
+        "Name": "Matías Kranevitter",
+        "Wikipedia": "Matías_Kranevitter",
+        "Position": "Midfielder",
+        "BirthDate": "1993-05-21",
+        "Age": 23,
+        "Home": "San Miguel de Tucumán",
+        "Club": "Atlético Madrid"
+    }, {
+        "Name": "Erik Lamela",
+        "Wikipedia": "Erik_Lamela",
+        "Position": "Midfielder",
+        "BirthDate": "1992-03-04",
+        "Age": 24,
+        "Home": "Buenos Aires",
+        "Club": "Tottenham Hotspur",
+        "Lat": -34.60333333333333,
+        "Lng": -58.38166666666667
+    }, {
+        "Name": "Javier Mascherano",
+        "Wikipedia": "Javier_Mascherano",
+        "Position": "Midfielder",
+        "BirthDate": "1984-06-08",
+        "Age": 31,
+        "Home": "San Lorenzo",
+        "Club": "Barcelona",
+        "Lat": -32.75,
+        "Lng": -60.733333333333334
+    }, {
+        "Name": "Lautaro Acosta",
+        "Wikipedia": "Lautaro_Acosta",
+        "Position": "Forward",
+        "BirthDate": "1988-03-14",
+        "Age": 28,
+        "Home": "Glew",
+        "Club": "Lanús",
+        "Lat": -34.88333333333333,
+        "Lng": -58.38333333333333
+    }, {
+        "Name": "Sergio Agüero",
+        "Wikipedia": "Sergio_Agüero",
+        "Position": "Forward",
+        "BirthDate": "1988-06-02",
+        "Age": 27,
+        "Home": "Buenos Aires",
+        "Club": "Manchester City",
+        "Lat": -34.60333333333333,
+        "Lng": -58.38166666666667
+    }, {
+        "Name": "Paulo Dybala",
+        "Wikipedia": "Paulo_Dybala",
+        "Position": "Forward",
+        "BirthDate": "1993-11-15",
+        "Age": 22,
+        "Club": "Juventus"
+    }, {
+        "Name": "Gonzalo Higuaín",
+        "Wikipedia": "Gonzalo_Higuaín",
+        "Position": "Forward",
+        "BirthDate": "1987-12-10",
+        "Age": 28,
+        "Home": "Brest",
+        "Club": "Napoli",
+        "Lat": 48.38333333333333,
+        "Lng": -4.483333333333333
+    }, {
+        "Name": "Ezequiel Lavezzi",
+        "Wikipedia": "Ezequiel_Lavezzi",
+        "Position": "Forward",
+        "BirthDate": "1985-05-03",
+        "Age": 31,
+        "Home": "Villa Gobernador Gálvez",
+        "Club": "Hebei China Fortune",
+        "Lat": -33.025555555555556,
+        "Lng": -60.63361111111111
+    }]
+}, {
+    "team": "Brazil",
+    "id": 205,
+    "flag": "br",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Diego Alves",
+        "Wikipedia": "Diego_Alves",
+        "Position": "Goalkeeper",
+        "BirthDate": "1985-06-24",
+        "Age": 30,
+        "Home": "Rio de Janeiro",
+        "Club": "Valencia",
+        "Lat": -22.90833333333333,
+        "Lng": -43.19638888888888
+    }, {
+        "Name": "Marcelo Grohe",
+        "Wikipedia": "Marcelo_Grohe",
+        "Position": "Goalkeeper",
+        "BirthDate": "1987-01-13",
+        "Age": 29,
+        "Home": "Campo Bom",
+        "Club": "Grêmio",
+        "Lat": -29.67888888888889,
+        "Lng": -51.05277777777778
+    }, {
+        "Name": "Alisson Becker",
+        "Wikipedia": "Alisson_Becker",
+        "Position": "Goalkeeper",
+        "BirthDate": "1992-10-02",
+        "Age": 23,
+        "Home": "Novo Hamburgo",
+        "Lat": -29.67777777777778,
+        "Lng": -51.130833333333335
+    }, {
+        "Name": "Marquinhos",
+        "Wikipedia": "Marquinhos",
+        "Position": "Defender",
+        "BirthDate": "1994-05-14",
+        "Age": 22,
+        "Home": "São Paulo",
+        "Club": "Paris Saint-Germain",
+        "Lat": -23.55,
+        "Lng": -46.63333333333333
+    }, {
+        "Name": "Miranda",
+        "Wikipedia": "Miranda",
+        "Position": "Defender"
+    }, {
+        "Name": "Filipe Luís",
+        "Wikipedia": "Filipe_Luís",
+        "Position": "Defender",
+        "BirthDate": "1985-08-09",
+        "Age": 30,
+        "Home": "Jaraguá do Sul",
+        "Club": "Atlético Madrid",
+        "Lat": -26.483333333333334,
+        "Lng": -49.06666666666667
+    }, {
+        "Name": "Alex Sandro",
+        "Wikipedia": "Alex_Sandro",
+        "Position": "Defender",
+        "BirthDate": "1991-01-26",
+        "Age": 25,
+        "Home": "Catanduva",
+        "Club": "Juventus",
+        "Lat": -21.137777777777778,
+        "Lng": -48.97277777777778
+    }, {
+        "Name": "Gil",
+        "Wikipedia": "Gil",
+        "Position": "Defender"
+    }, {
+        "Name": "Dani Alves",
+        "Wikipedia": "Dani_Alves",
+        "Position": "Defender",
+        "BirthDate": "1983-05-06",
+        "Age": 33,
+        "Home": "Juazeiro",
+        "Club": "Barcelona",
+        "Lat": -9.430555555555555,
+        "Lng": -40.50277777777778
+    }, {
+        "Name": "Danilo",
+        "Wikipedia": "Danilo",
+        "Position": "Defender"
+    }, {
+        "Name": "Felipe",
+        "Wikipedia": "Felipe",
+        "Position": "Defender"
+    }, {
+        "Name": "Lucas Lima",
+        "Wikipedia": "Lucas_Lima",
+        "Position": "Midfielder",
+        "BirthDate": "1990-07-09",
+        "Age": 25,
+        "Home": "Marília",
+        "Club": "Santos",
+        "Lat": -22.21388888888889,
+        "Lng": -49.94583333333333
+    }, {
+        "Name": "Douglas Costa",
+        "Wikipedia": "Douglas_Costa",
+        "Position": "Midfielder",
+        "BirthDate": "1990-09-14",
+        "Age": 25,
+        "Home": "Sapucaia do Sul",
+        "Club": "Bayern Munich",
+        "Lat": -29.83888888888889,
+        "Lng": -51.14388888888889
+    }, {
+        "Name": "Philippe Coutinho",
+        "Wikipedia": "Philippe_Coutinho",
+        "Position": "Midfielder",
+        "BirthDate": "1992-06-12",
+        "Age": 23,
+        "Home": "Rio de Janeiro",
+        "Club": "Liverpool",
+        "Lat": -22.90833333333333,
+        "Lng": -43.19638888888888
+    }, {
+        "Name": "Willian",
+        "Wikipedia": "Willian",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Luiz Gustavo",
+        "Wikipedia": "Luiz_Gustavo",
+        "Position": "Midfielder",
+        "BirthDate": "1987-07-23",
+        "Age": 28,
+        "Home": "Pindamonhangaba",
+        "Club": "VfL Wolfsburg",
+        "Lat": -22.92388888888889,
+        "Lng": -45.461666666666666
+    }, {
+        "Name": "Fernandinho",
+        "Wikipedia": "Fernandinho",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Renato Augusto",
+        "Wikipedia": "Renato_Augusto",
+        "Position": "Midfielder",
+        "BirthDate": "1988-02-08",
+        "Age": 28,
+        "Home": "Rio de Janeiro",
+        "Club": "Beijing Guoan",
+        "Lat": -22.90833333333333,
+        "Lng": -43.19638888888888
+    }, {
+        "Name": "Oscar",
+        "Wikipedia": "Oscar",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Gabriel",
+        "Wikipedia": "Gabriel",
+        "Position": "Forward"
+    }, {
+        "Name": "Jonas",
+        "Wikipedia": "Jonas",
+        "Position": "Forward"
+    }, {
+        "Name": "Ricardo Oliveira",
+        "Wikipedia": "Ricardo_Oliveira",
+        "Position": "Forward",
+        "BirthDate": "1980-05-06",
+        "Age": 36,
+        "Home": "São Paulo",
+        "Club": "Santos",
+        "Lat": -23.55,
+        "Lng": -46.63333333333333
+    }]
+}, {
+    "team": "United-States",
+    "id": 660,
+    "flag": "us",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "David Bingham",
+        "Wikipedia": "David_Bingham",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Brad Guzan",
+        "Wikipedia": "Brad_Guzan",
+        "Position": "Goalkeeper",
+        "BirthDate": "1984-09-09",
+        "Age": 31,
+        "Home": "Evergreen Park, Illinois",
+        "Club": "Aston Villa",
+        "Lat": 41.72,
+        "Lng": -87.7025
+    }, {
+        "Name": "Ethan Horvath",
+        "Wikipedia": "Ethan_Horvath",
+        "Position": "Goalkeeper",
+        "BirthDate": "1995-06-09",
+        "Age": 20,
+        "Home": "Highlands Ranch, Colorado",
+        "Club": "Molde",
+        "Lat": 39.54194444444444,
+        "Lng": -104.97083333333333
+    }, {
+        "Name": "Tim Howard",
+        "Wikipedia": "Tim_Howard",
+        "Position": "Goalkeeper",
+        "BirthDate": "1979-03-06",
+        "Age": 37,
+        "Home": "North Brunswick, New Jersey",
+        "Club": "Everton",
+        "Lat": 40.45027777777778,
+        "Lng": -74.47944444444444
+    }, {
+        "Name": "Nick Rimando",
+        "Wikipedia": "Nick_Rimando",
+        "Position": "Goalkeeper",
+        "BirthDate": "1979-06-17",
+        "Age": 36,
+        "Home": "Montclair, California",
+        "Club": "Real Salt Lake",
+        "Lat": 34.0775,
+        "Lng": -117.68972222222223
+    }, {
+        "Name": "Ventura Alvarado",
+        "Wikipedia": "Ventura_Alvarado",
+        "Position": "Defender",
+        "BirthDate": "1992-08-16",
+        "Age": 23,
+        "Home": "Phoenix, Arizona",
+        "Club": "América",
+        "Lat": 33.45,
+        "Lng": -112.06666666666666
+    }, {
+        "Name": "Matt Besler",
+        "Wikipedia": "Matt_Besler",
+        "Position": "Defender",
+        "BirthDate": "1987-02-11",
+        "Age": 29,
+        "Home": "Overland Park, Kansas",
+        "Club": "Sporting Kansas City",
+        "Lat": 38.98222222222223,
+        "Lng": -94.67083333333333
+    }, {
+        "Name": "Steve Birnbaum",
+        "Wikipedia": "Steve_Birnbaum",
+        "Position": "Defender",
+        "BirthDate": "1991-01-23",
+        "Age": 25,
+        "Home": "Newport, California",
+        "Club": "D.C. United",
+        "Lat": 39.5775,
+        "Lng": -123.77472222222222
+    }, {
+        "Name": "John Brooks",
+        "Wikipedia": "John_Brooks",
+        "Position": "Defender"
+    }, {
+        "Name": "Geoff Cameron",
+        "Wikipedia": "Geoff_Cameron",
+        "Position": "Defender",
+        "BirthDate": "1985-07-11",
+        "Age": 30,
+        "Home": "Attleboro, Massachusetts",
+        "Club": "Stoke City",
+        "Lat": 41.93333333333333,
+        "Lng": -71.3
+    }, {
+        "Name": "Edgar Castillo",
+        "Wikipedia": "Edgar_Castillo",
+        "Position": "Defender",
+        "BirthDate": "1986-10-08",
+        "Age": 29,
+        "Home": "Las Cruces, New Mexico",
+        "Club": "Monterrey",
+        "Lat": 32.31444444444444,
+        "Lng": -106.77888888888889
+    }, {
+        "Name": "Timothy Chandler",
+        "Wikipedia": "Timothy_Chandler",
+        "Position": "Defender",
+        "BirthDate": "1990-03-29",
+        "Age": 26,
+        "Home": "Frankfurt",
+        "Club": "Eintracht Frankfurt",
+        "Lat": 50.11666666666667,
+        "Lng": 8.683333333333334
+    }, {
+        "Name": "Brad Evans",
+        "Wikipedia": "Brad_Evans",
+        "Position": "Defender",
+        "BirthDate": "1985-04-20",
+        "Age": 31,
+        "Home": "Phoenix, Arizona",
+        "Club": "Seattle Sounders FC",
+        "Lat": 33.45,
+        "Lng": -112.06666666666666
+    }, {
+        "Name": "Omar González",
+        "Wikipedia": "Omar_González",
+        "Position": "Defender"
+    }, {
+        "Name": "Fabian Johnson",
+        "Wikipedia": "Fabian_Johnson",
+        "Position": "Defender",
+        "BirthDate": "1987-12-11",
+        "Age": 28,
+        "Home": "Munich",
+        "Club": "Borussia Mönchengladbach",
+        "Lat": 48.13333333333333,
+        "Lng": 11.566666666666666
+    }, {
+        "Name": "Eric Lichaj",
+        "Wikipedia": "Eric_Lichaj",
+        "Position": "Defender",
+        "BirthDate": "1988-11-17",
+        "Age": 27,
+        "Home": "Downers Grove, Illinois",
+        "Club": "Nottingham Forest",
+        "Lat": 41.79472222222222,
+        "Lng": -88.01694444444445
+    }, {
+        "Name": "Matt Miazga",
+        "Wikipedia": "Matt_Miazga",
+        "Position": "Defender",
+        "BirthDate": "1995-07-19",
+        "Age": 20,
+        "Home": "Clifton, New Jersey",
+        "Club": "Chelsea",
+        "Lat": 40.86222222222222,
+        "Lng": -74.16027777777778
+    }, {
+        "Name": "Michael Orozco",
+        "Wikipedia": "Michael_Orozco",
+        "Position": "Defender",
+        "BirthDate": "1986-02-07",
+        "Age": 30,
+        "Home": "Orange, California",
+        "Club": "Tijuana",
+        "Lat": 33.80305555555555,
+        "Lng": -117.8325
+    }, {
+        "Name": "Tim Ream",
+        "Wikipedia": "Tim_Ream",
+        "Position": "Defender",
+        "BirthDate": "1987-10-05",
+        "Age": 28,
+        "Home": "St. Louis",
+        "Club": "Fulham",
+        "Lat": 38.62722222222222,
+        "Lng": -90.19777777777779
+    }, {
+        "Name": "Kellyn Acosta",
+        "Wikipedia": "Kellyn_Acosta",
+        "Position": "Midfielder",
+        "BirthDate": "1995-07-24",
+        "Age": 20,
+        "Home": "Plano, Texas",
+        "Club": "FC Dallas",
+        "Lat": 33.016666666666666,
+        "Lng": -96.68333333333334
+    }, {
+        "Name": "Kyle Beckerman",
+        "Wikipedia": "Kyle_Beckerman",
+        "Position": "Midfielder",
+        "BirthDate": "1982-04-23",
+        "Age": 34,
+        "Home": "Crofton, Maryland",
+        "Club": "Real Salt Lake",
+        "Lat": 39.00888888888889,
+        "Lng": -76.68111111111112
+    }, {
+        "Name": "Alejandro Bedoya",
+        "Wikipedia": "Alejandro_Bedoya",
+        "Position": "Midfielder",
+        "BirthDate": "1987-04-29",
+        "Age": 29,
+        "Home": "Englewood, New Jersey",
+        "Club": "Nantes",
+        "Lat": 40.89111111111111,
+        "Lng": -73.9725
+    }, {
+        "Name": "Michael Bradley",
+        "Wikipedia": "Michael_Bradley",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Mix Diskerud",
+        "Wikipedia": "Mix_Diskerud",
+        "Position": "Midfielder",
+        "BirthDate": "1990-10-02",
+        "Age": 25,
+        "Home": "Oslo",
+        "Club": "New York City FC",
+        "Lat": 59.95,
+        "Lng": 10.75
+    }, {
+        "Name": "Ethan Finlay",
+        "Wikipedia": "Ethan_Finlay",
+        "Position": "Midfielder",
+        "BirthDate": "1990-08-06",
+        "Age": 25,
+        "Home": "Duluth, Minnesota",
+        "Club": "Columbus Crew SC"
+    }, {
+        "Name": "Jermaine Jones",
+        "Wikipedia": "Jermaine_Jones",
+        "Position": "Midfielder",
+        "BirthDate": "1981-11-03",
+        "Age": 34,
+        "Home": "Frankfurt am Main",
+        "Club": "Colorado Rapids",
+        "Lat": 50.11666666666667,
+        "Lng": 8.683333333333334
+    }, {
+        "Name": "Perry Kitchen",
+        "Wikipedia": "Perry_Kitchen",
+        "Position": "Midfielder",
+        "BirthDate": "1992-02-29",
+        "Age": 24,
+        "Home": "Indianapolis, Indiana",
+        "Club": "Heart of Midlothian",
+        "Lat": 39.766666666666666,
+        "Lng": -86.15
+    }, {
+        "Name": "Alfredo Morales",
+        "Wikipedia": "Alfredo_Morales",
+        "Position": "Midfielder",
+        "BirthDate": "1990-05-12",
+        "Age": 26,
+        "Home": "Berlin",
+        "Club": "FC Ingolstadt 04",
+        "Lat": 52.516666666666666,
+        "Lng": 13.383333333333333
+    }, {
+        "Name": "Darlington Nagbe",
+        "Wikipedia": "Darlington_Nagbe",
+        "Position": "Midfielder",
+        "BirthDate": "1990-07-19",
+        "Age": 25,
+        "Home": "Monrovia",
+        "Club": "Portland Timbers",
+        "Lat": 6.3133333333333335,
+        "Lng": -10.801388888888889
+    }, {
+        "Name": "Lee Nguyen",
+        "Wikipedia": "Lee_Nguyen",
+        "Position": "Midfielder",
+        "BirthDate": "1986-10-07",
+        "Age": 29,
+        "Home": "Richardson, Texas",
+        "Club": "New England Revolution",
+        "Lat": 32.96555555555556,
+        "Lng": -96.71583333333334
+    }, {
+        "Name": "Christian Pulisic",
+        "Wikipedia": "Christian_Pulisic",
+        "Position": "Midfielder",
+        "BirthDate": "1998-09-18",
+        "Age": 17,
+        "Home": "Hershey, Pennsylvania",
+        "Club": "Borussia Dortmund",
+        "Lat": 40.27833333333333,
+        "Lng": -76.65111111111112
+    }, {
+        "Name": "Daniel Williams",
+        "Wikipedia": "Daniel_Williams",
+        "Position": "Midfielder"
+    }, {
+        "Name": "DeAndre Yedlin",
+        "Wikipedia": "DeAndre_Yedlin",
+        "Position": "Midfielder",
+        "BirthDate": "1993-07-09",
+        "Age": 22,
+        "Home": "Seattle, Washington",
+        "Club": "Sunderland",
+        "Lat": 47.609722222222224,
+        "Lng": -122.33305555555555
+    }, {
+        "Name": "Graham Zusi",
+        "Wikipedia": "Graham_Zusi",
+        "Position": "Midfielder",
+        "BirthDate": "1986-08-18",
+        "Age": 29,
+        "Home": "Longwood, Florida",
+        "Club": "Sporting Kansas City",
+        "Lat": 28.701944444444443,
+        "Lng": -81.345
+    }, {
+        "Name": "Jozy Altidore",
+        "Wikipedia": "Jozy_Altidore",
+        "Position": "Forward",
+        "BirthDate": "1989-11-06",
+        "Age": 26,
+        "Home": "Livingston, New Jersey",
+        "Club": "Toronto FC",
+        "Lat": 40.78583333333333,
+        "Lng": -74.32916666666667
+    }, {
+        "Name": "Clint Dempsey",
+        "Wikipedia": "Clint_Dempsey",
+        "Position": "Forward",
+        "BirthDate": "1983-03-09",
+        "Age": 33,
+        "Home": "Nacogdoches, Texas",
+        "Club": "Seattle Sounders FC",
+        "Lat": 31.60888888888889,
+        "Lng": -94.65083333333334
+    }, {
+        "Name": "Jordan Morris",
+        "Wikipedia": "Jordan_Morris",
+        "Position": "Forward"
+    }, {
+        "Name": "Bobby Wood",
+        "Wikipedia": "Bobby_Wood",
+        "Position": "Forward"
+    }, {
+        "Name": "Gyasi Zardes",
+        "Wikipedia": "Gyasi_Zardes",
+        "Position": "Forward",
+        "BirthDate": "1991-09-02",
+        "Age": 24,
+        "Home": "Hawthorne, California",
+        "Club": "LA Galaxy",
+        "Lat": 33.91722222222222,
+        "Lng": -118.34861111111111
+    }]
+}, {
+    "team": "Chile",
+    "id": 207,
+    "flag": "cl",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Claudio Bravo",
+        "Wikipedia": "Claudio_Bravo",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Paulo Garcés",
+        "Wikipedia": "Paulo_Garcés",
+        "Position": "Goalkeeper",
+        "BirthDate": "1984-08-02",
+        "Age": 31,
+        "Home": "Parral, Chile",
+        "Club": "Colo-Colo",
+        "Lat": -36.15,
+        "Lng": -71.83333333333333
+    }, {
+        "Name": "Johnny Herrera",
+        "Wikipedia": "Johnny_Herrera",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Cristopher Toselli",
+        "Wikipedia": "Cristopher_Toselli",
+        "Position": "Goalkeeper",
+        "BirthDate": "1988-06-15",
+        "Age": 27,
+        "Home": "Antofagasta",
+        "Club": "Universidad Católica",
+        "Lat": -23.65,
+        "Lng": -70.4
+    }, {
+        "Name": "Miiko Albornoz",
+        "Wikipedia": "Miiko_Albornoz",
+        "Position": "Defender",
+        "BirthDate": "1990-11-30",
+        "Age": 25,
+        "Home": "Stockholm",
+        "Club": "Hannover 96",
+        "Lat": 59.32944444444445,
+        "Lng": 18.06861111111111
+    }, {
+        "Name": "Enzo Andía",
+        "Wikipedia": "Enzo_Andía",
+        "Position": "Defender",
+        "BirthDate": "1992-08-16",
+        "Age": 23,
+        "Home": "Ovalle",
+        "Club": "Espanyol",
+        "Lat": -30.6,
+        "Lng": -71.2
+    }, {
+        "Name": "Paulo Dí­az",
+        "Wikipedia": "Paulo_Dí­az",
+        "Position": "Defender"
+    }, {
+        "Name": "Mauricio Isla",
+        "Wikipedia": "Mauricio_Isla",
+        "Position": "Defender",
+        "BirthDate": "1988-06-12",
+        "Age": 27,
+        "Home": "Buin",
+        "Club": "Marseille",
+        "Lat": -33.733333333333334,
+        "Lng": -70.73333333333333
+    }, {
+        "Name": "Gonzalo Jara",
+        "Wikipedia": "Gonzalo_Jara",
+        "Position": "Defender",
+        "BirthDate": "1985-08-29",
+        "Age": 30,
+        "Home": "Hualpén",
+        "Club": "Universidad de Chile",
+        "Lat": -36.788333333333334,
+        "Lng": -73.08666666666666
+    }, {
+        "Name": "Gary Medel",
+        "Wikipedia": "Gary_Medel",
+        "Position": "Defender",
+        "BirthDate": "1987-08-03",
+        "Age": 28,
+        "Home": "Santiago, Chile",
+        "Club": "Internazionale",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Eugenio Mena",
+        "Wikipedia": "Eugenio_Mena",
+        "Position": "Defender",
+        "BirthDate": "1988-07-18",
+        "Age": 27,
+        "Home": "Viña del Mar",
+        "Club": "São Paulo",
+        "Lat": -33,
+        "Lng": -71.51666666666667
+    }, {
+        "Name": "Felipe Campos",
+        "Wikipedia": "Felipe_Campos",
+        "Position": "Defender",
+        "BirthDate": "1993-11-08",
+        "Age": 22,
+        "Home": "Santiago",
+        "Club": "Palestino",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Jean Beauséjour",
+        "Wikipedia": "Jean_Beauséjour",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Marcelo Díaz",
+        "Wikipedia": "Marcelo_Díaz",
+        "Position": "Midfielder",
+        "BirthDate": "1986-12-29",
+        "Age": 29,
+        "Home": "Santiago",
+        "Club": "Celta",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Matías Fernández",
+        "Wikipedia": "Matías_Fernández",
+        "Position": "Midfielder",
+        "BirthDate": "1986-05-15",
+        "Age": 30,
+        "Home": "Caballito",
+        "Club": "Fiorentina",
+        "Lat": -34.61666666666667,
+        "Lng": -58.45
+    }, {
+        "Name": "Felipe Gutiérrez",
+        "Wikipedia": "Felipe_Gutiérrez",
+        "Position": "Midfielder",
+        "BirthDate": "1990-10-08",
+        "Age": 25,
+        "Home": "Quintero, Chile",
+        "Club": "Twente",
+        "Lat": -32.78333333333333,
+        "Lng": -71.53333333333333
+    }, {
+        "Name": "Fernando Meneses",
+        "Wikipedia": "Fernando_Meneses",
+        "Position": "Midfielder",
+        "BirthDate": "1985-09-27",
+        "Age": 30,
+        "Home": "Maule",
+        "Club": "Veracruz",
+        "Lat": -35.53333333333333,
+        "Lng": -71.7
+    }, {
+        "Name": "Esteban Pavez",
+        "Wikipedia": "Esteban_Pavez",
+        "Position": "Midfielder",
+        "BirthDate": "1990-05-01",
+        "Age": 26,
+        "Home": "Santiago",
+        "Club": "Colo-Colo",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Bryan Rabello",
+        "Wikipedia": "Bryan_Rabello",
+        "Position": "Midfielder",
+        "BirthDate": "1994-05-16",
+        "Age": 22,
+        "Home": "Rancagua",
+        "Club": "Santos Laguna",
+        "Lat": -34.166666666666664,
+        "Lng": -70.75
+    }, {
+        "Name": "Francisco Silva",
+        "Wikipedia": "Francisco_Silva",
+        "Position": "Midfielder",
+        "BirthDate": "1986-02-11",
+        "Age": 30,
+        "Home": "Quillota",
+        "Club": "Chiapas",
+        "Lat": -32.86666666666667,
+        "Lng": -71.25
+    }, {
+        "Name": "Diego Valdés",
+        "Wikipedia": "Diego_Valdés",
+        "Position": "Midfielder",
+        "BirthDate": "1981-08-13",
+        "Age": 34,
+        "Home": "Cali",
+        "Club": "Depor",
+        "Lat": 3.4205555555555556,
+        "Lng": -76.52222222222223
+    }, {
+        "Name": "Arturo Vidal",
+        "Wikipedia": "Arturo_Vidal",
+        "Position": "Midfielder",
+        "BirthDate": "1987-05-22",
+        "Age": 29,
+        "Home": "Santiago",
+        "Club": "Bayern Munich",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Nicolás Castillo",
+        "Wikipedia": "Nicolás_Castillo",
+        "Position": "Forward",
+        "BirthDate": "1993-02-14",
+        "Age": 23,
+        "Home": "Santiago",
+        "Club": "Universidad Católica",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Angelo Henriquez",
+        "Wikipedia": "Angelo_Henriquez",
+        "Position": "Forward",
+        "BirthDate": "1994-04-13",
+        "Age": 22,
+        "Home": "Santiago",
+        "Club": "Dinamo Zagreb",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Fabián Orellana",
+        "Wikipedia": "Fabián_Orellana",
+        "Position": "Forward",
+        "BirthDate": "1986-01-27",
+        "Age": 30,
+        "Home": "Santiago",
+        "Club": "Celta",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Mauricio Pinilla",
+        "Wikipedia": "Mauricio_Pinilla",
+        "Position": "Forward",
+        "BirthDate": "1984-02-04",
+        "Age": 32,
+        "Home": "Santiago",
+        "Club": "Atalanta",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }, {
+        "Name": "Alexis Sánchez",
+        "Wikipedia": "Alexis_Sánchez",
+        "Position": "Forward",
+        "BirthDate": "1988-12-19",
+        "Age": 27,
+        "Home": "Tocopilla",
+        "Club": "Arsenal",
+        "Lat": -22.09638888888889,
+        "Lng": -70.2
+    }, {
+        "Name": "Jeisson Vargas",
+        "Wikipedia": "Jeisson_Vargas",
+        "Position": "Forward",
+        "BirthDate": "1997-09-15",
+        "Age": 18,
+        "Home": "Santiago",
+        "Club": "Universidad Católica",
+        "Lat": -33.45,
+        "Lng": -70.66666666666667
+    }]
+}, {
+    "team": "Bolivia",
+    "id": 204,
+    "flag": "bo",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Carlos Lampe",
+        "Wikipedia": "Carlos_Lampe",
+        "Position": "Goalkeeper",
+        "BirthDate": "1987-03-17",
+        "Age": 29,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Sport Boys Warnes",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Romel Quiñónez",
+        "Wikipedia": "Romel_Quiñónez",
+        "Position": "Goalkeeper",
+        "BirthDate": "1992-06-25",
+        "Age": 23,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Bolívar",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Juan Carlos Robles",
+        "Wikipedia": "Juan_Carlos_Robles",
+        "Position": "Goalkeeper",
+        "BirthDate": "1967-12-29",
+        "Age": 48
+    }, {
+        "Name": "Guillermo Viscarra",
+        "Wikipedia": "Guillermo_Viscarra",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Marvin Bejarano",
+        "Wikipedia": "Marvin_Bejarano",
+        "Position": "Defender",
+        "BirthDate": "1988-03-06",
+        "Age": 28,
+        "Home": "Tarija",
+        "Club": "Oriente Petrolero",
+        "Lat": -21.533333333333335,
+        "Lng": -64.73333333333333
+    }, {
+        "Name": "Diego Bejarano",
+        "Wikipedia": "Diego_Bejarano",
+        "Position": "Defender",
+        "BirthDate": "1991-08-24",
+        "Age": 24,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Panetolikos",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Nelson Cabrera",
+        "Wikipedia": "Nelson_Cabrera",
+        "Position": "Defender"
+    }, {
+        "Name": "Cristian Coimbra",
+        "Wikipedia": "Cristian_Coimbra",
+        "Position": "Defender",
+        "BirthDate": "1988-12-31",
+        "Age": 27,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Blooming",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Ronald  Eguino",
+        "Wikipedia": "Ronald__Eguino",
+        "Position": "Defender",
+        "BirthDate": "1988-02-20",
+        "Age": 28,
+        "Home": "Cochabamba",
+        "Club": "Bolívar",
+        "Lat": -17.383333333333333,
+        "Lng": -66.16666666666667
+    }, {
+        "Name": "Jorge Flores",
+        "Wikipedia": "Jorge_Flores",
+        "Position": "Defender"
+    }, {
+        "Name": "Ignacio García",
+        "Wikipedia": "Ignacio_García",
+        "Position": "Defender"
+    }, {
+        "Name": "Luis Gutierrez",
+        "Wikipedia": "Luis_Gutierrez",
+        "Position": "Defender",
+        "BirthDate": "1953-12-10",
+        "Age": 62
+    }, {
+        "Name": "Luis Marteli",
+        "Wikipedia": "Luis_Marteli",
+        "Position": "Defender"
+    }, {
+        "Name": "Edward Zenteno",
+        "Wikipedia": "Edward_Zenteno",
+        "Position": "Defender",
+        "BirthDate": "1984-12-05",
+        "Age": 31,
+        "Home": "Cochabamba",
+        "Club": "Wilstermann",
+        "Lat": -17.383333333333333,
+        "Lng": -66.16666666666667
+    }, {
+        "Name": "Pedro Azogue",
+        "Wikipedia": "Pedro_Azogue",
+        "Position": "Midfielder",
+        "BirthDate": "1994-12-06",
+        "Age": 21,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Oriente Petrolero",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Danny Bejarano",
+        "Wikipedia": "Danny_Bejarano",
+        "Position": "Midfielder",
+        "BirthDate": "1994-01-03",
+        "Age": 22,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Panetolikos",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Jhasmani Campos",
+        "Wikipedia": "Jhasmani_Campos",
+        "Position": "Midfielder",
+        "BirthDate": "1988-05-10",
+        "Age": 28,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Kazma",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Rudy Cardozo Fernandez",
+        "Wikipedia": "Rudy_Cardozo_Fernandez",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Raúl Castro",
+        "Wikipedia": "Raúl_Castro",
+        "Position": "Midfielder",
+        "BirthDate": "1931-06-03",
+        "Age": 84
+    }, {
+        "Name": "Alejandro Chumacero",
+        "Wikipedia": "Alejandro_Chumacero",
+        "Position": "Midfielder",
+        "BirthDate": "1991-04-22",
+        "Age": 25,
+        "Home": "La Paz",
+        "Club": "The Strongest",
+        "Lat": -16.5,
+        "Lng": -68.15
+    }, {
+        "Name": "Samuel Galindo",
+        "Wikipedia": "Samuel_Galindo",
+        "Position": "Midfielder",
+        "BirthDate": "1992-04-18",
+        "Age": 24,
+        "Home": "Santa Cruz",
+        "Club": "Petrolero",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Sebastían Gamarra",
+        "Wikipedia": "Sebastían_Gamarra",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Cristhian Machado",
+        "Wikipedia": "Cristhian_Machado",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Alejandro Meleán",
+        "Wikipedia": "Alejandro_Meleán",
+        "Position": "Midfielder",
+        "BirthDate": "1987-06-16",
+        "Age": 28,
+        "Home": "Miami",
+        "Club": "Oriente Petrolero",
+        "Lat": 25.775277777777777,
+        "Lng": -80.2088888888889
+    }, {
+        "Name": "Omar Morales",
+        "Wikipedia": "Omar_Morales",
+        "Position": "Midfielder",
+        "BirthDate": "1985-12-20",
+        "Age": 30,
+        "Home": "Saint Martin",
+        "Club": "Orléans Attackers",
+        "Lat": 18.066666666666666,
+        "Lng": -63.05
+    }, {
+        "Name": "Mario Parrado",
+        "Wikipedia": "Mario_Parrado",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Erwin Mario Saavedra",
+        "Wikipedia": "Erwin_Mario_Saavedra",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Fernando Saucedo",
+        "Wikipedia": "Fernando_Saucedo",
+        "Position": "Midfielder",
+        "BirthDate": "1990-03-15",
+        "Age": 26,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Wilstermann",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Martin Smedberg-Dalence",
+        "Wikipedia": "Martin_Smedberg-Dalence",
+        "Position": "Midfielder",
+        "BirthDate": "1984-05-10",
+        "Age": 32,
+        "Home": "Norrköping",
+        "Club": "IFK Göteborg",
+        "Lat": 58.6,
+        "Lng": 16.2
+    }, {
+        "Name": "Wálter Veizaga",
+        "Wikipedia": "Wálter_Veizaga",
+        "Position": "Midfielder",
+        "BirthDate": "1988-04-22",
+        "Age": 28,
+        "Home": "Cochabamba",
+        "Club": "The Strongest",
+        "Lat": -17.383333333333333,
+        "Lng": -66.16666666666667
+    }, {
+        "Name": "Carmelo Algarañaz Añez",
+        "Wikipedia": "Carmelo_Algarañaz_Añez",
+        "Position": "Forward"
+    }, {
+        "Name": "Juan Arce",
+        "Wikipedia": "Juan_Arce",
+        "Position": "Forward",
+        "BirthDate": "1985-04-10",
+        "Age": 31,
+        "Home": "Santa Cruz",
+        "Club": "Club Bolívar",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Yasmani Duk",
+        "Wikipedia": "Yasmani_Duk",
+        "Position": "Forward",
+        "BirthDate": "1988-03-01",
+        "Age": 28,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "New York Cosmos",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Eduardo Fierro",
+        "Wikipedia": "Eduardo_Fierro",
+        "Position": "Forward",
+        "BirthDate": "1988-06-23",
+        "Age": 27,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Ratchaburi Mitr Phol",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Luis Hurtado",
+        "Wikipedia": "Luis_Hurtado",
+        "Position": "Forward",
+        "Home": "Madrid",
+        "Lat": 40.38333333333333,
+        "Lng": -3.716666666666667
+    }, {
+        "Name": "Bruno Miranda",
+        "Wikipedia": "Bruno_Miranda",
+        "Position": "Forward",
+        "BirthDate": "1998-02-10",
+        "Age": 18,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Universidad de Chile",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Marcelo Moreno",
+        "Wikipedia": "Marcelo_Moreno",
+        "Position": "Forward",
+        "BirthDate": "1987-06-18",
+        "Age": 28,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "Changchun Yatai",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Rodrigo Ramallo",
+        "Wikipedia": "Rodrigo_Ramallo",
+        "Position": "Forward",
+        "BirthDate": "1990-10-14",
+        "Age": 25,
+        "Home": "Santa Cruz de la Sierra",
+        "Club": "The Strongest",
+        "Lat": -17.8,
+        "Lng": -63.18333333333333
+    }, {
+        "Name": "Rodrigo Vargas Touchard",
+        "Wikipedia": "Rodrigo_Vargas_Touchard",
+        "Position": "Forward"
+    }]
+}, {
+    "team": "Costa-Rica",
+    "id": 214,
+    "flag": "cr",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Esteban Alvarado",
+        "Wikipedia": "Esteban_Alvarado",
+        "Position": "Goalkeeper",
+        "BirthDate": "1989-04-28",
+        "Age": 27,
+        "Home": "Siquirres",
+        "Club": "Trabzonspor",
+        "Lat": 10.1,
+        "Lng": -83.51666666666667
+    }, {
+        "Name": "Keylor Navas",
+        "Wikipedia": "Keylor_Navas",
+        "Position": "Goalkeeper",
+        "BirthDate": "1986-12-15",
+        "Age": 29,
+        "Home": "Pérez Zeledón",
+        "Club": "Real Madrid",
+        "Lat": 9.341111111111111,
+        "Lng": -83.74055555555556
+    }, {
+        "Name": "Patrick Pemberton",
+        "Wikipedia": "Patrick_Pemberton",
+        "Position": "Goalkeeper",
+        "BirthDate": "1982-04-24",
+        "Age": 34,
+        "Home": "Puerto Limón",
+        "Club": "Alajuelense",
+        "Lat": 9.983333333333333,
+        "Lng": -83.03333333333333
+    }, {
+        "Name": "Johnny Acosta",
+        "Wikipedia": "Johnny_Acosta",
+        "Position": "Defender",
+        "BirthDate": "1983-07-21",
+        "Age": 32,
+        "Home": "Ciudad Quesada",
+        "Club": "Alajuelense",
+        "Lat": 10.323611111111111,
+        "Lng": -84.42694444444444
+    }, {
+        "Name": "Francisco Calvo",
+        "Wikipedia": "Francisco_Calvo",
+        "Position": "Defender",
+        "BirthDate": "1992-07-08",
+        "Age": 23,
+        "Home": "San José",
+        "Club": "Saprissa",
+        "Lat": 9.933333333333334,
+        "Lng": -84.08333333333333
+    }, {
+        "Name": "Óscar Duarte",
+        "Wikipedia": "Óscar_Duarte",
+        "Position": "Defender"
+    }, {
+        "Name": "Júnior Díaz",
+        "Wikipedia": "Júnior_Díaz",
+        "Position": "Defender",
+        "BirthDate": "1983-09-12",
+        "Age": 32,
+        "Home": "Heredia, Costa Rica",
+        "Club": "SV Darmstadt 98",
+        "Lat": 9.996388888888887,
+        "Lng": -84.11666666666666
+    }, {
+        "Name": "Cristian Gamboa",
+        "Wikipedia": "Cristian_Gamboa",
+        "Position": "Defender",
+        "BirthDate": "1989-10-24",
+        "Age": 26,
+        "Home": "Liberia, Costa Rica",
+        "Club": "West Bromwich Albion",
+        "Lat": 10.633333333333333,
+        "Lng": -85.43333333333334
+    }, {
+        "Name": "Giancarlo González",
+        "Wikipedia": "Giancarlo_González",
+        "Position": "Defender",
+        "BirthDate": "1988-02-08",
+        "Age": 28,
+        "Home": "Desamparados",
+        "Club": "Palermo",
+        "Lat": 9.9,
+        "Lng": -84.06666666666666
+    }, {
+        "Name": "Dave Myrie",
+        "Wikipedia": "Dave_Myrie",
+        "Position": "Defender",
+        "BirthDate": "1988-06-01",
+        "Age": 27,
+        "Home": "Puerto Viejo",
+        "Club": "Herediano",
+        "Lat": 9.658333333333333,
+        "Lng": -82.75277777777778
+    }, {
+        "Name": "Bryan Oviedo",
+        "Wikipedia": "Bryan_Oviedo",
+        "Position": "Defender",
+        "BirthDate": "1990-02-18",
+        "Age": 26,
+        "Home": "Ciudad Quesada",
+        "Club": "Everton",
+        "Lat": 10.323611111111111,
+        "Lng": -84.42694444444444
+    }, {
+        "Name": "Kendall Waston",
+        "Wikipedia": "Kendall_Waston",
+        "Position": "Defender",
+        "BirthDate": "1988-01-01",
+        "Age": 28,
+        "Home": "San José",
+        "Club": "Vancouver Whitecaps FC",
+        "Lat": 9.933333333333334,
+        "Lng": -84.08333333333333
+    }, {
+        "Name": "ElÃ­as Aguilar",
+        "Wikipedia": "ElÃ­as_Aguilar",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Celso Borges",
+        "Wikipedia": "Celso_Borges",
+        "Position": "Midfielder",
+        "BirthDate": "1988-05-27",
+        "Age": 27,
+        "Home": "San José, Costa Rica",
+        "Club": "Deportivo La Coruña",
+        "Lat": 9.933333333333334,
+        "Lng": -84.08333333333333
+    }, {
+        "Name": "Mauricio Castillo",
+        "Wikipedia": "Mauricio_Castillo",
+        "Position": "Midfielder",
+        "BirthDate": "1987-06-19",
+        "Age": 28,
+        "Home": "San José",
+        "Club": "Cartaginés",
+        "Lat": 9.933333333333334,
+        "Lng": -84.08333333333333
+    }, {
+        "Name": "Esteban Granados",
+        "Wikipedia": "Esteban_Granados",
+        "Position": "Midfielder",
+        "BirthDate": "1985-10-25",
+        "Age": 30,
+        "Home": "Cartago",
+        "Club": "Herediano",
+        "Lat": 9.866666666666667,
+        "Lng": -83.91666666666667
+    }, {
+        "Name": "David Guzman",
+        "Wikipedia": "David_Guzman",
+        "Position": "Midfielder",
+        "BirthDate": "1990-02-18",
+        "Age": 26,
+        "Home": "San José",
+        "Club": "Deportivo Saprissa",
+        "Lat": 9.933333333333334,
+        "Lng": -84.08333333333333
+    }, {
+        "Name": "Ronald Matarrita",
+        "Wikipedia": "Ronald_Matarrita",
+        "Position": "Midfielder",
+        "BirthDate": "1994-07-09",
+        "Age": 21,
+        "Home": "Costa Rica",
+        "Club": "New York City"
+    }, {
+        "Name": "Bryan Ruiz",
+        "Wikipedia": "Bryan_Ruiz",
+        "Position": "Midfielder",
+        "BirthDate": "1985-08-18",
+        "Age": 30,
+        "Home": "San José",
+        "Club": "Sporting CP",
+        "Lat": 9.933333333333334,
+        "Lng": -84.08333333333333
+    }, {
+        "Name": "Yeltsin Tejeda",
+        "Wikipedia": "Yeltsin_Tejeda",
+        "Position": "Midfielder",
+        "BirthDate": "1992-03-17",
+        "Age": 24,
+        "Home": "Limón",
+        "Club": "Evian",
+        "Lat": 9.983333333333333,
+        "Lng": -83.03333333333333
+    }, {
+        "Name": "Luís Miguel Valle",
+        "Wikipedia": "Luís_Miguel_Valle",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Deyver Vega",
+        "Wikipedia": "Deyver_Vega",
+        "Position": "Midfielder",
+        "BirthDate": "1992-09-19",
+        "Age": 23,
+        "Home": "Ciudad Quesada",
+        "Club": "Brann",
+        "Lat": 10.323611111111111,
+        "Lng": -84.42694444444444
+    }, {
+        "Name": "Joel Campbell",
+        "Wikipedia": "Joel_Campbell",
+        "Position": "Forward",
+        "BirthDate": "1992-06-26",
+        "Age": 23,
+        "Home": "San José",
+        "Club": "Arsenal",
+        "Lat": 9.933333333333334,
+        "Lng": -84.08333333333333
+    }, {
+        "Name": "Marcos Ureña",
+        "Wikipedia": "Marcos_Ureña",
+        "Position": "Forward"
+    }, {
+        "Name": "Johan Venegas",
+        "Wikipedia": "Johan_Venegas",
+        "Position": "Forward",
+        "BirthDate": "1988-11-27",
+        "Age": 27,
+        "Home": "Limón",
+        "Club": "Montreal Impact",
+        "Lat": 9.983333333333333,
+        "Lng": -83.03333333333333
+    }]
+}, {
+    "team": "Ecuador",
+    "id": 209,
+    "flag": "ec",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Librado Azcona",
+        "Wikipedia": "Librado_Azcona",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Máximo Banguera",
+        "Wikipedia": "Máximo_Banguera",
+        "Position": "Goalkeeper",
+        "BirthDate": "1985-12-16",
+        "Age": 30,
+        "Home": "Guayaquil",
+        "Club": "Barcelona",
+        "Lat": -2.183333333333333,
+        "Lng": -79.88333333333334
+    }, {
+        "Name": "Alexander Domínguez",
+        "Wikipedia": "Alexander_Domínguez",
+        "Position": "Goalkeeper",
+        "BirthDate": "1987-06-05",
+        "Age": 28,
+        "Home": "Tachina",
+        "Club": "LDU Quito"
+    }, {
+        "Name": "Esteban Dreer",
+        "Wikipedia": "Esteban_Dreer",
+        "Position": "Goalkeeper",
+        "BirthDate": "1981-11-11",
+        "Age": 34,
+        "Home": "Godoy Cruz",
+        "Club": "Emelec",
+        "Lat": -32.916666666666664,
+        "Lng": -68.83333333333333
+    }, {
+        "Name": "Gabriel Achilier",
+        "Wikipedia": "Gabriel_Achilier",
+        "Position": "Defender",
+        "BirthDate": "1985-03-24",
+        "Age": 31,
+        "Home": "Machala",
+        "Club": "Emelec",
+        "Lat": -3.2666666666666666,
+        "Lng": -79.96666666666667
+    }, {
+        "Name": "Darío Aimar",
+        "Wikipedia": "Darío_Aimar",
+        "Position": "Defender"
+    }, {
+        "Name": "Robert Arboleda",
+        "Wikipedia": "Robert_Arboleda",
+        "Position": "Defender"
+    }, {
+        "Name": "Walter Ayoví",
+        "Wikipedia": "Walter_Ayoví",
+        "Position": "Defender",
+        "BirthDate": "1979-08-11",
+        "Age": 36,
+        "Club": "Monterrey"
+    }, {
+        "Name": "Óscar Bagüí",
+        "Wikipedia": "Óscar_Bagüí",
+        "Position": "Defender",
+        "BirthDate": "1982-12-10",
+        "Age": 33,
+        "Home": "Esmeraldas",
+        "Club": "Emelec",
+        "Lat": 0.9686111111111111,
+        "Lng": -79.66027777777778
+    }, {
+        "Name": "Luis Caicedo",
+        "Wikipedia": "Luis_Caicedo",
+        "Position": "Defender",
+        "BirthDate": "1979-05-12",
+        "Age": 37,
+        "Home": "Esmeraldas",
+        "Club": "LDU Portoviejo",
+        "Lat": 0.9686111111111111,
+        "Lng": -79.66027777777778
+    }, {
+        "Name": "Frickson Erazo",
+        "Wikipedia": "Frickson_Erazo",
+        "Position": "Defender",
+        "BirthDate": "1988-05-05",
+        "Age": 28,
+        "Home": "Esmeraldas",
+        "Club": "Atlético Mineiro",
+        "Lat": 0.9686111111111111,
+        "Lng": -79.66027777777778
+    }, {
+        "Name": "Jorge Guagua",
+        "Wikipedia": "Jorge_Guagua",
+        "Position": "Defender",
+        "BirthDate": "1981-09-28",
+        "Age": 34,
+        "Home": "Esmeraldas",
+        "Club": "Emelec",
+        "Lat": 0.9686111111111111,
+        "Lng": -79.66027777777778
+    }, {
+        "Name": "Arturo Mina Meza",
+        "Wikipedia": "Arturo_Mina_Meza",
+        "Position": "Defender"
+    }, {
+        "Name": "Juan Paredes",
+        "Wikipedia": "Juan_Paredes",
+        "Position": "Defender"
+    }, {
+        "Name": "Mario Pineida",
+        "Wikipedia": "Mario_Pineida",
+        "Position": "Defender",
+        "BirthDate": "1992-07-06",
+        "Age": 23,
+        "Home": "Santo Domingo",
+        "Club": "Barcelona SC",
+        "Lat": -0.3333333333333333,
+        "Lng": -79.25
+    }, {
+        "Name": "Cristian Ramirez",
+        "Wikipedia": "Cristian_Ramirez",
+        "Position": "Defender",
+        "BirthDate": "1994-08-12",
+        "Age": 21,
+        "Home": "Santo Domingo",
+        "Club": "Ferencváros",
+        "Lat": -0.3333333333333333,
+        "Lng": -79.25
+    }, {
+        "Name": "Michael Arroyo",
+        "Wikipedia": "Michael_Arroyo",
+        "Position": "Midfielder",
+        "BirthDate": "1987-04-23",
+        "Age": 29,
+        "Home": "Guayaquil",
+        "Club": "América",
+        "Lat": -2.183333333333333,
+        "Lng": -79.88333333333334
+    }, {
+        "Name": "Alex Bolaños",
+        "Wikipedia": "Alex_Bolaños",
+        "Position": "Midfielder",
+        "BirthDate": "1985-01-22",
+        "Age": 31,
+        "Home": "San Lorenzo",
+        "Club": "Santa Cruz",
+        "Lat": 1.2658333333333334,
+        "Lng": -78.84138888888889
+    }, {
+        "Name": "Bryan Cabezas Segura",
+        "Wikipedia": "Bryan_Cabezas_Segura",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Segundo Castillo",
+        "Wikipedia": "Segundo_Castillo",
+        "Position": "Midfielder",
+        "BirthDate": "1982-05-15",
+        "Age": 34,
+        "Home": "San Lorenzo, Ecuador",
+        "Club": "Barcelona",
+        "Lat": 1.2658333333333334,
+        "Lng": -78.84138888888889
+    }, {
+        "Name": "Juan Cazares",
+        "Wikipedia": "Juan_Cazares",
+        "Position": "Midfielder",
+        "BirthDate": "1992-04-03",
+        "Age": 24,
+        "Home": "Quinindé",
+        "Club": "Atlético Mineiro",
+        "Lat": 0.32999999999999996,
+        "Lng": -79.48
+    }, {
+        "Name": "Fernando Gaibor",
+        "Wikipedia": "Fernando_Gaibor",
+        "Position": "Midfielder",
+        "BirthDate": "1991-10-08",
+        "Age": 24,
+        "Home": "Montalvo",
+        "Club": "Emelec"
+    }, {
+        "Name": "Carlos Gruezo",
+        "Wikipedia": "Carlos_Gruezo",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Alex Ibarra",
+        "Wikipedia": "Alex_Ibarra",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Pedro Larrea",
+        "Wikipedia": "Pedro_Larrea",
+        "Position": "Midfielder",
+        "BirthDate": "1986-05-21",
+        "Age": 30,
+        "Home": "Loja",
+        "Club": "El Nacional",
+        "Lat": -3.9833333333333334,
+        "Lng": -79.2
+    }, {
+        "Name": "Fidel Martínez",
+        "Wikipedia": "Fidel_Martínez",
+        "Position": "Midfielder",
+        "BirthDate": "1990-02-15",
+        "Age": 26,
+        "Home": "Sucumbios",
+        "Club": "UNAM",
+        "Lat": -0.08333333333333333,
+        "Lng": -76.88333333333334
+    }, {
+        "Name": "Jefferson Montero",
+        "Wikipedia": "Jefferson_Montero",
+        "Position": "Midfielder",
+        "BirthDate": "1989-09-01",
+        "Age": 26,
+        "Home": "Babahoyo",
+        "Club": "Swansea City",
+        "Lat": -1.8,
+        "Lng": -79.53999999999999
+    }, {
+        "Name": "Christian Noboa",
+        "Wikipedia": "Christian_Noboa",
+        "Position": "Midfielder",
+        "BirthDate": "1985-04-09",
+        "Age": 31,
+        "Home": "Guayaquil",
+        "Club": "Rostov",
+        "Lat": -2.183333333333333,
+        "Lng": -79.88333333333334
+    }, {
+        "Name": "Jefferson Orejuela",
+        "Wikipedia": "Jefferson_Orejuela",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Pedro Quinonez",
+        "Wikipedia": "Pedro_Quinonez",
+        "Position": "Midfielder",
+        "BirthDate": "1986-03-04",
+        "Age": 30,
+        "Home": "Esmeraldas",
+        "Club": "Emelec",
+        "Lat": 0.9686111111111111,
+        "Lng": -79.66027777777778
+    }, {
+        "Name": "José Quinteros",
+        "Wikipedia": "José_Quinteros",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Junior Sornoza",
+        "Wikipedia": "Junior_Sornoza",
+        "Position": "Midfielder",
+        "BirthDate": "1994-01-28",
+        "Age": 22,
+        "Home": "Portoviejo",
+        "Club": "Independiente DV",
+        "Lat": -1.0561111111111112,
+        "Lng": -80.45527777777778
+    }, {
+        "Name": "Antonio Valencia",
+        "Wikipedia": "Antonio_Valencia",
+        "Position": "Midfielder",
+        "BirthDate": "1985-08-04",
+        "Age": 30,
+        "Home": "Lago Agrio",
+        "Club": "Manchester United",
+        "Lat": 0.08472222222222221,
+        "Lng": -76.88277777777778
+    }, {
+        "Name": "José Angulo",
+        "Wikipedia": "José_Angulo",
+        "Position": "Forward",
+        "BirthDate": "1988-01-13",
+        "Age": 28,
+        "Home": "Barranquilla",
+        "Club": "Fort Lauderdale Strikers",
+        "Lat": 10.963888888888889,
+        "Lng": -74.79638888888888
+    }, {
+        "Name": "Daniel Angulo Arroyo",
+        "Wikipedia": "Daniel_Angulo_Arroyo",
+        "Position": "Forward"
+    }, {
+        "Name": "Jaime Ayoví",
+        "Wikipedia": "Jaime_Ayoví",
+        "Position": "Forward",
+        "BirthDate": "1988-02-21",
+        "Age": 28,
+        "Home": "Eloy Alfaro",
+        "Club": "Godoy Cruz",
+        "Lat": 1.25,
+        "Lng": -79
+    }, {
+        "Name": "Felipe Caicedo",
+        "Wikipedia": "Felipe_Caicedo",
+        "Position": "Forward",
+        "BirthDate": "1988-09-05",
+        "Age": 27,
+        "Home": "Guayaquil",
+        "Club": "Espanyol",
+        "Lat": -2.183333333333333,
+        "Lng": -79.88333333333334
+    }, {
+        "Name": "Angel Mena",
+        "Wikipedia": "Angel_Mena",
+        "Position": "Forward",
+        "BirthDate": "1988-01-21",
+        "Age": 28,
+        "Home": "Guayaquil",
+        "Club": "Emelec",
+        "Lat": -2.183333333333333,
+        "Lng": -79.88333333333334
+    }, {
+        "Name": "Enner Valencia",
+        "Wikipedia": "Enner_Valencia",
+        "Position": "Forward",
+        "BirthDate": "1989-11-04",
+        "Age": 26,
+        "Home": "San Lorenzo",
+        "Club": "West Ham United",
+        "Lat": 1.2658333333333334,
+        "Lng": -78.84138888888889
+    }]
+}, {
+    "team": "Haiti",
+    "id": 2654,
+    "flag": "ht",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Steward Ceus",
+        "Wikipedia": "Steward_Ceus",
+        "Position": "Goalkeeper",
+        "BirthDate": "1987-03-26",
+        "Age": 29,
+        "Home": "West Haverstraw, New York",
+        "Club": "Minnesota United FC",
+        "Lat": 41.20472222222222,
+        "Lng": -73.99055555555556
+    }, {
+        "Name": "Ronald Elusma",
+        "Wikipedia": "Ronald_Elusma",
+        "Position": "Goalkeeper",
+        "BirthDate": "1993-09-08",
+        "Age": 22,
+        "Home": "Petite Rivière de l'Artibonite",
+        "Club": "America des Cayes",
+        "Lat": 19.133333333333333,
+        "Lng": -72.48333333333333
+    }, {
+        "Name": "Johnny Placide",
+        "Wikipedia": "Johnny_Placide",
+        "Position": "Goalkeeper",
+        "BirthDate": "1988-01-29",
+        "Age": 28,
+        "Home": "Montfermeil",
+        "Club": "Stade de Reims",
+        "Lat": 48.9,
+        "Lng": 2.5666666666666664
+    }, {
+        "Name": "Jean Sony Alcenat",
+        "Wikipedia": "Jean_Sony_Alcenat",
+        "Position": "Defender"
+    }, {
+        "Name": "Andrew Jean-Baptiste",
+        "Wikipedia": "Andrew_Jean-Baptiste",
+        "Position": "Defender",
+        "BirthDate": "1992-06-16",
+        "Age": 23,
+        "Home": "Brooklyn, New York",
+        "Lat": 40.69277777777778,
+        "Lng": -73.99027777777778
+    }, {
+        "Name": "Frantz Bertin",
+        "Wikipedia": "Frantz_Bertin",
+        "Position": "Defender",
+        "BirthDate": "1983-05-30",
+        "Age": 32,
+        "Home": "Paris",
+        "Club": "Mumbai City",
+        "Lat": 48.85666666666667,
+        "Lng": 2.3508333333333336
+    }, {
+        "Name": "Reginal Goreux",
+        "Wikipedia": "Reginal_Goreux",
+        "Position": "Defender",
+        "BirthDate": "1987-12-31",
+        "Age": 28,
+        "Home": "Saint-Michel",
+        "Lat": 19.366666666666667,
+        "Lng": -72.33333333333333
+    }, {
+        "Name": "Bitielo Jean Jacques",
+        "Wikipedia": "Bitielo_Jean_Jacques",
+        "Position": "Defender",
+        "BirthDate": "1990-12-28",
+        "Age": 25,
+        "Home": "Port-au-Prince",
+        "Club": "Kraze United",
+        "Lat": 18.533333333333335,
+        "Lng": -72.33333333333333
+    }, {
+        "Name": "Kim Jaggy",
+        "Wikipedia": "Kim_Jaggy",
+        "Position": "Defender",
+        "BirthDate": "1982-11-14",
+        "Age": 33,
+        "Home": "Varen, Switzerland",
+        "Club": "FC Aarau",
+        "Lat": 46.31666666666667,
+        "Lng": 7.6
+    }, {
+        "Name": "Mechack Jerome",
+        "Wikipedia": "Mechack_Jerome",
+        "Position": "Defender",
+        "BirthDate": "1990-04-21",
+        "Age": 26,
+        "Home": "Liancourt",
+        "Club": "Jacksonville Armada",
+        "Lat": 19.135555555555555,
+        "Lng": -72.53333333333333
+    }, {
+        "Name": "Aveska Judelin",
+        "Wikipedia": "Aveska_Judelin",
+        "Position": "Defender"
+    }, {
+        "Name": "Kevin Lafrance",
+        "Wikipedia": "Kevin_Lafrance",
+        "Position": "Defender",
+        "BirthDate": "1990-01-13",
+        "Age": 26,
+        "Home": "Bondy",
+        "Club": "Miedź Legnica",
+        "Lat": 48.90222222222222,
+        "Lng": 2.4827777777777778
+    }, {
+        "Name": "Jean-Marc Alexandre",
+        "Wikipedia": "Jean-Marc_Alexandre",
+        "Position": "Midfielder",
+        "BirthDate": "1986-08-24",
+        "Age": 29,
+        "Home": "Verrettes",
+        "Club": "Fort Lauderdale Strikers",
+        "Lat": 19.05,
+        "Lng": -72.46666666666667
+    }, {
+        "Name": "Wilde-Donald Guerrier",
+        "Wikipedia": "Wilde-Donald_Guerrier",
+        "Position": "Midfielder",
+        "BirthDate": "1989-03-31",
+        "Age": 27,
+        "Home": "Port-à-Piment",
+        "Club": "Wisła Kraków",
+        "Lat": 18.25,
+        "Lng": -74.1
+    }, {
+        "Name": "James Marcelin",
+        "Wikipedia": "James_Marcelin",
+        "Position": "Midfielder",
+        "BirthDate": "1986-06-13",
+        "Age": 29,
+        "Home": "Saint-Marc",
+        "Club": "Carolina RailHawks",
+        "Lat": 19.116666666666667,
+        "Lng": -72.7
+    }, {
+        "Name": "Pascal Millien",
+        "Wikipedia": "Pascal_Millien",
+        "Position": "Midfielder",
+        "BirthDate": "1986-05-03",
+        "Age": 30,
+        "Home": "Léogâne",
+        "Club": "Jacksonville Armada",
+        "Lat": 18.510833333333334,
+        "Lng": -72.63388888888889
+    }, {
+        "Name": "Jean Junior Monuma",
+        "Wikipedia": "Jean_Junior_Monuma",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Sony Nordé",
+        "Wikipedia": "Sony_Nordé",
+        "Position": "Midfielder",
+        "BirthDate": "1989-07-27",
+        "Age": 26,
+        "Home": "Grand'Anse",
+        "Club": "Mohun Bagan",
+        "Lat": 18.666666666666668,
+        "Lng": -74.11666666666666
+    }, {
+        "Name": "Sebastien Thuriere",
+        "Wikipedia": "Sebastien_Thuriere",
+        "Position": "Midfielder",
+        "BirthDate": "1990-01-06",
+        "Age": 26,
+        "Home": "St. Petersburg, Florida",
+        "Club": "San Antonio FC",
+        "Lat": 27.773055555555555,
+        "Lng": -82.64
+    }, {
+        "Name": "Kervens Belfort",
+        "Wikipedia": "Kervens_Belfort",
+        "Position": "Forward",
+        "BirthDate": "1992-05-16",
+        "Age": 24,
+        "Home": "Petit-Goâve",
+        "Club": "1461 Trabzon",
+        "Lat": 18.43138888888889,
+        "Lng": -72.86694444444444
+    }, {
+        "Name": "Jean-Eude Maurice",
+        "Wikipedia": "Jean-Eude_Maurice",
+        "Position": "Forward"
+    }, {
+        "Name": "Duckens Nazon",
+        "Wikipedia": "Duckens_Nazon",
+        "Position": "Forward",
+        "BirthDate": "1994-04-07",
+        "Age": 22,
+        "Home": "Paris, France",
+        "Club": "Laval",
+        "Lat": 48.85666666666667,
+        "Lng": 2.3508333333333336
+    }]
+}, {
+    "team": "Jamaica",
+    "id": 1038,
+    "flag": "jm",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Andre Blake",
+        "Wikipedia": "Andre_Blake",
+        "Position": "Goalkeeper",
+        "BirthDate": "1990-11-21",
+        "Age": 25,
+        "Home": "May Pen",
+        "Club": "Philadelphia Union",
+        "Lat": 17.965,
+        "Lng": -77.245
+    }, {
+        "Name": "Dwayne Miller",
+        "Wikipedia": "Dwayne_Miller",
+        "Position": "Goalkeeper",
+        "BirthDate": "1987-07-14",
+        "Age": 28,
+        "Home": "St. Thomas",
+        "Lat": 17.9,
+        "Lng": -76.43333333333334
+    }, {
+        "Name": "Ryan Thompson",
+        "Wikipedia": "Ryan_Thompson",
+        "Position": "Goalkeeper",
+        "BirthDate": "1967-11-04",
+        "Age": 48
+    }, {
+        "Name": "Michael Hector",
+        "Wikipedia": "Michael_Hector",
+        "Position": "Defender",
+        "BirthDate": "1992-07-19",
+        "Age": 23,
+        "Home": "East Ham",
+        "Club": "Chelsea",
+        "Lat": 51.532222222222224,
+        "Lng": 0.05527777777777778
+    }, {
+        "Name": "Kemar Lawrence",
+        "Wikipedia": "Kemar_Lawrence",
+        "Position": "Defender",
+        "BirthDate": "1992-09-17",
+        "Age": 23,
+        "Home": "Kingston",
+        "Club": "New York Red Bulls",
+        "Lat": 17.983333333333334,
+        "Lng": -76.8
+    }, {
+        "Name": "Adrian Mariappa",
+        "Wikipedia": "Adrian_Mariappa",
+        "Position": "Defender",
+        "BirthDate": "1986-10-03",
+        "Age": 29,
+        "Home": "Harrow",
+        "Club": "Crystal Palace",
+        "Lat": 51.56666666666667,
+        "Lng": -0.3333333333333333
+    }, {
+        "Name": "Sean McFarlane",
+        "Wikipedia": "Sean_McFarlane",
+        "Position": "Defender"
+    }, {
+        "Name": "Wes Morgan",
+        "Wikipedia": "Wes_Morgan",
+        "Position": "Defender",
+        "BirthDate": "1984-01-21",
+        "Age": 32,
+        "Home": "Nottingham",
+        "Club": "Leicester City",
+        "Lat": 52.95,
+        "Lng": -1.1333333333333333
+    }, {
+        "Name": "Demar Phillips",
+        "Wikipedia": "Demar_Phillips",
+        "Position": "Defender",
+        "BirthDate": "1983-09-23",
+        "Age": 32,
+        "Home": "Kingston, Jamaica",
+        "Club": "Real Salt Lake",
+        "Lat": 17.983333333333334,
+        "Lng": -76.8
+    }, {
+        "Name": "Rodolph Austin",
+        "Wikipedia": "Rodolph_Austin",
+        "Position": "Midfielder",
+        "BirthDate": "1985-06-01",
+        "Age": 30,
+        "Home": "Clarendon Parish",
+        "Club": "Brøndby IF",
+        "Lat": 18,
+        "Lng": -77.28333333333333
+    }, {
+        "Name": "Simon Dawkins",
+        "Wikipedia": "Simon_Dawkins",
+        "Position": "Midfielder",
+        "BirthDate": "1987-12-01",
+        "Age": 28,
+        "Club": "San Jose Earthquakes"
+    }, {
+        "Name": "Joel Grant",
+        "Wikipedia": "Joel_Grant",
+        "Position": "Midfielder",
+        "BirthDate": "1987-08-27",
+        "Age": 28,
+        "Home": "Acton",
+        "Club": "Exeter City",
+        "Lat": 51.51361111111111,
+        "Lng": -0.27055555555555555
+    }, {
+        "Name": "Omar Holness",
+        "Wikipedia": "Omar_Holness",
+        "Position": "Midfielder",
+        "BirthDate": "1994-03-13",
+        "Age": 22,
+        "Home": "Kingston",
+        "Club": "Real Monarchs",
+        "Lat": 17.983333333333334,
+        "Lng": -76.8
+    }, {
+        "Name": "Chris Humphrey",
+        "Wikipedia": "Chris_Humphrey",
+        "Position": "Midfielder",
+        "BirthDate": "1987-09-19",
+        "Age": 28,
+        "Home": "Saint Catherine",
+        "Club": "Preston North End"
+    }, {
+        "Name": "Lance Laing",
+        "Wikipedia": "Lance_Laing",
+        "Position": "Midfielder",
+        "BirthDate": "1988-02-28",
+        "Age": 28,
+        "Home": "Trelawny Parish",
+        "Club": "Minnesota United FC",
+        "Lat": 18.383333333333333,
+        "Lng": -77.63333333333334
+    }, {
+        "Name": "Jobi McAnuff",
+        "Wikipedia": "Jobi_McAnuff",
+        "Position": "Midfielder",
+        "BirthDate": "1981-11-09",
+        "Age": 34,
+        "Home": "Edmonton",
+        "Lat": 51.61527777777778,
+        "Lng": -0.07083333333333333
+    }, {
+        "Name": "Garath McCleary",
+        "Wikipedia": "Garath_McCleary",
+        "Position": "Midfielder",
+        "BirthDate": "1987-05-15",
+        "Age": 29,
+        "Home": "Oxford",
+        "Club": "Reading",
+        "Lat": 51.75194444444445,
+        "Lng": -1.2577777777777779
+    }, {
+        "Name": "Je-Vaughn Watson",
+        "Wikipedia": "Je-Vaughn_Watson",
+        "Position": "Midfielder",
+        "BirthDate": "1983-10-22",
+        "Age": 32,
+        "Home": "Saint Catherine Parish",
+        "Club": "New England Revolution"
+    }, {
+        "Name": "Giles Barnes",
+        "Wikipedia": "Giles_Barnes",
+        "Position": "Forward",
+        "BirthDate": "1988-08-05",
+        "Age": 27,
+        "Home": "Barking",
+        "Club": "Houston Dynamo",
+        "Lat": 51.53333333333333,
+        "Lng": 0.08333333333333333
+    }, {
+        "Name": "Andre Clennon",
+        "Wikipedia": "Andre_Clennon",
+        "Position": "Forward",
+        "BirthDate": "1989-08-15",
+        "Age": 26,
+        "Home": "Portmore",
+        "Club": "VPS",
+        "Lat": 17.95,
+        "Lng": -76.88
+    }, {
+        "Name": "Darren Mattocks",
+        "Wikipedia": "Darren_Mattocks",
+        "Position": "Forward",
+        "BirthDate": "1990-09-02",
+        "Age": 25,
+        "Home": "Portmore",
+        "Club": "Portland Timbers",
+        "Lat": 17.95,
+        "Lng": -76.88
+    }, {
+        "Name": "Allan Ottey",
+        "Wikipedia": "Allan_Ottey",
+        "Position": "Forward",
+        "BirthDate": "1992-12-18",
+        "Age": 23,
+        "Club": "Montego Bay United"
+    }, {
+        "Name": "Michael Seaton",
+        "Wikipedia": "Michael_Seaton",
+        "Position": "Forward",
+        "BirthDate": "1923-01-16",
+        "Age": 93
+    }]
+}, {
+    "team": "Panama",
+    "id": 2659,
+    "flag": "pa",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "José Calderón",
+        "Wikipedia": "José_Calderón",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Luis Mejia",
+        "Wikipedia": "Luis_Mejia",
+        "Position": "Goalkeeper",
+        "BirthDate": "1991-03-16",
+        "Age": 25,
+        "Home": "Panama City",
+        "Club": "Nacional",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Jaime Penedo",
+        "Wikipedia": "Jaime_Penedo",
+        "Position": "Goalkeeper",
+        "BirthDate": "1981-09-26",
+        "Age": 34,
+        "Home": "Panama City",
+        "Club": "Deportivo Saprissa",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Felipe Baloy",
+        "Wikipedia": "Felipe_Baloy",
+        "Position": "Defender",
+        "BirthDate": "1981-02-24",
+        "Age": 35,
+        "Home": "Panama City",
+        "Club": "Atlas",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Rodriguez Carlos Ruben",
+        "Wikipedia": "Rodriguez_Carlos_Ruben",
+        "Position": "Defender"
+    }, {
+        "Name": "Harold Cummings",
+        "Wikipedia": "Harold_Cummings",
+        "Position": "Defender",
+        "BirthDate": "1992-03-01",
+        "Age": 24,
+        "Home": "Panama",
+        "Club": "LD Alajuelense"
+    }, {
+        "Name": "Erick Davis",
+        "Wikipedia": "Erick_Davis",
+        "Position": "Defender",
+        "BirthDate": "1991-03-31",
+        "Age": 25,
+        "Home": "Colón",
+        "Club": "Dunajská Streda",
+        "Lat": 9.357222222222221,
+        "Lng": -79.89861111111112
+    }, {
+        "Name": "Fidel Escobar",
+        "Wikipedia": "Fidel_Escobar",
+        "Position": "Defender",
+        "BirthDate": "1995-01-09",
+        "Age": 21,
+        "Club": "Sporting San Miguelito"
+    }, {
+        "Name": "Luis Henriquez",
+        "Wikipedia": "Luis_Henriquez",
+        "Position": "Defender",
+        "BirthDate": "1981-11-23",
+        "Age": 34,
+        "Home": "Panama City",
+        "Club": "Tauro",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Adolfo Machado",
+        "Wikipedia": "Adolfo_Machado",
+        "Position": "Defender",
+        "BirthDate": "1985-02-14",
+        "Age": 31,
+        "Home": "Panama City",
+        "Club": "Saprissa",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Roderick Miller",
+        "Wikipedia": "Roderick_Miller",
+        "Position": "Defender",
+        "BirthDate": "1924-10-20",
+        "Age": 91
+    }, {
+        "Name": "Leonel Parris",
+        "Wikipedia": "Leonel_Parris",
+        "Position": "Defender",
+        "BirthDate": "1982-06-13",
+        "Age": 33,
+        "Club": "Tauro"
+    }, {
+        "Name": "Roman Torres",
+        "Wikipedia": "Roman_Torres",
+        "Position": "Defender",
+        "BirthDate": "1986-03-20",
+        "Age": 30,
+        "Home": "Panama City",
+        "Club": "Seattle Sounders FC",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Ricardo Enrique Buitrago M.",
+        "Wikipedia": "Ricardo_Enrique_Buitrago_M.",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Armando Cooper",
+        "Wikipedia": "Armando_Cooper",
+        "Position": "Midfielder",
+        "BirthDate": "1987-11-26",
+        "Age": 28,
+        "Home": "Colón",
+        "Club": "Árabe Unido",
+        "Lat": 9.357222222222221,
+        "Lng": -79.89861111111112
+    }, {
+        "Name": "Anibal Godoy",
+        "Wikipedia": "Anibal_Godoy",
+        "Position": "Midfielder",
+        "BirthDate": "1990-02-10",
+        "Age": 26,
+        "Home": "Panama City",
+        "Club": "San Jose Earthquakes",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Gabriel",
+        "Wikipedia": "Gabriel",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Abdiel Macea",
+        "Wikipedia": "Abdiel_Macea",
+        "Position": "Midfielder"
+    }, {
+        "Name": "JosÃ© MuÃ±oz",
+        "Wikipedia": "JosÃ©_MuÃ±oz",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Valentin Pimentel",
+        "Wikipedia": "Valentin_Pimentel",
+        "Position": "Midfielder",
+        "BirthDate": "1991-05-30",
+        "Age": 24,
+        "Home": "Santa Ana, Panama City",
+        "Club": "La Equidad"
+    }, {
+        "Name": "Darwin Pinzon",
+        "Wikipedia": "Darwin_Pinzon",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Alberto Quintero",
+        "Wikipedia": "Alberto_Quintero",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Marcos Anibal Sanchez Mullins",
+        "Wikipedia": "Marcos_Anibal_Sanchez_Mullins",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Renan Yoriel Addles Daniels",
+        "Wikipedia": "Renan_Yoriel_Addles_Daniels",
+        "Position": "Forward"
+    }, {
+        "Name": "Abdiel Arroyo",
+        "Wikipedia": "Abdiel_Arroyo",
+        "Position": "Forward",
+        "BirthDate": "1993-12-13",
+        "Age": 22,
+        "Home": "Colón",
+        "Club": "RNK Split",
+        "Lat": 9.357222222222221,
+        "Lng": -79.89861111111112
+    }, {
+        "Name": "Rolando Blackburn",
+        "Wikipedia": "Rolando_Blackburn",
+        "Position": "Forward",
+        "BirthDate": "1990-01-09",
+        "Age": 26,
+        "Home": "San Joaquín, Panama",
+        "Club": "Comunicaciones"
+    }, {
+        "Name": "Roberto Nurse",
+        "Wikipedia": "Roberto_Nurse",
+        "Position": "Forward",
+        "BirthDate": "1983-12-16",
+        "Age": 32,
+        "Home": "Cuernavaca",
+        "Club": "Zacatecas",
+        "Lat": 18.91861111111111,
+        "Lng": -99.23416666666667
+    }, {
+        "Name": "Blas Pérez",
+        "Wikipedia": "Blas_Pérez",
+        "Position": "Forward",
+        "BirthDate": "1981-03-13",
+        "Age": 35,
+        "Home": "Panama City",
+        "Club": "Vancouver Whitecaps FC",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Luis Tejada",
+        "Wikipedia": "Luis_Tejada",
+        "Position": "Forward",
+        "BirthDate": "1982-03-28",
+        "Age": 34,
+        "Home": "Panama City",
+        "Club": "Juan Aurich",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }, {
+        "Name": "Gabriel Torres",
+        "Wikipedia": "Gabriel_Torres",
+        "Position": "Forward",
+        "BirthDate": "1988-10-31",
+        "Age": 27,
+        "Home": "Panama City",
+        "Club": "Zamora",
+        "Lat": 8.983333333333333,
+        "Lng": -79.51666666666667
+    }]
+}, {
+    "team": "Paraguay",
+    "id": 210,
+    "flag": "py",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Alfredo Ariel Aguilar",
+        "Wikipedia": "Alfredo_Ariel_Aguilar",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Antony Domingo Silva",
+        "Wikipedia": "Antony_Domingo_Silva",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Justo Villar",
+        "Wikipedia": "Justo_Villar",
+        "Position": "Goalkeeper",
+        "BirthDate": "1977-06-30",
+        "Age": 38,
+        "Home": "Cerrito, Paraguay",
+        "Club": "Colo-Colo",
+        "Lat": -27.32,
+        "Lng": -57.669999999999995
+    }, {
+        "Name": "Pablo Aguilar",
+        "Wikipedia": "Pablo_Aguilar",
+        "Position": "Defender"
+    }, {
+        "Name": "Fabián Balbuena",
+        "Wikipedia": "Fabián_Balbuena",
+        "Position": "Defender",
+        "BirthDate": "1991-08-23",
+        "Age": 24,
+        "Home": "Ciudad del Este",
+        "Club": "Corinthians",
+        "Lat": -25.516666666666666,
+        "Lng": -54.61666666666667
+    }, {
+        "Name": "Paulo Da Silva",
+        "Wikipedia": "Paulo_Da_Silva",
+        "Position": "Defender",
+        "BirthDate": "1980-02-01",
+        "Age": 36,
+        "Home": "Asunción",
+        "Club": "Toluca",
+        "Lat": -25.266666666666666,
+        "Lng": -57.63333333333333
+    }, {
+        "Name": "Gustavo Gómez",
+        "Wikipedia": "Gustavo_Gómez",
+        "Position": "Defender",
+        "BirthDate": "1993-05-06",
+        "Age": 23,
+        "Home": "San Juan Bautista",
+        "Club": "Lanús",
+        "Lat": -26.633333333333333,
+        "Lng": -57.166666666666664
+    }, {
+        "Name": "Juan PatiÃ±o",
+        "Wikipedia": "Juan_PatiÃ±o",
+        "Position": "Defender"
+    }, {
+        "Name": "Ivan Piris",
+        "Wikipedia": "Ivan_Piris",
+        "Position": "Defender",
+        "BirthDate": "1989-03-10",
+        "Age": 27,
+        "Home": "Itauguá",
+        "Club": "Udinese",
+        "Lat": -25.383333333333333,
+        "Lng": -57.333333333333336
+    }, {
+        "Name": "Blas Riveros",
+        "Wikipedia": "Blas_Riveros",
+        "Position": "Defender"
+    }, {
+        "Name": "Miguel Samudio",
+        "Wikipedia": "Miguel_Samudio",
+        "Position": "Defender",
+        "BirthDate": "1986-08-24",
+        "Age": 29,
+        "Home": "Capiatá",
+        "Club": "América",
+        "Lat": -25.35,
+        "Lng": -57.419999999999995
+    }, {
+        "Name": "Bruno Valdez",
+        "Wikipedia": "Bruno_Valdez",
+        "Position": "Defender",
+        "BirthDate": "1992-10-06",
+        "Age": 23,
+        "Home": "Fernando de la Mora",
+        "Club": "América",
+        "Lat": -25.32,
+        "Lng": -57.54
+    }, {
+        "Name": "Osvaldo Martínez",
+        "Wikipedia": "Osvaldo_Martínez",
+        "Position": "Midfielder",
+        "BirthDate": "1986-04-08",
+        "Age": 30,
+        "Home": "Luque",
+        "Club": "América",
+        "Lat": -25.27,
+        "Lng": -57.48722222222222
+    }, {
+        "Name": "Néstor Ortigoza",
+        "Wikipedia": "Néstor_Ortigoza",
+        "Position": "Midfielder",
+        "BirthDate": "1984-10-07",
+        "Age": 31,
+        "Home": "San Antonio de Padua",
+        "Club": "San Lorenzo",
+        "Lat": -34.666666666666664,
+        "Lng": -58.7
+    }, {
+        "Name": "Celso Ortiz",
+        "Wikipedia": "Celso_Ortiz",
+        "Position": "Midfielder",
+        "BirthDate": "1989-01-26",
+        "Age": 27,
+        "Home": "Asunción",
+        "Club": "AZ",
+        "Lat": -25.266666666666666,
+        "Lng": -57.63333333333333
+    }, {
+        "Name": "Richard Ortiz",
+        "Wikipedia": "Richard_Ortiz",
+        "Position": "Midfielder",
+        "BirthDate": "1990-05-22",
+        "Age": 26,
+        "Home": "Asunción",
+        "Club": "Toluca",
+        "Lat": -25.266666666666666,
+        "Lng": -57.63333333333333
+    }, {
+        "Name": "Hernán Pérez",
+        "Wikipedia": "Hernán_Pérez",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Rodrigo Rojas",
+        "Wikipedia": "Rodrigo_Rojas",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Óscar Romero",
+        "Wikipedia": "Óscar_Romero",
+        "Position": "Midfielder",
+        "BirthDate": "1917-08-15",
+        "Age": 98,
+        "Club": "Roman Catholic Church"
+    }, {
+        "Name": "Jonathan Santana",
+        "Wikipedia": "Jonathan_Santana",
+        "Position": "Midfielder",
+        "BirthDate": "1981-10-19",
+        "Age": 34,
+        "Home": "Buenos Aires",
+        "Club": "Cerro Porteño",
+        "Lat": -34.60333333333333,
+        "Lng": -58.38166666666667
+    }, {
+        "Name": "Lucas Barrios",
+        "Wikipedia": "Lucas_Barrios",
+        "Position": "Forward",
+        "BirthDate": "1984-11-13",
+        "Age": 31,
+        "Home": "San Fernando",
+        "Club": "Palmeiras",
+        "Lat": -34.45,
+        "Lng": -58.61666666666667
+    }, {
+        "Name": "Edgar Benítez",
+        "Wikipedia": "Edgar_Benítez",
+        "Position": "Forward",
+        "BirthDate": "1987-11-08",
+        "Age": 28,
+        "Home": "Repatriación",
+        "Club": "Queretaro",
+        "Lat": -25.529999999999998,
+        "Lng": -55.95
+    }, {
+        "Name": "Jorge Benítez",
+        "Wikipedia": "Jorge_Benítez",
+        "Position": "Forward",
+        "BirthDate": "1992-09-02",
+        "Age": 23,
+        "Club": "Cruz Azul"
+    }, {
+        "Name": "Derlis González",
+        "Wikipedia": "Derlis_González",
+        "Position": "Forward",
+        "BirthDate": "1994 -03-23",
+        "Age": null,
+        "Home": "Mariano Roque Alonso",
+        "Club": "Dynamo Kyiv",
+        "Lat": -25.21222222222222,
+        "Lng": -57.533055555555556
+    }, {
+        "Name": "Dario Lezcano",
+        "Wikipedia": "Dario_Lezcano",
+        "Position": "Forward",
+        "BirthDate": "1990-06-30",
+        "Age": 25,
+        "Home": "Asunción",
+        "Club": "FC Ingolstadt",
+        "Lat": -25.266666666666666,
+        "Lng": -57.63333333333333
+    }, {
+        "Name": "Antonio Sanabria",
+        "Wikipedia": "Antonio_Sanabria",
+        "Position": "Forward",
+        "BirthDate": "1996-03-04",
+        "Age": 20,
+        "Home": "San Lorenzo",
+        "Club": "Sporting Gijón",
+        "Lat": -25.34,
+        "Lng": -57.519999999999996
+    }, {
+        "Name": "Roque Santa Cruz",
+        "Wikipedia": "Roque_Santa_Cruz",
+        "Position": "Forward",
+        "BirthDate": "1981-08-16",
+        "Age": 34,
+        "Home": "Asunción",
+        "Lat": -25.266666666666666,
+        "Lng": -57.63333333333333
+    }]
+}, {
+    "team": "Peru",
+    "id": 211,
+    "flag": "pe",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Pedro Gallese",
+        "Wikipedia": "Pedro_Gallese",
+        "Position": "Goalkeeper",
+        "BirthDate": "1990-04-23",
+        "Age": 26,
+        "Home": "Lima",
+        "Club": "Juan Aurich",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Solomón Libman",
+        "Wikipedia": "Solomón_Libman",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Diego Penny",
+        "Wikipedia": "Diego_Penny",
+        "Position": "Goalkeeper",
+        "BirthDate": "1984-04-22",
+        "Age": 32,
+        "Home": "Lima",
+        "Club": "Sporting Cristal",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Luis Advincula Castrillon",
+        "Wikipedia": "Luis_Advincula_Castrillon",
+        "Position": "Defender"
+    }, {
+        "Name": "Adán Balbín",
+        "Wikipedia": "Adán_Balbín",
+        "Position": "Defender",
+        "BirthDate": "1986-10-13",
+        "Age": 29,
+        "Home": "Huaral",
+        "Club": "Sporting Cristal",
+        "Lat": -11.5,
+        "Lng": -77.2
+    }, {
+        "Name": "Alexander Callens",
+        "Wikipedia": "Alexander_Callens",
+        "Position": "Defender",
+        "BirthDate": "1992-05-04",
+        "Age": 24,
+        "Home": "Callao",
+        "Club": "Numancia",
+        "Lat": -12.033333333333333,
+        "Lng": -77.13333333333334
+    }, {
+        "Name": "Jair Cespedes",
+        "Wikipedia": "Jair_Cespedes",
+        "Position": "Defender",
+        "BirthDate": "1984-05-22",
+        "Age": 32,
+        "Home": "Arequipa",
+        "Club": "Juan Aurich",
+        "Lat": -16.383333333333333,
+        "Lng": -71.53333333333333
+    }, {
+        "Name": "Aldo Corzo",
+        "Wikipedia": "Aldo_Corzo",
+        "Position": "Defender",
+        "BirthDate": "1989-05-20",
+        "Age": 27,
+        "Home": "Lima",
+        "Club": "Universidad San Martín",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Christian Ramos",
+        "Wikipedia": "Christian_Ramos",
+        "Position": "Defender",
+        "BirthDate": "1988-11-04",
+        "Age": 27,
+        "Home": "Lima",
+        "Club": "Juan Aurich",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Alberto Rodríguez",
+        "Wikipedia": "Alberto_Rodríguez",
+        "Position": "Defender"
+    }, {
+        "Name": "Renato Tapia",
+        "Wikipedia": "Renato_Tapia",
+        "Position": "Defender",
+        "BirthDate": "1995-07-28",
+        "Age": 20,
+        "Home": "Lima",
+        "Club": "Feyenoord",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Yoshimar Yotún",
+        "Wikipedia": "Yoshimar_Yotún",
+        "Position": "Defender",
+        "BirthDate": "1990-04-07",
+        "Age": 26,
+        "Home": "Callao",
+        "Club": "Malmö FF",
+        "Lat": -12.033333333333333,
+        "Lng": -77.13333333333334
+    }, {
+        "Name": "Alexis Martín Arias",
+        "Wikipedia": "Alexis_Martín_Arias",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Carlos Ascues",
+        "Wikipedia": "Carlos_Ascues",
+        "Position": "Midfielder",
+        "BirthDate": "1992-06-19",
+        "Age": 23,
+        "Home": "Caracas",
+        "Club": "VfL Wolfsburg",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Cristian Benavente",
+        "Wikipedia": "Cristian_Benavente",
+        "Position": "Midfielder",
+        "BirthDate": "1994-05-19",
+        "Age": 22,
+        "Home": "Alcalá de Henares",
+        "Club": "Charleroi",
+        "Lat": 40.46666666666667,
+        "Lng": -3.3666666666666667
+    }, {
+        "Name": "Christian Cueva",
+        "Wikipedia": "Christian_Cueva",
+        "Position": "Midfielder",
+        "BirthDate": "1991-11-23",
+        "Age": 24,
+        "Home": "Trujillo",
+        "Club": "Toluca"
+    }, {
+        "Name": "Edison Flores",
+        "Wikipedia": "Edison_Flores",
+        "Position": "Midfielder",
+        "BirthDate": "1994-05-15",
+        "Age": 22,
+        "Home": "Lima",
+        "Club": "Universitario",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Carlos Lobaton",
+        "Wikipedia": "Carlos_Lobaton",
+        "Position": "Midfielder",
+        "BirthDate": "1980-02-06",
+        "Age": 36,
+        "Home": "Lima",
+        "Club": "Sporting Cristal",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Oscar Vilchez",
+        "Wikipedia": "Oscar_Vilchez",
+        "Position": "Midfielder",
+        "BirthDate": "1986-01-21",
+        "Age": 30,
+        "Home": "Chiclayo",
+        "Club": "Juan Aurich"
+    }, {
+        "Name": "Beto Da Silva",
+        "Wikipedia": "Beto_Da_Silva",
+        "Position": "Forward"
+    }, {
+        "Name": "Claudio Pizarro",
+        "Wikipedia": "Claudio_Pizarro",
+        "Position": "Forward",
+        "BirthDate": "1978-10-03",
+        "Age": 37,
+        "Home": "Callao",
+        "Club": "Werder Bremen",
+        "Lat": -12.033333333333333,
+        "Lng": -77.13333333333334
+    }, {
+        "Name": "Andy Polo",
+        "Wikipedia": "Andy_Polo",
+        "Position": "Forward",
+        "BirthDate": "1994-09-29",
+        "Age": 21,
+        "Home": "Lima",
+        "Club": "Universitario",
+        "Lat": -12.043333333333333,
+        "Lng": -77.02833333333334
+    }, {
+        "Name": "Raul Ruidíaz",
+        "Wikipedia": "Raul_Ruidíaz",
+        "Position": "Forward"
+    }]
+}, {
+    "team": "Venezuela",
+    "id": 213,
+    "flag": "ve",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "Alain Baroja",
+        "Wikipedia": "Alain_Baroja",
+        "Position": "Goalkeeper",
+        "BirthDate": "1989-10-23",
+        "Age": 26,
+        "Home": "Caracas",
+        "Club": "AEK Athens",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Wuilker FariÃ±ez",
+        "Wikipedia": "Wuilker_FariÃ±ez",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Daniel Hernandez",
+        "Wikipedia": "Daniel_Hernandez",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Fernando Amorebieta",
+        "Wikipedia": "Fernando_Amorebieta",
+        "Position": "Defender",
+        "BirthDate": "1985-03-29",
+        "Age": 31,
+        "Home": "Cantaura",
+        "Club": "Fulham"
+    }, {
+        "Name": "Wilker Angel",
+        "Wikipedia": "Wilker_Angel",
+        "Position": "Defender",
+        "BirthDate": "1993-03-18",
+        "Age": 23,
+        "Home": "Valera",
+        "Club": "Deportivo Táchira",
+        "Lat": 9.3125,
+        "Lng": -70.60694444444444
+    }, {
+        "Name": "John Chancellor",
+        "Wikipedia": "John_Chancellor",
+        "Position": "Defender",
+        "BirthDate": "1927-07-14",
+        "Age": 88,
+        "Home": "Chicago, Illinois",
+        "Lat": 41.83694444444445,
+        "Lng": -87.68472222222222
+    }, {
+        "Name": "Gabriel Cichero",
+        "Wikipedia": "Gabriel_Cichero",
+        "Position": "Defender",
+        "BirthDate": "1984-04-25",
+        "Age": 32,
+        "Home": "Caracas",
+        "Club": "Sion",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Alexander González",
+        "Wikipedia": "Alexander_González",
+        "Position": "Defender"
+    }, {
+        "Name": "Grenddy Perozo",
+        "Wikipedia": "Grenddy_Perozo",
+        "Position": "Defender",
+        "BirthDate": "1986-02-28",
+        "Age": 30,
+        "Home": "Maracaibo",
+        "Club": "Atlético CP",
+        "Lat": 10.65,
+        "Lng": -71.63333333333334
+    }, {
+        "Name": " Roberto Rosales",
+        "Wikipedia": "_Roberto_Rosales",
+        "Position": "Defender",
+        "BirthDate": "1988-11-20",
+        "Age": 27,
+        "Home": "Caracas",
+        "Club": "Málaga",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Andrés Túñez",
+        "Wikipedia": "Andrés_Túñez",
+        "Position": "Defender",
+        "BirthDate": "1987-03-15",
+        "Age": 29,
+        "Home": "Caracas",
+        "Club": "Buriram United",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "José Velázquez",
+        "Wikipedia": "José_Velázquez",
+        "Position": "Defender",
+        "BirthDate": "1923-08-12",
+        "Age": 92,
+        "Home": "Jalisco",
+        "Lat": 20.566666666666666,
+        "Lng": -103.68333333333334
+    }, {
+        "Name": "Oswaldo Vizcarrondo",
+        "Wikipedia": "Oswaldo_Vizcarrondo",
+        "Position": "Defender",
+        "BirthDate": "1984-05-31",
+        "Age": 31,
+        "Home": "Caracas, Venezuela",
+        "Club": "Nantes",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Rafael Acosta",
+        "Wikipedia": "Rafael_Acosta",
+        "Position": "Midfielder",
+        "BirthDate": "1989-02-13",
+        "Age": 27,
+        "Home": "Caracas",
+        "Club": "Mineros de Guayana",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Juanpi",
+        "Wikipedia": "Juanpi",
+        "Position": "Midfielder",
+        "BirthDate": "1994-01-24",
+        "Age": 22,
+        "Home": "Caracas",
+        "Club": "Málaga",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Juan Arango",
+        "Wikipedia": "Juan_Arango",
+        "Position": "Midfielder",
+        "BirthDate": "1980-05-17",
+        "Age": 36,
+        "Home": "Maracay",
+        "Club": "New York Cosmos",
+        "Lat": 10.246944444444443,
+        "Lng": -67.5961111111111
+    }, {
+        "Name": "ArquÃ­medes Figuera",
+        "Wikipedia": "ArquÃ­medes_Figuera",
+        "Position": "Midfielder"
+    }, {
+        "Name": "César González",
+        "Wikipedia": "César_González",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Alejandro Guerra",
+        "Wikipedia": "Alejandro_Guerra",
+        "Position": "Midfielder",
+        "BirthDate": "1985-07-09",
+        "Age": 30,
+        "Home": "Caracas",
+        "Club": "Atletico Nacional",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Franklin Lucena",
+        "Wikipedia": "Franklin_Lucena",
+        "Position": "Midfielder",
+        "BirthDate": "1981-02-20",
+        "Age": 35,
+        "Home": "Acarigua",
+        "Club": "Once Caldas",
+        "Lat": 9.559722222222224,
+        "Lng": -69.20194444444445
+    }, {
+        "Name": "Rómulo Otero",
+        "Wikipedia": "Rómulo_Otero",
+        "Position": "Midfielder",
+        "BirthDate": "1992-11-09",
+        "Age": 23,
+        "Home": "Caracas",
+        "Club": "Huachipato",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Tomás Rincón",
+        "Wikipedia": "Tomás_Rincón",
+        "Position": "Midfielder",
+        "BirthDate": "1988-01-13",
+        "Age": 28,
+        "Home": "San Cristobal",
+        "Club": "Genoa",
+        "Lat": 7.766666666666667,
+        "Lng": -72.23333333333333
+    }, {
+        "Name": "Luis Seijas",
+        "Wikipedia": "Luis_Seijas",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Ronald Vargas",
+        "Wikipedia": "Ronald_Vargas",
+        "Position": "Midfielder",
+        "BirthDate": "1986-12-02",
+        "Age": 29,
+        "Club": "AEK Athens"
+    }, {
+        "Name": "Juan Manuel Falcón",
+        "Wikipedia": "Juan_Manuel_Falcón",
+        "Position": "Forward",
+        "BirthDate": "1989-02-24",
+        "Age": 27,
+        "Home": "Acarigua",
+        "Club": "Al-Fateh",
+        "Lat": 9.559722222222224,
+        "Lng": -69.20194444444445
+    }, {
+        "Name": "Miku",
+        "Wikipedia": "Miku",
+        "Position": "Forward"
+    }, {
+        "Name": "Josef Martinez",
+        "Wikipedia": "Josef_Martinez",
+        "Position": "Forward",
+        "BirthDate": "1993-05-19",
+        "Age": 23,
+        "Home": "Valencia",
+        "Club": "Torino",
+        "Lat": 10.183333333333334,
+        "Lng": -68
+    }, {
+        "Name": "John Jairo Murillo",
+        "Wikipedia": "John_Jairo_Murillo",
+        "Position": "Forward"
+    }, {
+        "Name": "Gelmin Rivas",
+        "Wikipedia": "Gelmin_Rivas",
+        "Position": "Forward",
+        "BirthDate": "1989-03-23",
+        "Age": 27,
+        "Home": "Cumaná",
+        "Club": "Al-Ittihad",
+        "Lat": 10.456388888888888,
+        "Lng": -64.1675
+    }, {
+        "Name": "Salomon Rondon",
+        "Wikipedia": "Salomon_Rondon",
+        "Position": "Forward"
+    }, {
+        "Name": "Mário Rondon",
+        "Wikipedia": "Mário_Rondon",
+        "Position": "Forward",
+        "BirthDate": "1986-03-26",
+        "Age": 30,
+        "Home": "Caracas",
+        "Club": "Shijiazhuang Ever Bright",
+        "Lat": 10.5,
+        "Lng": -66.91666666666667
+    }, {
+        "Name": "Christian Santos",
+        "Wikipedia": "Christian_Santos",
+        "Position": "Forward",
+        "BirthDate": "1988-03-24",
+        "Age": 28,
+        "Home": "Puerto Ordaz",
+        "Club": "free agent",
+        "Lat": 8.183333333333334,
+        "Lng": -62.43333333333333
+    }]
+}, {
+    "team": "Mexico",
+    "id": 203,
+    "flag": "mx",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "José Corona",
+        "Wikipedia": "José_Corona",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Moisés Muñoz",
+        "Wikipedia": "Moisés_Muñoz",
+        "Position": "Goalkeeper",
+        "BirthDate": "1980-02-01",
+        "Age": 36,
+        "Home": "Morelia",
+        "Club": "América",
+        "Lat": 19.76833333333333,
+        "Lng": -101.18944444444445
+    }, {
+        "Name": "Guillermo Ochoa",
+        "Wikipedia": "Guillermo_Ochoa",
+        "Position": "Goalkeeper",
+        "BirthDate": "1985-07-13",
+        "Age": 30,
+        "Home": "Guadalajara, Jalisco",
+        "Club": "Málaga",
+        "Lat": 20.666666666666668,
+        "Lng": -103.35
+    }, {
+        "Name": "Jonathan Orozco",
+        "Wikipedia": "Jonathan_Orozco",
+        "Position": "Goalkeeper",
+        "BirthDate": "1986-05-12",
+        "Age": 30,
+        "Home": "Monterrey",
+        "Club": "Monterrey",
+        "Lat": 25.666666666666668,
+        "Lng": -100.3
+    }, {
+        "Name": "Alejandro Palacios",
+        "Wikipedia": "Alejandro_Palacios",
+        "Position": "Goalkeeper",
+        "BirthDate": "1981-03-06",
+        "Age": 35,
+        "Home": "Mexico City",
+        "Club": "UNAM",
+        "Lat": 19.433333333333334,
+        "Lng": -99.13333333333334
+    }, {
+        "Name": "Alfredo Talavera",
+        "Wikipedia": "Alfredo_Talavera",
+        "Position": "Goalkeeper",
+        "BirthDate": "1982-09-18",
+        "Age": 33,
+        "Home": "La Barca, Jalisco",
+        "Club": "Toluca",
+        "Lat": 20.283333333333335,
+        "Lng": -102.56666666666666
+    }, {
+        "Name": "Paul Aguilar",
+        "Wikipedia": "Paul_Aguilar",
+        "Position": "Defender",
+        "BirthDate": "1986-03-06",
+        "Age": 30,
+        "Home": "Concordia, Sinaloa",
+        "Club": "América",
+        "Lat": 23.288333333333334,
+        "Lng": -106.0675
+    }, {
+        "Name": "Oswaldo Alanís",
+        "Wikipedia": "Oswaldo_Alanís",
+        "Position": "Defender",
+        "BirthDate": "1989-03-18",
+        "Age": 27,
+        "Home": "Morelia",
+        "Club": "Guadalajara",
+        "Lat": 19.76833333333333,
+        "Lng": -101.18944444444445
+    }, {
+        "Name": "Néstor Araújo",
+        "Wikipedia": "Néstor_Araújo",
+        "Position": "Defender"
+    }, {
+        "Name": "Hugo Ayala",
+        "Wikipedia": "Hugo_Ayala",
+        "Position": "Defender",
+        "BirthDate": "1987-03-31",
+        "Age": 29,
+        "Home": "Morelia",
+        "Club": "UANL",
+        "Lat": 19.76833333333333,
+        "Lng": -101.18944444444445
+    }, {
+        "Name": "Yasser Corona",
+        "Wikipedia": "Yasser_Corona",
+        "Position": "Defender",
+        "BirthDate": "1987-07-28",
+        "Age": 28,
+        "Home": "Tepic",
+        "Club": "Querétaro",
+        "Lat": 21.508333333333333,
+        "Lng": -104.89305555555556
+    }, {
+        "Name": "Gerardo Flores",
+        "Wikipedia": "Gerardo_Flores",
+        "Position": "Defender"
+    }, {
+        "Name": "Luis Fuentes",
+        "Wikipedia": "Luis_Fuentes",
+        "Position": "Defender",
+        "BirthDate": "1971-08-14",
+        "Age": 44,
+        "Home": "Petorca",
+        "Lat": -32.25138888888889,
+        "Lng": -70.93138888888889
+    }, {
+        "Name": "Miguel Herrera",
+        "Wikipedia": "Miguel_Herrera",
+        "Position": "Defender",
+        "BirthDate": "1967-03-18",
+        "Age": 49,
+        "Home": "Hidalgo",
+        "Club": "Tijuana",
+        "Lat": 20.483333333333334,
+        "Lng": -98.86666666666666
+    }, {
+        "Name": "Israel Jiménez",
+        "Wikipedia": "Israel_Jiménez",
+        "Position": "Defender",
+        "BirthDate": "1989-08-13",
+        "Age": 26,
+        "Home": "Monterrey",
+        "Club": "UANL",
+        "Lat": 25.666666666666668,
+        "Lng": -100.3
+    }, {
+        "Name": "Miguel Layún",
+        "Wikipedia": "Miguel_Layún",
+        "Position": "Defender",
+        "BirthDate": "1988-06-25",
+        "Age": 27,
+        "Home": "Córdoba",
+        "Club": "Porto",
+        "Lat": 18.894166666666667,
+        "Lng": -96.93472222222222
+    }, {
+        "Name": "Raúl Nava",
+        "Wikipedia": "Raúl_Nava",
+        "Position": "Defender",
+        "BirthDate": "1990-09-17",
+        "Age": 25,
+        "Home": "Mexico City",
+        "Club": "Philadelphia Union",
+        "Lat": 19.433333333333334,
+        "Lng": -99.13333333333334
+    }, {
+        "Name": "Héctor Moreno",
+        "Wikipedia": "Héctor_Moreno",
+        "Position": "Defender"
+    }, {
+        "Name": "Rafael Márquez",
+        "Wikipedia": "Rafael_Márquez",
+        "Position": "Defender",
+        "BirthDate": "1979-02-13",
+        "Age": 37,
+        "Home": "Zamora",
+        "Club": "Atlas",
+        "Lat": 19.983333333333334,
+        "Lng": -102.28333333333333
+    }, {
+        "Name": "Diego Reyes",
+        "Wikipedia": "Diego_Reyes",
+        "Position": "Defender"
+    }, {
+        "Name": "Jose Arturo Rivas",
+        "Wikipedia": "Jose_Arturo_Rivas",
+        "Position": "Defender",
+        "BirthDate": "1984-10-18",
+        "Age": 31,
+        "Home": "Coatzacoalcos",
+        "Club": "UANL",
+        "Lat": 18.15,
+        "Lng": -94.43333333333334
+    }, {
+        "Name": "Carlos Rodríguez",
+        "Wikipedia": "Carlos_Rodríguez",
+        "Position": "Defender"
+    }, {
+        "Name": "Carlos Salcedo",
+        "Wikipedia": "Carlos_Salcedo",
+        "Position": "Defender",
+        "BirthDate": "1993-09-29",
+        "Age": 22,
+        "Home": "Guadalajara",
+        "Club": "Guadalajara",
+        "Lat": 20.666666666666668,
+        "Lng": -103.35
+    }, {
+        "Name": "Javier Aquino",
+        "Wikipedia": "Javier_Aquino",
+        "Position": "Midfielder",
+        "BirthDate": "1990-02-11",
+        "Age": 26,
+        "Home": "Ixhuatán, Oaxaca",
+        "Club": "UANL",
+        "Lat": 16.35,
+        "Lng": -94.48333333333333
+    }, {
+        "Name": "Isaác Brizuela",
+        "Wikipedia": "Isaác_Brizuela",
+        "Position": "Midfielder",
+        "BirthDate": "1990-08-28",
+        "Age": 25,
+        "Home": "San Jose",
+        "Club": "Guadalajara",
+        "Lat": 37.333333333333336,
+        "Lng": -121.9
+    }, {
+        "Name": "Alejandro Castro",
+        "Wikipedia": "Alejandro_Castro",
+        "Position": "Midfielder",
+        "BirthDate": "1987-03-27",
+        "Age": 29,
+        "Home": "Mexico City",
+        "Club": "UNAM",
+        "Lat": 19.433333333333334,
+        "Lng": -99.13333333333334
+    }, {
+        "Name": "Jesús Corona ",
+        "Wikipedia": "Jesús_Corona_",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Jurgen Damm",
+        "Wikipedia": "Jurgen_Damm",
+        "Position": "Midfielder",
+        "BirthDate": "1992-11-07",
+        "Age": 23,
+        "Home": "Tuxpan",
+        "Club": "UANL",
+        "Lat": 20.95,
+        "Lng": -97.4
+    }, {
+        "Name": "Jonathan Dos Santos",
+        "Wikipedia": "Jonathan_Dos_Santos",
+        "Position": "Midfielder",
+        "BirthDate": "1990-04-26",
+        "Age": 26,
+        "Home": "Monterrey",
+        "Club": "Villarreal",
+        "Lat": 25.666666666666668,
+        "Lng": -100.3
+    }, {
+        "Name": "Marco Fabián",
+        "Wikipedia": "Marco_Fabián",
+        "Position": "Midfielder",
+        "BirthDate": "1989-07-21",
+        "Age": 26,
+        "Club": "Eintracht Frankfurt"
+    }, {
+        "Name": "Andrés Guardado",
+        "Wikipedia": "Andrés_Guardado",
+        "Position": "Midfielder",
+        "BirthDate": "1986-09-28",
+        "Age": 29,
+        "Home": "Guadalajara",
+        "Club": "PSV",
+        "Lat": 20.666666666666668,
+        "Lng": -103.35
+    }, {
+        "Name": "Erick Gutiérrez ",
+        "Wikipedia": "Erick_Gutiérrez_",
+        "Position": "Midfielder",
+        "BirthDate": "1995-06-15",
+        "Age": 20,
+        "Home": "Los Mochis",
+        "Club": "Pachuca"
+    }, {
+        "Name": "Javier Güemez",
+        "Wikipedia": "Javier_Güemez",
+        "Position": "Midfielder",
+        "BirthDate": "1991-10-17",
+        "Age": 24,
+        "Home": "Culiacán",
+        "Club": "América"
+    }, {
+        "Name": "Elias Hernández",
+        "Wikipedia": "Elias_Hernández",
+        "Position": "Midfielder",
+        "BirthDate": "1988-04-29",
+        "Age": 28,
+        "Home": "Morelia",
+        "Club": "Leon",
+        "Lat": 19.76833333333333,
+        "Lng": -101.18944444444445
+    }, {
+        "Name": "Héctor Herrera",
+        "Wikipedia": "Héctor_Herrera",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Hirving Lozano",
+        "Wikipedia": "Hirving_Lozano",
+        "Position": "Midfielder",
+        "BirthDate": "1995-07-30",
+        "Age": 20,
+        "Home": "Mexico City",
+        "Club": "Pachuca",
+        "Lat": 19.433333333333334,
+        "Lng": -99.13333333333334
+    }, {
+        "Name": "Jesus Molina",
+        "Wikipedia": "Jesus_Molina",
+        "Position": "Midfielder",
+        "BirthDate": "1988-03-29",
+        "Age": 28,
+        "Home": "Hermosillo",
+        "Club": "Santos Laguna",
+        "Lat": 29.098888888888887,
+        "Lng": -110.95416666666667
+    }, {
+        "Name": "Luis Montes",
+        "Wikipedia": "Luis_Montes",
+        "Position": "Midfielder",
+        "BirthDate": "1986-05-15",
+        "Age": 30,
+        "Club": "Léon"
+    }, {
+        "Name": "Carlos Peña",
+        "Wikipedia": "Carlos_Peña",
+        "Position": "Midfielder",
+        "BirthDate": "1978-05-17",
+        "Age": 38
+    }, {
+        "Name": "OrbelÃ­n Pineda",
+        "Wikipedia": "OrbelÃ­n_Pineda",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Cándido Ramírez",
+        "Wikipedia": "Cándido_Ramírez",
+        "Position": "Midfielder",
+        "BirthDate": "1993-06-05",
+        "Age": 22,
+        "Home": "León, Guanajuato",
+        "Club": "Monterrey",
+        "Lat": 21.116666666666667,
+        "Lng": -101.68333333333334
+    }, {
+        "Name": "Jorge Torres",
+        "Wikipedia": "Jorge_Torres",
+        "Position": "Midfielder",
+        "BirthDate": "1988-01-16",
+        "Age": 28,
+        "Home": "Tijuana",
+        "Club": "UANL",
+        "Lat": 32.525,
+        "Lng": -117.03333333333333
+    }, {
+        "Name": "José Vázquez",
+        "Wikipedia": "José_Vázquez",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Javier Hernández",
+        "Wikipedia": "Javier_Hernández",
+        "Position": "Forward",
+        "BirthDate": "1988-06-01",
+        "Age": 27,
+        "Home": "Guadalajara",
+        "Club": "Bayer Leverkusen",
+        "Lat": 20.666666666666668,
+        "Lng": -103.35
+    }, {
+        "Name": "Eduardo Herrera",
+        "Wikipedia": "Eduardo_Herrera",
+        "Position": "Forward",
+        "BirthDate": "1965-04-28",
+        "Age": 51
+    }, {
+        "Name": "Raúl Jiménez",
+        "Wikipedia": "Raúl_Jiménez",
+        "Position": "Forward",
+        "BirthDate": "1991-05-05",
+        "Age": 25,
+        "Home": "Tepeji",
+        "Club": "Benfica",
+        "Lat": 19.903888888888886,
+        "Lng": -99.34138888888889
+    }, {
+        "Name": "Henry Martín",
+        "Wikipedia": "Henry_Martín",
+        "Position": "Forward",
+        "BirthDate": "1992-11-18",
+        "Age": 23,
+        "Home": "Mérida, Yucatán",
+        "Club": "Tijuana",
+        "Lat": 20.97,
+        "Lng": -89.61999999999999
+    }, {
+        "Name": "Oribe Peralta",
+        "Wikipedia": "Oribe_Peralta",
+        "Position": "Forward",
+        "BirthDate": "1984-01-12",
+        "Age": 32,
+        "Home": "Torreón",
+        "Club": "América"
+    }, {
+        "Name": "Rodolfo Pizarro",
+        "Wikipedia": "Rodolfo_Pizarro",
+        "Position": "Forward",
+        "BirthDate": "1994-02-15",
+        "Age": 22,
+        "Home": "Tampico",
+        "Club": "Pachuca",
+        "Lat": 22.255277777777778,
+        "Lng": -97.86861111111111
+    }]
+}, {
+    "team": "Colombia",
+    "id": 208,
+    "flag": "co",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "David Ospina",
+        "Wikipedia": "David_Ospina",
+        "Position": "Goalkeeper",
+        "BirthDate": "1988-08-31",
+        "Age": 27,
+        "Home": "Medellín",
+        "Club": "Arsenal",
+        "Lat": 6.230833333333334,
+        "Lng": -75.59055555555555
+    }, {
+        "Name": "Camilo Vargas",
+        "Wikipedia": "Camilo_Vargas",
+        "Position": "Goalkeeper",
+        "BirthDate": "1989-03-09",
+        "Age": 27,
+        "Home": "Bogota",
+        "Lat": 4.598055555555555,
+        "Lng": -74.07583333333334
+    }, {
+        "Name": "Robinson Zapata",
+        "Wikipedia": "Robinson_Zapata",
+        "Position": "Goalkeeper",
+        "BirthDate": "1978-09-30",
+        "Age": 37,
+        "Home": "Florida",
+        "Club": "Santa Fe",
+        "Lat": 3.3274999999999997,
+        "Lng": -76.23861111111111
+    }, {
+        "Name": "Santiago Arias",
+        "Wikipedia": "Santiago_Arias",
+        "Position": "Defender",
+        "BirthDate": "1992-01-13",
+        "Age": 24,
+        "Home": "Medellin, Colombia",
+        "Club": "PSV",
+        "Lat": 6.230833333333334,
+        "Lng": -75.59055555555555
+    }, {
+        "Name": "Farid DÃ­az",
+        "Wikipedia": "Farid_DÃ­az",
+        "Position": "Defender"
+    }, {
+        "Name": "Frank Fabra",
+        "Wikipedia": "Frank_Fabra",
+        "Position": "Defender",
+        "BirthDate": "1991-02-22",
+        "Age": 25,
+        "Home": "Manizales",
+        "Club": "Boca Juniors",
+        "Lat": 5.1,
+        "Lng": -75.55
+    }, {
+        "Name": "Steffan Medina",
+        "Wikipedia": "Steffan_Medina",
+        "Position": "Defender",
+        "BirthDate": "1992-06-14",
+        "Age": 23,
+        "Home": "Envigado",
+        "Club": "Pachuca",
+        "Lat": 6.171944444444445,
+        "Lng": -75.58027777777778
+    }, {
+        "Name": "Ã“scar Murillo",
+        "Wikipedia": "Ã“scar_Murillo",
+        "Position": "Defender"
+    }, {
+        "Name": "Jeison Murillo",
+        "Wikipedia": "Jeison_Murillo",
+        "Position": "Defender",
+        "BirthDate": "1992-05-27",
+        "Age": 23,
+        "Home": "Cali",
+        "Club": "Internazionale",
+        "Lat": 3.4205555555555556,
+        "Lng": -76.52222222222223
+    }, {
+        "Name": "William Tesillo",
+        "Wikipedia": "William_Tesillo",
+        "Position": "Defender",
+        "BirthDate": "1990-02-02",
+        "Age": 26,
+        "Home": "Barranquilla",
+        "Club": "Santa Fe",
+        "Lat": 10.963888888888889,
+        "Lng": -74.79638888888888
+    }, {
+        "Name": "Cristián Zapata",
+        "Wikipedia": "Cristián_Zapata",
+        "Position": "Defender",
+        "BirthDate": "1986-09-30",
+        "Age": 29,
+        "Home": "Padilla",
+        "Club": "Milan",
+        "Lat": 3.2333333333333334,
+        "Lng": -76.31666666666666
+    }, {
+        "Name": "Abel Aguilar",
+        "Wikipedia": "Abel_Aguilar",
+        "Position": "Midfielder",
+        "BirthDate": "1985-01-06",
+        "Age": 31,
+        "Home": "Bogotá",
+        "Club": "Belenenses",
+        "Lat": 4.598055555555555,
+        "Lng": -74.07583333333334
+    }, {
+        "Name": "Edwin Cardona",
+        "Wikipedia": "Edwin_Cardona",
+        "Position": "Midfielder",
+        "BirthDate": "1992-12-08",
+        "Age": 23,
+        "Home": "Medellín",
+        "Club": "Monterrey",
+        "Lat": 6.230833333333334,
+        "Lng": -75.59055555555555
+    }, {
+        "Name": "Juan Cuadrado",
+        "Wikipedia": "Juan_Cuadrado",
+        "Position": "Midfielder",
+        "BirthDate": "1988-05-26",
+        "Age": 27,
+        "Home": "Necoclí",
+        "Club": "Chelsea",
+        "Lat": 8.416666666666666,
+        "Lng": -76.78333333333333
+    }, {
+        "Name": "Gustavo Cuellar",
+        "Wikipedia": "Gustavo_Cuellar",
+        "Position": "Midfielder",
+        "BirthDate": "1992-10-14",
+        "Age": 23,
+        "Home": "Barranquilla",
+        "Club": "Flamengo",
+        "Lat": 10.963888888888889,
+        "Lng": -74.79638888888888
+    }, {
+        "Name": "Sebastián Pérez",
+        "Wikipedia": "Sebastián_Pérez",
+        "Position": "Midfielder",
+        "BirthDate": "1973-11-24",
+        "Age": 42,
+        "Home": "Saint-Chamond, Loire",
+        "Club": "US Endoume",
+        "Lat": 45.4775,
+        "Lng": 4.5152777777777775
+    }, {
+        "Name": "James Rodríguez",
+        "Wikipedia": "James_Rodríguez",
+        "Position": "Midfielder",
+        "BirthDate": "1991-07-12",
+        "Age": 24,
+        "Home": "Cúcuta",
+        "Club": "Real Madrid",
+        "Lat": 7.894166666666666,
+        "Lng": -72.5038888888889
+    }, {
+        "Name": "Daniel Torres",
+        "Wikipedia": "Daniel_Torres",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Carlos Bacca",
+        "Wikipedia": "Carlos_Bacca",
+        "Position": "Forward",
+        "BirthDate": "1986-09-08",
+        "Age": 29,
+        "Home": "Puerto Colombia",
+        "Club": "Milan",
+        "Lat": 11.016666666666667,
+        "Lng": -74.88333333333334
+    }, {
+        "Name": "Victor Ibarbo",
+        "Wikipedia": "Victor_Ibarbo",
+        "Position": "Forward",
+        "BirthDate": "1990-05-19",
+        "Age": 26,
+        "Home": "Tumaco",
+        "Club": "Atletico Nacional",
+        "Lat": 1.8066666666666666,
+        "Lng": -78.76472222222222
+    }, {
+        "Name": "Marlos Moreno",
+        "Wikipedia": "Marlos_Moreno",
+        "Position": "Forward",
+        "BirthDate": "1996-09-20",
+        "Age": 19,
+        "Home": "Medellín",
+        "Club": "Atlético Nacional",
+        "Lat": 6.230833333333334,
+        "Lng": -75.59055555555555
+    }, {
+        "Name": "Luis Muriel",
+        "Wikipedia": "Luis_Muriel",
+        "Position": "Forward",
+        "BirthDate": "1991-04-16",
+        "Age": 25,
+        "Home": "Santo Tomás",
+        "Club": "Sampdoria",
+        "Lat": 10.766666666666667,
+        "Lng": -74.91666666666667
+    }, {
+        "Name": "Luis QuiÃ±Ã³nes",
+        "Wikipedia": "Luis_QuiÃ±Ã³nes",
+        "Position": "Forward"
+    }, {
+        "Name": "Adrián Ramos",
+        "Wikipedia": "Adrián_Ramos",
+        "Position": "Forward",
+        "BirthDate": "1986-01-22",
+        "Age": 30,
+        "Home": "Santander de Quilichao",
+        "Club": "Borussia Dortmund",
+        "Lat": 3.0130555555555554,
+        "Lng": -76.32
+    }]
+}, {
+    "team": "Uruguay",
+    "id": 212,
+    "flag": "uy",
+    "shirt": {
+        "colors": [],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "players": [{
+        "Name": "MartÃ­n CampaÃ±a",
+        "Wikipedia": "MartÃ­n_CampaÃ±a",
+        "Position": "Goalkeeper"
+    }, {
+        "Name": "Fernando Muslera",
+        "Wikipedia": "Fernando_Muslera",
+        "Position": "Goalkeeper",
+        "BirthDate": "1986-06-16",
+        "Age": 29,
+        "Home": "Buenos Aires",
+        "Club": "Galatasaray",
+        "Lat": -34.60333333333333,
+        "Lng": -58.38166666666667
+    }, {
+        "Name": "Martín Silva",
+        "Wikipedia": "Martín_Silva",
+        "Position": "Goalkeeper",
+        "BirthDate": "1983-03-25",
+        "Age": 33,
+        "Home": "Montevideo",
+        "Club": "Vasco da Gama",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Sebastián Coates",
+        "Wikipedia": "Sebastián_Coates",
+        "Position": "Defender",
+        "BirthDate": "1990-10-07",
+        "Age": 25,
+        "Home": "Montevideo",
+        "Club": "Sporting",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Jorge Fucile",
+        "Wikipedia": "Jorge_Fucile",
+        "Position": "Defender",
+        "BirthDate": "1984-11-19",
+        "Age": 31,
+        "Home": "Montevideo",
+        "Club": "Nacional",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Maxi Pereira",
+        "Wikipedia": "Maxi_Pereira",
+        "Position": "Defender",
+        "BirthDate": "1984-06-08",
+        "Age": 31,
+        "Home": "Montevideo",
+        "Club": "Porto",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Diego Polenta",
+        "Wikipedia": "Diego_Polenta",
+        "Position": "Defender",
+        "BirthDate": "1992-02-06",
+        "Age": 24,
+        "Home": "Montevideo",
+        "Club": "Nacional",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Gastón Silva",
+        "Wikipedia": "Gastón_Silva",
+        "Position": "Defender",
+        "BirthDate": "1994-03-05",
+        "Age": 22,
+        "Home": "Salto",
+        "Club": "Torino",
+        "Lat": -31.383333333333333,
+        "Lng": -57.95
+    }, {
+        "Name": "Guillermo Varela",
+        "Wikipedia": "Guillermo_Varela",
+        "Position": "Defender",
+        "BirthDate": "1993-03-24",
+        "Age": 23,
+        "Home": "Montevideo",
+        "Club": "Manchester United",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Mauricio Victorino",
+        "Wikipedia": "Mauricio_Victorino",
+        "Position": "Defender",
+        "BirthDate": "1982-10-11",
+        "Age": 33,
+        "Home": "Montevideo",
+        "Club": "Nacional",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Egidio Arévalo",
+        "Wikipedia": "Egidio_Arévalo",
+        "Position": "Midfielder",
+        "BirthDate": "1982-01-01",
+        "Age": 34,
+        "Home": "Paysandú",
+        "Club": "Atlas",
+        "Lat": -32.32138888888889,
+        "Lng": -58.07555555555556
+    }, {
+        "Name": "Giorgian De Arrascaeta",
+        "Wikipedia": "Giorgian_De_Arrascaeta",
+        "Position": "Midfielder",
+        "BirthDate": "1994-06-01",
+        "Age": 21,
+        "Home": "Nuevo Berlín",
+        "Club": "Cruzeiro",
+        "Lat": -32.97916666666667,
+        "Lng": -58.05277777777778
+    }, {
+        "Name": "Álvaro González",
+        "Wikipedia": "Álvaro_González",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Diego Laxalt",
+        "Wikipedia": "Diego_Laxalt",
+        "Position": "Midfielder",
+        "BirthDate": "1993-02-07",
+        "Age": 23,
+        "Home": "Montevideo",
+        "Club": "Genoa",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Nicolás Lodeiro",
+        "Wikipedia": "Nicolás_Lodeiro",
+        "Position": "Midfielder",
+        "BirthDate": "1989-03-21",
+        "Age": 27,
+        "Home": "Paysandú",
+        "Club": "Boca Juniors",
+        "Lat": -32.32138888888889,
+        "Lng": -58.07555555555556
+    }, {
+        "Name": "Álvaro Pereira",
+        "Wikipedia": "Álvaro_Pereira",
+        "Position": "Midfielder",
+        "BirthDate": "1985-11-28",
+        "Age": 30,
+        "Home": "Montevideo",
+        "Club": "Getafe",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Cristian Rodríguez",
+        "Wikipedia": "Cristian_Rodríguez",
+        "Position": "Midfielder",
+        "BirthDate": "1985-09-30",
+        "Age": 30,
+        "Home": "Juan Lacaze",
+        "Club": "Independiente",
+        "Lat": -34.43111111111111,
+        "Lng": -57.44833333333333
+    }, {
+        "Name": "Carlos Sánchez",
+        "Wikipedia": "Carlos_Sánchez",
+        "Position": "Midfielder"
+    }, {
+        "Name": "Matías Vecino",
+        "Wikipedia": "Matías_Vecino",
+        "Position": "Midfielder",
+        "BirthDate": "1991-08-24",
+        "Age": 24,
+        "Home": "Canelones",
+        "Club": "Fiorentina",
+        "Lat": -34.516666666666666,
+        "Lng": -56.28333333333333
+    }, {
+        "Name": "Edinson Cavani",
+        "Wikipedia": "Edinson_Cavani",
+        "Position": "Forward",
+        "BirthDate": "1987-02-14",
+        "Age": 29,
+        "Home": "Salto",
+        "Club": "Paris Saint-Germain",
+        "Lat": -31.383333333333333,
+        "Lng": -57.95
+    }, {
+        "Name": "Abel Hernández",
+        "Wikipedia": "Abel_Hernández",
+        "Position": "Forward",
+        "BirthDate": "1990-08-08",
+        "Age": 25,
+        "Home": "Pando",
+        "Club": "Hull City",
+        "Lat": -34.71666666666667,
+        "Lng": -55.958333333333336
+    }, {
+        "Name": "Diego Rolan",
+        "Wikipedia": "Diego_Rolan",
+        "Position": "Forward",
+        "BirthDate": "1993-03-24",
+        "Age": 23,
+        "Home": "Montevideo",
+        "Club": "Bordeaux",
+        "Lat": -34.88361111111111,
+        "Lng": -56.18194444444444
+    }, {
+        "Name": "Luis Suárez",
+        "Wikipedia": "Luis_Suárez",
+        "Position": "Forward",
+        "BirthDate": "1987-01-24",
+        "Age": 29,
+        "Home": "Salto",
+        "Club": "Barcelona",
+        "Lat": -31.383333333333333,
+        "Lng": -57.95
+    }]
+}]
