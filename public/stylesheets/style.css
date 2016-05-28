@@ -4,7 +4,7 @@
 
 body,
 html {
-    background-color: #f4f4f4;
+    background-color: #2a2a2a; // #f4f4f4;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -15,12 +15,33 @@ html {
 .content {
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    max-width: 1000px;
-    height: 100%;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    max-width: 1200px;
     margin: auto;
-    margin-bottom: 40px;
+    height: 100%
+}
+
+.banner {
+    height: 60px;
+    /* background: #2a2a2a; */
+    margin: 10px;
+    min-height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #bbb;
+}
+
+.geo {
+    display: flex;
+    flex-direction: row;
+    height: 70%
 }
 
 .copa {
@@ -28,35 +49,78 @@ html {
     flex-direction: row;
 }
 
+.competitors {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    min-width: 120px;
+    margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+.competitorsb {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    min-width: 120px;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+.lead {
+    display: flex;
+    flex-direction: row;
+    background: #212121;
+    min-height: 30px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #ccc;
+    padding-left: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.leadb {
+    display: flex;
+    flex-direction: row;
+    background: #212121;
+    min-height: 30px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #ccc;
+    padding-right: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
 .teamlist {
     display: flex;
     flex-direction: column;
-    /*    border: 1px solid #eee;*/
-    width: 160px;
-    min-width: 160px;
-    /* background: aliceblue; */
-    margin: 40px;
-    margin-right: 10px;
+    width: 120px;
+    min-width: 120px;
     overflow: scroll;
-    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
-    border-radius: 3px;
 }
 
 .item {
-    border-bottom: 1px solid #eee;
-    height: 160px;
-    min-height: 160px;
+    margin-bottom: 20px;
+    height: 120px;
+    min-height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: white;
+    background: #212121;
 }
 
 .teamname {
-    font-weight: bold;
-    font-size: 14px;
-    color: #555;
+    font-size: 12px;
+    color: #ccc;
     margin: 5px;
 }
 
@@ -72,22 +136,18 @@ html {
 .teaminfo {
     display: flex;
     flex-direction: row;
-    margin: 5px;
     align-content: center;
     align-items: center;
     justify-content: center;
 }
 
 .flag {
-    height: 30px;
-    width: 40px;
-    border: 1px solid #dedede;
-    margin: 7px;
-    /*    border-radius: 30px;*/
+    height: 20px;
 }
 
 .info {
     margin: 5px;
+    color: #ccc;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -95,9 +155,10 @@ html {
 }
 
 .details {
-    margin: 40px;
+    margin: 10px;
     width: 100%;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .detailLabel {
@@ -111,12 +172,9 @@ html {
 }
 
 .map {
-    border: 1px solid #eee;
-    height: calc(100% - 20px);
-    border: 1px solid #eee;
-    background: white;
-    margin: 10px;
-    /*    margin-bottom: 20px;*/
+    height: 100%;
+    background: #2a2a2a;
+    background-color: #2a2a2a;
 }
 
 .controls {
@@ -131,16 +189,80 @@ html {
 .team {
     display: flex;
     flex-direction: row;
-    height: 30%;
-    border: 1px solid #eee;
+    height: 100px;
+    margin: 10px;
+    margin-top: 0;
+    /*    background: #2a2a2a;*/
+    height: 20%;
+    min-height: 20%;
+    justify-content: center;
 }
 
 .mapcontainer {
-    padding: 2px;
-    border-radius: 3px;
-    background: #ffffff;
+    /*    padding: 2px;*/
+    /*    border-radius: 3px;*/
+    background: #2a2a2a;
     height: 100%;
     width: 100%;
+    /*    padding: 10px;*/
+    /*    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);*/
+}
+
+.playericon {
+    height: 50px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 48px;
+    min-width: 48px;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 10px;
-    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.playerlabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 9px;
+    margin: 5px;
+    color: #999;
+    text-align: center;
+    height: 20px;
+}
+
+.game {
+    margin-bottom: 20px;
+    height: 120px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
+}
+
+.type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 3px solid #212121;
+    margin-bottom: 10px;
+    line-height: 16px;
+    margin-top: 10px;
 }

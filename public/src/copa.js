@@ -14,9 +14,9 @@
 
 
 
-     //     var landscape = "#404a4f";
-     //     var water = "#2d393e";
-     //     var maplabel = "#ffffff";
+     var landscape = "#3f3f3f";
+     var water = "#212121";
+     var maplabel = "#696969";
 
 
      var markers = [];
@@ -127,8 +127,31 @@
          var teamlist = document.getElementsByClassName('item');
 
          for (count = 0; count < teamlist.length; count++) {
-             teamlist[count].style.background = 'white';
+             teamlist[count].style.border = 'none';
          }
+     }
+
+     function makePlayer(p, country) {
+
+         var images = 'images/player/';
+
+         var player = newDiv('player');
+         var playerImage = document.createElement('img');
+         playerImage.src = images + country + '.svg';
+         playerImage.className = 'playericon';
+
+         var label = newlabel('playerlabel');
+
+         label.innerHTML = p.Name;
+
+         player.appendChild(playerImage);
+         player.appendChild(label);
+
+         player.onclick = function () {
+             showPlayer(p);
+         }
+
+         return player;
      }
 
      function makeListItem(team) {
@@ -149,9 +172,50 @@
              console.log('clicked ' + team.team);
 
              clearSelection();
-             item.style.background = 'aliceblue';
+             item.style.border = '1px solid #dd4131';
 
              showInfo([team]);
+
+             var playerArea = document.getElementById('players');
+
+             clearPlayers();
+
+             var keeper = document.getElementById('Goalkeeper');
+             var defender = document.getElementById('Defender');
+             var midfielder = document.getElementById('Midfielder');
+             var forward = document.getElementById('Forward');
+
+             var count = 0;
+
+             team.players.forEach(function (player) {
+
+                 if (count < 23) {
+
+                     var playerElement = makePlayer(player, team.team);
+                     playerArea.appendChild(playerElement);
+
+                     switch (player.Position) {
+
+                     case 'Goalkeeper':
+                         keeper.appendChild(playerElement);
+                         break;
+
+                     case 'Defender':
+                         defender.appendChild(playerElement);
+                         break;
+
+                     case 'Midfielder':
+                         midfielder.appendChild(playerElement);
+                         break;
+
+                     case 'Forward':
+                         forward.appendChild(playerElement);
+                         break;
+                     }
+                 }
+
+                 count++;
+             })
          }
 
          return item;
@@ -205,6 +269,62 @@
          });
      }
 
+
+     function clearPlayers() {
+         var keeper = document.getElementById('Goalkeeper');
+         var defender = document.getElementById('Defender');
+         var midfielder = document.getElementById('Midfielder');
+         var forward = document.getElementById('Forward');
+
+         keeper.innerHTML = "";
+         defender.innerHTML = "";
+         midfielder.innerHTML = "";
+         forward.innerHTML = "";
+     }
+
+     function showPlayer(player) {
+         var mapOptions = {
+             mapTypeControlOptions: {
+                 mapTypeIds: ['Styled']
+             },
+             center: new google.maps.LatLng(player.Lat, player.Lng),
+             zoom: 5,
+             mapTypeId: 'Styled'
+         };
+
+         map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+         var styledMapType = new google.maps.StyledMapType(styles);
+
+         map.mapTypes.set('Styled', styledMapType);
+
+         var lat = player.Lat;
+
+         var longitude = player.Lng;
+
+         var position = new google.maps.LatLng(player.Lat, player.Lng);
+
+         var cardinalRed = '#dd4131';
+
+         var marker = new google.maps.Marker({
+             position: position,
+             icon: {
+                 path: google.maps.SymbolPath.CIRCLE,
+                 fillOpacity: 1,
+                 fillColor: cardinalRed,
+                 strokeOpacity: 1,
+                 strokeColor: cardinalRed,
+                 strokeWeight: 1,
+                 scale: 3 //pixels
+             },
+             map: map
+         });
+
+         createInfoWindow(marker, player);
+
+         markers.push(marker);
+     }
+
      function showInfo(teams) {
 
 
@@ -239,18 +359,18 @@
 
                  var position = new google.maps.LatLng(lat, longitude);
 
-                 var cardinalRed = '#b24756';
+                 var cardinalRed = '#dd4131';
 
                  var marker = new google.maps.Marker({
                      position: position,
                      icon: {
                          path: google.maps.SymbolPath.CIRCLE,
-                         fillOpacity: 0.6,
+                         fillOpacity: 1,
                          fillColor: cardinalRed,
-                         strokeOpacity: 0.7,
+                         strokeOpacity: 1,
                          strokeColor: cardinalRed,
-                         strokeWeight: 1.5,
-                         scale: 4 //pixels
+                         strokeWeight: 1,
+                         scale: 2 //pixels
                      },
                      map: map
                  });
@@ -262,8 +382,20 @@
          })
      }
 
+     function addGames() {
+
+         var teamlist = document.getElementById('gamelist');
+
+         for (g = 0; g < 20; g++) {
+             var game = newDiv('game');
+             gamelist.appendChild(game);
+         }
+     }
+
      window.onload = function () {
          var teamlist = document.getElementById('teamlist');
+
+         var competitors = document.getElementById('competitors');
 
          var details = document.getElementById('details');
 
@@ -285,11 +417,11 @@
                      teamlist.appendChild(makeListItem(team));
                  })
 
-                 console.log(teamlist.offsetHeight);
-
-                 details.style.height = teamlist.offsetHeight - 20 + 'px';
+                 details.style.height = competitors.offsetHeight + 'px';
 
                  showInfo(teams);
+
+                 addGames();
              };
          }
 
