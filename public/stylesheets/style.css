@@ -159,6 +159,8 @@ html {
     width: 100%;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 10px;
+    background: #212121;
 }
 
 .detailLabel {
@@ -173,8 +175,8 @@ html {
 
 .map {
     height: 100%;
-    background: #2a2a2a;
-    background-color: #2a2a2a;
+    background: #212121;
+    background-color: #212121 !important;
 }
 
 .controls {
@@ -204,7 +206,6 @@ html {
     background: #2a2a2a;
     height: 100%;
     width: 100%;
-    /*    padding: 10px;*/
     /*    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);*/
 }
 

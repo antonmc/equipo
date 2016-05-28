@@ -174,7 +174,7 @@
              clearSelection();
              item.style.border = '1px solid #dd4131';
 
-             showInfo([team]);
+             showInfo([team], 3);
 
              var playerArea = document.getElementById('players');
 
@@ -325,17 +325,22 @@
          markers.push(marker);
      }
 
-     function showInfo(teams) {
+     function showInfo(teams, zoom) {
 
+         var mapzoom = 3;
 
          // 8.7832° S, 55.4915° W
+
+         if (zoom) {
+             mapzoom = zoom;
+         }
 
          var mapOptions = {
              mapTypeControlOptions: {
                  mapTypeIds: ['Styled']
              },
              center: new google.maps.LatLng(8.7832, -55.4915),
-             zoom: 3,
+             zoom: mapzoom,
              mapTypeId: 'Styled'
          };
 
@@ -417,7 +422,7 @@
                      teamlist.appendChild(makeListItem(team));
                  })
 
-                 details.style.height = competitors.offsetHeight + 'px';
+                 details.style.height = competitors.offsetHeight - 20 + 'px';
 
                  showInfo(teams);
 
