@@ -183,6 +183,17 @@
          item.onclick = function () {
              console.log('clicked ' + team.team);
 
+             var teamArea = document.getElementById('teamArea');
+             teamArea.style.height = '20%';
+             teamArea.style.minHeight = '20%';
+             teamArea.style.visibility = 'visible';
+
+             var geoArea = document.getElementById('geoArea');
+             geoArea.style.height = '70%';
+             geoArea.style.minHeight = '70%';
+
+
+
              clearSelection();
              item.style.border = '1px solid #' + team.shirt.colors[0];
              item.style.opacity = 1;
@@ -191,8 +202,6 @@
              title.style.color = '#' + team.shirt.colors[0];
 
              title.innerHTML = 'Players of Copa America 2016 - ' + '<b>' + team.team + '</b>';
-
-             showInfo([team], 5);
 
              var playerArea = document.getElementById('players');
 
@@ -236,6 +245,11 @@
 
                  count++;
              })
+
+             var details = document.getElementById('details');
+             details.style.height = geoArea.offsetHeight - 40 + 'px';
+
+             showInfo([team], 5);
          }
 
          return item;
@@ -417,12 +431,6 @@
                      teamcolor = '#' + team.shirt.colors[0];
                  }
 
-                 //                 var secondary = teamcolor;
-                 //
-                 //                 if (team.shirt.colors[1]) {
-                 //                     secondary = '#' + team.shirt.colors[1];
-                 //                 }
-
                  var marker = new google.maps.Marker({
                      position: position,
                      icon: {
@@ -475,13 +483,13 @@
                      return 0;
                  })
 
-                 teams.forEach(function (team) {
-                     teamlist.appendChild(makeListItem(team));
-                 })
-
                  details.style.height = competitors.offsetHeight - 20 + 'px';
 
                  showInfo(teams);
+
+                 teams.forEach(function (team) {
+                     teamlist.appendChild(makeListItem(team));
+                 })
 
                  addGames();
              };

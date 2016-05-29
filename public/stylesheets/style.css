@@ -42,7 +42,7 @@ html {
 .geo {
     display: flex;
     flex-direction: row;
-    height: 70%
+    height: 85%
 }
 
 .copa {
@@ -197,9 +197,15 @@ html {
     margin: 10px;
     margin-top: 0;
     /*    background: #2a2a2a;*/
-    height: 20%;
-    min-height: 20%;
+    height: 0;
+    min-height: 0;
+    visibility: hidden;
     justify-content: center;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -ms-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
 }
 
 .mapcontainer {
