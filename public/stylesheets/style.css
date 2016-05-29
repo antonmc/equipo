@@ -17,7 +17,7 @@ html {
     display: flex;
     -webkit-flex-flow: column;
     flex-flow: column;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     height: 100%
 }
@@ -218,8 +218,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 48px;
-    min-width: 48px;
+    max-width: 44px;
+    min-width: 44px;
 }
 
 .players {
@@ -235,7 +235,7 @@ html {
     justify-content: center;
     font-size: 9px;
     margin: 5px;
-    color: #999;
+    color: #bbb;
     text-align: center;
     height: 20px;
 }

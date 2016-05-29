@@ -112,12 +112,14 @@
          return nation;
      }
 
-     function infoBlock(words, value) {
+     function infoBlock(words, value, color) {
          var info = newDiv('info');
          var label = newlabel('detailLabel');
          label.innerHTML = words;
+         //         label.style.color = '#' + color;
          var content = newDiv('detailContent');
          content.innerHTML = value;
+         //         content.style.color = '#' + color;
          info.appendChild(label);
          info.appendChild(content);
          return info;
@@ -128,10 +130,11 @@
 
          for (count = 0; count < teamlist.length; count++) {
              teamlist[count].style.border = 'none';
+             teamlist[count].style.opacity = 0.3;
          }
      }
 
-     function makePlayer(p, country) {
+     function makePlayer(p, country, color) {
 
          var images = 'images/player/';
 
@@ -143,6 +146,7 @@
          var label = newlabel('playerlabel');
 
          label.innerHTML = p.Name;
+         //         label.style.color = '#' + color;
 
          player.appendChild(playerImage);
          player.appendChild(label);
@@ -154,6 +158,8 @@
          return player;
      }
 
+     //["90a7cf", "FFFFFF"]
+
      function makeListItem(team) {
 
          var item = newDiv('item');
@@ -161,8 +167,14 @@
          var nation = nationBlock(team.team);
 
          var teaminfo = newDiv('teaminfo');
-         teaminfo.appendChild(infoBlock('Avg Age', team.AverageAge));
-         teaminfo.appendChild(infoBlock('Avg Height', team.AverageHeight));
+         teaminfo.style.color = team.shirt.colors[0];
+
+         var age = infoBlock('Avg Age', team.AverageAge, team.shirt.colors[0]);
+
+         var height = infoBlock('Avg Height', team.AverageHeight, team.shirt.colors[0]);
+
+         teaminfo.appendChild(age);
+         teaminfo.appendChild(height);
 
          item.appendChild(flag);
          item.appendChild(nation);
@@ -173,8 +185,9 @@
 
              clearSelection();
              item.style.border = '1px solid #dd4131';
+             item.style.opacity = 1;
 
-             showInfo([team], 3);
+             showInfo([team], 5);
 
              var playerArea = document.getElementById('players');
 
@@ -185,13 +198,15 @@
              var midfielder = document.getElementById('Midfielder');
              var forward = document.getElementById('Forward');
 
+             colorTypes(team.shirt.colors[0]);
+
              var count = 0;
 
              team.players.forEach(function (player) {
 
                  if (count < 23) {
 
-                     var playerElement = makePlayer(player, team.team);
+                     var playerElement = makePlayer(player, team.team, team.shirt.colors[0]);
                      playerArea.appendChild(playerElement);
 
                      switch (player.Position) {
@@ -221,6 +236,28 @@
          return item;
      }
 
+
+     function colorTypes(color) {
+
+         var newcolor = '#' + color;
+         var newline = '1px solid ' + newcolor;
+
+         var gtype = document.getElementById('gtype');
+         gtype.style.borderTop = newline;
+         gtype.style.color = newcolor;
+
+         var dtype = document.getElementById('dtype');
+         dtype.style.borderTop = newline;
+         dtype.style.color = newcolor;
+
+         var mtype = document.getElementById('mtype');
+         mtype.style.borderTop = newline;
+         mtype.style.color = newcolor;
+
+         var ftype = document.getElementById('ftype');
+         ftype.style.borderTop = newline;
+         ftype.style.color = newcolor;
+     }
 
 
      function initMap() {
@@ -329,17 +366,20 @@
 
          var mapzoom = 3;
 
+         var center = new google.maps.LatLng(8.7832, -55.4915);
+
          // 8.7832° S, 55.4915° W
 
          if (zoom) {
              mapzoom = zoom;
+             center = new google.maps.LatLng(teams[0].center[0], teams[0].center[1])
          }
 
          var mapOptions = {
              mapTypeControlOptions: {
                  mapTypeIds: ['Styled']
              },
-             center: new google.maps.LatLng(8.7832, -55.4915),
+             center: center,
              zoom: mapzoom,
              mapTypeId: 'Styled'
          };
@@ -364,18 +404,30 @@
 
                  var position = new google.maps.LatLng(lat, longitude);
 
-                 var cardinalRed = '#dd4131';
+                 //                 var cardinalRed = '#dd4131';
+
+                 var teamcolor = '#dd4131';
+
+                 if (zoom) {
+                     teamcolor = '#' + team.shirt.colors[0];
+                 }
+
+                 //                 var secondary = teamcolor;
+                 //
+                 //                 if (team.shirt.colors[1]) {
+                 //                     secondary = '#' + team.shirt.colors[1];
+                 //                 }
 
                  var marker = new google.maps.Marker({
                      position: position,
                      icon: {
                          path: google.maps.SymbolPath.CIRCLE,
                          fillOpacity: 1,
-                         fillColor: cardinalRed,
+                         fillColor: teamcolor,
                          strokeOpacity: 1,
-                         strokeColor: cardinalRed,
+                         strokeColor: teamcolor,
                          strokeWeight: 1,
-                         scale: 2 //pixels
+                         scale: 3 //pixels
                      },
                      map: map
                  });
@@ -397,7 +449,7 @@
          }
      }
 
-     window.onload = function () {
+     function setup() {
          var teamlist = document.getElementById('teamlist');
 
          var competitors = document.getElementById('competitors');
@@ -432,7 +484,13 @@
 
          xmlhttp.open("GET", copa, true);
          xmlhttp.send();
+     }
+
+     window.onload = function () {
+         setup();
+     }
 
 
-
+     window.onresize = function () {
+         setup();
      }

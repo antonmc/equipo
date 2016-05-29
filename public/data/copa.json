@@ -2,8 +2,9 @@
     "team": "Argentina",
     "id": 202,
     "flag": "ar",
+    "center": [-38.4161, -63.6167],
     "shirt": {
-        "colors": [],
+        "colors": ["90a7cf", "FFFFFF"],
         "style": ""
     },
     "shorts": "",
@@ -292,10 +293,11 @@
     "AverageHeight": 180
 }, {
     "team": "Brazil",
+    "center": [-14.2350, -51.9253],
     "id": 205,
     "flag": "br",
     "shirt": {
-        "colors": [],
+        "colors": ["f9df3c", "005083"],
         "style": ""
     },
     "shorts": "",
@@ -486,8 +488,9 @@
     "team": "United-States",
     "id": 660,
     "flag": "us",
+    "center": [37.0902, -95.7129],
     "shirt": {
-        "colors": [],
+        "colors": ["ffffff", "dd4230", "005083"],
         "style": ""
     },
     "shorts": "",
@@ -878,8 +881,9 @@
     "team": "Chile",
     "id": 207,
     "flag": "cl",
+    "center": [-35.6751, -71.5430],
     "shirt": {
-        "colors": [],
+        "colors": ["dd4230", "005083", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -1172,8 +1176,9 @@
     "team": "Bolivia",
     "id": 204,
     "flag": "bo",
+    "center": [-16.2902, -63.5887],
     "shirt": {
-        "colors": [],
+        "colors": ["7bc253", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -1511,8 +1516,9 @@
     "team": "Costa-Rica",
     "id": 214,
     "flag": "cr",
+    "center": [9.7489, -83.7534],
     "shirt": {
-        "colors": [],
+        "colors": ["dd4230", "005083"],
         "style": ""
     },
     "shorts": "",
@@ -1770,8 +1776,9 @@
     "team": "Ecuador",
     "id": 209,
     "flag": "ec",
+    "center": [1.8312, -78.1834],
     "shirt": {
-        "colors": [],
+        "colors": ["f9df3c", "005083", "dd4230"],
         "style": ""
     },
     "shorts": "",
@@ -2128,8 +2135,9 @@
     "team": "Haiti",
     "id": 2654,
     "flag": "ht",
+    "center": [18.9712, -72.2852],
     "shirt": {
-        "colors": [],
+        "colors": ["005083"],
         "style": ""
     },
     "shorts": "",
@@ -2353,8 +2361,9 @@
     "team": "Jamaica",
     "id": 1038,
     "flag": "jm",
+    "center": [18.1096, -77.2975],
     "shirt": {
-        "colors": [],
+        "colors": ["f9df3c", "000000"],
         "style": ""
     },
     "shorts": "",
@@ -2588,8 +2597,9 @@
     "team": "Panama",
     "id": 2659,
     "flag": "pa",
+    "center": [8.5380, -80.7821],
     "shirt": {
-        "colors": [],
+        "colors": ["dd4230"],
         "style": ""
     },
     "shorts": "",
@@ -2844,8 +2854,9 @@
     "team": "Paraguay",
     "id": 210,
     "flag": "py",
+    "center": [-23.4425, -58.4438],
     "shirt": {
-        "colors": [],
+        "colors": ["dd4230", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -3102,8 +3113,9 @@
     "team": "Peru",
     "id": 211,
     "flag": "pe",
+    "center": [-9.1900, -75.0152],
     "shirt": {
-        "colors": [],
+        "colors": ["ffffff", "dd4230"],
         "style": ""
     },
     "shorts": "",
@@ -3323,8 +3335,9 @@
     "team": "Venezuela",
     "id": 213,
     "flag": "ve",
+    "center": [6.4238, -66.5897],
     "shirt": {
-        "colors": [],
+        "colors": ["dd4230", "f9df3c"],
         "style": ""
     },
     "shorts": "",
@@ -3618,8 +3631,9 @@
     "team": "Mexico",
     "id": 203,
     "flag": "mx",
+    "center": [23.6345, -102.5528],
     "shirt": {
-        "colors": [],
+        "colors": ["7bc253", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -4078,8 +4092,9 @@
     "team": "Colombia",
     "id": 208,
     "flag": "co",
+    "center": [4.5709, -74.2973],
     "shirt": {
-        "colors": [],
+        "colors": ["f9df3c", "005083"],
         "style": ""
     },
     "shorts": "",
@@ -4326,8 +4341,9 @@
     "team": "Uruguay",
     "id": 212,
     "flag": "uy",
+    "center": [-32.5228, -55.7658],
     "shirt": {
-        "colors": [],
+        "colors": ["90a7ce", "000000"],
         "style": ""
     },
     "shorts": "",
