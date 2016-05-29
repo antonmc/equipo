@@ -134,13 +134,13 @@
          }
      }
 
-     function makePlayer(p, country, color) {
+     function makePlayer(p, team) {
 
          var images = 'images/player/';
 
          var player = newDiv('player');
          var playerImage = document.createElement('img');
-         playerImage.src = images + country + '.svg';
+         playerImage.src = images + team.team + '.svg';
          playerImage.className = 'playericon';
 
          var label = newlabel('playerlabel');
@@ -152,7 +152,7 @@
          player.appendChild(label);
 
          player.onclick = function () {
-             showPlayer(p);
+             showPlayer(p, team);
          }
 
          return player;
@@ -184,8 +184,13 @@
              console.log('clicked ' + team.team);
 
              clearSelection();
-             item.style.border = '1px solid #dd4131';
+             item.style.border = '1px solid #' + team.shirt.colors[0];
              item.style.opacity = 1;
+
+             var title = document.getElementById('title');
+             title.style.color = '#' + team.shirt.colors[0];
+
+             title.innerHTML = 'Players of Copa America 2016 - ' + '<b>' + team.team + '</b>';
 
              showInfo([team], 5);
 
@@ -206,7 +211,7 @@
 
                  if (count < 23) {
 
-                     var playerElement = makePlayer(player, team.team, team.shirt.colors[0]);
+                     var playerElement = makePlayer(player, team);
                      playerArea.appendChild(playerElement);
 
                      switch (player.Position) {
@@ -319,12 +324,12 @@
          forward.innerHTML = "";
      }
 
-     function showPlayer(player) {
+     function showPlayer(player, team) {
          var mapOptions = {
              mapTypeControlOptions: {
                  mapTypeIds: ['Styled']
              },
-             center: new google.maps.LatLng(player.Lat, player.Lng),
+             center: new google.maps.LatLng(team.center[0], team.center[1]),
              zoom: 5,
              mapTypeId: 'Styled'
          };
@@ -341,23 +346,23 @@
 
          var position = new google.maps.LatLng(player.Lat, player.Lng);
 
-         var cardinalRed = '#dd4131';
+         var color = '#' + team.shirt.colors[0];
 
          var marker = new google.maps.Marker({
              position: position,
              icon: {
                  path: google.maps.SymbolPath.CIRCLE,
                  fillOpacity: 1,
-                 fillColor: cardinalRed,
+                 fillColor: color,
                  strokeOpacity: 1,
-                 strokeColor: cardinalRed,
+                 strokeColor: color,
                  strokeWeight: 1,
-                 scale: 3 //pixels
+                 scale: 4 //pixels
              },
              map: map
          });
 
-         createInfoWindow(marker, player);
+         createInfoWindow(marker, player, team);
 
          markers.push(marker);
      }

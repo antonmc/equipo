@@ -36,6 +36,7 @@ html {
 
 .title {
     color: #bbb;
+    font-size: 14px;
 }
 
 .geo {
@@ -116,6 +117,7 @@ html {
     align-items: center;
     justify-content: center;
     background: #212121;
+    cursor: pointer;
 }
 
 .teamname {
@@ -220,6 +222,7 @@ html {
     justify-content: center;
     max-width: 44px;
     min-width: 44px;
+    cursor: pointer;
 }
 
 .players {
