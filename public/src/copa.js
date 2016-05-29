@@ -181,22 +181,28 @@
          item.appendChild(teaminfo);
 
          item.onclick = function () {
+
              console.log('clicked ' + team.team);
 
              var teamArea = document.getElementById('teamArea');
+             teamArea.style.visibility = 'visible';
              teamArea.style.height = '20%';
              teamArea.style.minHeight = '20%';
-             teamArea.style.visibility = 'visible';
 
              var geoArea = document.getElementById('geoArea');
              geoArea.style.height = '70%';
              geoArea.style.minHeight = '70%';
 
-
-
              clearSelection();
              item.style.border = '1px solid #' + team.shirt.colors[0];
              item.style.opacity = 1;
+
+             var lead = document.getElementById('lead');
+             var leadb = document.getElementById('leadb');
+
+             lead.style.color = '#' + team.shirt.colors[0];
+             leadb.style.color = '#' + team.shirt.colors[0];
+
 
              var title = document.getElementById('title');
              title.style.color = '#' + team.shirt.colors[0];
@@ -339,6 +345,8 @@
      }
 
      function showPlayer(player, team) {
+
+
          var mapOptions = {
              mapTypeControlOptions: {
                  mapTypeIds: ['Styled']
@@ -350,7 +358,11 @@
 
          map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-         var styledMapType = new google.maps.StyledMapType(styles);
+         //         var styledMapType = new google.maps.StyledMapType(styles);
+
+         var styledMapType = new google.maps.StyledMapType(styles, {
+             name: player.Name
+         });
 
          map.mapTypes.set('Styled', styledMapType);
 
@@ -385,6 +397,8 @@
 
          var mapzoom = 3;
 
+         var maptitle = 'Players of Copa America';
+
          var center = new google.maps.LatLng(8.7832, -55.4915);
 
          // 8.7832° S, 55.4915° W
@@ -392,6 +406,7 @@
          if (zoom) {
              mapzoom = zoom;
              center = new google.maps.LatLng(teams[0].center[0], teams[0].center[1])
+             maptitle = teams[0].team;
          }
 
          var mapOptions = {
@@ -405,11 +420,11 @@
 
          map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-         //         var styledMapType = new google.maps.StyledMapType(styles, {
-         //             name: 'Cardinals Of The 2013 Conclave'
-         //         });
+         var styledMapType = new google.maps.StyledMapType(styles, {
+             name: maptitle
+         });
 
-         var styledMapType = new google.maps.StyledMapType(styles);
+         //         var styledMapType = new google.maps.StyledMapType(styles);
 
          map.mapTypes.set('Styled', styledMapType);
 
@@ -440,7 +455,7 @@
                          strokeOpacity: 1,
                          strokeColor: teamcolor,
                          strokeWeight: 1,
-                         scale: 3 //pixels
+                         scale: 4 //pixels
                      },
                      map: map
                  });
