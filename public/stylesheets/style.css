@@ -121,6 +121,10 @@ html {
     cursor: pointer;
 }
 
+.item:hover {
+    opacity: 1 !important;
+}
+
 .teamname {
     font-size: 12px;
     color: #ccc;

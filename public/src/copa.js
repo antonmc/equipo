@@ -329,6 +329,8 @@
              }
              this.infowindow.open(map, this);
          });
+
+         return marker.infowindow;
      }
 
 
@@ -388,7 +390,9 @@
              map: map
          });
 
-         createInfoWindow(marker, player, team);
+         var infoWindow = createInfoWindow(marker, player, team);
+
+         infoWindow.open(map, marker);
 
          markers.push(marker);
      }
