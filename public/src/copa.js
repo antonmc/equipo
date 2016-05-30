@@ -105,6 +105,13 @@
          return flag;
      }
 
+     function flagBlockSmall(flagImage) {
+         var flag = document.createElement('img');
+         flag.src = './flags/1x1/' + flagImage + '.svg';
+         flag.className = 'flagSmall';
+         return flag;
+     }
+
      function nationBlock(name, flagImage) {
          var nation = newDiv('nation');
          var teamname = newlabel('teamname', name);
@@ -471,14 +478,110 @@
          })
      }
 
-     function addGames() {
+     function getFlag(teams, team) {
+
+         var flag;
+
+         teams.forEach(function (t) {
+
+             if (team === t.team) {
+                 flag = t.flag;
+             }
+
+         })
+
+         return flag;
+     }
+
+
+     function presentName(name) {
+
+         var presentation = name;
+
+         if (name === 'United-States') {
+             presentation = 'USA';
+         }
+
+         if (name === 'United-States') {
+             presentation = 'USA';
+         }
+
+         return presentation;
+     }
+
+
+     function buildGame(teams, data) {
+         var game = newDiv('game');
+
+         var nations = newDiv('nations');
+
+         var home = newDiv('nation');
+
+         var homeflag = newDiv('teamFlag');
+         var hflag = getFlag(teams, data.home);
+         homeflag.appendChild(flagBlockSmall(hflag));
+
+         var homeName = newDiv('teamName');
+         homeName.innerHTML = presentName(data.home);
+
+         home.appendChild(homeflag);
+         home.appendChild(homeName);
+
+         var away = newDiv('nation');
+
+         var awayflag = newDiv('teamFlag');
+
+         var aflag = getFlag(teams, data.away);
+         awayflag.appendChild(flagBlockSmall(aflag));
+
+         var awayName = newDiv('teamName');
+         awayName.innerHTML = presentName(data.away);
+
+         away.appendChild(awayflag);
+         away.appendChild(awayName);
+
+         var versus = newDiv('versus');
+         versus.innerHTML = 'v';
+
+         nations.appendChild(home);
+         nations.appendChild(versus);
+         nations.appendChild(away);
+
+         game.appendChild(nations);
+
+         var matchdate = newDiv('matchdate');
+         matchdate.innerHTML = data.date;
+
+         var matchlocation = newDiv('matchlocation');
+         matchlocation.innerHTML = data.location;
+
+         game.appendChild(matchdate);
+         game.appendChild(matchlocation);
+
+         return game;
+     }
+
+     function addGames(teams) {
 
          var teamlist = document.getElementById('gamelist');
 
-         for (g = 0; g < 20; g++) {
-             var game = newDiv('game');
-             gamelist.appendChild(game);
+         var games = './data/games.json'
+
+         var xmlhttp = new XMLHttpRequest();
+
+         xmlhttp.onreadystatechange = function () {
+             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                 var data = JSON.parse(xmlhttp.responseText);
+
+                 data.forEach(function (data) {
+                     var game = buildGame(teams, data)
+                     gamelist.appendChild(game);
+                 });
+             };
          }
+
+         xmlhttp.open("GET", games, true);
+         xmlhttp.send();
      }
 
      function setup() {
@@ -510,7 +613,7 @@
                      teamlist.appendChild(makeListItem(team));
                  })
 
-                 addGames();
+                 addGames(teams);
              };
          }
 
