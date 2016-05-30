@@ -411,6 +411,9 @@
 
          var mapzoom = 3;
 
+
+         var scale = 2;
+
          var maptitle = 'Players of Copa America';
 
          var center = new google.maps.LatLng(8.7832, -55.4915);
@@ -421,6 +424,7 @@
              mapzoom = zoom;
              center = new google.maps.LatLng(teams[0].center[0], teams[0].center[1])
              maptitle = teams[0].team;
+             scale = 4;
          }
 
          var mapOptions = {
@@ -469,7 +473,7 @@
                          strokeOpacity: 1,
                          strokeColor: teamcolor,
                          strokeWeight: 1,
-                         scale: 4 //pixels
+                         scale: scale //pixels
                      },
                      map: map
                  });
