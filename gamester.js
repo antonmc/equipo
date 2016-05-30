@@ -13,15 +13,7 @@ request(url, function (error, response, html) {
 
         var scan = cheerio.load(html);
 
-        var matches = scan('.match')
-
-        var date = matches[0].children[0].next.children[0].data;
-
-        var home = matches[0].children[3].children[2].next.children[1].children[1].children[1].children[0].data
-
-        var away = matches[0].children[3].children[2].next.children[1].children[4].next.children[3].children[0].data;
-
-        console.log('' + home + ' v ' + away + ', ' + date);
+        var matches = scan('.match');
 
         matches.each(function (i, element) {
 
@@ -39,7 +31,9 @@ request(url, function (error, response, html) {
                 away = element.children[3].children[2].next.children[1].children[4].next.children[3].children[0].data;
             }
 
-            console.log('' + home + ' v ' + away + ', ' + date);
+            var location = element.children[3].children[5].children[1].children[0].data;
+
+            console.log('' + home + ' v ' + away + ', ' + location + ', ' + date);
         })
     }
 })
