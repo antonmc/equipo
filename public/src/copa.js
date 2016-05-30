@@ -141,6 +141,7 @@
          }
      }
 
+
      function makePlayer(p, team) {
 
          var images = 'images/player/';
@@ -167,7 +168,7 @@
 
      //["90a7cf", "FFFFFF"]
 
-     function makeListItem(team) {
+     function makeListItem(team, teams) {
 
          var item = newDiv('item');
          var flag = flagBlock(team.flag);
@@ -263,6 +264,8 @@
              details.style.height = geoArea.offsetHeight - 40 + 'px';
 
              showInfo([team], 5);
+
+             addGames(teams, team.team);
          }
 
          return item;
@@ -561,9 +564,11 @@
          return game;
      }
 
-     function addGames(teams) {
+     function addGames(teams, chosen) {
 
          var teamlist = document.getElementById('gamelist');
+
+         teamlist.innerHTML = "";
 
          var games = './data/games.json'
 
@@ -574,8 +579,19 @@
                  var data = JSON.parse(xmlhttp.responseText);
 
                  data.forEach(function (data) {
-                     var game = buildGame(teams, data)
-                     gamelist.appendChild(game);
+
+                     if (chosen) {
+
+                         if (chosen === data.home || chosen === data.away) {
+                             var game = buildGame(teams, data)
+                             gamelist.appendChild(game);
+                         }
+                     } else {
+
+                         var game = buildGame(teams, data)
+                         gamelist.appendChild(game);
+                     }
+
                  });
              };
          }
@@ -610,7 +626,7 @@
                  showInfo(teams);
 
                  teams.forEach(function (team) {
-                     teamlist.appendChild(makeListItem(team));
+                     teamlist.appendChild(makeListItem(team, teams));
                  })
 
                  addGames(teams);
