@@ -1,1 +1,121 @@
-[{"home":"United-States","away":"Colombia","location":"Santa Clara, CA","date":"June  3"},{"home":"Costa-Rica","away":"Paraguay","location":"Orlando, FL","date":"June  4"},{"home":"Haiti","away":"Peru","location":"Seattle, WA","date":"June  4"},{"home":"Brazil","away":"Ecuador","location":"Pasadena, CA","date":"June  4"},{"home":"Jamaica","away":"Venezuela","location":"Chicago, IL","date":"June  5"},{"home":"Mexico","away":"Uruguay","location":"Glendale, AZ","date":"June  5"},{"home":"Panama","away":"Bolivia","location":"Orlando, FL","date":"June  6"},{"home":"Argentina","away":"Chile","location":"Santa Clara, CA","date":"June  6"},{"home":"United-States","away":"Costa-Rica","location":"Chicago, IL","date":"June  7"},{"home":"Colombia","away":"Paraguay","location":"Pasadena, CA","date":"June  7"},{"home":"Brazil","away":"Haiti","location":"Orlando, FL","date":"June  8"},{"home":"Ecuador","away":"Peru","location":"Glendale, AZ","date":"June  8"},{"home":"Uruguay","away":"Venezuela","location":"Philadelphia, PA","date":"June  9"},{"home":"Mexico","away":"Jamaica","location":"Pasadena, CA","date":"June  9"},{"home":"Chile","away":"Bolivia","location":"Foxborough, MA","date":"June 10"},{"home":"Argentina","away":"Panama","location":"Chicago, IL","date":"June 10"},{"home":"United-States","away":"Paraguay","location":"Philadelphia, PA","date":"June 11"},{"home":"Colombia","away":"Costa-Rica","location":"Houston, TX","date":"June 11"},{"home":"Ecuador","away":"Haiti","location":"East Rutherford, NJ","date":"June 12"},{"home":"Brazil","away":"Peru","location":"Foxborough, MA","date":"June 12"},{"home":"Mexico","away":"Venezuela","location":"Houston, TX","date":"June 13"},{"home":"Uruguay","away":"Jamaica","location":"Santa Clara, CA","date":"June 13"},{"home":"Chile","away":"Panama","location":"Philadelphia, PA","date":"June 14"},{"home":"Argentina","away":"Bolivia","location":"Seattle, WA","date":"June 14"}]
+[{
+    "home": "USA",
+    "away": "Colombia",
+    "location": "Santa Clara, CA",
+    "date": "June  3"
+}, {
+    "home": "Costa Rica",
+    "away": "Paraguay",
+    "location": "Orlando, FL",
+    "date": "June  4"
+}, {
+    "home": "Haiti",
+    "away": "Peru",
+    "location": "Seattle, WA",
+    "date": "June  4"
+}, {
+    "home": "Brazil",
+    "away": "Ecuador",
+    "location": "Pasadena, CA",
+    "date": "June  4"
+}, {
+    "home": "Jamaica",
+    "away": "Venezuela",
+    "location": "Chicago, IL",
+    "date": "June  5"
+}, {
+    "home": "Mexico",
+    "away": "Uruguay",
+    "location": "Glendale, AZ",
+    "date": "June  5"
+}, {
+    "home": "Panama",
+    "away": "Bolivia",
+    "location": "Orlando, FL",
+    "date": "June  6"
+}, {
+    "home": "Argentina",
+    "away": "Chile",
+    "location": "Santa Clara, CA",
+    "date": "June  6"
+}, {
+    "home": "United-States",
+    "away": "Costa Rica",
+    "location": "Chicago, IL",
+    "date": "June  7"
+}, {
+    "home": "Colombia",
+    "away": "Paraguay",
+    "location": "Pasadena, CA",
+    "date": "June  7"
+}, {
+    "home": "Brazil",
+    "away": "Haiti",
+    "location": "Orlando, FL",
+    "date": "June  8"
+}, {
+    "home": "Ecuador",
+    "away": "Peru",
+    "location": "Glendale, AZ",
+    "date": "June  8"
+}, {
+    "home": "Uruguay",
+    "away": "Venezuela",
+    "location": "Philadelphia, PA",
+    "date": "June  9"
+}, {
+    "home": "Mexico",
+    "away": "Jamaica",
+    "location": "Pasadena, CA",
+    "date": "June  9"
+}, {
+    "home": "Chile",
+    "away": "Bolivia",
+    "location": "Foxborough, MA",
+    "date": "June 10"
+}, {
+    "home": "Argentina",
+    "away": "Panama",
+    "location": "Chicago, IL",
+    "date": "June 10"
+}, {
+    "home": "United-States",
+    "away": "Paraguay",
+    "location": "Philadelphia, PA",
+    "date": "June 11"
+}, {
+    "home": "Colombia",
+    "away": "Costa Rica",
+    "location": "Houston, TX",
+    "date": "June 11"
+}, {
+    "home": "Ecuador",
+    "away": "Haiti",
+    "location": "East Rutherford, NJ",
+    "date": "June 12"
+}, {
+    "home": "Brazil",
+    "away": "Peru",
+    "location": "Foxborough, MA",
+    "date": "June 12"
+}, {
+    "home": "Mexico",
+    "away": "Venezuela",
+    "location": "Houston, TX",
+    "date": "June 13"
+}, {
+    "home": "Uruguay",
+    "away": "Jamaica",
+    "location": "Santa Clara, CA",
+    "date": "June 13"
+}, {
+    "home": "Chile",
+    "away": "Panama",
+    "location": "Philadelphia, PA",
+    "date": "June 14"
+}, {
+    "home": "Argentina",
+    "away": "Bolivia",
+    "location": "Seattle, WA",
+    "date": "June 14"
+}]

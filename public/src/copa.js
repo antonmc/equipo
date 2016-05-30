@@ -525,7 +525,7 @@
          homeflag.appendChild(flagBlockSmall(hflag));
 
          var homeName = newDiv('teamName');
-         homeName.innerHTML = presentName(data.home);
+         homeName.innerHTML = data.home;
 
          home.appendChild(homeflag);
          home.appendChild(homeName);
@@ -538,7 +538,7 @@
          awayflag.appendChild(flagBlockSmall(aflag));
 
          var awayName = newDiv('teamName');
-         awayName.innerHTML = presentName(data.away);
+         awayName.innerHTML = data.away;
 
          away.appendChild(awayflag);
          away.appendChild(awayName);
