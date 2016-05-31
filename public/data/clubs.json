@@ -1,5 +1,9 @@
 [{
     "name": "Real Madrid"
+    "lat": 40.45306,
+    "lng": 3.68835,
+    "stadium": "Santiago Bernabéu"
+
 }, {
     "name": "Alajuelense"
 }, {
@@ -7,9 +11,16 @@
 }, {
     "name": "Persepolis"
 }, {
-    "name": "Deportivo La Coruña"
+    "name": "Deportivo La Coruña",
+    "lat": 43.368714,
+    "lng": 8.417516,
+    "stadium": "Riazor"
 }, {
-    "name": "Espanyol"
+    "name": "Espanyol",
+    "lat": 41.347861,
+    "lng": 2.075667,
+    "stadium": "RCDE Stadium"
+
 }, {
     "name": "Vancouver Whitecaps"
 }, {
@@ -124,11 +135,17 @@
 }, {
     "name": "Internacional"
 }, {
-    "name": "Barcelona"
+    "name": "Barcelona",
+    "lat": 41.38087,
+    "lng": 2.122802,
+    "stadium": "Camp Nou"
 }, {
     "name": "Shandong Luneng"
 }, {
-    "name": "Atlético Madrid"
+    "name": "Atlético Madrid",
+    "lat": 40.401719,
+    "lng": -3.720606,
+    "stadium": "Vicente Calderón"
 }, {
     "name": "Orlando City"
 }, {
@@ -138,7 +155,11 @@
 }, {
     "name": "Santos"
 }, {
-    "name": "Valencia"
+    "name": "Valencia",
+    "lat": 39.474656,
+    "lng": -0.358361,
+    "stadium": "Mestalla"
+
 }, {
     "name": "Paris Saint-Germain"
 }, {
@@ -321,13 +342,19 @@
 }, {
     "name": "Atlas"
 }, {
-    "name": "Real Sociedad"
+    "name": "Real Sociedad",
+    "lat": 43.301378,
+    "lng": -1.973617,
+    "stadium": "Anoeta"
 }, {
     "name": "UANL"
 }, {
     "name": "Porto"
 }, {
-    "name": "Málaga"
+    "name": "Málaga",
+    "lat": 36.734092,
+    "lng": 4.426422,
+    "stadium": "La Rosaleda"
 }, {
     "name": "Bayer Leverkusen"
 }, {
@@ -397,7 +424,10 @@
 }, {
     "name": "Nacional"
 }, {
-    "name": "Getafe"
+    "name": "Getafe",
+    "lat": 40.325556,
+    "lng": -3.714722,
+    "stadium": "Coliseum Alfonso Pérez"
 }, {
     "name": "Hull City",
     "lat": 53.7465,
@@ -431,7 +461,11 @@
     "lng": -0.065684,
     "stadium": "White Heart Lane"
 }, {
-    "name": "Sevilla"
+    "name": "Sevilla",
+    "lat": 37.377222,
+    "lng": -5.986944,
+    "stadium": "Olímpico de Sevilla"
+
 }, {
     "name": "Hebei China Fortune"
 }, {
