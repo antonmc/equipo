@@ -1,15 +1,13 @@
 [{
-    "name": "Real Madrid"
+    "name": "Real Madrid",
     "lat": 40.45306,
     "lng": 3.68835,
     "stadium": "Santiago Bernabéu"
-
 }, {
-    "name": "Alajuelense"
-}, {
-    "name": "Deportivo Saprissa"
-}, {
-    "name": "Persepolis"
+    "name": "Alajuelense",
+    "lat": 10.016667,
+    "lng": -84.216667,
+    "stadium": "Estadio Alejandro Morera Sot"
 }, {
     "name": "Deportivo La Coruña",
     "lat": 43.368714,
@@ -20,44 +18,45 @@
     "lat": 41.347861,
     "lng": 2.075667,
     "stadium": "RCDE Stadium"
-
 }, {
-    "name": "Vancouver Whitecaps"
+    "name": "Vancouver Whitecaps",
+    "lat": 49.276667,
+    "lng": -123.111944,
+    "stadium": "BC Place"
 }, {
     "name": "Everton",
     "lat": 53.4387,
     "lng": -2.96619,
     "stadium": "Goodison Park"
 }, {
-    "name": "D.C. United"
+    "name": "D.C. United",
+    "lat": 38.89,
+    "lng": -76.972,
+    "stadium": "RFK Stadium"
 }, {
-    "name": "Sporting Lisbon"
-}, {
-    "name": "Montréal Impact"
+    "name": "Montréal Impact",
+    "lat": 45.563056,
+    "lng": -73.5525,
+    "stadium": "Saputo Stadium"
 }, {
     "name": "Arsenal",
     "lat": 51.5549,
     "lng": -0.108436,
     "stadium": "Emirites Stadium"
 }, {
-    "name": "Herediano"
-}, {
     "name": "West Bromwich Albion",
     "lat": 52.509,
     "lng": -1.96418,
     "stadium": "Hawthorns"
 }, {
-    "name": "Evian"
+    "name": "New York City",
+    "lat": 40.829167,
+    "lng": -73.926389,
+    "stadium": "Yankee Stadium"
 }, {
-    "name": "Bangkok Glass"
-}, {
-    "name": "Midtjylland"
-}, {
-    "name": "New York City"
-}, {
-    "name": "Aston Villa"
+    "name": "Aston Villa",
     "lat": 52.5092,
-    "lng:	-1.88508,
+    "lng": -1.88508,
     "stadium": "Villa Park"
 }, {
     "name": "Sunderland",
@@ -65,41 +64,93 @@
     "lng": -1.38837,
     "stadium": "Stadium Of Light"
 }, {
-    "name": "Toronto FC"
+    "name": "San Jose Earthquakes",
+    "lat": 37.351389,
+    "lng": -121.925,
+    "stadium": "Avaya Stadium"
 }, {
-    "name": "Sporting Kansas City"
+    "name": "Toronto FC",
+    "lat": 43.632778,
+    "lng": -79.418611,
+    "stadium": "BMO Field"
 }, {
-    "name": "Hertha BSC"
+    "name": "Sporting Kansas City",
+    "lat": 39.1218,
+    "lng": -94.8237,
+    "stadium": "Children's Mercy Park"
 }, {
-    "name": "Hamburger SV"
+    "name": "Seattle Sounders FC",
+    "lat": 47.5952,
+    "lng": -122.3316,
+    "stadium": "CenturyLink Field"
 }, {
-    "name": "Seattle Sounders FC"
+    "name": "LA Galaxy",
+    "lat": 33.864444,
+    "lng": -118.261111,
+    "stadium": "StubHub Center"
 }, {
-    "name": "LA Galaxy"
+    "name": "Portland Timbers",
+    "lat": 45.521389,
+    "lng": -122.691667,
+    "stadium": "Providence park"
 }, {
-    "name": "Portland Timbers"
+    "name": "Colorado Rapids",
+    "lat": 39.805556,
+    "lng": -104.891944,
+    "stadium": "Dick's Sporting Goods Park"
 }, {
-    "name": "Nantes"
+    "name": "Real Salt Lake",
+    "lat": 40.582923,
+    "lng": -111.893156,
+    "stadium": "Rio Tinto Stadium"
 }, {
-    "name": "Colorado Rapids"
+    "name": "Philadelphia Union",
+    "lat": 39.832222,
+    "lng": -75.378889,
+    "stadium": "Talen Energy Stadium"
 }, {
-    "name": "Tijuana"
-}, {
-    "name": "Real Salt Lake"
+    "name": "Orlando City",
+    "lat": 28.539167,
+    "lng": -81.402778,
+    "stadium": "Camping World Stadium"
 }, {
     "name": "Heart of Midlothian",
     "lat": 55.9388,
     "lng": -3.2325,
     "stadium": "tynecastle"
 }, {
-    "name": "Borussia Dortmund"
-}, {
-    "name": "San Jose Earthquakes"
-}, {
     "name": "Stoke City",
     "lat": 52.9884,
     "lng": -2.17542,
     "stadium": "Britannia"
+}, {
+    "name": "New York Red Bulls",
+    "lat": 40.736667,
+    "lng": -74.150278,
+    "stadium": "Red Bull Arena"
+}, {
+    "name": "New England Revolution",
+    "lat": 42.090944,
+    "lng": -71.264344,
+    "stadium": "Gillette Stadium"
+}, {
+    "name": "Houston Dynamo",
+    "lat": 29.7522,
+    "lng": -95.3524,
+    "stadium": "BBVA Compass Stadium"
+}, {
+    "name": "Minnesota United",
+    "lat": 44.9528,
+    "lng": -93.1651,
+    "stadium": "Minnesota United FC Stadium"
+}, {
+    "name": "FC Dallas"
+}, {
+    "name": "Jacksonville Armada"
+}, {
+    "name": "New York Cosmos"
+}, {
+    "name": "San Francisco"
 }, {
     "name": "Monterrey"
 }, {
@@ -112,6 +163,8 @@
     "name": "Palmeiras"
 }, {
     "name": "PSV"
+}, {
+    "name": "Nantes"
 }, {
     "name": "Junior"
 }, {
@@ -147,8 +200,6 @@
     "lng": -3.720606,
     "stadium": "Vicente Calderón"
 }, {
-    "name": "Orlando City"
-}, {
     "name": "Corinthians"
 }, {
     "name": "Benfica"
@@ -169,7 +220,19 @@
 }, {
     "name": "Atlético Mineiro"
 }, {
+    "name": "Hoffenheim"
+}, {
+    "name": "Bayern Munich"
+}, {
+    "name": "Bayer Leverkusen"
+}, {
     "name": "Wolfsburg"
+}, {
+    "name": "Borussia Dortmund"
+}, {
+    "name": "Hertha BSC"
+}, {
+    "name": "Hamburger SV"
 }, {
     "name": "Beijing Guoan"
 }, {
@@ -239,15 +302,11 @@
 }, {
     "name": "Flamengo"
 }, {
-    "name": "Philadelphia Union"
-}, {
     "name": "Sarpsborg 08"
 }, {
     "name": "Saint Louis FC"
 }, {
     "name": "Harbour View"
-}, {
-    "name": "New York Red Bulls"
 }, {
     "name": "Crystal Palace",
     "lat": 51.3983,
@@ -277,15 +336,11 @@
 }, {
     "name": "Humble Lions"
 }, {
-    "name": "New England Revolution"
-}, {
     "name": "Blackburn Rovers",
     "lat": 53.7286,
     "lng": -2.48937,
     "stadium": "Ewood Park"
-}, {
-    "name": "Houston Dynamo"
-}, {
+}, , {
     "name": "IFK Mariehamn"
 }, {
     "name": "Birmingham City",
@@ -325,8 +380,6 @@
 }, {
     "name": "UNAM"
 }, {
-    "name": "FC Dallas"
-}, {
     "name": "El Nacional"
 }, {
     "name": "Godoy Cruz"
@@ -356,21 +409,15 @@
     "lng": 4.426422,
     "stadium": "La Rosaleda"
 }, {
-    "name": "Bayer Leverkusen"
-}, {
     "name": "Guadalajara"
 }, {
     "name": "Reims"
-}, {
-    "name": "Minnesota United"
 }, {
     "name": "Aigle Noir"
 }, {
     "name": "Nice"
 }, {
     "name": "Atlético Uruguay"
-}, {
-    "name": "Jacksonville Armada"
 }, {
     "name": "PSG Academy"
 }, {
@@ -406,13 +453,9 @@
 }, {
     "name": "Chiapas"
 }, {
-    "name": "Bayern Munich"
-}, {
     "name": "Atalanta"
 }, {
     "name": "Celta"
-}, {
-    "name": "Hoffenheim"
 }, {
     "name": "Bologna"
 }, {
@@ -517,13 +560,9 @@
 }, {
     "name": "Petrolero"
 }, {
-    "name": "New York Cosmos"
-}, {
     "name": "Saprissa"
 }, {
     "name": "Platense"
-}, {
-    "name": "San Francisco"
 }, {
     "name": "Tauro"
 }, {
@@ -546,4 +585,20 @@
     "name": "RNK Split"
 }, {
     "name": "Porto B"
-}]
+}, {
+    "name": "Deportivo Saprissa"
+}, {
+    "name": "Persepolis"
+}, {
+    "name": "Evian"
+}, {
+    "name": "Bangkok Glass"
+}, {
+    "name": "Midtjylland"
+}, {
+    "name": "Herediano"
+}, {
+    "name": "Sporting Lisbon"
+}, {
+    "name": "Tijuana"
+}, ]
