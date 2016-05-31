@@ -144,13 +144,19 @@
     "lng": -93.1651,
     "stadium": "Minnesota United FC Stadium"
 }, {
-    "name": "FC Dallas"
+    "name": "FC Dallas",
+    "lat": 33.154444,
+    "lng": -96.835278,
+    "stadium": "Toyota Stadium"
 }, {
     "name": "Jacksonville Armada"
 }, {
     "name": "New York Cosmos"
 }, {
-    "name": "San Francisco"
+    "name": "San Francisco",
+    "lat": 37.767,
+    "lng": -122.456,
+    "stadium": "Kezar Stadium"
 }, {
     "name": "Monterrey"
 }, {
@@ -220,19 +226,42 @@
 }, {
     "name": "Atlético Mineiro"
 }, {
-    "name": "Hoffenheim"
+    "name": "Hoffenheim",
+    "lat": 49.29945,
+    "lng": 8.81735,
+    "stadium": "Rhein-Neckar-Arena"
+
 }, {
-    "name": "Bayern Munich"
+    "name": "Bayern Munich",
+    "lat": 48.218923,
+    "lng": 11.625844,
+    "stadium": "Allianz Arena"
 }, {
-    "name": "Bayer Leverkusen"
+    "name": "Bayer Leverkusen",
+    "lat": 51.037972,
+    "lng": 7.002824,
+    "stadium": "Bay Arena"
 }, {
-    "name": "Wolfsburg"
+    "name": "Wolfsburg",
+    "lat": 52.43248,
+    "lng": 10.8035,
+    "stadium": "Volkswagen Arena"
 }, {
-    "name": "Borussia Dortmund"
+    "name": "Borussia Dortmund",
+    "lat": 51.49265,
+    "lng": 7.45334,
+    "stadium": "Westfalenstadion"
 }, {
-    "name": "Hertha BSC"
+    "name": "Hertha BSC",
+    "lat": 52.5168,
+    "lng": 13.230843,
+    "stadium": "Olympiastadion"
 }, {
-    "name": "Hamburger SV"
+    "name": "Hamburger SV",
+    "lat": 53.587103,
+    "lng": 9.899601,
+    "stadium": "Volksparkstadion"
+
 }, {
     "name": "Beijing Guoan"
 }, {
