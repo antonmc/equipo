@@ -1,0 +1,515 @@
+[{
+    "name": "Real Madrid"
+}, {
+    "name": "Alajuelense"
+}, {
+    "name": "Deportivo Saprissa"
+}, {
+    "name": "Persepolis"
+}, {
+    "name": "Deportivo La Coruña"
+}, {
+    "name": "Espanyol"
+}, {
+    "name": "Vancouver Whitecaps"
+}, {
+    "name": "Everton",
+    "lat": 53.4387,
+    "lng": -2.96619,
+    "stadium": "Goodison Park"
+}, {
+    "name": "D.C. United"
+}, {
+    "name": "Sporting Lisbon"
+}, {
+    "name": "Montréal Impact"
+}, {
+    "name": "Arsenal",
+    "lat": 51.5549,
+    "lng": -0.108436,
+    "stadium": "Emirites Stadium"
+}, {
+    "name": "Herediano"
+}, {
+    "name": "West Bromwich Albion",
+    "lat": 52.509,
+    "lng": -1.96418,
+    "stadium": "Hawthorns"
+}, {
+    "name": "Evian"
+}, {
+    "name": "Bangkok Glass"
+}, {
+    "name": "Midtjylland"
+}, {
+    "name": "New York City"
+}, {
+    "name": "Aston Villa"
+    "lat": 52.5092,
+    "lng:	-1.88508,
+    "stadium": "Villa Park"
+}, {
+    "name": "Sunderland",
+    "lat": 54.9146,
+    "lng": -1.38837,
+    "stadium": "Stadium Of Light"
+}, {
+    "name": "Toronto FC"
+}, {
+    "name": "Sporting Kansas City"
+}, {
+    "name": "Hertha BSC"
+}, {
+    "name": "Hamburger SV"
+}, {
+    "name": "Seattle Sounders FC"
+}, {
+    "name": "LA Galaxy"
+}, {
+    "name": "Portland Timbers"
+}, {
+    "name": "Nantes"
+}, {
+    "name": "Colorado Rapids"
+}, {
+    "name": "Tijuana"
+}, {
+    "name": "Real Salt Lake"
+}, {
+    "name": "Heart of Midlothian",
+    "lat": 55.9388,
+    "lng": -3.2325,
+    "stadium": "tynecastle"
+}, {
+    "name": "Borussia Dortmund"
+}, {
+    "name": "San Jose Earthquakes"
+}, {
+    "name": "Stoke City",
+    "lat": 52.9884,
+    "lng": -2.17542,
+    "stadium": "Britannia"
+}, {
+    "name": "Monterrey"
+}, {
+    "name": "Molde"
+}, {
+    "name": "Borussia Mönchengladbach"
+}, {
+    "name": "Milan"
+}, {
+    "name": "Palmeiras"
+}, {
+    "name": "PSV"
+}, {
+    "name": "Junior"
+}, {
+    "name": "Racing Club"
+}, {
+    "name": "Juventus"
+}, {
+    "name": "Santa Fe"
+}, {
+    "name": "Atlético Nacional"
+}, {
+    "name": "Pachuca"
+}, {
+    "name": "Independiente Medellín"
+}, {
+    "name": "Boca Juniors"
+}, {
+    "name": "Deportivo Cali"
+}, {
+    "name": "Internazionale"
+}, {
+    "name": "Internacional"
+}, {
+    "name": "Barcelona"
+}, {
+    "name": "Shandong Luneng"
+}, {
+    "name": "Atlético Madrid"
+}, {
+    "name": "Orlando City"
+}, {
+    "name": "Corinthians"
+}, {
+    "name": "Benfica"
+}, {
+    "name": "Santos"
+}, {
+    "name": "Valencia"
+}, {
+    "name": "Paris Saint-Germain"
+}, {
+    "name": "São Paulo"
+}, {
+    "name": "Monaco"
+}, {
+    "name": "Atlético Mineiro"
+}, {
+    "name": "Wolfsburg"
+}, {
+    "name": "Beijing Guoan"
+}, {
+    "name": "Chelsea",
+    "lat": 51.4816,
+    "lng": -0.191034,
+    "stadium": "Stanford Bridge"
+}, {
+    "name": "Zenit Saint Petersburg"
+}, {
+    "name": "Liverpool",
+    "lat": 53.4308,
+    "lng": -2.96096,
+    "stadium": "Anfield"
+}, {
+    "name": "Colo-Colo"
+}, {
+    "name": "Cerro Porteño"
+}, {
+    "name": "Olimpia"
+}, {
+    "name": "Toluca"
+}, {
+    "name": "América"
+}, {
+    "name": "Lanús"
+}, {
+    "name": "San Lorenzo"
+}, {
+    "name": "Racing"
+}, {
+    "name": "AZ"
+}, {
+    "name": "Seattle Sounders"
+}, {
+    "name": "Querétaro"
+}, {
+    "name": "Dynamo Kyiv"
+}, {
+    "name": "Ingolstadt 04"
+}, {
+    "name": "Cruz Azul"
+}, {
+    "name": "Sporting de Gijón"
+}, {
+    "name": "Bournemouth"
+}, {
+    "name": "Juan Aurich"
+}, {
+    "name": "Sporting Cristal"
+}, {
+    "name": "Universitario"
+}, {
+    "name": "Malmö FF"
+}, {
+    "name": "Deportivo Municipal"
+}, {
+    "name": "Alianza Lima"
+}, {
+    "name": "Charleroi"
+}, {
+    "name": "Feyenoord"
+}, {
+    "name": "Jong PSV"
+}, {
+    "name": "Universidad César Vallejo"
+}, {
+    "name": "Flamengo"
+}, {
+    "name": "Philadelphia Union"
+}, {
+    "name": "Sarpsborg 08"
+}, {
+    "name": "Saint Louis FC"
+}, {
+    "name": "Harbour View"
+}, {
+    "name": "New York Red Bulls"
+}, {
+    "name": "Crystal Palace",
+    "lat": 51.3983,
+    "lng": -0.085455,
+    "stadium": "Selhusrt Park"
+}, {
+    "name": "Leicester City",
+    "lat": 52.6203,
+    "lng": -1.14217,
+    "stadium": "King Power Stadium"
+}, {
+    "name": "Portmore United"
+}, {
+    "name": "Brøndby IF"
+}, {
+    "name": "Cavalier"
+}, {
+    "name": "Leyton Orient",
+    "lat": 51.5601,
+    "lng": -0.012551,
+    "stadium": "Brisbane Road"
+}, {
+    "name": "Reading",
+    "lat": 51.4222,
+    "lng": -0.982777,
+    "stadium": "Madjeski Stadium"
+}, {
+    "name": "Humble Lions"
+}, {
+    "name": "New England Revolution"
+}, {
+    "name": "Blackburn Rovers",
+    "lat": 53.7286,
+    "lng": -2.48937,
+    "stadium": "Ewood Park"
+}, {
+    "name": "Houston Dynamo"
+}, {
+    "name": "IFK Mariehamn"
+}, {
+    "name": "Birmingham City",
+    "lat": 52.4756,
+    "lng": -1.86824,
+    "stadium": "St Andrews"
+}, {
+    "name": "Montego Bay United"
+}, {
+    "name": "LDU Quito"
+}, {
+    "name": "Emelec"
+}, {
+    "name": "Watford",
+    "lat": 51.6498,
+    "lng": -0.401569,
+    "stadium": "Vicarage Road"
+}, {
+    "name": "Independiente"
+}, {
+    "name": "Ferencváros"
+}, {
+    "name": "Universidad Católica"
+}, {
+    "name": "Manchester United",
+    "lat": 53.4631,
+    "lng": -2.29139,
+    "stadium": "Old Trafford"
+    "
+}, {
+    "name": "Rostov"
+}, {
+    "name": "Swansea City",
+    "lat": 51.6428,
+    "lng": -3.93473,
+    "stadium": "Liberty Stadium"
+}, {
+    "name": "UNAM"
+}, {
+    "name": "FC Dallas"
+}, {
+    "name": "El Nacional"
+}, {
+    "name": "Godoy Cruz"
+}, {
+    "name": "West Ham United",
+    "lat": 51.5383,
+    "lng": -0.016587,
+    "stadium": "Olymic Stadium"
+}, {
+    "name": "Grêmio"
+}, {
+    "name": "Santos Laguna"
+}, {
+    "name": "Atlas"
+}, {
+    "name": "Real Sociedad"
+}, {
+    "name": "UANL"
+}, {
+    "name": "Porto"
+}, {
+    "name": "Málaga"
+}, {
+    "name": "Bayer Leverkusen"
+}, {
+    "name": "Guadalajara"
+}, {
+    "name": "Reims"
+}, {
+    "name": "Minnesota United"
+}, {
+    "name": "Aigle Noir"
+}, {
+    "name": "Nice"
+}, {
+    "name": "Atlético Uruguay"
+}, {
+    "name": "Jacksonville Armada"
+}, {
+    "name": "PSG Academy"
+}, {
+    "name": "Standard Liège"
+}, {
+    "name": "Voluntari"
+}, {
+    "name": "Aarau"
+}, {
+    "name": "Vila Real"
+}, {
+    "name": "Chrobry Głogów"
+}, {
+    "name": "Fort Lauderdale Strikers"
+}, {
+    "name": "Cholet"
+}, {
+    "name": "Mohun Bagan"
+}, {
+    "name": "Carolina RailHawks"
+}, {
+    "name": "Sài Gòn"
+}, {
+    "name": "1461 Trabzon"
+}, {
+    "name": "Laval"
+}, {
+    "name": "Caen"
+}, {
+    "name": "Wisła Kraków"
+}, {
+    "name": "Marseille"
+}, {
+    "name": "Chiapas"
+}, {
+    "name": "Bayern Munich"
+}, {
+    "name": "Atalanta"
+}, {
+    "name": "Celta"
+}, {
+    "name": "Hoffenheim"
+}, {
+    "name": "Bologna"
+}, {
+    "name": "Fiorentina"
+}, {
+    "name": "Universidad de Chile"
+}, {
+    "name": "Galatasaray"
+}, {
+    "name": "Nacional"
+}, {
+    "name": "Getafe"
+}, {
+    "name": "Hull City",
+    "lat": 53.7465,
+    "lng": -0.368009,
+    "stadium": KC Stadium "
+}, {
+    "name": "Middlesbrough",
+    "lat": 54.5781,
+    "lng": -1.21776,
+    "stadium": "Riverside Stadium"
+}, {
+    "name": "Torino"
+}, {
+    "name": "Bordeaux"
+}, {
+    "name": "Vasco da Gama"
+}, {
+    "name": "River Plate"
+}, {
+    "name": "Lazio"
+}, {
+    "name": "Napoli"
+}, {
+    "name": "Manchester City",
+    "lat": 53.483,
+    "lng": -2.20024,
+    "stadium": 'Etihad Stadium"
+}, {
+    "name": "Tottenham Hotspur",
+    "lat": 51.6033,
+    "lng": -0.065684,
+    "stadium": "White Heart Lane"
+}, {
+    "name": "Sevilla"
+}, {
+    "name": "Hebei China Fortune"
+}, {
+    "name": "Estudiantes"
+}, {
+    "name": "Deportivo Táchira"
+}, {
+    "name": "Atlético Malagueño"
+}, {
+    "name": "La Guaira"
+}, {
+    "name": "Arouca"
+}, {
+    "name": "Kasımpaşa"
+}, {
+    "name": "Genoa"
+}, {
+    "name": "Huachipato"
+}, {
+    "name": "Tenerife"
+}, {
+    "name": "Carabobo"
+}, {
+    "name": "NEC"
+}, {
+    "name": "Duisburg"
+}, {
+    "name": "Huesca"
+}, {
+    "name": "Atlético Venezuela"
+}, {
+    "name": "Caracas"
+}, {
+    "name": "Bolívar"
+}, {
+    "name": "Sport Boys"
+}, {
+    "name": "Oriente Petrolero"
+}, {
+    "name": "Ironi Kiryat Shmona"
+}, {
+    "name": "Jorge Wilstermann"
+}, {
+    "name": "The Strongest"
+}, {
+    "name": "Kazma"
+}, {
+    "name": "IFK Göteborg"
+}, {
+    "name": "Petrolero"
+}, {
+    "name": "New York Cosmos"
+}, {
+    "name": "Saprissa"
+}, {
+    "name": "Platense"
+}, {
+    "name": "San Francisco"
+}, {
+    "name": "Tauro"
+}, {
+    "name": "Sporting San Miguelito"
+}, {
+    "name": "Cartaginés"
+}, {
+    "name": "América de Cali"
+}, {
+    "name": "Árabe Unido"
+}, {
+    "name": "La Equidad"
+}, {
+    "name": "Zamora"
+}, {
+    "name": "Mineros de Guayana"
+}, {
+    "name": "Zacatecas"
+}, {
+    "name": "RNK Split"
+}, {
+    "name": "Porto B"
+}]

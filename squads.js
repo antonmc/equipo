@@ -20,6 +20,31 @@ function write() {
     var output = JSON.stringify(teams);
     filename = './public/data/copa.json';
     fs.writeFile(filename, output, function () {})
+
+
+    var uniqueClubs = [];
+
+    for (var i in clubs) {
+        if (uniqueClubs.indexOf(clubs[i]) === -1) {
+            uniqueClubs.push(clubs[i]);
+        }
+    }
+
+    var clublist = []
+
+    uniqueClubs.forEach(function (club) {
+
+        var clubObject = {
+            'name': club
+        };
+
+        clublist.push(clubObject);
+
+    })
+
+    output = JSON.stringify(clublist);
+    filename = './public/data/clubs.json';
+    fs.writeFile(filename, output, function () {})
 }
 
 
