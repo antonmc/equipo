@@ -18,6 +18,8 @@
 
      var markers = [];
 
+     var clubs;
+
      var styles = [
          {
              "featureType": "landscape",
@@ -565,6 +567,28 @@
          return game;
      }
 
+     function loadClubData() {
+
+         var clublist = './data/clubs.json'
+
+         var xmlhttp = new XMLHttpRequest();
+
+         xmlhttp.onreadystatechange = function () {
+             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                 var data = JSON.parse(xmlhttp.responseText);
+
+                 data.forEach(function (item) {
+
+                     console.log(item.name);
+
+                 });
+             };
+         }
+
+         xmlhttp.open("GET", clublist, true);
+         xmlhttp.send();
+     }
+
      function addGames(teams, chosen) {
 
          var teamlist = document.getElementById('gamelist');
@@ -579,17 +603,14 @@
              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                  var data = JSON.parse(xmlhttp.responseText);
 
-                 data.forEach(function (data) {
-
+                 data.forEach(function (item) {
                      if (chosen) {
-
                          if (chosen === data.home || chosen === data.away) {
-                             var game = buildGame(teams, data)
+                             var game = buildGame(teams, item)
                              gamelist.appendChild(game);
                          }
                      } else {
-
-                         var game = buildGame(teams, data)
+                         var game = buildGame(teams, item)
                          gamelist.appendChild(game);
                      }
 
@@ -631,6 +652,7 @@
                  })
 
                  addGames(teams);
+                 loadClubData();
              };
          }
 

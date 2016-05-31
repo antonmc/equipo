@@ -211,7 +211,7 @@
 }, {
     "name": "Deportivo Cali"
 }, {
-    "name": "Internazionale"
+    "name": "Internazionale",
     "lat": 45.47808,
     "lng": 9.124,
     "stadium": "Stadio Giuseppe Meazza"
@@ -400,7 +400,7 @@
     "lat": 53.7286,
     "lng": -2.48937,
     "stadium": "Ewood Park"
-}, , {
+}, {
     "name": "IFK Mariehamn"
 }, {
     "name": "Birmingham City",
@@ -429,7 +429,6 @@
     "lat": 53.4631,
     "lng": -2.29139,
     "stadium": "Old Trafford"
-    "
 }, {
     "name": "Rostov"
 }, {
@@ -596,7 +595,7 @@
     "name": "Manchester City",
     "lat": 53.483,
     "lng": -2.20024,
-    "stadium": 'Etihad Stadium"
+    "stadium": "Etihad Stadium"
 }, {
     "name": "Tottenham Hotspur",
     "lat": 51.6033,
@@ -607,7 +606,6 @@
     "lat": 37.377222,
     "lng": -5.986944,
     "stadium": "Olímpico de Sevilla"
-
 }, {
     "name": "Hebei China Fortune"
 }, {
@@ -706,4 +704,4 @@
     "name": "Sporting Lisbon"
 }, {
     "name": "Tijuana"
-}, ]
+}]
