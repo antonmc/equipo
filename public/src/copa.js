@@ -445,6 +445,8 @@
 
          map.mapTypes.set('Styled', styledMapType);
 
+         var mappedPlayers = 0;
+
          teams.forEach(function (team) {
 
              team.players.forEach(function (player) {
@@ -477,11 +479,15 @@
                      map: map
                  });
 
+                 mappedPlayers++;
+
                  createInfoWindow(marker, player, team);
 
                  markers.push(marker);
              })
          })
+
+         console.log('Mapped Players: ' + mappedPlayers);
      }
 
      function getFlag(teams, team) {
@@ -577,11 +583,19 @@
              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                  var data = JSON.parse(xmlhttp.responseText);
 
+                 console.log("Club count: " + data.length);
+
+                 var coordinatated = 0;
+
                  data.forEach(function (item) {
-
-                     console.log(item.name);
-
+                     if (item.lat) {
+                         coordinatated++;
+                     }
                  });
+
+                 console.log("Clubs with coordinates: " + coordinatated);
+
+                 console.log("Coverage percentage: " + 100 / data.length * coordinatated);
              };
          }
 
