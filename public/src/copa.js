@@ -12,12 +12,9 @@
 
      /* scheme 3 */
 
-
-
      var landscape = "#3f3f3f";
      var water = "#212121";
      var maplabel = "#696969";
-
 
      var markers = [];
 
@@ -141,7 +138,6 @@
          }
      }
 
-
      function makePlayer(p, team) {
 
          var images = 'images/player/';
@@ -165,8 +161,6 @@
 
          return player;
      }
-
-     //["90a7cf", "FFFFFF"]
 
      function makeListItem(team, teams) {
 
@@ -314,11 +308,14 @@
              '<h2 id="firstHeading" class="firstHeading">' + data.Name + '</h2>' +
              '<div id="bodyContent">' +
              '<p><b>' + data.Position + '</b></p>' +
-             '<p>Team: ' + team.team + '</p>' +
-             '<p>Home: ' + data.Home + '</p>' +
-             '<p>Birthday: ' + data.BirthDate + '</p>' +
-             '<p><a target="_blank" href="http://en.wikipedia.org/wiki/' + data.Wikipedia + '">Biography</a></p>' +
-             '<p><a target="_blank" href="https://twitter.com/search?q=' + encodeURIComponent(data.Name) + '">What people are saying</a></p>' +
+             '<p><b>Nationality:</b> ' + team.team + '</p>' +
+             '<p><b>Club:</b> ' + data.Club + '</p>' +
+             '<p><b>Birth Place:</b> ' + data.Home + '</p>' +
+             '<p><b>Birthday:</b> ' + data.BirthDate + '</p>' +
+             '<p><b>Age:</b> ' + data.Age + '</p>' +
+             '<p><b>Height:</b> ' + data.Height + '</p>' +
+             '<p><a target="_blank" href=' + data.Wikipedia + '> Biography </a></p > ' +
+             '<p><a target="_blank" href="https://twitter.com/search?q=' + encodeURIComponent(data.Name) + '">Social Comments</a></p>' +
              '</div>' +
              '</div>';
 
@@ -409,7 +406,7 @@
 
      function showInfo(teams, zoom) {
 
-         var mapzoom = 3;
+         var mapzoom = 2;
 
 
          var scale = 2;
