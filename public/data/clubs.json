@@ -34,6 +34,11 @@
     "lng": -76.972,
     "stadium": "RFK Stadium"
 }, {
+    "name": "Seattle Sounders",
+    "lat": 47.5952,
+    "lng": -122.3316,
+    "stadium": "CenturyLink Field"
+}, {
     "name": "Montréal Impact",
     "lat": 45.563056,
     "lng": -73.5525,
@@ -173,11 +178,17 @@
     "lng": 9.124,
     "stadium": "Stadio Giuseppe Meazza"
 }, {
-    "name": "Palmeiras"
+    "name": "Palmeiras",
+    "lat": -23.5275,
+    "lng": -46.6785,
+    "stadium": "Allianz Parque"
 }, {
     "name": "PSV"
 }, {
-    "name": "Nantes"
+    "name": "Nantes",
+    "lat": 47.255631,
+    "lng": -1.525375,
+    "stadium": "Stade de la Beaujoire"
 }, {
     "name": "Junior"
 }, {
@@ -231,11 +242,17 @@
     "stadium": "Mestalla"
 
 }, {
-    "name": "Paris Saint-Germain"
+    "name": "Paris Saint-Germain",
+    "lat": 48.841389,
+    "lng": 2.253056,
+    "stadium": "Parc des Princes"
 }, {
     "name": "São Paulo"
 }, {
-    "name": "Monaco"
+    "name": "Monaco",
+    "lat": 43.729444,
+    "lng": 7.415,
+    "stadium": "Stade Louis II"
 }, {
     "name": "Atlético Mineiro"
 }, {
@@ -308,8 +325,6 @@
 }, {
     "name": "AZ"
 }, {
-    "name": "Seattle Sounders"
-}, {
     "name": "Querétaro"
 }, {
     "name": "Dynamo Kyiv"
@@ -320,7 +335,10 @@
 }, {
     "name": "Sporting de Gijón"
 }, {
-    "name": "Bournemouth"
+    "name": "Bournemouth",
+    "lat": 50.7346,
+    "lng": -1.8351,
+    "stadium": "Dean Court"
 }, {
     "name": "Juan Aurich"
 }, {
@@ -453,15 +471,24 @@
 }, {
     "name": "Guadalajara"
 }, {
-    "name": "Reims"
+    "name": "Reims",
+    "lat": 49.2628,
+    "lng": 4.0347,
+    "stadium": "Stade Auguste-Delaune"
 }, {
     "name": "Aigle Noir"
 }, {
-    "name": "Nice"
+    "name": "Nice",
+    "lat": 43.7034,
+    "lng": 7.2663,
+    "stadium": "Allianz Riviera"
 }, {
     "name": "Atlético Uruguay"
 }, {
-    "name": "PSG Academy"
+    "name": "PSG Academy",
+    "lat": 48.841389,
+    "lng": 2.253056,
+    "stadium": "Parc des Princes"
 }, {
     "name": "Standard Liège"
 }, {
@@ -487,11 +514,17 @@
 }, {
     "name": "Laval"
 }, {
-    "name": "Caen"
+    "name": "Caen",
+    "lat": 49.18,
+    "lng": -0.37,
+    "stadium": "Stade Michel d'Ornano"
 }, {
     "name": "Wisła Kraków"
 }, {
-    "name": "Marseille"
+    "name": "Marseille",
+    "lat": 43.269722,
+    "lng": 5.395833,
+    "stadium": "Stade Vélodrome"
 }, {
     "name": "Chiapas"
 }, {
@@ -500,7 +533,10 @@
     "lng": 9.680833,
     "stadium": "Stadio Atleti Azzurri d'Italia"
 }, {
-    "name": "Celta"
+    "name": "Celta",
+    "lat": 42.211842,
+    "lng": -8.739711,
+    "stadium": "Balaídos"
 }, {
     "name": "Bologna",
     "lat": 44.5075,
@@ -538,7 +574,10 @@
     "lng": 7.7,
     "stadium": "Stadio Olimpico di Torino"
 }, {
-    "name": "Bordeaux"
+    "name": "Bordeaux",
+    "lat": 44.84,
+    "lng": -0.58,
+    "stadium": "Stade Matmut Atlantique"
 }, {
     "name": "Vasco da Gama"
 }, {
@@ -591,7 +630,10 @@
 }, {
     "name": "Huachipato"
 }, {
-    "name": "Tenerife"
+    "name": "Tenerife",
+    "lat": 28.463056,
+    "lng": -16.260556,
+    "stadium": "Estadio Heliodoro Rodríguez López"
 }, {
     "name": "Carabobo"
 }, {
