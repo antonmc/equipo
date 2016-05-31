@@ -24,7 +24,7 @@
 
      var migrations = false;
 
-     var selected;
+     var selected = null;
      var selectedColor = '#dd4131';
 
      var styles = [
@@ -621,6 +621,15 @@
          return game;
      }
 
+     function chooseClub(choice) {
+
+         var clubselect = document.getElementById('clubselect');
+
+
+
+         console.log(clubselect.value);
+     }
+
      function loadClubData() {
 
          var clublist = './data/clubs.json'
@@ -635,7 +644,20 @@
 
                  var coordinatated = 0;
 
+                 var clubselect = document.getElementById('clubselect');
+
+                 var option = document.createElement('option');
+                 option.innerHTML = "All Clubs";
+                 clubselect.appendChild(option);
+
                  clubs.forEach(function (item) {
+
+                     option = document.createElement('option');
+
+                     option.innerHTML = item.name;
+
+                     clubselect.appendChild(option);
+
                      if (item.lat) {
                          coordinatated++;
                      }
@@ -705,7 +727,12 @@
              teamlist.appendChild(makeListItem(team, selected));
          })
 
-         addGames(allteams, selected);
+         if (selected.team != undefined) {
+
+             addGames(allteams, selected.team);
+         } else {
+             addGames(allteams);
+         }
      }
 
      function setup() {

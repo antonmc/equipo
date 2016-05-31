@@ -30,14 +30,25 @@
                     </div>
                 </div>
                 <div class="controlbar">
-                    <label class="migrationlabel">Show Migrations: </label>
-                    <div>
-                        <div class="onoffswitch">
-                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" onchange="toggle(this)">
-                            <label class="onoffswitch-label" for="myonoffswitch">
-                                <span class="onoffswitch-inner"></span>
-                                <span class="onoffswitch-switch"></span>
-                            </label>
+                    <div class="migrationcontrol">
+                        <label class="migrationlabel">Players By Club: </label>
+                        <div class="select">
+                            <span class="arr"></span>
+                            <select id="clubselect" onchange="chooseClub(this)">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="migrationcontrol">
+
+                        <label class="migrationlabel">Show Migrations: </label>
+                        <div>
+                            <div class="onoffswitch">
+                                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" onchange="toggle(this)">
+                                <label class="onoffswitch-label" for="myonoffswitch">
+                                    <span class="onoffswitch-inner"></span>
+                                    <span class="onoffswitch-switch"></span>
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
