@@ -340,11 +340,112 @@ html {
 .controlbar {
     height: 30px;
     min-height: 30px;
+    align-content: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 10px;
+    /*    width: 100%;*/
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
     background: #212121;
+    align-items: center;
+}
+
+.migrationlabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+
+.migrationcontrol {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* proto.io */
+
+.onoffswitch {
+    position: relative;
+    width: 60px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #2A2A2A;
+    border-radius: 4px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 18px;
+    padding: 0;
+    line-height: 18px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 8px;
+    background-color: #212121;
+    color: #DD4131;
+}
+
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 8px;
+    background-color: #212121;
+    color: #999999;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 18px;
+    margin: 0px;
+    background: #999999;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 38px;
+    border: 2px solid #2A2A2A;
+    border-radius: 4px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
 }

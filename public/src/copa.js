@@ -20,6 +20,13 @@
 
      var clubs;
 
+     var allteams;
+
+     var migrations = false;
+
+     var selected;
+     var selectedColor = '#dd4131';
+
      var styles = [
          {
              "featureType": "landscape",
@@ -259,7 +266,11 @@
              var details = document.getElementById('details');
              details.style.height = geoArea.offsetHeight - 110 + 'px';
 
-             showInfo([team], 5);
+             selected = [team];
+
+             selectedColor = '#' + team.shirt.colors[0];
+
+             showInfo(5);
 
              addGames(teams, team.team);
          }
@@ -406,7 +417,9 @@
          markers.push(marker);
      }
 
-     function showInfo(teams, zoom) {
+     function showInfo(zoom) {
+
+         teams = selected;
 
          var mapzoom = 2;
 
@@ -454,7 +467,7 @@
 
                  var position = new google.maps.LatLng(lat, longitude);
 
-                 var teamcolor = '#dd4131';
+                 var teamcolor = selectedColor;
 
                  if (zoom) {
                      teamcolor = '#' + team.shirt.colors[0];
@@ -474,42 +487,45 @@
                      map: map
                  });
 
-                 clubs.forEach(function (club) {
+                 if (migrations === true) {
 
-                     if (player.Club === club.name) {
+                     clubs.forEach(function (club) {
 
-                         if (club.lat && club.lng && player.Lat && player.Lng) {
+                         if (player.Club === club.name) {
 
-                             var flightPlanCoordinates = [{
-                                     lat: player.Lat,
-                                     lng: player.Lng
+                             if (club.lat && club.lng && player.Lat && player.Lng) {
+
+                                 var flightPlanCoordinates = [{
+                                         lat: player.Lat,
+                                         lng: player.Lng
                                               },
-                                 {
-                                     lat: club.lat,
-                                     lng: club.lng
+                                     {
+                                         lat: club.lat,
+                                         lng: club.lng
                                               }];
 
-                             var lineSymbol = {
-                                 path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
-                             };
+                                 var lineSymbol = {
+                                     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+                                 };
 
-                             var flightPath = new google.maps.Polyline({
-                                 path: flightPlanCoordinates,
-                                 icons: [{
-                                     icon: lineSymbol,
-                                     scale: 4,
-                                     offset: '100%'
+                                 var flightPath = new google.maps.Polyline({
+                                     path: flightPlanCoordinates,
+                                     icons: [{
+                                         icon: lineSymbol,
+                                         scale: 4,
+                                         offset: '100%'
                                              }],
-                                 geodesic: true,
-                                 strokeColor: teamcolor,
-                                 strokeOpacity: 1.0,
-                                 strokeWeight: 1
-                             });
+                                     geodesic: true,
+                                     strokeColor: teamcolor,
+                                     strokeOpacity: 1.0,
+                                     strokeWeight: 1
+                                 });
 
-                             flightPath.setMap(map);
+                                 flightPath.setMap(map);
+                             }
                          }
-                     }
-                 })
+                     })
+                 }
 
                  mappedPlayers++;
 
@@ -670,6 +686,28 @@
          xmlhttp.send();
      }
 
+     function toggle(context) {
+
+         if (migrations === false) {
+             migrations = true;
+         } else {
+             migrations = false
+         };
+
+         display();
+     }
+
+
+     function display(zoom) {
+         showInfo(zoom);
+
+         selected.forEach(function (team) {
+             teamlist.appendChild(makeListItem(team, selected));
+         })
+
+         addGames(allteams, selected);
+     }
+
      function setup() {
          var teamlist = document.getElementById('teamlist');
 
@@ -685,22 +723,19 @@
              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                  var teams = JSON.parse(xmlhttp.responseText);
 
+                 allteams = teams;
+
                  teams.sort(function (a, b) {
                      if (a.team < b.team) return -1;
                      if (a.team > b.team) return 1;
                      return 0;
                  })
 
+                 selected = teams;
+
+                 display();
+
                  details.style.height = competitors.offsetHeight - 90 + 'px';
-
-                 showInfo(teams);
-
-                 teams.forEach(function (team) {
-                     teamlist.appendChild(makeListItem(team, teams));
-                 })
-
-                 addGames(teams);
-
              };
          }
 
@@ -714,10 +749,5 @@
 
 
      window.onresize = function () {
-
-         var map = document.getElementById("map");
-
-         map.innerHTML = "";
-
          setup();
      }
