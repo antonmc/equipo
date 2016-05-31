@@ -162,9 +162,16 @@
 }, {
     "name": "Molde"
 }, {
-    "name": "Borussia Mönchengladbach"
+    "name": "Borussia Mönchengladbach",
+    "lat": 51.17439,
+    "lng": 6.38383,
+    "stadium": "Borussia-Park"
+
 }, {
-    "name": "Milan"
+    "name": "Milan",
+    "lat": 45.47808,
+    "lng": 9.124,
+    "stadium": "Stadio Giuseppe Meazza"
 }, {
     "name": "Palmeiras"
 }, {
@@ -176,7 +183,10 @@
 }, {
     "name": "Racing Club"
 }, {
-    "name": "Juventus"
+    "name": "Juventus",
+    "lat": 45.109444,
+    "lng": 7.641111,
+    "stadium": "Juventus Stadium"
 }, {
     "name": "Santa Fe"
 }, {
@@ -191,6 +201,9 @@
     "name": "Deportivo Cali"
 }, {
     "name": "Internazionale"
+    "lat": 45.47808,
+    "lng": 9.124,
+    "stadium": "Stadio Giuseppe Meazza"
 }, {
     "name": "Internacional"
 }, {
@@ -482,13 +495,22 @@
 }, {
     "name": "Chiapas"
 }, {
-    "name": "Atalanta"
+    "name": "Atalanta",
+    "lat": 45.708889,
+    "lng": 9.680833,
+    "stadium": "Stadio Atleti Azzurri d'Italia"
 }, {
     "name": "Celta"
 }, {
-    "name": "Bologna"
+    "name": "Bologna",
+    "lat": 44.5075,
+    "lng": 11.351389,
+    "stadium": "Stadio Renato Dall'Ara"
 }, {
-    "name": "Fiorentina"
+    "name": "Fiorentina",
+    "lat": 43.783333,
+    "lng": 11.25,
+    "stadium": "Stadio Artemio Franchi"
 }, {
     "name": "Universidad de Chile"
 }, {
@@ -504,14 +526,17 @@
     "name": "Hull City",
     "lat": 53.7465,
     "lng": -0.368009,
-    "stadium": KC Stadium "
+    "stadium": "KC Stadium "
 }, {
     "name": "Middlesbrough",
     "lat": 54.5781,
     "lng": -1.21776,
     "stadium": "Riverside Stadium"
 }, {
-    "name": "Torino"
+    "name": "Torino",
+    "lat": 45.066667,
+    "lng": 7.7,
+    "stadium": "Stadio Olimpico di Torino"
 }, {
     "name": "Bordeaux"
 }, {
@@ -519,9 +544,15 @@
 }, {
     "name": "River Plate"
 }, {
-    "name": "Lazio"
+    "name": "Lazio",
+    "lat": 41.933886,
+    "lng": 12.454786,
+    "stadium": "Stadio Olimpico"
 }, {
-    "name": "Napoli"
+    "name": "Napoli",
+    "lat": 40.827967,
+    "lng": 14.193008,
+    "stadium": "Stadio San Paolo"
 }, {
     "name": "Manchester City",
     "lat": 53.483,
@@ -553,7 +584,10 @@
 }, {
     "name": "Kasımpaşa"
 }, {
-    "name": "Genoa"
+    "name": "Genoa",
+    "lat": 44.411111,
+    "lng": 8.932778,
+    "stadium": "Stadio Luigi Ferraris"
 }, {
     "name": "Huachipato"
 }, {
