@@ -257,7 +257,7 @@
              })
 
              var details = document.getElementById('details');
-             details.style.height = geoArea.offsetHeight - 40 + 'px';
+             details.style.height = geoArea.offsetHeight - 110 + 'px';
 
              showInfo([team], 5);
 
@@ -410,7 +410,6 @@
 
          var mapzoom = 2;
 
-
          var scale = 2;
 
          var maptitle = 'Players of Copa America';
@@ -441,8 +440,6 @@
              name: maptitle
          });
 
-         //         var styledMapType = new google.maps.StyledMapType(styles);
-
          map.mapTypes.set('Styled', styledMapType);
 
          var mappedPlayers = 0;
@@ -456,8 +453,6 @@
                  var longitude = player.Lng;
 
                  var position = new google.maps.LatLng(lat, longitude);
-
-                 //                 var cardinalRed = '#dd4131';
 
                  var teamcolor = '#dd4131';
 
@@ -478,6 +473,43 @@
                      },
                      map: map
                  });
+
+                 clubs.forEach(function (club) {
+
+                     if (player.Club === club.name) {
+
+                         if (club.lat && club.lng && player.Lat && player.Lng) {
+
+                             var flightPlanCoordinates = [{
+                                     lat: player.Lat,
+                                     lng: player.Lng
+                                              },
+                                 {
+                                     lat: club.lat,
+                                     lng: club.lng
+                                              }];
+
+                             var lineSymbol = {
+                                 path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+                             };
+
+                             var flightPath = new google.maps.Polyline({
+                                 path: flightPlanCoordinates,
+                                 icons: [{
+                                     icon: lineSymbol,
+                                     scale: 4,
+                                     offset: '100%'
+                                             }],
+                                 geodesic: true,
+                                 strokeColor: teamcolor,
+                                 strokeOpacity: 1.0,
+                                 strokeWeight: 1
+                             });
+
+                             flightPath.setMap(map);
+                         }
+                     }
+                 })
 
                  mappedPlayers++;
 
@@ -581,21 +613,23 @@
 
          xmlhttp.onreadystatechange = function () {
              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                 var data = JSON.parse(xmlhttp.responseText);
+                 clubs = JSON.parse(xmlhttp.responseText);
 
-                 console.log("Club count: " + data.length);
+                 console.log("Club count: " + clubs.length);
 
                  var coordinatated = 0;
 
-                 data.forEach(function (item) {
+                 clubs.forEach(function (item) {
                      if (item.lat) {
                          coordinatated++;
                      }
                  });
 
+                 setup();
+
                  console.log("Clubs with coordinates: " + coordinatated);
 
-                 console.log("Coverage percentage: " + 100 / data.length * coordinatated);
+                 console.log("Coverage percentage: " + 100 / clubs.length * coordinatated);
              };
          }
 
@@ -619,7 +653,7 @@
 
                  data.forEach(function (item) {
                      if (chosen) {
-                         if (chosen === data.home || chosen === data.away) {
+                         if (chosen === item.home || chosen === item.away) {
                              var game = buildGame(teams, item)
                              gamelist.appendChild(game);
                          }
@@ -657,7 +691,7 @@
                      return 0;
                  })
 
-                 details.style.height = competitors.offsetHeight - 20 + 'px';
+                 details.style.height = competitors.offsetHeight - 90 + 'px';
 
                  showInfo(teams);
 
@@ -666,7 +700,7 @@
                  })
 
                  addGames(teams);
-                 loadClubData();
+
              };
          }
 
@@ -675,10 +709,15 @@
      }
 
      window.onload = function () {
-         setup();
+         loadClubData();
      }
 
 
      window.onresize = function () {
+
+         var map = document.getElementById("map");
+
+         map.innerHTML = "";
+
          setup();
      }

@@ -162,8 +162,10 @@ html {
 }
 
 .details {
+    display: flex;
+    flex-direction: column;
     margin: 10px;
-    width: 100%;
+    /*    width: 100%;*/
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
@@ -327,4 +329,22 @@ html {
 .flagSmall {
     height: 20px;
     border-radius: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.controlbar {
+    height: 30px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background: #212121;
 }
