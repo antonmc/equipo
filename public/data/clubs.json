@@ -173,6 +173,11 @@
     "stadium": "Borussia-Park"
 
 }, {
+    "name": "Roma",
+    "lat": 41.933886,
+    "lng": 12.454786,
+    "stadium": "Stadio Olimpico"
+   }, {
     "name": "Milan",
     "lat": 45.47808,
     "lng": 9.124,
@@ -232,7 +237,10 @@
 }, {
     "name": "Corinthians"
 }, {
-    "name": "Benfica"
+    "name": "Benfica",
+    "lat": 38.713889,
+    "lng": -9.139444,
+    "stadium": "Estádio da Luz"
 }, {
     "name": "Santos"
 }, {
@@ -300,7 +308,10 @@
     "lng": -0.191034,
     "stadium": "Stanford Bridge"
 }, {
-    "name": "Zenit Saint Petersburg"
+    "name": "Zenit Saint Petersburg",
+    "lat": 59.95,
+    "lng": 30.3,
+    "stadium": "Petrovsky Stadium"
 }, {
     "name": "Liverpool",
     "lat": 53.4308,
@@ -547,9 +558,15 @@
     "lng": 11.25,
     "stadium": "Stadio Artemio Franchi"
 }, {
-    "name": "Universidad de Chile"
+    "name": "Universidad de Chile",
+    "lat": -33.464444,
+    "lng": -70.610556,
+    "stadium": "Estadio Nacional Julio Martínez Prádanos"
 }, {
-    "name": "Galatasaray"
+    "name": "Galatasaray",
+    "lat": 41.102869,
+    "lng": 28.990419,
+    "stadium": "Türk Telekom Arena"
 }, {
     "name": "Nacional"
 }, {
@@ -580,7 +597,10 @@
 }, {
     "name": "Vasco da Gama"
 }, {
-    "name": "River Plate"
+    "name": "River Plate",
+    "lat": -34.603333,
+    "lng": -58.381667,
+    "stadium": "Estadio Monumental Antonio Vespucio Liberti"
 }, {
     "name": "Lazio",
     "lat": 41.933886,
@@ -609,7 +629,10 @@
 }, {
     "name": "Hebei China Fortune"
 }, {
-    "name": "Estudiantes"
+    "name": "Estudiantes",
+    "lat": -34.921111,
+    "lng": -57.954444,
+    "stadium": "Estadio Ciudad de La Plata"
 }, {
     "name": "Deportivo Táchira"
 }, {
@@ -701,7 +724,10 @@
 }, {
     "name": "Herediano"
 }, {
-    "name": "Sporting Lisbon"
+    "name": "Sporting Lisbon",
+    "lat": 38.761194,
+    "lng": -9.160783,
+    "stadium": "Estádio José Alvalade"
 }, {
     "name": "Tijuana"
 }]

@@ -77,17 +77,6 @@
         "Lat": -34.65,
         "Lng": -59.43333333333333
     }, {
-        "Name": "Ángel Di María",
-        "Wikipedia": "https://en.wikipedia.org/wiki/%C3%81ngel_Di_Mar%C3%ADa",
-        "Position": "Midfielder",
-        "BirthDate": "14 February 1988",
-        "Age": 28,
-        "Club": "Paris Saint-Germain",
-        "Home": "Rosario",
-        "Height": 180,
-        "Lat": -32.95,
-        "Lng": -60.666666666666664
-    }, {
         "Name": "Augusto Fernández",
         "Wikipedia": "https://en.wikipedia.org/wiki/Augusto_Fern%C3%A1ndez",
         "Position": "Midfielder",
@@ -98,6 +87,17 @@
         "Height": 177,
         "Lat": -33.88333333333333,
         "Lng": -60.56666666666667
+    }, {
+        "Name": "Ángel Di María",
+        "Wikipedia": "https://en.wikipedia.org/wiki/%C3%81ngel_Di_Mar%C3%ADa",
+        "Position": "Midfielder",
+        "BirthDate": "14 February 1988",
+        "Age": 28,
+        "Club": "Paris Saint-Germain",
+        "Home": "Rosario",
+        "Height": 180,
+        "Lat": -32.95,
+        "Lng": -60.666666666666664
     }, {
         "Name": "Gonzalo Higuaín",
         "Wikipedia": "https://en.wikipedia.org/wiki/Gonzalo_Higua%C3%ADn",
@@ -110,7 +110,7 @@
         "Lat": 48.38333333333333,
         "Lng": -4.483333333333333
     }, {
-        "Name": "LionelMessi",
+        "Name": "Lionel Messi",
         "Wikipedia": "https://en.wikipedia.org/wiki/Lionel_Messi",
         "Position": "Forward",
         "BirthDate": "24 June 1987",

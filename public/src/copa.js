@@ -414,7 +414,51 @@
 
          infoWindow.open(map, marker);
 
+         showMigrations(player, map, color);
+
          markers.push(marker);
+     }
+
+     function showMigrations(player, map, teamcolor) {
+         if (migrations === true) {
+
+             clubs.forEach(function (club) {
+
+                 if (player.Club === club.name) {
+
+                     if (club.lat && club.lng && player.Lat && player.Lng) {
+
+                         var flightPlanCoordinates = [{
+                                 lat: player.Lat,
+                                 lng: player.Lng
+                                              },
+                             {
+                                 lat: club.lat,
+                                 lng: club.lng
+                                              }];
+
+                         var lineSymbol = {
+                             path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
+                         };
+
+                         var flightPath = new google.maps.Polyline({
+                             path: flightPlanCoordinates,
+                             icons: [{
+                                 icon: lineSymbol,
+                                 scale: 4,
+                                 offset: '100%'
+                                             }],
+                             geodesic: true,
+                             strokeColor: teamcolor,
+                             strokeOpacity: 0.5,
+                             strokeWeight: 1
+                         });
+
+                         flightPath.setMap(map);
+                     }
+                 }
+             })
+         }
      }
 
      function showInfo(zoom) {
@@ -487,45 +531,7 @@
                      map: map
                  });
 
-                 if (migrations === true) {
-
-                     clubs.forEach(function (club) {
-
-                         if (player.Club === club.name) {
-
-                             if (club.lat && club.lng && player.Lat && player.Lng) {
-
-                                 var flightPlanCoordinates = [{
-                                         lat: player.Lat,
-                                         lng: player.Lng
-                                              },
-                                     {
-                                         lat: club.lat,
-                                         lng: club.lng
-                                              }];
-
-                                 var lineSymbol = {
-                                     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
-                                 };
-
-                                 var flightPath = new google.maps.Polyline({
-                                     path: flightPlanCoordinates,
-                                     icons: [{
-                                         icon: lineSymbol,
-                                         scale: 4,
-                                         offset: '100%'
-                                             }],
-                                     geodesic: true,
-                                     strokeColor: teamcolor,
-                                     strokeOpacity: 1.0,
-                                     strokeWeight: 1
-                                 });
-
-                                 flightPath.setMap(map);
-                             }
-                         }
-                     })
-                 }
+                 showMigrations(player, map, teamcolor);
 
                  mappedPlayers++;
 
