@@ -1,0 +1,58 @@
+[
+    {
+        "featureType": "landscape",
+        "stylers": [{
+            "visibility": "simplified"
+            }]
+        },
+    {
+        "featureType": "water",
+        "stylers": [{
+            "visibility": "simplified"
+            }, {
+            "color": "#212121"
+            }]
+        },
+    {
+        "featureType": "landscape",
+        "stylers": [{
+            "color": "#3f3f3f"
+            }]
+        },
+    {
+        "featureType": "road",
+        "stylers": [{
+            "visibility": "off"
+            }]
+        },
+    {
+        "featureType": "poi",
+        "stylers": [{
+            "visibility": "off"
+            }]
+        },
+    {
+        "featureType": "administrative.country",
+        "elementType": "geometry.stroke",
+        "stylers": [{
+            "color": "#696969"
+            }, {
+            "weight": 0.5
+            }]
+        },
+    {
+        "featureType": "administrative",
+        "elementType": "labels",
+        "stylers": [{
+            "color": "#696969"
+            }, {
+            "weight": 0.1
+            }]
+        },
+    {
+        "featureType": "administrative.province",
+        "stylers": [{
+            "visibility": "off"
+            }]
+        }
+	]
