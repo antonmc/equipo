@@ -159,7 +159,6 @@
          var label = newlabel('playerlabel');
 
          label.innerHTML = p.Name;
-         //         label.style.color = '#' + color;
 
          player.appendChild(playerImage);
          player.appendChild(label);
@@ -366,35 +365,11 @@
          forward.innerHTML = "";
      }
 
-     function showPlayer(player, team) {
 
 
-         var mapOptions = {
-             mapTypeControlOptions: {
-                 mapTypeIds: ['Styled']
-             },
-             center: new google.maps.LatLng(team.center[0], team.center[1]),
-             zoom: 5,
-             mapTypeId: 'Styled'
-         };
-
-         map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-         //         var styledMapType = new google.maps.StyledMapType(styles);
-
-         var styledMapType = new google.maps.StyledMapType(styles, {
-             name: player.Name
-         });
-
-         map.mapTypes.set('Styled', styledMapType);
-
-         var lat = player.Lat;
-
-         var longitude = player.Lng;
+     function createPin(map, player, team, color, scale) {
 
          var position = new google.maps.LatLng(player.Lat, player.Lng);
-
-         var color = '#' + team.shirt.colors[0];
 
          var marker = new google.maps.Marker({
              position: position,
@@ -405,18 +380,58 @@
                  strokeOpacity: 1,
                  strokeColor: color,
                  strokeWeight: 1,
-                 scale: 4 //pixels
+                 scale: scale
              },
              map: map
          });
 
          var infoWindow = createInfoWindow(marker, player, team);
 
-         infoWindow.open(map, marker);
+         //         infoWindow.open(map, marker);
 
          showMigrations(player, map, color);
 
          markers.push(marker);
+     }
+
+     function createMap(details) {
+
+         var map;
+
+         var mapOptions = {
+             mapTypeControlOptions: {
+                 mapTypeIds: ['Styled']
+             },
+             center: new google.maps.LatLng(details.lat, details.lng),
+             zoom: details.zoom,
+             mapTypeId: 'Styled'
+         };
+
+         map = new google.maps.Map(document.getElementById(details.anchor), mapOptions);
+
+         var styledMapType = new google.maps.StyledMapType(styles, {
+             name: details.label
+         });
+
+         map.mapTypes.set('Styled', styledMapType);
+
+         return map;
+     }
+
+     function showPlayer(player, team) {
+
+         var color = '#' + team.shirt.colors[0];
+
+         var mapObject = {
+             anchor: "map",
+             style: styles,
+             lat: team.center[0],
+             lng: team.center[1],
+             zoom: 5
+         }
+
+         var map = createMap(mapObject);
+         createPin(map, player, team, color, 4);
      }
 
      function showMigrations(player, map, teamcolor) {
@@ -465,79 +480,41 @@
 
          teams = selected;
 
-         var mapzoom = 2;
-
          var scale = 2;
 
-         var maptitle = 'Players of Copa America';
-
-         var center = new google.maps.LatLng(8.7832, -55.4915);
-
-         // 8.7832° S, 55.4915° W
+         var mapObject = {
+             anchor: "map",
+             style: styles,
+             lat: 8.7832,
+             lng: -55.4915,
+             label: 'Players of Copa America',
+             zoom: 2
+         }
 
          if (zoom) {
-             mapzoom = zoom;
-             center = new google.maps.LatLng(teams[0].center[0], teams[0].center[1])
-             maptitle = teams[0].team;
+             mapObject.zoom = zoom;
+             mapObject.lat = teams[0].center[0];
+             mapObject.lng = teams[0].center[1];
+             mapObject.label = teams[0].team;
              scale = 4;
          }
 
-         var mapOptions = {
-             mapTypeControlOptions: {
-                 mapTypeIds: ['Styled']
-             },
-             center: center,
-             zoom: mapzoom,
-             mapTypeId: 'Styled'
-         };
-
-         map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-         var styledMapType = new google.maps.StyledMapType(styles, {
-             name: maptitle
-         });
-
-         map.mapTypes.set('Styled', styledMapType);
+         var map = createMap(mapObject);
 
          var mappedPlayers = 0;
 
+         var teamcolor = selectedColor;
+
          teams.forEach(function (team) {
-
              team.players.forEach(function (player) {
-
-                 var lat = player.Lat;
-
-                 var longitude = player.Lng;
-
-                 var position = new google.maps.LatLng(lat, longitude);
-
-                 var teamcolor = selectedColor;
 
                  if (zoom) {
                      teamcolor = '#' + team.shirt.colors[0];
                  }
 
-                 var marker = new google.maps.Marker({
-                     position: position,
-                     icon: {
-                         path: google.maps.SymbolPath.CIRCLE,
-                         fillOpacity: 1,
-                         fillColor: teamcolor,
-                         strokeOpacity: 1,
-                         strokeColor: teamcolor,
-                         strokeWeight: 1,
-                         scale: scale //pixels
-                     },
-                     map: map
-                 });
-
-                 showMigrations(player, map, teamcolor);
+                 createPin(map, player, team, teamcolor, scale);
 
                  mappedPlayers++;
-
-                 createInfoWindow(marker, player, team);
-
-                 markers.push(marker);
              })
          })
 
@@ -558,23 +535,6 @@
 
          return flag;
      }
-
-
-     function presentName(name) {
-
-         var presentation = name;
-
-         if (name === 'United-States') {
-             presentation = 'USA';
-         }
-
-         if (name === 'United-States') {
-             presentation = 'USA';
-         }
-
-         return presentation;
-     }
-
 
      function buildGame(teams, data) {
          var game = newDiv('game');
@@ -649,59 +609,25 @@
 
              if (club.name == clubselect.value) {
 
-                 var center = new google.maps.LatLng(club.lat, club.lng);
+                 var mapObject = {
+                     anchor: "map",
+                     style: styles,
+                     lat: club.lat,
+                     lng: club.lng,
+                     label: "Players from " + clubselect.value,
+                     zoom: 2
+                 }
 
-                 var mapOptions = {
-                     mapTypeControlOptions: {
-                         mapTypeIds: ['Styled']
-                     },
-                     center: center,
-                     zoom: 2,
-                     mapTypeId: 'Styled'
-                 };
-
-                 map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-                 var styledMapType = new google.maps.StyledMapType(styles, {
-                     name: "Players from " + clubselect.value
-                 });
-
-                 map.mapTypes.set('Styled', styledMapType);
+                 var map = createMap(mapObject);
 
                  clubplayers.forEach(function (player) {
-
-                     var lat = player.Lat;
-
-                     var longitude = player.Lng;
-
-                     var position = new google.maps.LatLng(lat, longitude);
-
                      var teamcolor = selectedColor;
-
-                     var marker = new google.maps.Marker({
-                         position: position,
-                         icon: {
-                             path: google.maps.SymbolPath.CIRCLE,
-                             fillOpacity: 1,
-                             fillColor: teamcolor,
-                             strokeOpacity: 1,
-                             strokeColor: teamcolor,
-                             strokeWeight: 1,
-                             scale: 3 //pixels
-                         },
-                         map: map
-                     });
-
-                     showMigrations(player, map, teamcolor);
-
-                     createInfoWindow(marker, player, player.Team);
-
-                     markers.push(marker);
+                     createPin(map, player, player.Team, teamcolor, 3);
                  })
              }
          })
-         console.log("Number of players at: " + clubselect.value + " = " + clubplayers.length);
 
+         console.log("Number of players at: " + clubselect.value + " = " + clubplayers.length);
      }
 
 
@@ -812,7 +738,6 @@
          })
 
          if (selected.team != undefined) {
-
              addGames(allteams, selected.team);
          } else {
              addGames(allteams);
@@ -820,7 +745,6 @@
      }
 
      function setup() {
-         var teamlist = document.getElementById('teamlist');
 
          var competitors = document.getElementById('competitors');
 
@@ -832,8 +756,8 @@
 
          xmlhttp.onreadystatechange = function () {
              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                 var teams = JSON.parse(xmlhttp.responseText);
 
+                 var teams = JSON.parse(xmlhttp.responseText);
                  allteams = teams;
 
                  teams.sort(function (a, b) {
@@ -843,9 +767,7 @@
                  })
 
                  selected = teams;
-
                  display();
-
                  details.style.height = competitors.offsetHeight - 90 + 'px';
              };
          }
