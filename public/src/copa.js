@@ -86,21 +86,22 @@
         }
 	];
 
-     function newDiv(classname, content) {
-         var div = document.createElement('div');
-         div.className = classname;
+     function newElement(classname, content, type) {
+         var element = document.createElement(type);
+         element.className = classname;
          if (content) {
-             div.innerHTML = content;
+             element.innerHTML = content;
          }
+         return element;
+     }
+
+     function newDiv(classname, content) {
+         var div = newElement(classname, content, 'div');
          return div;
      }
 
      function newlabel(classname, content) {
-         var label = document.createElement('label');
-         label.className = classname;
-         if (content) {
-             label.innerHTML = content;
-         }
+         var label = newElement(classname, content, 'label');
          return label;
      }
 
@@ -129,10 +130,8 @@
          var info = newDiv('info');
          var label = newlabel('detailLabel');
          label.innerHTML = words;
-         //         label.style.color = '#' + color;
          var content = newDiv('detailContent');
          content.innerHTML = value;
-         //         content.style.color = '#' + color;
          info.appendChild(label);
          info.appendChild(content);
          return info;
@@ -140,7 +139,6 @@
 
      function clearSelection() {
          var teamlist = document.getElementsByClassName('item');
-
          for (count = 0; count < teamlist.length; count++) {
              teamlist[count].style.border = 'none';
              teamlist[count].style.opacity = 0.3;
@@ -223,42 +221,13 @@
 
              clearPlayers();
 
-             var keeper = document.getElementById('Goalkeeper');
-             var defender = document.getElementById('Defender');
-             var midfielder = document.getElementById('Midfielder');
-             var forward = document.getElementById('Forward');
-
+             var squad = getSquad();
              colorTypes(team.shirt.colors[0]);
 
-             var count = 0;
-
              team.players.forEach(function (player) {
-
-                 if (count < 23) {
-
-                     var playerElement = makePlayer(player, team);
-                     playerArea.appendChild(playerElement);
-
-                     switch (player.Position) {
-
-                     case 'Goalkeeper':
-                         keeper.appendChild(playerElement);
-                         break;
-
-                     case 'Defender':
-                         defender.appendChild(playerElement);
-                         break;
-
-                     case 'Midfielder':
-                         midfielder.appendChild(playerElement);
-                         break;
-
-                     case 'Forward':
-                         forward.appendChild(playerElement);
-                         break;
-                     }
-                 }
-
+                 var playerElement = makePlayer(player, team);
+                 playerArea.appendChild(playerElement);
+                 squad[player.Position].appendChild(playerElement);
                  count++;
              })
 
@@ -277,29 +246,19 @@
          return item;
      }
 
-
      function colorTypes(color) {
 
          var newcolor = '#' + color;
          var newline = '1px solid ' + newcolor;
 
-         var gtype = document.getElementById('gtype');
-         gtype.style.borderTop = newline;
-         gtype.style.color = newcolor;
+         var types = ['gtype', 'dtype', 'mtype', 'ftype'];
 
-         var dtype = document.getElementById('dtype');
-         dtype.style.borderTop = newline;
-         dtype.style.color = newcolor;
-
-         var mtype = document.getElementById('mtype');
-         mtype.style.borderTop = newline;
-         mtype.style.color = newcolor;
-
-         var ftype = document.getElementById('ftype');
-         ftype.style.borderTop = newline;
-         ftype.style.color = newcolor;
+         types.forEach(function (type) {
+             var t = document.getElementById(type);
+             t.style.borderTop = newline;
+             t.style.color = newcolor;
+         })
      }
-
 
      function initMap() {
          // Create a map object and specify the DOM element for display.
@@ -312,7 +271,6 @@
              zoom: 8
          });
      }
-
 
      function createInfoWindow(marker, data, team) {
 
@@ -352,20 +310,21 @@
          return marker.infowindow;
      }
 
-
-     function clearPlayers() {
-         var keeper = document.getElementById('Goalkeeper');
-         var defender = document.getElementById('Defender');
-         var midfielder = document.getElementById('Midfielder');
-         var forward = document.getElementById('Forward');
-
-         keeper.innerHTML = "";
-         defender.innerHTML = "";
-         midfielder.innerHTML = "";
-         forward.innerHTML = "";
+     function getSquad() {
+         var squad = [];
+         squad['Goalkeeper'] = document.getElementById('Goalkeeper');
+         squad['Defender'] = document.getElementById('Defender');
+         squad['Midfielder'] = document.getElementById('Midfielder');
+         squad['Forward'] = document.getElementById('Forward');
+         return squad;
      }
 
-
+     function clearPlayers() {
+         var squad = getSquad();
+         for (var key in squad) {
+             squad[key].innerHTML = ""
+         }
+     }
 
      function createPin(map, player, team, color, scale) {
 
@@ -711,7 +670,6 @@
          display();
      }
 
-
      function display(zoom) {
          showInfo(zoom);
 
@@ -729,7 +687,6 @@
      function get(path, callback) {
          var xmlhttp = new XMLHttpRequest();
          xmlhttp.onreadystatechange = function () {
-
              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                  callback(JSON.parse(xmlhttp.responseText));
              }
@@ -741,9 +698,7 @@
      function setup() {
 
          var competitors = document.getElementById('competitors');
-
          var details = document.getElementById('details');
-
          var xmlhttp = new XMLHttpRequest();
 
          get('./data/copa.json', function (teams) {
@@ -762,11 +717,6 @@
          })
      }
 
-     window.onload = function () {
-         loadClubData();
-     }
+     window.onload = loadClubData;
 
-
-     window.onresize = function () {
-         setup();
-     }
+     window.onresize = setup;
