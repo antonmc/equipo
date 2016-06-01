@@ -635,54 +635,46 @@
 
          var clublist = './data/clubs.json'
 
-         var xmlhttp = new XMLHttpRequest();
+         get('./data/clubs.json', function (clubs) {
 
-         xmlhttp.onreadystatechange = function () {
-             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                 clubs = JSON.parse(xmlhttp.responseText);
+             clubs.sort(function (a, b) {
+                 if (a.name < b.name) return -1;
+                 if (a.name > b.name) return 1;
+                 return 0;
+             })
 
-                 clubs.sort(function (a, b) {
-                     if (a.name < b.name) return -1;
-                     if (a.name > b.name) return 1;
-                     return 0;
-                 })
+             console.log("Club count: " + clubs.length);
 
-                 console.log("Club count: " + clubs.length);
+             var coordinatated = 0;
 
-                 var coordinatated = 0;
+             var clubselect = document.getElementById('clubselect');
 
-                 var clubselect = document.getElementById('clubselect');
+             var option = document.createElement('option');
+             option.innerHTML = "All Clubs";
+             clubselect.appendChild(option);
 
-                 var option = document.createElement('option');
-                 option.innerHTML = "All Clubs";
-                 clubselect.appendChild(option);
+             clubs.forEach(function (item) {
 
-                 clubs.forEach(function (item) {
+                 if (item.lat != undefined) {
 
-                     if (item.lat != undefined) {
+                     option = document.createElement('option');
 
-                         option = document.createElement('option');
+                     option.innerHTML = item.name;
 
-                         option.innerHTML = item.name;
+                     clubselect.appendChild(option);
 
-                         clubselect.appendChild(option);
-
-                         if (item.lat) {
-                             coordinatated++;
-                         }
+                     if (item.lat) {
+                         coordinatated++;
                      }
-                 });
+                 }
+             });
 
-                 setup();
+             setup();
 
-                 console.log("Clubs with coordinates: " + coordinatated);
+             console.log("Clubs with coordinates: " + coordinatated);
 
-                 console.log("Coverage percentage: " + 100 / clubs.length * coordinatated);
-             };
-         }
-
-         xmlhttp.open("GET", clublist, true);
-         xmlhttp.send();
+             console.log("Coverage percentage: " + 100 / clubs.length * coordinatated);
+         })
      }
 
      function addGames(teams, chosen) {
@@ -693,29 +685,19 @@
 
          var games = './data/games.json'
 
-         var xmlhttp = new XMLHttpRequest();
-
-         xmlhttp.onreadystatechange = function () {
-             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                 var data = JSON.parse(xmlhttp.responseText);
-
-                 data.forEach(function (item) {
-                     if (chosen) {
-                         if (chosen === item.home || chosen === item.away) {
-                             var game = buildGame(teams, item)
-                             gamelist.appendChild(game);
-                         }
-                     } else {
+         get('./data/games.json', function (data) {
+             data.forEach(function (item) {
+                 if (chosen) {
+                     if (chosen === item.home || chosen === item.away) {
                          var game = buildGame(teams, item)
                          gamelist.appendChild(game);
                      }
-
-                 });
-             };
-         }
-
-         xmlhttp.open("GET", games, true);
-         xmlhttp.send();
+                 } else {
+                     var game = buildGame(teams, item)
+                     gamelist.appendChild(game);
+                 }
+             });
+         });
      }
 
      function toggle(context) {
@@ -744,6 +726,18 @@
          }
      }
 
+     function get(path, callback) {
+         var xmlhttp = new XMLHttpRequest();
+         xmlhttp.onreadystatechange = function () {
+
+             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                 callback(JSON.parse(xmlhttp.responseText));
+             }
+         }
+         xmlhttp.open("GET", path, true);
+         xmlhttp.send();
+     }
+
      function setup() {
 
          var competitors = document.getElementById('competitors');
@@ -752,28 +746,20 @@
 
          var xmlhttp = new XMLHttpRequest();
 
-         var copa = './data/copa.json'
+         get('./data/copa.json', function (teams) {
 
-         xmlhttp.onreadystatechange = function () {
-             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+             allteams = teams;
 
-                 var teams = JSON.parse(xmlhttp.responseText);
-                 allteams = teams;
+             teams.sort(function (a, b) {
+                 if (a.team < b.team) return -1;
+                 if (a.team > b.team) return 1;
+                 return 0;
+             })
 
-                 teams.sort(function (a, b) {
-                     if (a.team < b.team) return -1;
-                     if (a.team > b.team) return 1;
-                     return 0;
-                 })
-
-                 selected = teams;
-                 display();
-                 details.style.height = competitors.offsetHeight - 90 + 'px';
-             };
-         }
-
-         xmlhttp.open("GET", copa, true);
-         xmlhttp.send();
+             selected = teams;
+             display();
+             details.style.height = competitors.offsetHeight - 90 + 'px';
+         })
      }
 
      window.onload = function () {
