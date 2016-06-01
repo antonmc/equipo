@@ -594,7 +594,9 @@
 
          var clublist = './data/clubs.json'
 
-         get('./data/clubs.json', function (clubs) {
+         get('./data/clubs.json', function (c) {
+
+             clubs = c;
 
              clubs.sort(function (a, b) {
                  if (a.name < b.name) return -1;
