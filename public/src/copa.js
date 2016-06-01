@@ -587,6 +587,8 @@
  function display(zoom) {
      showInfo(zoom);
 
+     teamlist.innerHTML = '';
+
      selected.forEach(function (team) {
          teamlist.appendChild(makeListItem(team, selected));
      })
