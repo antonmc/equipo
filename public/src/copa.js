@@ -631,10 +631,79 @@
 
          var clubselect = document.getElementById('clubselect');
 
+         var clubplayers = [];
 
+         teams.forEach(function (team) {
 
-         console.log(clubselect.value);
+             team.players.forEach(function (player) {
+
+                 player.Team = team.team;
+
+                 if (player.Club === clubselect.value) {
+                     clubplayers.push(player);
+                 }
+             })
+         })
+
+         clubs.forEach(function (club) {
+
+             if (club.name == clubselect.value) {
+
+                 var center = new google.maps.LatLng(club.lat, club.lng);
+
+                 var mapOptions = {
+                     mapTypeControlOptions: {
+                         mapTypeIds: ['Styled']
+                     },
+                     center: center,
+                     zoom: 2,
+                     mapTypeId: 'Styled'
+                 };
+
+                 map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                 var styledMapType = new google.maps.StyledMapType(styles, {
+                     name: "Players from " + clubselect.value
+                 });
+
+                 map.mapTypes.set('Styled', styledMapType);
+
+                 clubplayers.forEach(function (player) {
+
+                     var lat = player.Lat;
+
+                     var longitude = player.Lng;
+
+                     var position = new google.maps.LatLng(lat, longitude);
+
+                     var teamcolor = selectedColor;
+
+                     var marker = new google.maps.Marker({
+                         position: position,
+                         icon: {
+                             path: google.maps.SymbolPath.CIRCLE,
+                             fillOpacity: 1,
+                             fillColor: teamcolor,
+                             strokeOpacity: 1,
+                             strokeColor: teamcolor,
+                             strokeWeight: 1,
+                             scale: 3 //pixels
+                         },
+                         map: map
+                     });
+
+                     showMigrations(player, map, teamcolor);
+
+                     createInfoWindow(marker, player, player.Team);
+
+                     markers.push(marker);
+                 })
+             }
+         })
+         console.log("Number of players at: " + clubselect.value + " = " + clubplayers.length);
+
      }
+
 
      function loadClubData() {
 
@@ -645,6 +714,12 @@
          xmlhttp.onreadystatechange = function () {
              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                  clubs = JSON.parse(xmlhttp.responseText);
+
+                 clubs.sort(function (a, b) {
+                     if (a.name < b.name) return -1;
+                     if (a.name > b.name) return 1;
+                     return 0;
+                 })
 
                  console.log("Club count: " + clubs.length);
 
@@ -658,14 +733,17 @@
 
                  clubs.forEach(function (item) {
 
-                     option = document.createElement('option');
+                     if (item.lat != undefined) {
 
-                     option.innerHTML = item.name;
+                         option = document.createElement('option');
 
-                     clubselect.appendChild(option);
+                         option.innerHTML = item.name;
 
-                     if (item.lat) {
-                         coordinatated++;
+                         clubselect.appendChild(option);
+
+                         if (item.lat) {
+                             coordinatated++;
+                         }
                      }
                  });
 

@@ -34,7 +34,7 @@
     "lng": -76.972,
     "stadium": "RFK Stadium"
 }, {
-    "name": "Seattle Sounders",
+    "name": "Seattle Sounders FC",
     "lat": 47.5952,
     "lng": -122.3316,
     "stadium": "CenturyLink Field"
@@ -83,11 +83,6 @@
     "lat": 39.1218,
     "lng": -94.8237,
     "stadium": "Children's Mercy Park"
-}, {
-    "name": "Seattle Sounders FC",
-    "lat": 47.5952,
-    "lng": -122.3316,
-    "stadium": "CenturyLink Field"
 }, {
     "name": "LA Galaxy",
     "lat": 33.864444,
