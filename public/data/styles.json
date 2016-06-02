@@ -16,7 +16,7 @@
     {
         "featureType": "landscape",
         "stylers": [{
-            "color": "#3f3f3f"
+            "color": "#3c3c3c"
             }]
         },
     {
@@ -35,7 +35,7 @@
         "featureType": "administrative.country",
         "elementType": "geometry.stroke",
         "stylers": [{
-            "color": "#696969"
+            "color": "#777777"
             }, {
             "weight": 0.5
             }]
@@ -44,7 +44,7 @@
         "featureType": "administrative",
         "elementType": "labels",
         "stylers": [{
-            "color": "#696969"
+            "color": "#aaaaaa"
             }, {
             "weight": 0.1
             }]

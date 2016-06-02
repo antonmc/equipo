@@ -12,6 +12,18 @@ html {
     color: #555;
 }
 
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+}
+
 .content {
     display: -webkit-flex;
     display: flex;
@@ -20,6 +32,16 @@ html {
     max-width: 1100px;
     margin: auto;
     height: 100%
+}
+
+.about {
+    color: #dd4131;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    text-decoration: none;
+    /*    font-weight: 700;*/
+    margin-bottom: 3px;
 }
 
 .banner {
@@ -32,12 +54,14 @@ html {
     flex-direction: row;
     align-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .title {
     color: #dd4131;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 2px;
+    padding-left: 15px;
 }
 
 .geo {
@@ -370,6 +394,18 @@ html {
 }
 
 .clubpicker {}
+
+.reset {
+    background: #3a3a3a;
+    border: none;
+    color: #999;
+    border-radius: 4px;
+    height: 22px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
 
 
 /* proto.io */

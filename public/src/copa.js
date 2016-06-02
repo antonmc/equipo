@@ -89,6 +89,29 @@
      return player;
  }
 
+ function displayTeamArea() {
+     var teamArea = document.getElementById('teamArea');
+     teamArea.style.visibility = 'visible';
+     teamArea.style.height = '20%';
+     teamArea.style.minHeight = '20%';
+
+     var geoArea = document.getElementById('geoArea');
+     geoArea.style.height = '70%';
+     geoArea.style.minHeight = '70%';
+ }
+
+ function hideTeamArea() {
+     var teamArea = document.getElementById('teamArea');
+     teamArea.style.visibility = 'hidden';
+
+     var geoArea = document.getElementById('geoArea');
+     geoArea.style.height = '85%';
+     geoArea.style.minHeight = '85%';
+
+     var details = document.getElementById('details');
+     details.style.height = competitors.offsetHeight - 90 + 'px';
+ }
+
  function makeListItem(team, teams) {
 
      var item = newDiv('item');
@@ -113,14 +136,7 @@
 
          console.log('clicked ' + team.team);
 
-         var teamArea = document.getElementById('teamArea');
-         teamArea.style.visibility = 'visible';
-         teamArea.style.height = '20%';
-         teamArea.style.minHeight = '20%';
-
-         var geoArea = document.getElementById('geoArea');
-         geoArea.style.height = '70%';
-         geoArea.style.minHeight = '70%';
+         displayTeamArea();
 
          clearSelection();
          item.style.border = '1px solid #' + team.shirt.colors[0];
@@ -134,6 +150,9 @@
 
          var title = document.getElementById('title');
          title.style.color = '#' + team.shirt.colors[0];
+
+         var about = document.getElementById('about');
+         about.style.color = '#' + team.shirt.colors[0];
 
          title.innerHTML = 'Players of Copa America 2016 - ' + '<b>' + team.team + '</b>';
 
@@ -246,7 +265,7 @@
      }
  }
 
- function createPin(map, player, team, color, scale) {
+ function createPin(map, player, team, color, scale, window) {
 
      var position = new google.maps.LatLng(player.Lat, player.Lng);
 
@@ -266,7 +285,9 @@
 
      var infoWindow = createInfoWindow(marker, player, team);
 
-     //         infoWindow.open(map, marker);
+     if (window === true) {
+         infoWindow.open(map, marker);
+     }
 
      showMigrations(player, map, color);
 
@@ -306,11 +327,12 @@
          style: styles,
          lat: team.center[0],
          lng: team.center[1],
+         label: player.Name,
          zoom: 5
      }
 
      var map = createMap(mapObject);
-     createPin(map, player, team, color, 4);
+     createPin(map, player, team, color, 6, true);
  }
 
  function showMigrations(player, map, teamcolor) {
@@ -367,7 +389,7 @@
          lat: 8.7832,
          lng: -55.4915,
          label: 'Players of Copa America',
-         zoom: 2
+         zoom: 3
      }
 
      if (zoom) {
@@ -463,17 +485,37 @@
      game.appendChild(matchdate);
      game.appendChild(matchlocation);
 
+     game.onclick = function (element) {
+
+         console.log(element);
+
+         console.log('clicked ' + data.home + ' v ' + data.away);
+
+         var match = [];
+
+         teams.forEach(function (team) {
+             if (team.team === data.home || team.team === data.away) {
+                 match.push(team);
+             }
+         })
+
+         selected = match;
+         hideTeamArea();
+         display(3);
+         element.target.style.border = '1px solid #' + selectedColor;
+         element.target.style.opacity = 1;
+     }
+
      return game;
  }
 
- function chooseClub(choice) {
+ function showClub(choice) {
 
      var clubselect = document.getElementById('clubselect');
 
      var clubplayers = [];
 
      teams.forEach(function (team) {
-
          team.players.forEach(function (player) {
 
              player.Team = team.team;
@@ -501,7 +543,7 @@
 
              clubplayers.forEach(function (player) {
                  var teamcolor = selectedColor;
-                 createPin(map, player, player.Team, teamcolor, 3);
+                 createPin(map, player, player.Team, teamcolor, 2);
              })
          }
      })
@@ -542,7 +584,7 @@
              }
          });
 
-         setup();
+         reset();
 
          console.log("Clubs with coordinates: " + coordinatated);
 
@@ -611,10 +653,13 @@
      xmlhttp.send();
  }
 
- function setup() {
+ function reset() {
 
      var competitors = document.getElementById('competitors');
-     var details = document.getElementById('details');
+
+     clubselect.value = "All Clubs";
+
+     hideTeamArea();
 
      get('./data/copa.json', function (teams) {
 
@@ -628,6 +673,7 @@
 
          selected = teams;
          display();
+         var details = document.getElementById('details');
          details.style.height = competitors.offsetHeight - 90 + 'px';
      })
  }
@@ -641,4 +687,4 @@
 
  window.onload = mapStyle;
 
- window.onresize = setup;
+ window.onresize = reset;

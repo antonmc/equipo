@@ -13,7 +13,10 @@
 <body>
     <div class="content">
         <div class="banner">
-            <label id="title" class="title">Players of Copa America 2016</label>
+            <div class="welcome"><img class="logo" src="images/logo.png">
+                <label id="title" class="title">Players of Copa America 2016</label>
+            </div>
+            <a id="about" class="about" href="about.html">About</a>
         </div>
         <div id="geoArea" class="geo">
             <div id="competitors" class="competitors">
@@ -28,14 +31,16 @@
                     </div>
                 </div>
                 <div class="controlbar">
+
                     <div class="migrationcontrol">
                         <label class="migrationlabel">Players By Club: </label>
                         <div class="select">
                             <span class="arr"></span>
-                            <select id="clubselect" onchange="chooseClub(this)">
+                            <select id="clubselect" onchange="showClub(this)">
                             </select>
                         </div>
                     </div>
+
                     <div class="migrationcontrol">
                         <label class="migrationlabel">Show Migrations: </label>
                         <div>
@@ -48,6 +53,7 @@
                             </div>
                         </div>
                     </div>
+                    <button id="reset" class="reset" onclick="reset()">Reset</button>
                 </div>
             </div>
             <div id="competitors" class="competitors">
