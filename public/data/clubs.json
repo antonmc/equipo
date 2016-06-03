@@ -109,7 +109,7 @@
     "lng": -75.378889,
     "stadium": "Talen Energy Stadium"
 }, {
-    "name": "Orlando City",
+    "name": "Orlando City SC",
     "lat": 28.539167,
     "lng": -81.402778,
     "stadium": "Camping World Stadium"
@@ -223,7 +223,10 @@
     "lng": 2.122802,
     "stadium": "Camp Nou"
 }, {
-    "name": "Shandong Luneng"
+    "name": "Shandong Luneng",
+    "lat": 36.6566460,
+    "lng": 117.1100520,
+    "stadium": "Jinan Olympic Sports Center Stadium"
 }, {
     "name": "Atlético Madrid",
     "lat": 40.401719,
@@ -237,7 +240,10 @@
     "lng": -9.139444,
     "stadium": "Estádio da Luz"
 }, {
-    "name": "Santos"
+    "name": "Santos",
+    "lat": -23.9511111,
+    "lng": -46.3388889,
+    "stadium": "Estádio Urbano Caldeira"
 }, {
     "name": "Valencia",
     "lat": 39.474656,
@@ -313,7 +319,10 @@
     "lng": -2.96096,
     "stadium": "Anfield"
 }, {
-    "name": "Colo-Colo"
+    "name": "Colo-Colo",
+    "lat": -33.5066111,
+    "lng": -70.6059444,
+    "stadium": "Estadio Monumental David Arellano"
 }, {
     "name": "Cerro Porteño"
 }, {
@@ -467,7 +476,10 @@
 }, {
     "name": "UANL"
 }, {
-    "name": "Porto"
+    "name": "Porto",
+    "lat": 41.1618,
+    "lng": 8.5836,
+    "stadium": "Estádio do Dragão"
 }, {
     "name": "Málaga",
     "lat": 36.734092,
@@ -622,7 +634,10 @@
     "lng": -5.986944,
     "stadium": "Olímpico de Sevilla"
 }, {
-    "name": "Hebei China Fortune"
+    "name": "Hebei China Fortune",
+    "lat": 38.0371,
+    "lng": 114.4687,
+    "stadium": "Qinhuangdao Olympic Sports Center Stadium"
 }, {
     "name": "Estudiantes",
     "lat": -34.921111,
@@ -653,7 +668,10 @@
 }, {
     "name": "Carabobo"
 }, {
-    "name": "NEC"
+    "name": "NEC",
+    "lat": 51.8225,
+    "lng": 5.8375,
+    "stadium": "Stadion de Goffert"
 }, {
     "name": "Duisburg"
 }, {
@@ -705,15 +723,16 @@
 }, {
     "name": "RNK Split"
 }, {
-    "name": "Porto B"
-}, {
     "name": "Deportivo Saprissa"
 }, {
     "name": "Persepolis"
 }, {
     "name": "Evian"
 }, {
-    "name": "Bangkok Glass"
+    "name": "Bangkok Glass",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "stadium": "Leo Stadium"
 }, {
     "name": "Midtjylland"
 }, {

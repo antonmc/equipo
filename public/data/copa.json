@@ -398,7 +398,9 @@
         "Home": "São Bernardo do Campo",
         "Height": 176,
         "Lat": -23.7,
-        "Lng": -46.55
+        "Lng": -46.55,
+        "Temp": 16,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Diego Alves",
         "Wikipedia": "https://en.wikipedia.org/wiki/Diego_Alves",
@@ -556,7 +558,9 @@
         "Home": "Evergreen Park, Illinois",
         "Height": 193,
         "Lat": 41.72,
-        "Lng": -87.7025
+        "Lng": -87.7025,
+        "Temp": 18,
+        "Conditions": "Cloudy"
     }, {
         "Name": "DeAndre Yedlin",
         "Wikipedia": "https://en.wikipedia.org/wiki/DeAndre_Yedlin",
@@ -567,7 +571,9 @@
         "Home": "Seattle, Washington",
         "Height": 173,
         "Lat": 47.609722222222224,
-        "Lng": -122.33305555555555
+        "Lng": -122.33305555555555,
+        "Temp": 14,
+        "Conditions": "Fair"
     }, {
         "Name": "Steve Birnbaum",
         "Wikipedia": "https://en.wikipedia.org/wiki/Steve_Birnbaum",
@@ -589,7 +595,9 @@
         "Home": "Princeton, New Jersey",
         "Height": 185,
         "Lat": 40.35722222222223,
-        "Lng": -74.67027777777778
+        "Lng": -74.67027777777778,
+        "Temp": 20,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Matt Besler",
         "Wikipedia": "https://en.wikipedia.org/wiki/Matt_Besler",
@@ -600,7 +608,9 @@
         "Home": "Overland Park, Kansas",
         "Height": 183,
         "Lat": 38.98222222222223,
-        "Lng": -94.67083333333333
+        "Lng": -94.67083333333333,
+        "Temp": -18,
+        "Conditions": "Fair"
     }, {
         "Name": "John Brooks",
         "Wikipedia": "https://en.wikipedia.org/wiki/John_Brooks_(soccer,_born_1993)",
@@ -622,7 +632,9 @@
         "Home": "Honolulu, Hawaii",
         "Height": 178,
         "Lat": 21.3,
-        "Lng": -157.81666666666666
+        "Lng": -157.81666666666666,
+        "Temp": 24,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Clint Dempsey",
         "Wikipedia": "https://en.wikipedia.org/wiki/Clint_Dempsey",
@@ -644,7 +656,9 @@
         "Home": "Hawthorne, California",
         "Height": 188,
         "Lat": 33.91722222222222,
-        "Lng": -118.34861111111111
+        "Lng": -118.34861111111111,
+        "Temp": -18,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Darlington Nagbe",
         "Wikipedia": "https://en.wikipedia.org/wiki/Darlington_Nagbe",
@@ -666,7 +680,9 @@
         "Home": "Englewood, New Jersey",
         "Height": 178,
         "Lat": 40.89111111111111,
-        "Lng": -73.9725
+        "Lng": -73.9725,
+        "Temp": 5,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Tim Howard",
         "Wikipedia": "https://en.wikipedia.org/wiki/Tim_Howard",
@@ -699,7 +715,9 @@
         "Home": "Orange, California",
         "Height": 180,
         "Lat": 33.80305555555555,
-        "Lng": -117.8325
+        "Lng": -117.8325,
+        "Temp": 6,
+        "Conditions": "Fair"
     }, {
         "Name": "Kyle Beckerman",
         "Wikipedia": "https://en.wikipedia.org/wiki/Kyle_Beckerman",
@@ -710,7 +728,9 @@
         "Home": "Crofton, Maryland",
         "Height": 178,
         "Lat": 39.00888888888889,
-        "Lng": -76.68111111111112
+        "Lng": -76.68111111111112,
+        "Temp": 5,
+        "Conditions": "Fair"
     }, {
         "Name": "Perry Kitchen",
         "Wikipedia": "https://en.wikipedia.org/wiki/Perry_Kitchen",
@@ -721,7 +741,9 @@
         "Home": "Indianapolis, Indiana",
         "Height": 183,
         "Lat": 39.766666666666666,
-        "Lng": -86.15
+        "Lng": -86.15,
+        "Temp": 1,
+        "Conditions": "Fair"
     }, {
         "Name": "Christian Pulisic",
         "Wikipedia": "https://en.wikipedia.org/wiki/Christian_Pulisic",
@@ -732,7 +754,9 @@
         "Home": "Hershey, Pennsylvania",
         "Height": 172,
         "Lat": 40.27833333333333,
-        "Lng": -76.65111111111112
+        "Lng": -76.65111111111112,
+        "Temp": 21,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Chris Wondolowski",
         "Wikipedia": "https://en.wikipedia.org/wiki/Chris_Wondolowski",
@@ -743,7 +767,9 @@
         "Home": "Danville, California",
         "Height": 183,
         "Lat": 37.82166666666667,
-        "Lng": -122
+        "Lng": -122,
+        "Temp": -18,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Graham Zusi",
         "Wikipedia": "https://en.wikipedia.org/wiki/Graham_Zusi",
@@ -754,7 +780,9 @@
         "Home": "Longwood, Florida",
         "Height": 178,
         "Lat": 28.701944444444443,
-        "Lng": -81.345
+        "Lng": -81.345,
+        "Temp": 23,
+        "Conditions": "Fair"
     }, {
         "Name": "Geoff Cameron",
         "Wikipedia": "https://en.wikipedia.org/wiki/Geoff_Cameron",
@@ -776,7 +804,9 @@
         "Home": "Las Cruces, New Mexico",
         "Height": 170,
         "Lat": 32.31444444444444,
-        "Lng": -106.77888888888889
+        "Lng": -106.77888888888889,
+        "Temp": 11,
+        "Conditions": "Partly Cloudy"
     }, {
         "Name": "Ethan Horvath",
         "Wikipedia": "https://en.wikipedia.org/wiki/Ethan_Horvath",
@@ -787,7 +817,9 @@
         "Home": "Highlands Ranch, Colorado",
         "Height": 194,
         "Lat": 39.54194444444444,
-        "Lng": -104.97083333333333
+        "Lng": -104.97083333333333,
+        "Temp": 8,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Fabian Johnson",
         "Wikipedia": "https://en.wikipedia.org/wiki/Fabian_Johnson",
@@ -1329,7 +1361,9 @@
         "Home": "Santa Cruz de la Sierra",
         "Height": 180,
         "Lat": -17.8,
-        "Lng": -63.18333333333333
+        "Lng": -63.18333333333333,
+        "Temp": 24,
+        "Conditions": "Mostly Cloudy"
     }]
 }, {
     "team": "Costa Rica",
@@ -1888,7 +1922,9 @@
         "Home": "West Haverstraw, New York",
         "Height": 198,
         "Lat": 41.20472222222222,
-        "Lng": -73.99055555555556
+        "Lng": -73.99055555555556,
+        "Temp": 9,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Luis Valendi Odelus",
         "Wikipedia": "https://en.wikipedia.org/wiki/Luis_Valendi_Odelus",
@@ -2589,7 +2625,9 @@
         "Home": "Cuernavaca",
         "Height": 188,
         "Lat": 18.91861111111111,
-        "Lng": -99.23416666666667
+        "Lng": -99.23416666666667,
+        "Temp": 12,
+        "Conditions": "Partly Cloudy"
     }, {
         "Name": "Abdiel Arroyo",
         "Wikipedia": "https://en.wikipedia.org/wiki/Abdiel_Arroyo",
@@ -2734,7 +2772,9 @@
         "Home": "Itauguá",
         "Height": 177,
         "Lat": -25.383333333333333,
-        "Lng": -57.333333333333336
+        "Lng": -57.333333333333336,
+        "Temp": 21,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Néstor Ortigoza",
         "Wikipedia": "https://en.wikipedia.org/wiki/N%C3%A9stor_Ortigoza",
@@ -3069,7 +3109,9 @@
         "Home": "Lima",
         "Height": 182,
         "Lat": -12.043333333333333,
-        "Lng": -77.02833333333334
+        "Lng": -77.02833333333334,
+        "Temp": 19,
+        "Conditions": "Cloudy / Windy"
     }, {
         "Name": "Armando Alfageme",
         "Wikipedia": "https://en.wikipedia.org/w/index.php?title=Armando_Alfageme&action=edit&redlink=1",
@@ -3385,7 +3427,9 @@
         "Home": "Caracas",
         "Height": 175,
         "Lat": 10.5,
-        "Lng": -66.91666666666667
+        "Lng": -66.91666666666667,
+        "Temp": 25,
+        "Conditions": "Mostly Cloudy"
     }]
 }, {
     "team": "Mexico",
@@ -3411,7 +3455,9 @@
         "Home": "Guadalajara, Jalisco",
         "Height": 184,
         "Lat": 20.666666666666668,
-        "Lng": -103.35
+        "Lng": -103.35,
+        "Temp": 10,
+        "Conditions": "Fair"
     }, {
         "Name": "Néstor Araujo",
         "Wikipedia": "https://en.wikipedia.org/wiki/N%C3%A9stor_Araujo",
@@ -3422,7 +3468,9 @@
         "Home": "Guadalajara",
         "Height": 189,
         "Lat": 20.666666666666668,
-        "Lng": -103.35
+        "Lng": -103.35,
+        "Temp": 18,
+        "Conditions": "Fair"
     }, {
         "Name": "Yasser Corona",
         "Wikipedia": "https://en.wikipedia.org/wiki/Yasser_Corona",
@@ -3433,7 +3481,9 @@
         "Home": "Tepic",
         "Height": 184,
         "Lat": 21.508333333333333,
-        "Lng": -104.89305555555556
+        "Lng": -104.89305555555556,
+        "Temp": 23,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Rafael Márquez",
         "Wikipedia": "https://en.wikipedia.org/wiki/Rafael_M%C3%A1rquez",
@@ -3466,7 +3516,9 @@
         "Home": "Tijuana",
         "Height": 180,
         "Lat": 32.525,
-        "Lng": -117.03333333333333
+        "Lng": -117.03333333333333,
+        "Temp": 9,
+        "Conditions": "Partly Cloudy"
     }, {
         "Name": "Miguel Layún",
         "Wikipedia": "https://en.wikipedia.org/wiki/Miguel_Lay%C3%BAn",
@@ -3499,7 +3551,9 @@
         "Home": "Tepeji",
         "Height": 190,
         "Lat": 19.903888888888886,
-        "Lng": -99.34138888888889
+        "Lng": -99.34138888888889,
+        "Temp": 22,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Jesús Manuel Corona",
         "Wikipedia": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Corona_(footballer,_born_1993)",
@@ -3510,7 +3564,9 @@
         "Home": "Hermosillo",
         "Height": 173,
         "Lat": 29.098888888888887,
-        "Lng": -110.95416666666667
+        "Lng": -110.95416666666667,
+        "Temp": 15,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Javier Aquino",
         "Wikipedia": "https://en.wikipedia.org/wiki/Javier_Aquino",
@@ -3543,7 +3599,9 @@
         "Home": "Guadalajara, Jalisco",
         "Height": 185,
         "Lat": 20.666666666666668,
-        "Lng": -103.35
+        "Lng": -103.35,
+        "Temp": 20,
+        "Conditions": "Fair"
     }, {
         "Name": "Javier Hernández",
         "Wikipedia": "https://en.wikipedia.org/wiki/Javier_Hern%C3%A1ndez",
@@ -3554,7 +3612,9 @@
         "Home": "Guadalajara",
         "Height": 175,
         "Lat": 20.666666666666668,
-        "Lng": -103.35
+        "Lng": -103.35,
+        "Temp": 19,
+        "Conditions": "Fair"
     }, {
         "Name": "Héctor Moreno",
         "Wikipedia": "https://en.wikipedia.org/wiki/H%C3%A9ctor_Moreno_(footballer)",
@@ -3574,7 +3634,9 @@
         "Home": "Tijuana",
         "Height": 180,
         "Lat": 32.525,
-        "Lng": -117.03333333333333
+        "Lng": -117.03333333333333,
+        "Temp": 15,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Jürgen Damm",
         "Wikipedia": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Damm",
@@ -3596,7 +3658,9 @@
         "Home": "Guadalajara",
         "Height": 167,
         "Lat": 20.666666666666668,
-        "Lng": -103.35
+        "Lng": -103.35,
+        "Temp": 19,
+        "Conditions": "Mostly Cloudy"
     }, {
         "Name": "Oribe Peralta",
         "Wikipedia": "https://en.wikipedia.org/wiki/Oribe_Peralta",
@@ -3638,7 +3702,9 @@
         "Home": "Concordia, Sinaloa",
         "Height": 178,
         "Lat": 23.288333333333334,
-        "Lng": -106.0675
+        "Lng": -106.0675,
+        "Temp": 16,
+        "Conditions": "Cloudy"
     }, {
         "Name": "Jesús Molina",
         "Wikipedia": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Molina",
@@ -3649,7 +3715,9 @@
         "Home": "Hermosillo",
         "Height": 186,
         "Lat": 29.098888888888887,
-        "Lng": -110.95416666666667
+        "Lng": -110.95416666666667,
+        "Temp": 14,
+        "Conditions": "Fair"
     }]
 }, {
     "team": "Colombia",
