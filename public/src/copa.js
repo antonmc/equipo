@@ -213,24 +213,6 @@
      })
  }
 
- function initMap() {
-     // Create a map object and specify the DOM element for display.
-
-     var mapElement = document.getElementById('map');
-
-     var map = new google.maps.Map(mapElement, {
-         center: {
-             lat: -34.397,
-             lng: 150.644
-         },
-         scrollwheel: false,
-         zoom: 8
-     });
-     var mapElement = document.getElementById('map');
-     var details = document.getElementById('details');
-     mapElement.style.height = details.offsetHeight - 90 + 'px';
- }
-
  function createInfoWindow(marker, data, team) {
 
      var contentString = '<div id="content">' +
@@ -408,7 +390,7 @@
 
      teams = selected;
 
-     var scale = 3;
+     var scale = 2;
 
      var mapObject = {
          anchor: "map",
@@ -425,6 +407,13 @@
          mapObject.lng = teams[0].center[1];
          mapObject.label = teams[0].team;
          scale = 4;
+     }
+
+     if (window.innerWidth < 1200) {
+         scale = 3;
+         mapObject.zoom = 4;
+         mapObject.lng = -60;
+         mapObject.lat = -20;
      }
 
      var map = createMap(mapObject);
