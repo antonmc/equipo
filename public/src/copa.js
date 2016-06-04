@@ -90,14 +90,18 @@
  }
 
  function displayTeamArea() {
-     var teamArea = document.getElementById('teamArea');
-     teamArea.style.visibility = 'visible';
-     teamArea.style.height = '20%';
-     teamArea.style.minHeight = '20%';
+
 
      var geoArea = document.getElementById('geoArea');
-     geoArea.style.height = '70%';
-     geoArea.style.minHeight = '70%';
+
+     var currentHeight = geoArea.style.height;
+     geoArea.style.height = currentHeight - 200 + 'px';
+     geoArea.style.minHeight = currentHeight - 200 + 'px';
+
+     var teamArea = document.getElementById('teamArea');
+     teamArea.style.visibility = 'visible'; //     teamArea.style.height = '200px';
+     teamArea.style.minHeight = '200px';
+
  }
 
  function hideTeamArea() {
@@ -105,11 +109,22 @@
      teamArea.style.visibility = 'hidden';
 
      var geoArea = document.getElementById('geoArea');
-     geoArea.style.height = '85%';
-     geoArea.style.minHeight = '85%';
 
-     var details = document.getElementById('details');
-     details.style.height = competitors.offsetHeight - 90 + 'px';
+     var currentHeight = geoArea.style.height;
+     //     geoArea.style.height = currentHeight + 200 + 'px';//     geoArea.style.minHeight = currentHeight + 200 + 'px';
+
+     //     var currentHeight = geoArea.style.height;//     geoArea.style.height = screen.height * 0.85 + 'px';
+     //     geoArea.style.minHeight = screen.height * 0.85 + 'px';
+
+     //     window.resizeTo(
+     //         window.screen.availWidth window.screen.availHeight
+     //     );
+
+     //     var geoArea = document.getElementById('geoArea');
+     //     geoArea.style.height = '90%';
+     //     geoArea.style.minHeight = '90%';
+
+     //     var details = document.getElementById('details');//     details.style.height = competitors.offsetHeight - 90 + 'px';
  }
 
  function makeListItem(team, teams) {
@@ -170,8 +185,7 @@
              count++;
          })
 
-         var details = document.getElementById('details');
-         details.style.height = geoArea.offsetHeight - 110 + 'px';
+         //         var details = document.getElementById('details');//         details.style.height = geoArea.offsetHeight - 110 + 'px';
 
          selected = [team];
 
@@ -201,7 +215,10 @@
 
  function initMap() {
      // Create a map object and specify the DOM element for display.
-     var map = new google.maps.Map(document.getElementById('map'), {
+
+     var mapElement = document.getElementById('map');
+
+     var map = new google.maps.Map(mapElement, {
          center: {
              lat: -34.397,
              lng: 150.644
@@ -209,6 +226,9 @@
          scrollwheel: false,
          zoom: 8
      });
+     var mapElement = document.getElementById('map');
+     var details = document.getElementById('details');
+     mapElement.style.height = details.offsetHeight - 90 + 'px';
  }
 
  function createInfoWindow(marker, data, team) {
@@ -298,6 +318,8 @@
 
      var map;
 
+     var anchor = document.getElementById(details.anchor);
+
      var mapOptions = {
          mapTypeControlOptions: {
              mapTypeIds: ['Styled']
@@ -307,13 +329,18 @@
          mapTypeId: 'Styled'
      };
 
-     map = new google.maps.Map(document.getElementById(details.anchor), mapOptions);
+     map = new google.maps.Map(anchor, mapOptions);
 
      var styledMapType = new google.maps.StyledMapType(styles, {
          name: details.label
      });
 
      map.mapTypes.set('Styled', styledMapType);
+     //     var anchor = document.getElementById(details.anchor);
+     //     var details = document.getElementById('details');
+     //     anchor.style.height = details.offsetHeight + 'px';
+
+     resizeMap();
 
      return map;
  }
@@ -381,7 +408,7 @@
 
      teams = selected;
 
-     var scale = 2;
+     var scale = 3;
 
      var mapObject = {
          anchor: "map",
@@ -500,7 +527,7 @@
          })
 
          selected = match;
-         hideTeamArea();
+         //         hideTeamArea();
          display(3);
          element.target.style.border = '1px solid #' + selectedColor;
          element.target.style.opacity = 1;
@@ -627,7 +654,6 @@
  }
 
  function display(zoom) {
-     showInfo(zoom);
 
      teamlist.innerHTML = '';
 
@@ -640,6 +666,8 @@
      } else {
          addGames(allteams);
      }
+
+     showInfo(zoom);
  }
 
  function get(path, callback) {
@@ -673,8 +701,6 @@
 
          selected = teams;
          display();
-         var details = document.getElementById('details');
-         details.style.height = competitors.offsetHeight - 90 + 'px';
      })
  }
 
@@ -685,6 +711,21 @@
      })
  }
 
+ function resizeMap() {
+     var anchor = document.getElementById('map');
+     var location = document.getElementById('location');
+
+     if (window.innerWidth > 1200) {
+         anchor.style.height = location.offsetHeight - 90 + 'px';
+     } else {
+         anchor.style.height = location.offsetHeight + 'px';
+     }
+ }
+
+ function reload() {
+     location.reload();
+ }
+
  window.onload = mapStyle;
 
- window.onresize = reset;
+ window.onresize = resizeMap;
