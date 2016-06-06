@@ -99,8 +99,8 @@
      geoArea.style.minHeight = currentHeight - 200 + 'px';
 
      var teamArea = document.getElementById('teamArea');
-     teamArea.style.visibility = 'visible'; //     teamArea.style.height = '200px';
-     teamArea.style.minHeight = '200px';
+     teamArea.style.visibility = 'visible'; //     teamArea.style.height = 'px';
+     teamArea.style.minHeight = '220px';
 
  }
 
@@ -704,10 +704,11 @@
      var anchor = document.getElementById('map');
      var location = document.getElementById('location');
 
+
      if (window.innerWidth > 1200) {
          anchor.style.height = location.offsetHeight - 90 + 'px';
      } else {
-         anchor.style.height = location.offsetHeight + 'px';
+         anchor.style.height = location.offsetHeight - 50 + 'px';
      }
  }
 

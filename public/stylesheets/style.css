@@ -1,573 +1,663 @@
-    /* style.css
+/* style.css
  * This file provides css styles.
  */
-    
-    body,
-    html {
-        background-color: #2a2a2a; // #f4f4f4;
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-        padding: 0;
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        color: #555;
-    }
-    
-    .welcome {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        align-items: center;
-    }
-    
-    .logo {
-        height: 24px;
-        width: 24px;
-    }
-    
-    .content {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: column;
-        flex-flow: column;
-        max-width: 1100px;
-        margin: auto;
-        height: 100%
-    }
-    
-    .about {
-        color: #dd4131;
-        font-size: 16px;
-        letter-spacing: 1px;
-        padding-left: 10px;
-        text-decoration: none;
-        /*    font-weight: 700;*/
-        margin-bottom: 3px;
-    }
-    
-    .banner {
-        height: 60px;
-        /* background: #2a2a2a; */
-        margin: 10px;
-        min-height: 40px;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .title {
-        color: #dd4131;
-        font-size: 16px;
-        letter-spacing: 2px;
-        padding-left: 15px;
-    }
-    
-    .geo {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .copa {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .competitors {
-        display: flex;
-        flex-direction: column;
-        width: 120px;
-        min-width: 120px;
-        margin: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        overflow: scroll;
-    }
-    
-    .competitorsb {
-        display: flex;
-        flex-direction: column;
-        width: 120px;
-        min-width: 120px;
-        margin: 10px;
-        margin-left: 0;
-        margin-bottom: 10px;
-        overflow: scroll;
-    }
-    
-    .lead {
-        display: flex;
-        flex-direction: row;
-        background: #212121;
-        min-height: 30px;
-        justify-content: flex-start;
-        margin-bottom: 20px;
-        font-size: 12px;
-        color: #dd4131;
-        padding-left: 10px;
-        align-items: center;
-        letter-spacing: 2px;
-    }
-    
-    .leadb {
-        display: flex;
-        flex-direction: row;
-        background: #212121;
-        min-height: 30px;
-        justify-content: flex-end;
-        margin-bottom: 20px;
-        font-size: 12px;
-        color: #dd4131;
-        padding-right: 10px;
-        align-items: center;
-        letter-spacing: 2px;
-    }
-    
-    .teamlist {
-        display: flex;
-        flex-direction: column;
-        width: 120px;
-        min-width: 120px;
-        overflow: scroll;
-    }
-    
-    .item {
-        margin-bottom: 20px;
-        height: 120px;
-        min-height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #212121;
-        cursor: pointer;
-    }
-    
-    .item:hover {
-        opacity: 1 !important;
-    }
-    
-    .teamname {
-        font-size: 12px;
-        color: #ccc;
-        margin: 5px;
-    }
-    
-    .nation {
-        display: flex;
-        flex-direction: row;
-        margin: 5px;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .teaminfo {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .flag {
-        height: 20px;
-    }
-    
-    .info {
-        margin: 5px;
-        color: #ccc;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-    }
-    
-    .details {
-        /*
+
+body,
+html {
+    background-color: #2a2a2a; // #f4f4f4;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #555;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+}
+
+.content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.about {
+    color: #dd4131;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    text-decoration: none;
+    /*    font-weight: 700;*/
+    margin-bottom: 3px;
+}
+
+.banner {
+    height: 60px;
+    /* background: #2a2a2a; */
+    margin: 10px;
+    min-height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: #dd4131;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+}
+
+.geo {
+    display: flex;
+    flex-direction: row;
+}
+
+.copa {
+    display: flex;
+    flex-direction: row;
+}
+
+.competitors {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    min-width: 120px;
+    margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    min-width: 120px;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+.lead {
+    display: flex;
+    flex-direction: row;
+    background: #212121;
+    min-height: 30px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #dd4131;
+    padding-left: 10px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.leadb {
+    display: flex;
+    flex-direction: row;
+    background: #212121;
+    min-height: 30px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #dd4131;
+    padding-right: 10px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.teamlist {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    min-width: 120px;
+    overflow: scroll;
+}
+
+.item {
+    margin-bottom: 20px;
+    height: 120px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
+    cursor: pointer;
+}
+
+.item:hover {
+    opacity: 1 !important;
+}
+
+.teamname {
+    font-size: 12px;
+    color: #ccc;
+    margin: 5px;
+}
+
+.nation {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.teaminfo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag {
+    height: 20px;
+}
+
+.info {
+    margin: 5px;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.details {
+    /*
         display: flex;
   flex-direction: column;
 */
-        flex: 1;
-        align-self: stretch;
-        margin: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 10px;
-        background: #212121;
+    flex: 1;
+    align-self: stretch;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background: #212121;
+}
+
+.detailLabel {
+    font-size: 9px;
+    margin-bottom: 3px;
+}
+
+.detailContent {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.map {
+    height: 100%;
+    background: #212121;
+    background-color: #212121 !important;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    border: 1px solid #eee;
+    /*    margin-top: 10px;*/
+    /*    margin-bottom: 20px;*/
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    height: 0;
+    margin: 10px;
+    margin-top: 0;
+    /*    background: #2a2a2a;*/
+    height: 240px;
+    min-height: 0;
+    visibility: hidden;
+    justify-content: center;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -ms-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+}
+
+.mapcontainer {
+    /*    padding: 2px;*/
+    /*    border-radius: 3px;*/
+    background: #2a2a2a;
+    height: 100%;
+    width: 100%;
+    /*    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);*/
+}
+
+.playericon {
+    height: 50px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 41px;
+    min-width: 41px;
+    cursor: pointer;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    ;
+    padding: 10px;
+}
+
+.playerlabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 9px;
+    margin: 5px;
+    color: #bbb;
+    text-align: center;
+    height: 20px;
+}
+
+.game {
+    margin-bottom: 20px;
+    height: 120px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
+}
+
+.type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 3px solid #212121;
+    margin-bottom: 10px;
+    line-height: 16px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.nations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.teamName {
+    font-size: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.nation {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    align-content: center;
+    justify-content: center;
+    margin: 2px;
+    align-items: center;
+    color: #bbb;
+    min-width: 40px;
+}
+
+.versus {
+    font-size: 10px;
+    color: #bbb;
+}
+
+.matchdate {
+    font-size: 10px;
+    color: #ccc;
+    margin: 5px;
+}
+
+.matchlocation {
+    font-size: 10px;
+    color: #ccc;
+    margin: 5px;
+}
+
+.flagSmall {
+    height: 20px;
+    border-radius: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: stretch;
+    flex: 1 1;
+}
+
+.controlbar {
+    height: 30px;
+    min-height: 30px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /*    width: 100%;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background: #212121;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.migrationlabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+
+.migrationcontrol {
+    display: flex;
+    flex-direction: row;
+}
+
+.clubmigrationcontrol {
+    display: flex;
+    flex-direction: row;
+}
+
+.clubpicker {}
+
+.reset {
+    background: #3a3a3a;
+    border: none;
+    color: #999;
+    border-radius: 4px;
+    height: 22px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+/* proto.io */
+
+.onoffswitch {
+    position: relative;
+    width: 60px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #2A2A2A;
+    border-radius: 4px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 18px;
+    padding: 0;
+    line-height: 18px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 8px;
+    background-color: #212121;
+    color: #DD4131;
+}
+
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 8px;
+    background-color: #212121;
+    color: #999999;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 18px;
+    margin: 0px;
+    background: #3a3a3a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 38px;
+    border: 2px solid #3A3A3A;
+    border-radius: 4px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+
+/* select */
+
+.select {
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    max-height: 100px;
+}
+
+.select select {
+    outline: none;
+    -webkit-appearance: none;
+    display: block;
+    padding: 3px 50px 4px 10px;
+    margin: 0;
+    transition: border-color 0.2s;
+    /* border: 5px solid #EB5168; */
+    border-radius: 4px;
+    background: #3a3a3a;
+    color: #999;
+    line-height: normal;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: inherit;
+    border: none;
+}
+
+.select .arr {
+    bottom: 5px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    pointer-events: none;
+}
+
+.select .arr:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    margin-top: -3px;
+    pointer-events: none;
+    border-top: 6px solid #888;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+@media only screen and (max-width: 1000px) {
+    .competitors {
+        height: 30%;
+        order: 3;
+        width: inherit;
+        min-width: inherit;
+        margin: 0;
+        /*            display: none;*/
     }
-    
+    .teamname {
+        font-size: 16px;
+        color: #ccc;
+        margin: 10px;
+        min-width: 100px;
+        text-align: center;
+    }
+    .games {
+        display: none;
+    }
+    .geo {
+        height: 100% !important;
+        width: 100% !important;
+        flex-direction: column;
+    }
+    .banner {
+        display: none;
+    }
+    .lead {
+        display: none;
+    }
+    .details {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        order: 1;
+    }
+    .location {
+        height: 60%;
+        width: 100%;
+    }
+    .controlbar {
+        order: 2;
+    }
+    .team {
+        display: none;
+        min-height: 160px;
+    }
+    .item {
+        margin-bottom: 0px;
+        height: 80px;
+        min-height: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 20px;
+        background: #212121;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+    .teamlist {
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        width: inherit;
+        min-width: inherit;
+    }
     .detailLabel {
-        font-size: 9px;
+        font-size: 14px;
         margin-bottom: 3px;
     }
-    
     .detailContent {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: bold;
     }
-    
-    .map {
-        height: 100%;
-        background: #212121;
-        background-color: #212121 !important;
-    }
-    
-    .controls {
-        display: flex;
-        flex-direction: row;
-        height: 10%;
-        border: 1px solid #eee;
-        /*    margin-top: 10px;*/
-        /*    margin-bottom: 20px;*/
-    }
-    
-    .team {
-        display: flex;
-        flex-direction: row;
-        height: 0;
+    .info {
         margin: 10px;
-        margin-top: 0;
-        /*    background: #2a2a2a;*/
-        height: 200px;
-        min-height: 0;
-        visibility: hidden;
-        justify-content: center;
-        -webkit-transition: height 1s;
-        -moz-transition: height 1s;
-        -ms-transition: height 1s;
-        -o-transition: height 1s;
-        transition: height 1s;
-    }
-    
-    .mapcontainer {
-        /*    padding: 2px;*/
-        /*    border-radius: 3px;*/
-        background: #2a2a2a;
-        height: 100%;
-        width: 100%;
-        /*    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);*/
-    }
-    
-    .playericon {
-        height: 50px;
-    }
-    
-    .player {
+        color: #ccc;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 44px;
-        min-width: 44px;
-        cursor: pointer;
-    }
-    
-    .players {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px;
-    }
-    
-    .playerlabel {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-size: 9px;
-        margin: 5px;
-        color: #bbb;
-        text-align: center;
-        height: 20px;
-    }
-    
-    .game {
-        margin-bottom: 20px;
-        height: 120px;
-        min-height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #212121;
-    }
-    
-    .type {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        color: #999;
-        font-size: 12px;
-        padding-top: 10px;
-        padding-bottom: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-top: 3px solid #212121;
-        margin-bottom: 10px;
-        line-height: 16px;
-        margin-top: 10px;
-        letter-spacing: 2px;
-    }
-    
-    .nations {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    .teamName {
-        font-size: 10px;
-        margin-top: 10px;
-        color: white;
-    }
-    
-    .nation {
-        display: flex;
-        flex-direction: column;
-        font-size: 10px;
         align-content: center;
-        justify-content: center;
-        margin: 2px;
         align-items: center;
-        color: #bbb;
-        min-width: 40px;
     }
-    
-    .versus {
-        font-size: 10px;
-        color: #bbb;
+    .flag {
+        height: 30px;
     }
-    
-    .matchdate {
-        font-size: 10px;
-        color: #ccc;
-        margin: 5px;
+    .clubmigrationcontrol {
+        display: none;
     }
-    
-    .matchlocation {
-        font-size: 10px;
-        color: #ccc;
-        margin: 5px;
-    }
-    
-    .flagSmall {
-        height: 20px;
-        border-radius: 20px;
-    }
-    
-    .location {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-content: stretch;
-        justify-content: space-between;
-        align-items: stretch;
-        flex: 1 1;
-    }
-    
     .controlbar {
         height: 30px;
         min-height: 30px;
         align-content: center;
         display: flex;
         flex-direction: row;
-        margin: 10px;
-        /*    width: 100%;*/
-        margin-left: 10px;
-        margin-right: 10px;
         padding: 10px;
+        margin: 0;
         background: #212121;
         align-items: center;
         justify-content: space-between;
     }
-    
-    .migrationlabel {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-        font-size: 12px;
-        line-height: 20px;
-        color: #999;
-    }
-    
-    .migrationcontrol {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .clubpicker {}
-    
-    .reset {
-        background: #3a3a3a;
-        border: none;
-        color: #999;
-        border-radius: 4px;
-        height: 22px;
-        font-size: 12px;
-        padding-left: 10px;
-        padding-right: 10px;
-        cursor: pointer;
-    }
-    /* proto.io */
-    
-    .onoffswitch {
-        position: relative;
-        width: 60px;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-    }
-    
-    .onoffswitch-checkbox {
-        display: none;
-    }
-    
-    .onoffswitch-label {
-        display: block;
-        overflow: hidden;
-        cursor: pointer;
-        border: 2px solid #2A2A2A;
-        border-radius: 4px;
-    }
-    
-    .onoffswitch-inner {
-        display: block;
-        width: 200%;
-        margin-left: -100%;
-        transition: margin 0.3s ease-in 0s;
-    }
-    
-    .onoffswitch-inner:before,
-    .onoffswitch-inner:after {
-        display: block;
-        float: left;
-        width: 50%;
-        height: 18px;
-        padding: 0;
-        line-height: 18px;
-        font-size: 12px;
-        color: white;
-        font-family: Trebuchet, Arial, sans-serif;
-        font-weight: bold;
-        box-sizing: border-box;
-    }
-    
-    .onoffswitch-inner:before {
-        content: "ON";
-        padding-left: 8px;
-        background-color: #212121;
-        color: #DD4131;
-    }
-    
-    .onoffswitch-inner:after {
-        content: "OFF";
-        padding-right: 8px;
-        background-color: #212121;
-        color: #999999;
-        text-align: right;
-    }
-    
-    .onoffswitch-switch {
-        display: block;
-        width: 18px;
-        margin: 0px;
-        background: #3a3a3a;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 38px;
-        border: 2px solid #3A3A3A;
-        border-radius: 4px;
-        transition: all 0.3s ease-in 0s;
-    }
-    
-    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-        margin-left: 0;
-    }
-    
-    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-        right: 0px;
-    }
-    /* select */
-    
-    .select {
-        font-size: 16px;
-        position: relative;
-        display: inline-block;
-        max-height: 100px;
-    }
-    
-    .select select {
-        outline: none;
-        -webkit-appearance: none;
-        display: block;
-        padding: 3px 50px 4px 10px;
-        margin: 0;
-        transition: border-color 0.2s;
-        /* border: 5px solid #EB5168; */
-        border-radius: 4px;
-        background: #3a3a3a;
-        color: #999;
-        line-height: normal;
-        font-family: inherit;
-        font-size: 12px;
-        line-height: inherit;
-        border: none;
-    }
-    
-    .select .arr {
-        bottom: 5px;
-        position: absolute;
-        right: 5px;
-        top: 5px;
-        width: 30px;
-        pointer-events: none;
-    }
-    
-    .select .arr:before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        right: 4px;
-        margin-top: -3px;
-        pointer-events: none;
-        border-top: 6px solid #888;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-    }
-    
-    @media only screen and (max-width: 1200px) {
-        .competitors {
-            display: none;
-        }
-        .geo {
-            height: 100% !important;
-            width: 100% !important;
-        }
-        .banner {
-            display: none;
-        }
-        .details {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-        }
-        .location {
-            height: 100%;
-            width: 100%;
-        }
-        .controlbar {
-            display: none;
-            height: 0;
-        }
-    }
-    /* .select .arr:after {
+}
+
+
+/* .select .arr:after {
     content: '';
     position: absolute;
     top: 50%;
