@@ -1,0 +1,92 @@
+body,
+html {
+    background-color: #2a2a2a; // #f4f4f4;
+    height: 100%;
+    margin: 10px;
+    padding: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #f8df3c;
+}
+
+.content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    max-width: 540px;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.title {
+    height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    /* background: #2a2a2a; */
+    min-height: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.example {
+    width: 500px;
+    align-self: center;
+    padding: 10px;
+}
+
+.what {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.how {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.learn {
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.concept-image {
+    width: 540px;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.learn {}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid;
+}
+
+@media only screen and (max-width: 700px) {
+    .concept-image {
+        width: 300px;
+        align-self: center;
+    }
+    .example {
+        width: 300px;
+        align-self: center;
+        padding: 10px;
+    }
+}
