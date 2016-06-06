@@ -95,12 +95,12 @@
      var geoArea = document.getElementById('geoArea');
 
      var currentHeight = geoArea.style.height;
-     geoArea.style.height = currentHeight - 200 + 'px';
-     geoArea.style.minHeight = currentHeight - 200 + 'px';
+     geoArea.style.height = currentHeight - 180 + 'px';
+     geoArea.style.minHeight = currentHeight - 180 + 'px';
 
      var teamArea = document.getElementById('teamArea');
      teamArea.style.visibility = 'visible'; //     teamArea.style.height = 'px';
-     teamArea.style.minHeight = '220px';
+     teamArea.style.minHeight = '180px';
 
  }
 
@@ -111,20 +111,6 @@
      var geoArea = document.getElementById('geoArea');
 
      var currentHeight = geoArea.style.height;
-     //     geoArea.style.height = currentHeight + 200 + 'px';//     geoArea.style.minHeight = currentHeight + 200 + 'px';
-
-     //     var currentHeight = geoArea.style.height;//     geoArea.style.height = screen.height * 0.85 + 'px';
-     //     geoArea.style.minHeight = screen.height * 0.85 + 'px';
-
-     //     window.resizeTo(
-     //         window.screen.availWidth window.screen.availHeight
-     //     );
-
-     //     var geoArea = document.getElementById('geoArea');
-     //     geoArea.style.height = '90%';
-     //     geoArea.style.minHeight = '90%';
-
-     //     var details = document.getElementById('details');//     details.style.height = competitors.offsetHeight - 90 + 'px';
  }
 
  function makeListItem(team, teams) {
@@ -370,7 +356,7 @@
                          path: flightPlanCoordinates,
                          icons: [{
                              icon: lineSymbol,
-                             scale: 4,
+                             scale: 3,
                              offset: '100%'
                                              }],
                          geodesic: true,
@@ -406,7 +392,7 @@
          mapObject.lat = teams[0].center[0];
          mapObject.lng = teams[0].center[1];
          mapObject.label = teams[0].team;
-         scale = 4;
+         scale = 3;
      }
 
      if (window.innerWidth < 1200) {
@@ -693,7 +679,10 @@
      })
  }
 
- function mapStyle() {
+ function setUpMap() {
+
+     console.log('set up map');
+
      get('./data/styles.json', function (data) {
          styles = data;
          loadClubData();
@@ -704,9 +693,9 @@
      var anchor = document.getElementById('map');
      var location = document.getElementById('location');
 
-
-     if (window.innerWidth > 1200) {
-         anchor.style.height = location.offsetHeight - 90 + 'px';
+     if (window.innerWidth >= 1024) {
+         anchor.style.height = location.offsetHeight - 100 + 'px';
+         console.log('desktop');
      } else {
          anchor.style.height = location.offsetHeight - 50 + 'px';
      }
@@ -716,6 +705,6 @@
      location.reload();
  }
 
- window.onload = mapStyle;
+ window.onload = setUpMap;
 
  window.onresize = resizeMap;
