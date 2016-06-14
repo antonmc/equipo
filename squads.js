@@ -8,7 +8,13 @@ var cheerio = require('cheerio');
 //var async = require('async');
 
 // spreadsheet key is the long id in the sheets URL 
-var doc = new GoogleSpreadsheet('1YsH-_xA2naXgdIA9WeZJ5_G1TQToGispLtGisa2mok0');
+
+// copa america
+
+//var doc = new GoogleSpreadsheet('1YsH-_xA2naXgdIA9WeZJ5_G1TQToGispLtGisa2mok0');
+
+var doc = new GoogleSpreadsheet('18TnvRyU2rHwt2xyUfH97nkOaRHhG-K7u3kht7MSiRv0');
+
 var sheet;
 
 var teams;
@@ -44,7 +50,7 @@ function writeClubs() {
 
 function write() {
     var output = JSON.stringify(teams);
-    filename = './public/data/copa.json';
+    filename = './public/data/euro.json';
     fs.writeFile(filename, output, function () {})
 }
 

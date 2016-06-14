@@ -1,0 +1,315 @@
+[{
+    "team": "Albania",
+    "flag": "al",
+    "center": [41.1533, 20.1683],
+    "shirt": {
+        "colors": ["dd4230", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 28,
+    "AverageHeight": 180
+}, {
+    "team": "Austria",
+    "flag": "at",
+    "center": [-14.2350, -51.9253],
+    "shirt": {
+        "colors": ["#dd4230", "ffffff"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 182
+}, {
+    "team": "Belgium",
+    "flag": "be",
+    "center": [50.5039, 4.4699],
+    "shirt": {
+        "colors": ["#dd4230", "ffffff", "005083"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 182
+}, {
+    "team": "Croatia",
+    "flag": "hr",
+    "center": [45.1000, 15.2000],
+    "shirt": {
+        "colors": ["dd4230", "005083", "ffffff"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 176
+}, {
+    "team": "Czech Republic",
+    "flag": "cz",
+    "center": [49.8175, 15.4730],
+    "shirt": {
+        "colors": ["7bc253", "ffffff"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+
+    "AverageAge": 31,
+    "AverageHeight": 180
+}, {
+    "team": "England",
+    "flag": "gb-eng",
+    "center": [52.3555, 1.1743],
+    "shirt": {
+        "colors": ["dd4230", "005083"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "France",
+    "flag": "fr",
+    "center": [46.2276, 2.2137],
+    "shirt": {
+        "colors": ["f9df3c", "005083", "dd4230"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 29,
+    "AverageHeight": 178
+}, {
+    "team": "Germany",
+    "flag": "de",
+    "center": [51.1657, 10.4515],
+    "shirt": {
+        "colors": ["005083"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Hungary",
+    "flag": "hu",
+    "center": [47.1625, 19.5033],
+    "shirt": {
+        "colors": ["f9df3c", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 32,
+    "AverageHeight": 183
+}, {
+    "team": "Iceland",
+    "flag": "is",
+    "center": [64.9631, 19.0208],
+    "shirt": {
+        "colors": ["dd4230", "ffffff"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 28,
+    "AverageHeight": 180
+}, {
+    "team": "Italy",
+    "flag": "it",
+    "center": [41.8719, 12.5674],
+    "shirt": {
+        "colors": ["ffffff", "dd4230"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 180
+}, {
+    "team": "Northern Ireland",
+    "flag": "gb-nir",
+    "center": [54.7877, 6.4923],
+    "shirt": {
+        "colors": ["dd4230", "f9df3c"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 34,
+    "AverageHeight": 180
+}, {
+    "team": "Poland",
+    "flag": "pl",
+    "center": [51.9194, 19.1451],
+    "shirt": {
+        "colors": ["7bc253", "ffffff"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 29,
+    "AverageHeight": 178
+}, {
+    "team": "Portugal",
+    "flag": "pt",
+    "center": [39.3999, 8.2245],
+    "shirt": {
+        "colors": ["f9df3c", "005083"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Republic of Ireland",
+    "flag": "ci",
+    "center": [53.4129, 8.2439],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Romania",
+    "flag": "ro",
+    "center": [45.9432, 24.9668],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Russia",
+    "flag": "ru",
+    "center": [61.5240, 105.3188],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Slovakia",
+    "flag": "sk",
+    "center": [48.6690, 19.6990],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Spain",
+    "flag": "es",
+    "center": [40.4637, 3.7492],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Sweden",
+    "flag": "se",
+    "center": [60.1282, 18.6435],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Switzerland",
+    "flag": "ch",
+    "center": [46.8182, 8.2275],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Turkey",
+    "flag": "tr",
+    "center": [38.9637, 35.2433],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Ukraine",
+    "flag": "ua",
+    "center": [48.3794, 31.1656],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}, {
+    "team": "Wales",
+    "flag": "gb-wls",
+    "center": [52.1307, 3.7837],
+    "shirt": {
+        "colors": ["90a7ce", "000000"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}]
