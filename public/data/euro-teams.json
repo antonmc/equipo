@@ -14,9 +14,9 @@
 }, {
     "team": "Austria",
     "flag": "at",
-    "center": [-14.2350, -51.9253],
+    "center": [47.5162, 14.5501],
     "shirt": {
-        "colors": ["#dd4230", "ffffff"],
+        "colors": ["dd4230", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -29,7 +29,7 @@
     "flag": "be",
     "center": [50.5039, 4.4699],
     "shirt": {
-        "colors": ["#dd4230", "ffffff", "005083"],
+        "colors": ["dd4230", "000000", "f9df3c"],
         "style": ""
     },
     "shorts": "",
@@ -42,7 +42,7 @@
     "flag": "hr",
     "center": [45.1000, 15.2000],
     "shirt": {
-        "colors": ["dd4230", "005083", "ffffff"],
+        "colors": ["dd4131", "ffffff", "014f83"],
         "style": ""
     },
     "shorts": "",
@@ -55,7 +55,7 @@
     "flag": "cz",
     "center": [49.8175, 15.4730],
     "shirt": {
-        "colors": ["7bc253", "ffffff"],
+        "colors": ["dd4131", "014f83"],
         "style": ""
     },
     "shorts": "",
@@ -69,7 +69,7 @@
     "flag": "gb-eng",
     "center": [52.3555, 1.1743],
     "shirt": {
-        "colors": ["dd4230", "005083"],
+        "colors": ["ffffff", "dd4131"],
         "style": ""
     },
     "shorts": "",
@@ -83,7 +83,7 @@
     "flag": "fr",
     "center": [46.2276, 2.2137],
     "shirt": {
-        "colors": ["f9df3c", "005083", "dd4230"],
+        "colors": ["014f83", "ffffff", "dd4131"],
         "style": ""
     },
     "shorts": "",
@@ -96,7 +96,7 @@
     "flag": "de",
     "center": [51.1657, 10.4515],
     "shirt": {
-        "colors": ["005083"],
+        "colors": ["ffffff", "000000"],
         "style": ""
     },
     "shorts": "",
@@ -109,7 +109,7 @@
     "flag": "hu",
     "center": [47.1625, 19.5033],
     "shirt": {
-        "colors": ["f9df3c", "000000"],
+        "colors": ["dd4131", "ffffff", "7bc253"],
         "style": ""
     },
     "shorts": "",
@@ -122,7 +122,7 @@
     "flag": "is",
     "center": [64.9631, 19.0208],
     "shirt": {
-        "colors": ["dd4230", "ffffff"],
+        "colors": ["014f83", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -135,7 +135,7 @@
     "flag": "it",
     "center": [41.8719, 12.5674],
     "shirt": {
-        "colors": ["ffffff", "dd4230"],
+        "colors": ["014f83", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -148,7 +148,7 @@
     "flag": "gb-nir",
     "center": [54.7877, 6.4923],
     "shirt": {
-        "colors": ["dd4230", "f9df3c"],
+        "colors": ["7bc253", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -161,7 +161,7 @@
     "flag": "pl",
     "center": [51.9194, 19.1451],
     "shirt": {
-        "colors": ["7bc253", "ffffff"],
+        "colors": ["ffffff", "dd4131"],
         "style": ""
     },
     "shorts": "",
@@ -174,7 +174,7 @@
     "flag": "pt",
     "center": [39.3999, 8.2245],
     "shirt": {
-        "colors": ["f9df3c", "005083"],
+        "colors": ["dd4131", "7bc253"],
         "style": ""
     },
     "shorts": "",
@@ -187,7 +187,7 @@
     "flag": "ci",
     "center": [53.4129, 8.2439],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["7bc253", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -200,7 +200,7 @@
     "flag": "ro",
     "center": [45.9432, 24.9668],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["f9df3c", "dd4131"],
         "style": ""
     },
     "shorts": "",
@@ -213,7 +213,7 @@
     "flag": "ru",
     "center": [61.5240, 105.3188],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["ffffff", "90a7cf"],
         "style": ""
     },
     "shorts": "",
@@ -226,7 +226,7 @@
     "flag": "sk",
     "center": [48.6690, 19.6990],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["90a7ce", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -239,7 +239,7 @@
     "flag": "es",
     "center": [40.4637, 3.7492],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["dd4131", "014f83"],
         "style": ""
     },
     "shorts": "",
@@ -252,7 +252,7 @@
     "flag": "se",
     "center": [60.1282, 18.6435],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["f9df3c", "014f83"],
         "style": ""
     },
     "shorts": "",
@@ -265,7 +265,7 @@
     "flag": "ch",
     "center": [46.8182, 8.2275],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["dd4131", "ffffff"],
         "style": ""
     },
     "shorts": "",
@@ -278,7 +278,7 @@
     "flag": "tr",
     "center": [38.9637, 35.2433],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["dd4131", "000000"],
         "style": ""
     },
     "shorts": "",
@@ -291,7 +291,7 @@
     "flag": "ua",
     "center": [48.3794, 31.1656],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["f9df3c", "014f83"],
         "style": ""
     },
     "shorts": "",
@@ -304,7 +304,7 @@
     "flag": "gb-wls",
     "center": [52.1307, 3.7837],
     "shirt": {
-        "colors": ["90a7ce", "000000"],
+        "colors": ["dd4131", "ffffff"],
         "style": ""
     },
     "shorts": "",

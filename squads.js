@@ -56,7 +56,7 @@ function write() {
 
 
 fs = require('fs')
-fs.readFile('public/data/teams.json', 'utf8', function (err, data) {
+fs.readFile('public/data/euro-teams.json', 'utf8', function (err, data) {
     if (err) {
         return console.log(err);
     }
@@ -78,8 +78,6 @@ function getInfoAndWorksheets(step) {
                     if (team.team === squad.title) {
 
                         workWithRows(squad, team);
-
-
                     }
                 })
             })
@@ -88,7 +86,7 @@ function getInfoAndWorksheets(step) {
     });
 }
 
-getInfoAndWorksheets();
+//getInfoAndWorksheets();
 
 function workWithRows(sheet, team) {
     // google provides some query options 
@@ -136,10 +134,7 @@ function workWithRows(sheet, team) {
             team.players.push(player);
 
             buildPlayerData(player);
-
-            //            console.log(player);
         })
-
     });
 }
 
@@ -267,12 +262,14 @@ function buildLatLng(geo, player) {
                 }
             }
 
-            //            calculateAverages();
+            calculateAverages();
         }
     })
 }
 
 function buildPlayerData(player) {
+
+    console.log(player.Name);
 
     var url = player.Wikipedia;
 
@@ -326,7 +323,7 @@ function buildPlayerData(player) {
             var geourl = prefix + geo;
             var coordinates = buildLatLng(geourl, player);
 
-            calculateAverages();
+            //            calculateAverages();
         }
     });
 }

@@ -16,6 +16,18 @@
             <div class="welcome"><img class="logo" src="images/logo.png">
                 <label id="title" class="title">Players of Copa America 2016</label>
             </div>
+            <div class="migrationcontrol">
+                <label class="migrationlabel">Switch Tournament: </label>
+                <div>
+                    <div class="tournamentswitch">
+                        <input type="checkbox" name="tournamentswitch" class="tournamentswitch-checkbox" id="mytournamentswitch" onchange="switchTournament(this)">
+                        <label class="tournamentswitch-label" for="mytournamentswitch">
+                            <span class="tournamentswitch-inner"></span>
+                            <span class="tournamentswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
             <a id="about" class="about" href="about.html">About</a>
         </div>
         <div id="geoArea" class="geo">
@@ -52,11 +64,6 @@
                         </div>
                     </div>
                     <button id="reset" class="reset" onclick="reload()">Show All Teams</button>
-                </div>
-            </div>
-            <div id="games" class="games">
-                <div id="leadb" class="leadb">Games</div>
-                <div id="gamelist" class="teamlist">
                 </div>
             </div>
         </div>

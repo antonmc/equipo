@@ -38,12 +38,14 @@ html {
 
 .about {
     color: #dd4131;
-    font-size: 16px;
     letter-spacing: 1px;
     padding-left: 10px;
     text-decoration: none;
     /*    font-weight: 700;*/
     margin-bottom: 3px;
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: bold;
 }
 
 .banner {
@@ -57,6 +59,9 @@ html {
     align-content: center;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #212121;
 }
 
 .title {
@@ -64,6 +69,11 @@ html {
     font-size: 16px;
     letter-spacing: 2px;
     padding-left: 15px;
+    color: #dd4131;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    font-weight: bold;
 }
 
 .geo {
@@ -197,7 +207,7 @@ html {
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
-    background: #212121;
+    background: #4f4f4f;
 }
 
 .detailLabel {
@@ -500,6 +510,88 @@ html {
 }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+
+/* - - - */
+
+.tournamentswitch {
+    position: relative;
+    width: 80px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.tournamentswitch-checkbox {
+    display: none;
+}
+
+.tournamentswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #2A2A2A;
+    border-radius: 4px;
+}
+
+.tournamentswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.tournamentswitch-inner:before,
+.tournamentswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 18px;
+    padding: 0;
+    line-height: 18px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.tournamentswitch-inner:before {
+    content: "EURO";
+    padding-left: 8px;
+    background-color: #212121;
+    color: #DD4131;
+}
+
+.tournamentswitch-inner:after {
+    content: "COPA";
+    padding-right: 8px;
+    background-color: #212121;
+    color: #999999;
+    text-align: right;
+}
+
+.tournamentswitch-switch {
+    display: block;
+    width: 18px;
+    margin: 0px;
+    background: #3a3a3a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /*    right: 38px;*/
+    border: 2px solid #3A3A3A;
+    border-radius: 4px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.tournamentswitch-checkbox:checked + .tournamentswitch-label .tournamentswitch-inner {
+    margin-left: 0;
+}
+
+.tournamentswitch-checkbox:checked + .tournamentswitch-label .tournamentswitch-switch {
     right: 0px;
 }
 

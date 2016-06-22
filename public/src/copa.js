@@ -5,6 +5,13 @@
  var selected = null;
  var selectedColor = '#dd4131';
  var styles;
+ var tournament = "euro";
+ var currentTitle = "Players of Euro 2016";
+
+ var currentCenter = {
+     lat: 8.7832,
+     lng: -55.4915
+ };
 
  function newElement(classname, content, type) {
      var element = document.createElement(type);
@@ -147,7 +154,6 @@
          var leadb = document.getElementById('leadb');
 
          lead.style.color = '#' + team.shirt.colors[0];
-         leadb.style.color = '#' + team.shirt.colors[0];
 
          var title = document.getElementById('title');
          title.style.color = '#' + team.shirt.colors[0];
@@ -155,7 +161,7 @@
          var about = document.getElementById('about');
          about.style.color = '#' + team.shirt.colors[0];
 
-         title.innerHTML = 'Players of Copa America 2016 - ' + '<b>' + team.team + '</b>';
+         title.innerHTML = currentTitle + ' - ' + '<b>' + team.team + '</b>';
 
          var playerArea = document.getElementById('players');
 
@@ -265,8 +271,22 @@
              fillColor: color,
              strokeOpacity: 1,
              strokeColor: color,
+             strokeWeight: 2,
+             scale: scale + 1
+         },
+         map: map
+     });
+
+     var marker = new google.maps.Marker({
+         position: position,
+         icon: {
+             path: google.maps.SymbolPath.CIRCLE,
+             fillOpacity: 0,
+             fillColor: color,
+             strokeOpacity: 1,
+             strokeColor: color,
              strokeWeight: 1,
-             scale: scale
+             scale: scale + 5
          },
          map: map
      });
@@ -381,9 +401,9 @@
      var mapObject = {
          anchor: "map",
          style: styles,
-         lat: 8.7832,
-         lng: -55.4915,
-         label: 'Players of Copa America',
+         lat: currentCenter.lat,
+         lng: currentCenter.lng,
+         label: currentTitle,
          zoom: 3
      }
 
@@ -545,7 +565,7 @@
 
              clubplayers.forEach(function (player) {
                  var teamcolor = selectedColor;
-                 createPin(map, player, player.Team, teamcolor, 2);
+                 createPin(map, player, player.Team, teamcolor, 3);
              })
          }
      })
@@ -628,6 +648,24 @@
      display();
  }
 
+ function switchTournament(context) {
+     console.log(context);
+
+
+
+     if (tournament === "euro") {
+         tournament = "copa";
+
+
+
+
+     } else {
+         tournament = "euro";
+     };
+
+     reset();
+ }
+
  function display(zoom) {
 
      teamlist.innerHTML = '';
@@ -637,9 +675,9 @@
      })
 
      if (selected.team != undefined) {
-         addGames(allteams, selected.team);
+         //         addGames(allteams, selected.team);
      } else {
-         addGames(allteams);
+         //         addGames(allteams);
      }
 
      showInfo(zoom);
@@ -664,7 +702,32 @@
 
      hideTeamArea();
 
-     get('./data/copa.json', function (teams) {
+     var title = document.getElementById("title");
+
+     currentTitle = "Players of Copa America 2016";
+
+     var path = './data/copa.json'
+
+     currentCenter = {
+         lat: 8.7832,
+         lng: -55.4915
+     };
+
+     if (tournament === "euro") {
+         path = './data/euro.json';
+
+         currentTitle = "Players of Euro 2016"
+
+         currentCenter = {
+             lat: 54.5260,
+             lng: 15.2551
+         };
+     }
+
+     title.innerHTML = currentTitle;
+
+
+     get(path, function (teams) {
 
          allteams = teams;
 

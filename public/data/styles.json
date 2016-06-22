@@ -10,13 +10,13 @@
         "stylers": [{
             "visibility": "simplified"
             }, {
-            "color": "#212121"
+            "color": "#4f4f4f"
             }]
         },
     {
         "featureType": "landscape",
         "stylers": [{
-            "color": "#4f4f4f"
+            "color": "#000000"
             }]
         },
     {
@@ -35,7 +35,7 @@
         "featureType": "administrative.country",
         "elementType": "geometry.stroke",
         "stylers": [{
-            "color": "#888888"
+            "color": "#7f7f7f"
             }, {
             "weight": 0.5
             }]
@@ -44,7 +44,7 @@
         "featureType": "administrative",
         "elementType": "labels",
         "stylers": [{
-            "color": "#aaaaaa"
+            "color": "#6f6f6f"
             }, {
             "weight": 0.1
             }]

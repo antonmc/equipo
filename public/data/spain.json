@@ -1,0 +1,14 @@
+[{
+    "team": "Spain",
+    "flag": "es",
+    "center": [40.4637, 3.7492],
+    "shirt": {
+        "colors": ["dd4131", "014f83"],
+        "style": ""
+    },
+    "shorts": "",
+    "socks": "",
+    "coach": "",
+    "AverageAge": 27,
+    "AverageHeight": 181
+}]
